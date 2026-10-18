@@ -1,0 +1,1604 @@
+[
+  {
+    "idx": 25,
+    "slug": "mclink-asia",
+    "headline": "McLink Asia put specialised agents on marketing work and tripled campaign production capacity.",
+    "useCase": "Workflow automation",
+    "aiType": "Agentic workflow",
+    "outcomes": [
+      "Capacity",
+      "Time",
+      "Revenue"
+    ],
+    "metrics": [
+      {
+        "label": "Campaign production capacity",
+        "value": "200% increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Response to customers",
+        "value": "95% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Campaign roll-out",
+        "value": "85% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "McLink Asia provides office equipment, enterprise software integration and managed IT services to businesses in Singapore and Asia. Its marketing function supports a portfolio of products and services sold through partners. The company is not a marketing agency, so campaign production competes with delivery work for the same staff.",
+      "c": "Staff took hours or days to respond to social media enquiries. A single campaign required eight to twelve hours of combined staff effort to deliver. Manual revisions and handovers slowed production further, which limited the ability to respond to market opportunities. The pattern is familiar in small B2B firms: demand arrives through social channels, but nobody owns the response because everyone has a delivery deadline. Response delay is expensive in social selling, because the first supplier to reply usually sets the shortlist, and a late answer is often no answer at all.",
+      "q": "How could the company respond to enquiries within minutes and produce campaigns with the same headcount, without hiring a marketing team?",
+      "a": "McLink Asia built a multi-agent AI marketing platform that automates marketing from lead qualification to reporting. Specialised agents qualify leads by responding to social enquiries, generate content including blogs, newsletters, videos and promotional images, and prepare campaigns for distribution. The agents work across campaign tasks, which removes the manual handovers that caused delay. Automated marketing analytics collects advertising data and prepares performance reports with less manual work. The published result is a 200% increase in campaign production capacity, 95% faster customer response, and 85% faster campaign roll-out. The architecture is the point: separate agents for qualification, content and analytics, rather than one general assistant, so each step can be tuned and evaluated on its own. The architecture separates qualification, content and reporting so that each step can be evaluated, tuned and replaced without rebuilding the others, which is the practical advantage of splitting agents by role rather than deploying one general assistant across the whole function. Response speed is the figure with a direct commercial consequence, because a slow reply in social selling usually means a lost shortlist place, and no amount of additional campaign output recovers a lead that went elsewhere."
+    },
+    "takeaway": "Split the work into roles before you add agents. Specialised agents are easier to evaluate than one general assistant.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Staff took hours or days to respond to social media enquiries.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "A single campaign required eight to twelve hours of combined staff effort.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Specialised agents qualify leads, create content, prepare campaigns and analyse performance.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Models behind content generation and enquiry handling",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Orchestration",
+        "what": "Multi-agent workflow across campaign tasks",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Content",
+        "what": "Blogs, newsletters, videos and promotional images",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Analytics",
+        "what": "Advertising data collection and performance reporting",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "enq",
+          "label": "Social media enquiry",
+          "kind": "input"
+        },
+        {
+          "id": "qual",
+          "label": "Lead qualification agent",
+          "kind": "ai"
+        },
+        {
+          "id": "cont",
+          "label": "Campaign content agent",
+          "kind": "ai"
+        },
+        {
+          "id": "wf",
+          "label": "Multi-agent workflow",
+          "kind": "process"
+        },
+        {
+          "id": "ana",
+          "label": "Analytics agent",
+          "kind": "ai"
+        },
+        {
+          "id": "staff",
+          "label": "Staff approval",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Published campaign",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "enq",
+          "qual"
+        ],
+        [
+          "qual",
+          "wf"
+        ],
+        [
+          "cont",
+          "wf"
+        ],
+        [
+          "wf",
+          "staff"
+        ],
+        [
+          "staff",
+          "out"
+        ],
+        [
+          "out",
+          "ana"
+        ],
+        [
+          "ana",
+          "wf"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another B2B firm. This is not McLink Asia's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "Social and web enquiries",
+          "kind": "input"
+        },
+        {
+          "id": "cls",
+          "label": "Enquiry classification",
+          "kind": "ai"
+        },
+        {
+          "id": "crm",
+          "label": "CRM lead record",
+          "kind": "system"
+        },
+        {
+          "id": "gen",
+          "label": "Content generation",
+          "kind": "ai"
+        },
+        {
+          "id": "rev",
+          "label": "Marketing review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Scheduled campaign",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "cls"
+        ],
+        [
+          "cls",
+          "crm"
+        ],
+        [
+          "cls",
+          "gen"
+        ],
+        [
+          "gen",
+          "rev"
+        ],
+        [
+          "rev",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "B2B technology resellers",
+        "Managed service providers",
+        "Small marketing teams",
+        "Partner-led sales organisations"
+      ],
+      "requirements": [
+        "A CRM that agents can read and write",
+        "A brand and claims guide",
+        "A human approver for anything published"
+      ],
+      "steps": [
+        "Automate enquiry triage first, because response time is visible to customers",
+        "Add content generation for one channel",
+        "Measure hours per campaign before and after",
+        "Add analytics reporting last",
+        "Keep approval on every published asset"
+      ],
+      "tools": [
+        "CRM with API",
+        "Language model",
+        "Image and video generation",
+        "Social scheduling platform",
+        "Analytics API"
+      ],
+      "risks": [
+        "Generic content that damages brand credibility",
+        "Leads misqualified and lost",
+        "Unapproved claims published by an agent"
+      ],
+      "kpis": [
+        "Response time to enquiries",
+        "Hours per campaign",
+        "Campaigns per month",
+        "Lead-to-opportunity rate",
+        "Cost per lead"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Enquiry auto-response",
+          "description": "Classify and acknowledge enquiries automatically, with human follow-up.",
+          "when": "Response time is losing leads."
+        },
+        {
+          "level": "Level 2",
+          "title": "Assisted campaign production",
+          "description": "Generate drafts for each channel and route them for approval.",
+          "when": "Campaign volume exceeds team capacity."
+        },
+        {
+          "level": "Level 3",
+          "title": "Multi-agent marketing platform",
+          "description": "Coordinate qualification, content and analytics agents with reporting.",
+          "when": "Marketing is a continuous function, not a campaign."
+        }
+      ]
+    },
+    "gaps": [
+      "No model or orchestration vendor is named.",
+      "The 200% capacity figure has no stated baseline volume.",
+      "No independent coverage was located."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 26,
+    "slug": "nami-japanese-academy",
+    "headline": "Nami Japanese Academy moved scheduling to a WhatsApp agent and cut no-shows by half.",
+    "useCase": "Customer service",
+    "aiType": "Conversational AI",
+    "outcomes": [
+      "Time",
+      "Revenue",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Time on administrative tasks",
+        "value": "Up to 83% less",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "No-shows",
+        "value": "50% fewer",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "On-time payment",
+        "value": "100%",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Nami Japanese Academy is a language school teaching Japanese in small-group and digital classrooms. Its administration is a scheduling problem with a customer service surface: students reschedule, teachers have availability, and invoices recur. The school's communication channel is WhatsApp, because that is where its students already are.",
+      "c": "Two administrators spent around 60 hours each week managing messages, schedules and reminders, which reduced the time available for other work. Manual coordination between students and teachers meant rescheduling requests took three to eight hours to resolve, and after-hours requests waited until staff were available. Inconsistent reminders contributed to more than ten no-shows and last-minute cancellations each month, and overdue invoices could go unnoticed for weeks. The school was paying two people to relay messages between a calendar and a chat app. After-hours requests waited, which is exactly when working adults tend to reschedule.",
+      "q": "How could the school resolve scheduling requests within minutes at any hour, reduce no-shows, and collect fees on time, without adding administrative staff?",
+      "a": "Nami built The Nami Concierge, an AI-powered WhatsApp platform. It reads and classifies incoming messages and responds to routine requests in the student's preferred language. For rescheduling, it checks live calendars, identifies available slots, coordinates teacher approval and updates bookings automatically. It sends lesson and invoice reminders, marks attendance, generates invoices and extends recurring lesson series. Staff get a single view of conversations with AI-generated summaries and can take over at any point. Billing matters, complaints and complex requests route to staff for review. The published result is up to 83% less time on administrative tasks, 50% fewer no-shows and 100% on-time payment. The design decision that makes this work is the escalation path: the agent handles routine requests, and anything involving money or dissatisfaction goes to a person. The citation does not report how many messages the agent handles without escalation. On-time payment reaching 100% is the strongest signal, because it depends on reminders, invoicing and booking records working together rather than on any single feature, and it is the outcome least likely to be flattered by measurement. Messages handled per administrator is the figure to watch next, because it caps how far the model scales."
+    },
+    "takeaway": "Put the agent where the customer already is. A WhatsApp concierge beats a new app nobody installs.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Two administrators spent around 60 hours each week on messages, schedules and reminders.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Rescheduling requests took three to eight hours to resolve.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "More than ten no-shows and last-minute cancellations occurred each month.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Billing, complaints and complex requests route to staff for review.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Language model for message classification and multilingual replies",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Channel",
+        "what": "WhatsApp messaging interface",
+        "vendor": "WhatsApp",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Live teacher calendars and booking system",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Administration",
+        "what": "Attendance, invoicing and recurring lesson series",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Human-controlled escalation for billing and complaints",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "msg",
+          "label": "Student WhatsApp message",
+          "kind": "input"
+        },
+        {
+          "id": "cls",
+          "label": "Message classification",
+          "kind": "ai"
+        },
+        {
+          "id": "cal",
+          "label": "Live calendars and bookings",
+          "kind": "system"
+        },
+        {
+          "id": "rem",
+          "label": "Reminders and invoicing",
+          "kind": "process"
+        },
+        {
+          "id": "esc",
+          "label": "Staff escalation",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Resolved booking or payment",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "msg",
+          "cls"
+        ],
+        [
+          "cls",
+          "cal"
+        ],
+        [
+          "cls",
+          "rem"
+        ],
+        [
+          "cls",
+          "esc"
+        ],
+        [
+          "cal",
+          "out"
+        ],
+        [
+          "rem",
+          "out"
+        ],
+        [
+          "esc",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another school or clinic. This is not Nami's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "Inbound WhatsApp message",
+          "kind": "input"
+        },
+        {
+          "id": "nlu",
+          "label": "Intent detection",
+          "kind": "ai"
+        },
+        {
+          "id": "api",
+          "label": "Calendar and booking API",
+          "kind": "system"
+        },
+        {
+          "id": "conf",
+          "label": "Teacher approval request",
+          "kind": "human"
+        },
+        {
+          "id": "reply",
+          "label": "Confirmation message",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "nlu"
+        ],
+        [
+          "nlu",
+          "api"
+        ],
+        [
+          "api",
+          "conf"
+        ],
+        [
+          "conf",
+          "reply"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Language schools",
+        "Tuition centres",
+        "Clinics and salons",
+        "Any appointment-based service"
+      ],
+      "requirements": [
+        "A booking system with an API",
+        "Teacher or staff availability data",
+        "A written escalation policy for money and complaints"
+      ],
+      "steps": [
+        "Start with reminders, because they reduce no-shows with no scheduling risk",
+        "Add rescheduling for a single class type",
+        "Require staff approval on any change within 24 hours",
+        "Add invoicing once bookings are reliable",
+        "Review escalations weekly for the first month"
+      ],
+      "tools": [
+        "WhatsApp Business API",
+        "Calendar API",
+        "Booking system",
+        "Language model",
+        "Payment or invoicing system"
+      ],
+      "risks": [
+        "Double bookings from race conditions",
+        "Messages answered in the wrong language or tone",
+        "Payment disputes handled by an agent"
+      ],
+      "kpis": [
+        "Resolution time",
+        "No-show rate",
+        "On-time payment rate",
+        "Admin hours per week",
+        "Escalation rate"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Automated reminders",
+          "description": "Send lesson and payment reminders on a schedule.",
+          "when": "No-shows are the main loss."
+        },
+        {
+          "level": "Level 2",
+          "title": "Assisted rescheduling",
+          "description": "Let the agent propose slots and route the change to staff for approval.",
+          "when": "Admin time on scheduling is material."
+        },
+        {
+          "level": "Level 3",
+          "title": "Full concierge",
+          "description": "Handle booking, reminders, attendance and invoicing with human escalation.",
+          "when": "Administration is a full-time role."
+        }
+      ]
+    },
+    "gaps": [
+      "No model or platform vendor is named beyond WhatsApp as the channel.",
+      "The 60-hour weekly figure covers two administrators but the measurement period is unstated.",
+      "No independent coverage was located."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 27,
+    "slug": "the-gourmet-factor",
+    "headline": "The Gourmet Factor connected invoices to recipes with Restoke.ai and recovered its investment in five months.",
+    "useCase": "Inventory and costing",
+    "aiType": "Document AI",
+    "outcomes": [
+      "Cost",
+      "Time",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Return on investment",
+        "value": "100% within five months",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Invoice processing",
+        "value": "80% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Stocktaking time",
+        "value": "40% less",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "The Gourmet Factor operates and manages restaurant brands across several dining concepts. Multi-concept restaurant groups carry a specific cost problem: each outlet has its own stock, its own suppliers and its own menu, but the group needs a single view of margin. Food cost is the largest controllable cost line in a restaurant.",
+      "c": "Stocktaking and supplier invoice processing required significant staff effort, which reduced time for higher-value work. Fragmented stock records reduced visibility into inventory levels and contributed to shortages, over-ordering and excess stock. Supplier pricing sat buried in unprocessed invoices, which made accurate menu costing difficult and slowed the response to cost increases. The group could not see whether a dish was profitable until well after the ingredients were consumed. Menu pricing was therefore set on last quarter's costs, which is a slow way to react to a supplier increase.",
+      "q": "How could the group know the true cost of each menu item as supplier prices changed, without adding finance staff to key in invoices?",
+      "a": "The group adopted Restoke.ai, an AI-driven inventory and back-of-house platform that connects supplier pricing, inventory and recipes in one system. Automated invoice processing extracts supplier invoice details using optical character recognition and machine learning, which reduces manual data entry. Digital stocktaking captures inventory counts on mobile devices and synchronises stock across locations. Real-time recipe costing updates dish costs using live supplier prices, which gives visibility into menu-item margins. Purchasing decisions draw on inventory and costing data to reduce shortages, over-ordering and excess stock. The published result is 100% return on investment within five months, 80% faster invoice processing and 40% less time on stocktaking. The vendor is named in the citation, and its own product site describes AI-powered restaurant management, so the implementation is unusually well documented for an adoption winner. The citation does not report the size of the group or the number of invoices processed monthly. Payback within five months is the figure a restaurant group will test first, because food cost changes arrive monthly and any tool that takes a year to pay for itself will be judged against a very short operating horizon."
+    },
+    "takeaway": "Connect the invoice to the recipe. Food cost visibility is a data plumbing problem before it is an AI problem.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Fragmented stock records contributed to shortages, over-ordering and excess stock.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Automated invoice processing uses OCR and machine learning to extract supplier invoice details.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Real-time recipe costing updates dish costs using live supplier prices.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Restoke.ai describes itself as AI-powered restaurant management software.",
+        "sourceIds": [
+          "T1-RESTOKE"
+        ],
+        "evidence": "corroborated",
+        "basis": "The vendor's own product site independently describes the platform. The site does not mention this client."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "OCR and machine learning for supplier invoice extraction",
+        "vendor": "Restoke.ai",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Processing",
+        "what": "Digital stocktaking with mobile capture",
+        "vendor": "Restoke.ai",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Data",
+        "what": "Supplier prices, inventory and recipes linked in one platform",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Analytics",
+        "what": "Recipe costing and margin visibility",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "inv",
+          "label": "Supplier invoices",
+          "kind": "input"
+        },
+        {
+          "id": "ocr",
+          "label": "OCR and ML extraction",
+          "kind": "ai"
+        },
+        {
+          "id": "stock",
+          "label": "Digital stocktaking",
+          "kind": "process"
+        },
+        {
+          "id": "rec",
+          "label": "Recipe costing",
+          "kind": "ai"
+        },
+        {
+          "id": "buy",
+          "label": "Purchasing decisions",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Menu margin view",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "inv",
+          "ocr"
+        ],
+        [
+          "ocr",
+          "rec"
+        ],
+        [
+          "stock",
+          "rec"
+        ],
+        [
+          "rec",
+          "buy"
+        ],
+        [
+          "rec",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another restaurant group. This is not The Gourmet Factor's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "Invoice photo or email",
+          "kind": "input"
+        },
+        {
+          "id": "ext",
+          "label": "Line-item extraction",
+          "kind": "ai"
+        },
+        {
+          "id": "map",
+          "label": "Ingredient mapping",
+          "kind": "process"
+        },
+        {
+          "id": "cost",
+          "label": "Recipe cost recalculation",
+          "kind": "system"
+        },
+        {
+          "id": "mgr",
+          "label": "Chef or manager review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Updated dish margin",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "ext"
+        ],
+        [
+          "ext",
+          "map"
+        ],
+        [
+          "map",
+          "cost"
+        ],
+        [
+          "cost",
+          "mgr"
+        ],
+        [
+          "mgr",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Restaurant groups",
+        "Cafes and bakeries",
+        "Catering companies",
+        "Central kitchens"
+      ],
+      "requirements": [
+        "A recipe book with quantities and units",
+        "Supplier invoices in a consistent format",
+        "An ingredient mapping table between invoice descriptions and recipe items"
+      ],
+      "steps": [
+        "Build the ingredient mapping table before automating anything",
+        "Digitise the top twenty recipes",
+        "Process invoices and check extraction line by line for a month",
+        "Publish dish margins weekly so the data gets used",
+        "Add stocktaking once costing is trusted"
+      ],
+      "tools": [
+        "OCR or document AI service",
+        "Inventory platform",
+        "Recipe costing module",
+        "Mobile stocktaking app"
+      ],
+      "risks": [
+        "Ingredient mapping errors that distort margins",
+        "Pack-size and unit conversions",
+        "Supplier invoices with ambiguous descriptions"
+      ],
+      "kpis": [
+        "Invoice processing time",
+        "Food cost percentage",
+        "Stock variance",
+        "Stocktake hours",
+        "Menu margin accuracy"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Digital stocktaking",
+          "description": "Move counts to a mobile app and keep one stock record.",
+          "when": "Stock visibility is the main gap."
+        },
+        {
+          "level": "Level 2",
+          "title": "Invoice extraction",
+          "description": "Automate invoice data entry and map lines to ingredients.",
+          "when": "Finance hours are the constraint."
+        },
+        {
+          "level": "Level 3",
+          "title": "Live recipe costing",
+          "description": "Recalculate dish margins from live supplier prices across outlets.",
+          "when": "Multiple outlets and volatile input costs."
+        }
+      ]
+    },
+    "gaps": [
+      "Currency is not stated for the return on investment figure.",
+      "The five-month payback period has no published cost base.",
+      "No independent coverage of this specific implementation was located."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 28,
+    "slug": "tts-group",
+    "headline": "TTS Group replaced manual traffic counts with computer vision, processing about 50 times more sites a month.",
+    "useCase": "Computer vision",
+    "aiType": "Computer vision",
+    "outcomes": [
+      "Capacity",
+      "Time",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Traffic-data acquisition capacity",
+        "value": "About 98% increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Engineer time on manual footage review",
+        "value": "About 30 hours saved per engineer each week",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Sites processed monthly",
+        "value": "About 50x more",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "TTS Group provides transport planning, traffic engineering and transport analytics consultancy. Its clients are road authorities and developers who need evidence about how a junction or corridor behaves. The company's public materials describe AI-powered intelligent transport systems analytics within its portfolio. The core input is video of traffic, and the core output is a defensible assessment of risk.",
+      "c": "Surveyors manually counted and classified vehicles and pedestrians, which required multiple personnel and extended shifts at high-volume sites. Engineers spent around 15 hours a week reviewing footage for a single intersection, which capped the number of sites the firm could assess. Assessment was reactive, because periodic observation and historical crash data make it difficult to detect near-misses and identify risk before an incident. A near-miss is, by definition, an event that does not appear in crash statistics. Waiting for collisions to accumulate means the evidence arrives only after the harm.",
+      "q": "How could the firm analyse far more junctions without proportionally more surveyors and engineers, and detect risk before a collision occurs?",
+      "a": "TTS Group built a proactive framework for near-miss-based traffic risk assessment. Computer vision detects, tracks and classifies vehicles and pedestrians, which reduces reliance on manual counting. Movement-pattern analysis identifies traffic conflicts that do not appear in conventional crash-based assessments. Traffic and near-miss data quantify risk and rank locations. AI-assisted intervention planning synthesises data from high-risk intersections to support targeted measures such as signal optimisation. Continuous post-intervention monitoring reassesses sites to measure change in safety risk and compare before and after. Engineers retain responsibility for safety recommendations. The published result is about a 98% increase in traffic-data acquisition capacity, about 30 hours saved per engineer each week, and roughly 50 times more sites processed monthly. The near-miss method is the substantive change: it shifts the evidence base from what happened to what nearly happened. The citation does not publish validation of the near-miss metric against observed crash frequency. The sites-processed figure is the strategic one, because it changes the unit of analysis from individual junctions to a network, and a network view is what makes proactive safety spending defensible to a road authority."
+    },
+    "takeaway": "Change the unit of evidence. Near-misses are more frequent than crashes, so they produce a usable sample before anyone is hurt.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Surveyors manually counted and classified vehicles and pedestrians, requiring multiple personnel and extended shifts.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Engineers spent around 15 hours a week reviewing footage for a single intersection.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Near-miss detection analyses movement patterns to identify conflicts absent from crash-based assessment.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "TTS Group describes AI-powered ITS analytics within its portfolio.",
+        "sourceIds": [
+          "T1-TTS"
+        ],
+        "evidence": "corroborated",
+        "basis": "The company's own site independently describes AI-powered intelligent transport systems analytics."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Computer vision for vehicle and pedestrian detection, tracking and classification",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Analytics",
+        "what": "Predictive analytics for near-miss and conflict detection",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Language model",
+        "what": "Large language models supporting assessment and intervention planning",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Input",
+        "what": "Traffic camera footage",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Engineers retain responsibility for safety recommendations",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "vid",
+          "label": "Traffic footage",
+          "kind": "input"
+        },
+        {
+          "id": "cv",
+          "label": "Detection and classification",
+          "kind": "ai"
+        },
+        {
+          "id": "nm",
+          "label": "Near-miss detection",
+          "kind": "ai"
+        },
+        {
+          "id": "risk",
+          "label": "Risk quantification",
+          "kind": "process"
+        },
+        {
+          "id": "plan",
+          "label": "Intervention planning",
+          "kind": "ai"
+        },
+        {
+          "id": "eng",
+          "label": "Engineer recommendation",
+          "kind": "human"
+        },
+        {
+          "id": "mon",
+          "label": "Post-intervention monitoring",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "vid",
+          "cv"
+        ],
+        [
+          "cv",
+          "nm"
+        ],
+        [
+          "nm",
+          "risk"
+        ],
+        [
+          "risk",
+          "plan"
+        ],
+        [
+          "plan",
+          "eng"
+        ],
+        [
+          "eng",
+          "mon"
+        ],
+        [
+          "mon",
+          "risk"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another traffic consultancy. This is not TTS Group's production system.",
+      "nodes": [
+        {
+          "id": "cam",
+          "label": "Junction camera feed",
+          "kind": "input"
+        },
+        {
+          "id": "det",
+          "label": "Object detection and tracking",
+          "kind": "ai"
+        },
+        {
+          "id": "traj",
+          "label": "Trajectory store",
+          "kind": "system"
+        },
+        {
+          "id": "conf",
+          "label": "Conflict and near-miss scoring",
+          "kind": "process"
+        },
+        {
+          "id": "eng",
+          "label": "Engineer review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Risk report",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "cam",
+          "det"
+        ],
+        [
+          "det",
+          "traj"
+        ],
+        [
+          "traj",
+          "conf"
+        ],
+        [
+          "conf",
+          "eng"
+        ],
+        [
+          "eng",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Traffic engineering consultancies",
+        "Road authorities",
+        "Transport planners",
+        "Site safety monitoring"
+      ],
+      "requirements": [
+        "Stable camera positions with adequate resolution",
+        "A definition of what counts as a near-miss",
+        "Engineers who will validate automated findings"
+      ],
+      "steps": [
+        "Define the conflict metric before building anything",
+        "Run detection on one junction and compare counts with manual counts",
+        "Add trajectory-based conflict scoring",
+        "Validate a sample by human review",
+        "Extend to before-and-after studies"
+      ],
+      "tools": [
+        "Object detection and tracking library",
+        "Video storage",
+        "Trajectory analytics",
+        "Reporting dashboard"
+      ],
+      "risks": [
+        "Occlusion and night-time detection failure",
+        "Conflict thresholds that do not match engineering practice",
+        "Overstating precision to clients"
+      ],
+      "kpis": [
+        "Count accuracy against manual survey",
+        "Hours per site assessment",
+        "Sites assessed per month",
+        "Conflict rate before and after intervention"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Automated counting",
+          "description": "Use detection to count vehicles and pedestrians, with manual spot checks.",
+          "when": "Surveyor cost limits volume."
+        },
+        {
+          "level": "Level 2",
+          "title": "Conflict analysis",
+          "description": "Add trajectory tracking and near-miss scoring at selected junctions.",
+          "when": "Crash data is too sparse to rank sites."
+        },
+        {
+          "level": "Level 3",
+          "title": "Proactive safety programme",
+          "description": "Add intervention planning and continuous post-intervention monitoring.",
+          "when": "A client wants an ongoing safety programme."
+        }
+      ]
+    },
+    "gaps": [
+      "No camera, model or cloud vendor is named.",
+      "The 98% capacity figure and 50x site figure have no absolute baselines.",
+      "No independent evaluation of near-miss accuracy is published."
+    ],
+    "confidence": "B",
+    "companyUrl": "https://ttsgroup.com.sg/"
+  },
+  {
+    "idx": 29,
+    "slug": "you-tiao-man",
+    "headline": "You Tiao Man built an operations co-pilot on n8n and Claude, cutting invoice time by 83%.",
+    "useCase": "Document processing",
+    "aiType": "Automation platform",
+    "outcomes": [
+      "Time",
+      "Cost",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Return on investment",
+        "value": "85% within the first year",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Invoice processing time",
+        "value": "83% less",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Manhours",
+        "value": "40 saved per week",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "You Tiao Man manufactures traditional Asian snacks and frozen dough fritters, supplying hotels, restaurants, caterers and supermarkets. It is a food manufacturer with a distribution business attached: production is planned, but orders arrive through several sales channels and suppliers invoice against deliveries. The administrative load sits between the factory and the customer.",
+      "c": "Orders arrived through multiple sales channels, and staff had to capture and consolidate information across systems by hand. Supplier invoices were manually entered, validated and reconciled across spreadsheets and finance systems. Payment tracking, follow-up and repetitive order administration reduced the time available for business development and customer engagement. In a low-margin food business, administration is not overhead that can be absorbed. It is margin. The work also fell on the same small team that handles sales, so administration displaced revenue-generating activity.",
+      "q": "How could a food manufacturer with no engineering team automate order, invoice and finance administration without replacing its existing systems?",
+      "a": "You Tiao Man built an AI operations co-pilot using n8n and Claude. It integrates with existing business systems to reduce manual processing while keeping staff in control of approvals. Invoice processing extracts invoice details, validates pricing against master records and flags discrepancies for staff review. Automated finance workflows maintain payment records and transfer approved invoice information into finance systems, which reduces duplicate entry and reconciliation. Multi-channel order visibility consolidates orders into a live dashboard showing revenue, orders and outstanding actions. AI-assisted marketing researches and drafts social media content, checks it against company policies and routes posts for approval. The published result is 85% return on investment within the first year, 83% less time processing invoices and 40 manhours saved per week. This is the most reproducible implementation in the set: a named orchestration tool and a named model, applied to ordinary back-office work. The citation does not report the exception rate or how often invoices require manual correction. The exception rate, which the citation does not publish, will decide whether the saving holds as invoice volume grows, because every exception returns work to the same small team that the automation was meant to release. Volume is the real test, because the workflow has to hold when invoice count doubles."
+    },
+    "takeaway": "You do not need a platform team. A workflow tool and a model, pointed at invoices and orders, is enough to change a small manufacturer's week.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Orders arrived through multiple sales channels and were consolidated manually.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Supplier invoices were manually entered, validated and reconciled across spreadsheets and finance systems.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "The solution was built using n8n and Claude and integrates with existing business systems.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Invoice extraction validates pricing against master records and flags discrepancies for staff review.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Claude for invoice extraction, content drafting and policy checks",
+        "vendor": "Anthropic (Claude)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Orchestration",
+        "what": "n8n workflows connecting systems and approval steps",
+        "vendor": "n8n",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Existing sales, finance and payment systems",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Reporting",
+        "what": "Consolidated order and revenue dashboard",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Staff approval of invoices and social posts before release",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "inv",
+          "label": "Supplier invoice",
+          "kind": "input"
+        },
+        {
+          "id": "n8n",
+          "label": "n8n workflow",
+          "kind": "process"
+        },
+        {
+          "id": "cl",
+          "label": "Claude extraction and checks",
+          "kind": "ai"
+        },
+        {
+          "id": "fin",
+          "label": "Finance system",
+          "kind": "system"
+        },
+        {
+          "id": "staff",
+          "label": "Staff approval",
+          "kind": "human"
+        },
+        {
+          "id": "dash",
+          "label": "Order and revenue dashboard",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "inv",
+          "n8n"
+        ],
+        [
+          "n8n",
+          "cl"
+        ],
+        [
+          "cl",
+          "staff"
+        ],
+        [
+          "staff",
+          "fin"
+        ],
+        [
+          "n8n",
+          "dash"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another small manufacturer. This is not You Tiao Man's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "Invoice email or scan",
+          "kind": "input"
+        },
+        {
+          "id": "wf",
+          "label": "Workflow trigger",
+          "kind": "process"
+        },
+        {
+          "id": "ext",
+          "label": "Structured extraction",
+          "kind": "ai"
+        },
+        {
+          "id": "rule",
+          "label": "Price and duplicate checks",
+          "kind": "process"
+        },
+        {
+          "id": "q",
+          "label": "Exception queue",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Posted invoice",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "wf"
+        ],
+        [
+          "wf",
+          "ext"
+        ],
+        [
+          "ext",
+          "rule"
+        ],
+        [
+          "rule",
+          "q"
+        ],
+        [
+          "q",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Food manufacturers",
+        "Small distributors",
+        "Trading companies",
+        "Any SME with invoice and order administration"
+      ],
+      "requirements": [
+        "Invoice and order sources accessible by email or API",
+        "A supplier price master to validate against",
+        "A named person to clear the exception queue"
+      ],
+      "steps": [
+        "Map the invoice process on paper, including who approves what",
+        "Automate extraction and validation, but not posting",
+        "Add the approval step before anything reaches the finance system",
+        "Measure invoice time weekly",
+        "Add order consolidation once finance is stable"
+      ],
+      "tools": [
+        "Workflow automation platform",
+        "Language model",
+        "Accounting system",
+        "Email integration"
+      ],
+      "risks": [
+        "Duplicate payments from reprocessed invoices",
+        "Price mismatches accepted without review",
+        "Workflows breaking silently when a system changes"
+      ],
+      "kpis": [
+        "Invoice cycle time",
+        "Exception rate",
+        "Duplicate payment incidents",
+        "Hours saved per week",
+        "Payback period"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Assisted data entry",
+          "description": "Extract invoice fields and prefill the finance system for human confirmation.",
+          "when": "Volume is modest and errors are the concern."
+        },
+        {
+          "level": "Level 2",
+          "title": "Validated workflow",
+          "description": "Add price validation, duplicate checks and an approval queue in a workflow tool.",
+          "when": "Manual entry consumes a working day each week."
+        },
+        {
+          "level": "Level 3",
+          "title": "Operations co-pilot",
+          "description": "Join invoice, payment, order and content workflows with dashboards and approvals.",
+          "when": "Several back-office processes compete for the same staff."
+        }
+      ]
+    },
+    "gaps": [
+      "Currency is not stated for the return on investment figure.",
+      "The 85% first-year return has no published cost base.",
+      "No independent coverage of the implementation was located."
+    ],
+    "confidence": "B",
+    "companyUrl": "https://youtiaoman.com/"
+  }
+]

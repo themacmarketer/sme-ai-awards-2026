@@ -1,0 +1,1729 @@
+[
+  {
+    "idx": 15,
+    "slug": "agape-cp-holdings",
+    "headline": "Agape CP Holdings cut post-call administration by 63% and expanded quality assurance coverage 16-fold.",
+    "useCase": "Customer service",
+    "aiType": "Conversational AI",
+    "outcomes": [
+      "Time",
+      "Quality",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Time on administrative tasks",
+        "value": "63% less",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "New-agent onboarding",
+        "value": "33% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Quality assurance coverage",
+        "value": "16x more interactions reviewed",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Agape CP Holdings is a social enterprise providing contact centre, customer experience, business process outsourcing, recruitment and workforce development services. Its output is measured in handled interactions, and its cost base is agent time. In a contact centre, the minutes after a call are as expensive as the call itself, because they are paid for but not billable to the customer.",
+      "c": "Agents spent three to five minutes documenting each interaction and updating records, which reduced the time available to serve customers. Supervisors could review only about 5% of interactions, so service gaps, compliance risks and coaching opportunities went unseen in the other 95%. New agents took around six weeks to reach independent productivity, and some needed extra knowledge support and coaching during initial deployment. The operation was therefore limited by documentation load and by the thin sample of quality review. Coaching therefore relied on anecdote, because the sample rarely contained the interactions that caused problems.",
+      "q": "How could the contact centre reduce post-call administration and review far more interactions for quality, without adding supervisors or slowing onboarding?",
+      "a": "Agape built an AI-powered contact centre and BPO platform that combines generative AI, speech analytics and workflow automation. Agents receive real-time guidance, suggested responses and instant access to relevant knowledge during interactions. Automated documentation generates call summaries, interaction notes and email drafts, which removes most repetitive post-call work. Quality assurance analyses interactions at scale to identify service-quality issues, compliance risks, sentiment and coaching opportunities, so review is no longer limited to a small sample. Knowledge retrieval gives agents immediate access to standard operating procedures, policies and campaign information without searching documents. New employees receive real-time guidance and standardised knowledge, which shortens the path to independent work. The published result is 63% less time on administrative tasks, 33% faster onboarding, and 16 times more quality assurance coverage. The quality coverage figure is the more interesting one, because it changes supervision from sampling to census. The citation does not report the resulting review coverage as a percentage, so the 16-fold figure cannot be converted into an absolute rate. Review coverage is the number to watch, because it converts quality assurance from a sample into a control that can be audited, and an audited control is what a regulated client will pay for in an outsourcing contract."
+    },
+    "takeaway": "Automate the note-taking, then use the transcript you now own. Full coverage of interactions is a supervision capability, not a reporting nicety.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Agents spent three to five minutes documenting each interaction.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Supervisors could review only 5% of interactions before the change.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "New agents could take around six weeks to reach independent productivity.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Quality assurance analyses interactions at scale for service quality, compliance risk and sentiment.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Generative AI for summaries, suggested responses and email drafts",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Speech analytics",
+        "what": "Interaction analysis for quality, compliance and sentiment",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Knowledge",
+        "what": "Retrieval over SOPs, policies and campaign information",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Orchestration",
+        "what": "Workflow automation across interactions and administration",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Compliance risk flagging within quality assurance",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "call",
+          "label": "Customer interaction",
+          "kind": "input"
+        },
+        {
+          "id": "guide",
+          "label": "Real-time agent guidance",
+          "kind": "ai"
+        },
+        {
+          "id": "kb",
+          "label": "Knowledge retrieval",
+          "kind": "system"
+        },
+        {
+          "id": "doc",
+          "label": "Automated documentation",
+          "kind": "ai"
+        },
+        {
+          "id": "qa",
+          "label": "Quality assurance analytics",
+          "kind": "ai"
+        },
+        {
+          "id": "sup",
+          "label": "Supervisor coaching",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Record and quality report",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "call",
+          "guide"
+        ],
+        [
+          "kb",
+          "guide"
+        ],
+        [
+          "call",
+          "doc"
+        ],
+        [
+          "call",
+          "qa"
+        ],
+        [
+          "qa",
+          "sup"
+        ],
+        [
+          "doc",
+          "out"
+        ],
+        [
+          "sup",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another contact centre. This is not Agape's production system.",
+      "nodes": [
+        {
+          "id": "t",
+          "label": "Call recording and transcript",
+          "kind": "input"
+        },
+        {
+          "id": "asr",
+          "label": "Speech-to-text",
+          "kind": "process"
+        },
+        {
+          "id": "sum",
+          "label": "Summary and disposition",
+          "kind": "ai"
+        },
+        {
+          "id": "crm",
+          "label": "CRM record update",
+          "kind": "system"
+        },
+        {
+          "id": "score",
+          "label": "QA scoring model",
+          "kind": "ai"
+        },
+        {
+          "id": "coach",
+          "label": "Supervisor review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Coaching plan",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "t",
+          "asr"
+        ],
+        [
+          "asr",
+          "sum"
+        ],
+        [
+          "sum",
+          "crm"
+        ],
+        [
+          "asr",
+          "score"
+        ],
+        [
+          "score",
+          "coach"
+        ],
+        [
+          "coach",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Contact centres",
+        "BPO providers",
+        "Customer support teams",
+        "Shared services"
+      ],
+      "requirements": [
+        "Call recording with consent and retention rules",
+        "A CRM or ticketing system with write access",
+        "A quality rubric that supervisors already use"
+      ],
+      "steps": [
+        "Automate summaries and dispositions first, because the saving is immediate",
+        "Measure documentation time before and after",
+        "Apply the existing quality rubric to all interactions rather than a sample",
+        "Compare AI scores with supervisor scores on a sample",
+        "Use the gap to calibrate, then expand coaching"
+      ],
+      "tools": [
+        "Speech-to-text service",
+        "Language model for summarisation",
+        "CRM integration",
+        "Quality analytics dashboard"
+      ],
+      "risks": [
+        "Inaccurate summaries written into customer records",
+        "Recording consent and retention breaches",
+        "Agents gaming suggested responses"
+      ],
+      "kpis": [
+        "After-call work minutes",
+        "Quality review coverage",
+        "Compliance exception rate",
+        "Time to independent productivity",
+        "First-contact resolution"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Summary assistance",
+          "description": "Generate call summaries and paste them into the CRM for agent approval.",
+          "when": "After-call work is the main time loss."
+        },
+        {
+          "level": "Level 2",
+          "title": "Assisted agent and QA",
+          "description": "Add real-time knowledge suggestions and automated scoring against the quality rubric.",
+          "when": "Volume exceeds supervisor capacity."
+        },
+        {
+          "level": "Level 3",
+          "title": "Integrated contact platform",
+          "description": "Join guidance, documentation, QA and knowledge management in one governed system.",
+          "when": "Multiple campaigns, languages and compliance obligations."
+        }
+      ]
+    },
+    "gaps": [
+      "No platform or model vendor is named.",
+      "The 5% review baseline and 16x figure are stated without the resulting coverage percentage.",
+      "No independent coverage was located."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 16,
+    "slug": "brew-interactive",
+    "headline": "Brew Interactive named its AI stack, cut client onboarding time by 85% and video production by about 85%.",
+    "useCase": "Workflow automation",
+    "aiType": "Generative media",
+    "outcomes": [
+      "Time",
+      "Cost",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Client onboarding",
+        "value": "85% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Video production time",
+        "value": "About 85% reduction",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Creative production cost",
+        "value": "Up to $10,000 saved monthly",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Brew Interactive provides lead generation, performance marketing, search engine optimisation, Generative Engine Optimisation and marketing automation. The agency's product is speed of testing: the faster it can produce and test creative, the faster it learns what works for a client. Its constraints are therefore handover friction and production latency.",
+      "c": "Handover documents for new clients took three to four hours to prepare, with a risk of information gaps between the sales and delivery teams. Research, strategy development, content drafting and client communications required significant effort. Video production could take two to three weeks, which limited the speed and variety of creative testing. The agency could not test more concepts without either more production capacity or a longer schedule. Producing a video was therefore a scheduling decision as much as a creative one, and the agency could not promise a client a fast test cycle when its supplier was busy with another account.",
+      "q": "How could the agency shorten onboarding and video production enough to test more creative per client, without hiring a production team?",
+      "a": "Brew Interactive embedded a named set of AI tools across sales, operations and creative workflows. MeetGeek transcribes client meetings while Claude generates structured handover documents, which replaces the manual three to four hour write-up. Claude also assists with research, strategy development, content drafting and client communications. Higgsfield generates AI video assets, and AdCreative.ai generates advertising creatives, which removes most of the two to three week video cycle. Blip AI supports routine written communications across departments. The published result is 85% faster onboarding, about 85% less time producing videos, and up to $10,000 saved monthly on creative production. This is the clearest vendor disclosure among the thirty winners: the citation names each tool and the task it performs, which makes the implementation reproducible by another agency. The stack is also the most completely disclosed in the set, which makes it the easiest implementation to replicate and the easiest to cost before committing budget. The video figure matters most for an agency, because production latency is what limits how many creative concepts a client can afford to test, and testing volume is usually the constraint on performance improvement."
+    },
+    "takeaway": "Name the tool and the task it does. A stack you can describe is a stack another team can copy.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Handover documents for new clients took three to four hours.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "MeetGeek transcribes client meetings and Claude generates structured handover documents.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Higgsfield generates AI video assets and AdCreative.ai generates advertising creatives.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Video production could take two to three weeks before the change.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Claude for research, strategy, content and handover documents",
+        "vendor": "Anthropic (Claude)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Meeting capture",
+        "what": "Meeting transcription feeding structured handover generation",
+        "vendor": "MeetGeek",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Video generation",
+        "what": "AI video asset generation",
+        "vendor": "Higgsfield",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Ad creative",
+        "what": "Advertising creative generation",
+        "vendor": "AdCreative.ai",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Communications",
+        "what": "Routine written communications across departments",
+        "vendor": "Blip AI",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Named tools and the tasks the award citation assigns to each.",
+      "nodes": [
+        {
+          "id": "mtg",
+          "label": "Client meeting",
+          "kind": "input"
+        },
+        {
+          "id": "mg",
+          "label": "MeetGeek transcription",
+          "kind": "process"
+        },
+        {
+          "id": "cl",
+          "label": "Claude handover and content",
+          "kind": "ai"
+        },
+        {
+          "id": "hg",
+          "label": "Higgsfield video",
+          "kind": "ai"
+        },
+        {
+          "id": "ac",
+          "label": "AdCreative.ai ads",
+          "kind": "ai"
+        },
+        {
+          "id": "bl",
+          "label": "Blip AI communications",
+          "kind": "ai"
+        },
+        {
+          "id": "out",
+          "label": "Campaign and client delivery",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "mtg",
+          "mg"
+        ],
+        [
+          "mg",
+          "cl"
+        ],
+        [
+          "cl",
+          "out"
+        ],
+        [
+          "hg",
+          "out"
+        ],
+        [
+          "ac",
+          "out"
+        ],
+        [
+          "bl",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another agency. This is not Brew Interactive's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "Sales call recording",
+          "kind": "input"
+        },
+        {
+          "id": "tr",
+          "label": "Transcription",
+          "kind": "process"
+        },
+        {
+          "id": "gen",
+          "label": "Structured brief generation",
+          "kind": "ai"
+        },
+        {
+          "id": "rev",
+          "label": "Account lead review",
+          "kind": "human"
+        },
+        {
+          "id": "cms",
+          "label": "Project workspace",
+          "kind": "system"
+        },
+        {
+          "id": "out",
+          "label": "Approved brief",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "tr"
+        ],
+        [
+          "tr",
+          "gen"
+        ],
+        [
+          "gen",
+          "rev"
+        ],
+        [
+          "rev",
+          "cms"
+        ],
+        [
+          "cms",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Marketing agencies",
+        "Content studios",
+        "In-house brand teams",
+        "Sales organisations with long handovers"
+      ],
+      "requirements": [
+        "Consent to record client meetings",
+        "A written brief template that the model must fill",
+        "Brand and legal rules for generated creative"
+      ],
+      "steps": [
+        "Record and transcribe a handful of sales calls with consent",
+        "Generate briefs against a fixed template and compare with manual briefs",
+        "Measure time to first deliverable",
+        "Add video and ad creative generation for low-risk formats",
+        "Keep human approval on anything client-facing"
+      ],
+      "tools": [
+        "Meeting transcription tool",
+        "Language model",
+        "Video generation tool",
+        "Ad creative generator",
+        "Project management system"
+      ],
+      "risks": [
+        "Generated creative that misrepresents the product",
+        "Client meeting recordings stored without consent",
+        "Generic briefs that lose the sales conversation's nuance"
+      ],
+      "kpis": [
+        "Hours from signature to first brief",
+        "Days from brief to first cut",
+        "Creative variants tested per month",
+        "Production cost per asset",
+        "Client revision rounds"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Transcription and summary",
+          "description": "Record meetings and generate a summary for the account lead to edit.",
+          "when": "Handover writing consumes hours."
+        },
+        {
+          "level": "Level 2",
+          "title": "Structured brief generation",
+          "description": "Generate a brief against a fixed template, with human review before delivery.",
+          "when": "Briefs are inconsistent between teams."
+        },
+        {
+          "level": "Level 3",
+          "title": "Integrated creative production",
+          "description": "Join transcription, briefing, video and ad generation in one reviewed workflow.",
+          "when": "Volume and testing velocity drive revenue."
+        }
+      ]
+    },
+    "gaps": [
+      "Currency is published as '$' without specifying Singapore or US dollars.",
+      "Model versions and subscription costs are not published.",
+      "No independent coverage of the implementation was located."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 17,
+    "slug": "catalyst-performance",
+    "headline": "Catalyst Performance rebuilt its own digital stack, and organic search clicks rose more than 1,500% in the 60 days to October 2026.",
+    "useCase": "Marketing operations",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Revenue",
+      "Capacity",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Organic search clicks",
+        "value": "Over 300% increase at nomination",
+        "baseline": "9 Mar – 8 May 2026",
+        "after": "60 days to 12 Oct 2026: over 1,500%, more than 16x the earlier level",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-CATALYST-PR"
+        ],
+        "attribution": "Company-reported. Nomination figures were checked at the studio by SBF in August 2026; the later comparison is the company's own Search Console reading."
+      },
+      {
+        "label": "Search impressions",
+        "value": "190% increase at nomination",
+        "baseline": "9 Mar – 8 May 2026",
+        "after": "Eight times higher over the same 60-day comparison",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-CATALYST-PR"
+        ],
+        "attribution": "Company-reported. Comparison periods as stated in the company release."
+      },
+      {
+        "label": "Google search position",
+        "value": "More than 2x improvement at nomination",
+        "baseline": "Page four",
+        "after": "Page one",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-CATALYST-PR"
+        ],
+        "attribution": "Company-reported. The page-position change is stated in the company release, not in the award citation."
+      }
+    ],
+    "scqa": {
+      "s": "Catalyst Performance is a personal training studio at Manulife Tower in Singapore's central business district. Bervin Manoharan, Jeremy Soh and Dr Luqman Haris founded it after corporate careers in the industry, and their coaching experience spans more than 25 years combined. The studio coaches working adults from their thirties onward, including clients over 50, athletes, and pre-natal and post-natal clients. Every client starts with a four-pillar Healthspan Assessment covering body composition, cardiorespiratory fitness, stability and strength. It is a small business with a small team, competing for local attention against larger gyms that employ marketing departments.",
+      "c": "The legacy website lacked search engine optimisation and generative engine optimisation infrastructure, and the studio sat on page four of Google. Website updates, content creation, advertising campaigns and lead outreach required significant time or external agency support, and the studio had no in-house digital capacity for any of it. Manoharan states that there was budget for an agency, but that no agency would promise an outcome, so the work was taken on internally instead. Growth therefore depended on buying attention or on the founders' spare hours. Marketing was intermittent, which is the worst pattern for search visibility, because gains decay when publishing stops.",
+      "q": "How could a small coaching business build and run a full digital acquisition operation, and own the systems behind it, without hiring an agency or a technical team?",
+      "a": "Manoharan built the systems himself: the website, the marketing systems, the operations panel, the WhatsApp and Instagram assistants, and the client nutrition log. Each is built around how the studio coaches, and each uses whichever model does the job best. The company release names DeepSeek and Fable, describing the latter as the latest Claude model from Anthropic. The rebuilt website carries search and generative engine optimisation infrastructure. Automated outreach powers LinkedIn messaging, email campaigns and personalised follow-ups. Advertising analysis reviews Meta, Google and TikTok campaign data to find inefficient spend, and AI-operated dashboards report bookings, leads, protocol sales, email performance and funnel analytics. The published result at nomination was more than 300% more organic search clicks, a 190% increase in impressions and more than double the Google ranking. The company now reports a later comparison, 60 days to 12 October 2026 against 9 March to 8 May 2026: clicks up more than 1,500%, more than 16 times the earlier level, impressions eight times higher, and the studio on page one rather than page four. The Singapore Business Federation checked the nomination figures at the studio in August. The stated next step is ownership, with capital going into hosting the studio's own models and infrastructure so that processing sits inside the business."
+    },
+    "takeaway": "Owning the stack is the difference between renting a capability and holding one. The gain is not the model; it is that nobody else can switch it off.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The legacy website lacked SEO and GEO infrastructure, limiting organic discoverability.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Claude is embedded across website, marketing and operational workflows.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Manoharan built the website, marketing systems, operations panel, WhatsApp and Instagram assistants and client nutrition log himself.",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "The systems use whichever model suits the task, and the release names DeepSeek and Fable, described as the latest Claude model from Anthropic.",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c5",
+        "text": "In the 60 days to 12 October 2026, organic clicks rose more than 1,500% against 9 March to 8 May 2026, and impressions were eight times higher.",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c6",
+        "text": "The Singapore Business Federation checked the nomination figures at the studio in August 2026.",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ],
+        "evidence": "stated",
+        "basis": "Stated by the company. The award citation independently confirms that shortlisted companies receive SBF site visits to verify claims."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Model-agnostic stack; the release names DeepSeek and Fable, described as the latest Claude model from Anthropic",
+        "vendor": "DeepSeek, Anthropic (Claude)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-CATALYST-PR"
+        ]
+      },
+      {
+        "layer": "Web",
+        "what": "Rebuilt site with SEO and generative engine optimisation infrastructure, built in-house",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-CATALYST-PR"
+        ]
+      },
+      {
+        "layer": "Assistants",
+        "what": "WhatsApp and Instagram assistants",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ]
+      },
+      {
+        "layer": "Operations",
+        "what": "Operations panel and client nutrition log",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ]
+      },
+      {
+        "layer": "Outreach",
+        "what": "LinkedIn outreach, email campaigns and personalised follow-up",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Analytics",
+        "what": "Cross-platform advertising analysis and funnel dashboards",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-09",
+        "event": "Start of the Search Console comparison period used in the company's later reporting.",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ]
+      },
+      {
+        "date": "2026-08-01",
+        "event": "SBF verifies the nomination figures at the studio during the award site visit.",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Award presented by Minister Josephine Teo at SMEs Go Digital Day; Manoharan accepts for the company.",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Company issues a release reporting updated search figures and the plan to host its own models.",
+        "sourceIds": [
+          "T1-CATALYST-PR"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "site",
+          "label": "Rebuilt SEO and GEO website",
+          "kind": "system"
+        },
+        {
+          "id": "cl",
+          "label": "Claude content and workflow",
+          "kind": "ai"
+        },
+        {
+          "id": "outr",
+          "label": "Automated outreach",
+          "kind": "process"
+        },
+        {
+          "id": "ads",
+          "label": "Ad spend analysis",
+          "kind": "ai"
+        },
+        {
+          "id": "dash",
+          "label": "Funnel dashboards",
+          "kind": "output"
+        },
+        {
+          "id": "own",
+          "label": "Owner decision",
+          "kind": "human"
+        }
+      ],
+      "edges": [
+        [
+          "cl",
+          "site"
+        ],
+        [
+          "site",
+          "outr"
+        ],
+        [
+          "outr",
+          "dash"
+        ],
+        [
+          "ads",
+          "own"
+        ],
+        [
+          "dash",
+          "own"
+        ],
+        [
+          "own",
+          "ads"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another small service business. This is not Catalyst Performance's production system.",
+      "nodes": [
+        {
+          "id": "kw",
+          "label": "Search demand research",
+          "kind": "input"
+        },
+        {
+          "id": "brief",
+          "label": "Content brief generation",
+          "kind": "ai"
+        },
+        {
+          "id": "pub",
+          "label": "Publish and index",
+          "kind": "system"
+        },
+        {
+          "id": "lead",
+          "label": "Enquiry capture",
+          "kind": "process"
+        },
+        {
+          "id": "follow",
+          "label": "Automated follow-up",
+          "kind": "ai"
+        },
+        {
+          "id": "book",
+          "label": "Booked assessment",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "kw",
+          "brief"
+        ],
+        [
+          "brief",
+          "pub"
+        ],
+        [
+          "pub",
+          "lead"
+        ],
+        [
+          "lead",
+          "follow"
+        ],
+        [
+          "follow",
+          "book"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Personal training and wellness",
+        "Clinics and allied health",
+        "Professional services",
+        "Local service businesses"
+      ],
+      "requirements": [
+        "A website the business controls",
+        "Analytics and Search Console access",
+        "A written tone and claims policy, especially for health claims"
+      ],
+      "steps": [
+        "Fix technical search basics before generating content",
+        "Publish a small number of pages against real search demand",
+        "Measure impressions and clicks monthly",
+        "Add automated follow-up only after enquiry tracking works",
+        "Review ad spend weekly with a written rule for pausing"
+      ],
+      "tools": [
+        "Content management system",
+        "Search Console and analytics",
+        "Language model",
+        "Email and messaging automation",
+        "Ad platform APIs"
+      ],
+      "risks": [
+        "Health claims that breach advertising rules",
+        "Thin content published at scale",
+        "Automated outreach that breaches spam rules"
+      ],
+      "kpis": [
+        "Organic clicks",
+        "Impressions",
+        "Enquiry-to-booking rate",
+        "Cost per booked assessment",
+        "Return on ad spend"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Content assistance",
+          "description": "Draft pages and posts against real search queries, with human editing.",
+          "when": "The site has little content."
+        },
+        {
+          "level": "Level 2",
+          "title": "Assisted acquisition",
+          "description": "Add automated follow-up and campaign analysis on top of a rebuilt site.",
+          "when": "Enquiries arrive but conversion is weak."
+        },
+        {
+          "level": "Level 3",
+          "title": "Managed digital operations",
+          "description": "Run site, outreach, advertising and dashboards as one operating routine.",
+          "when": "The owner wants to replace an agency retainer."
+        }
+      ]
+    },
+    "gaps": [
+      "The Business Insider page is a GlobeNewswire release issued by the company, and the page states that Business Insider's editorial team was not involved. It corroborates the company's account but is not independent reporting, so the grade stays at B.",
+      "Absolute traffic, lead and revenue figures are not published; only relative changes and the comparison period.",
+      "The model named Fable is not identified in any other public source. The release describes it as the latest Claude model from Anthropic.",
+      "The claim to be the first fitness brand to win is the company's own. The award citation lists sectors and makes no sector-first claim."
+    ],
+    "confidence": "B",
+    "companyUrl": "https://catalystperformance.sg/"
+  },
+  {
+    "idx": 18,
+    "slug": "goodstuph",
+    "headline": "GOODSTUPH moved production in-house with generative AI and cut campaign production from four weeks to seven days.",
+    "useCase": "Generative media",
+    "aiType": "Generative media",
+    "outcomes": [
+      "Cost",
+      "Time",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Cost savings",
+        "value": "More than 30%",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Production turnaround",
+        "value": "Up to 4x faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Creative output",
+        "value": "Over 200% increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "GOODSTUPH provides creative media and social marketing services. Its work is campaign-led: a client brief becomes a concept, then a production, then a set of assets for several platforms. The agency's margin depends on how much of that chain it controls and how many concepts it can afford to test.",
+      "c": "External shoots, studios and post-production accounted for roughly 60% of total expenses in the first half of 2025. External production added two to four weeks to a typical campaign, and changes could add another three to five days. High production costs limited the number of concepts the agency could test, and made some lower-budget briefs uneconomical to serve. The agency was paying a third party for the capacity to experiment. Every concept the agency did not test was a decision made by budget rather than by judgement.",
+      "q": "How could the agency produce campaign creative in-house, fast enough to test more concepts, without losing the creative judgement that clients pay for?",
+      "a": "GOODSTUPH built AI.YAH, a generative AI creative production system that combines large language models, image generation and generative video within a structured creative workflow. Language models develop creative concepts and scripts. Generative image and video production creates images, videos and creative variations in-house, which reduces reliance on external shoots and post-production. Role-based prompt frameworks guide output against defined creative and quality standards, so results are repeatable rather than improvised. Human creatives direct the process, evaluate outputs and retain final approval. The published result is more than 30% cost savings, up to four times faster production, and over 200% more creative output. The citation reports campaign production falling from four weeks to seven days. The structural change is that production capacity became a fixed internal cost rather than a variable external one, which is what makes testing more concepts affordable. The citation does not name the generation models, and it does not report client approval or rejection rates for generated work. The output increase is the strategic figure, because it changes how many concepts the agency can put in front of a client within one budget, which affects win rates more than a marginal reduction in cost per asset."
+    },
+    "takeaway": "The cost saving is the smaller story. In-house generative production turns creative testing from a budget decision into a routine.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "External shoots, studios and post-production accounted for roughly 60% of total expenses in H1 2025.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "External production added two to four weeks to a typical campaign, and changes added three to five days.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "AI.YAH uses role-based prompt frameworks to guide output against creative and quality standards.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Human creatives direct the process and retain final creative approval.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Large language models for concepts and scripts",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Image generation",
+        "what": "Generative image production and variations",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Video generation",
+        "what": "Generative video production",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Orchestration",
+        "what": "Role-based prompt frameworks within a structured creative workflow",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Human creative direction and final approval",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-06-30",
+        "event": "External production accounts for roughly 60% of expenses in H1 2025.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "brief",
+          "label": "Client brief",
+          "kind": "input"
+        },
+        {
+          "id": "llm",
+          "label": "Concept and script generation",
+          "kind": "ai"
+        },
+        {
+          "id": "img",
+          "label": "Image generation",
+          "kind": "ai"
+        },
+        {
+          "id": "vid",
+          "label": "Video generation",
+          "kind": "ai"
+        },
+        {
+          "id": "fw",
+          "label": "Role-based prompt frameworks",
+          "kind": "process"
+        },
+        {
+          "id": "cre",
+          "label": "Creative director approval",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Campaign assets",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "brief",
+          "llm"
+        ],
+        [
+          "llm",
+          "img"
+        ],
+        [
+          "llm",
+          "vid"
+        ],
+        [
+          "fw",
+          "img"
+        ],
+        [
+          "fw",
+          "vid"
+        ],
+        [
+          "img",
+          "cre"
+        ],
+        [
+          "vid",
+          "cre"
+        ],
+        [
+          "cre",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another creative agency. This is not GOODSTUPH's production system.",
+      "nodes": [
+        {
+          "id": "b",
+          "label": "Brief and brand guide",
+          "kind": "input"
+        },
+        {
+          "id": "p",
+          "label": "Prompt library by role",
+          "kind": "system"
+        },
+        {
+          "id": "g",
+          "label": "Image and video generation",
+          "kind": "ai"
+        },
+        {
+          "id": "sel",
+          "label": "Creative selection",
+          "kind": "human"
+        },
+        {
+          "id": "ret",
+          "label": "Retouch and brand check",
+          "kind": "process"
+        },
+        {
+          "id": "out",
+          "label": "Platform-ready assets",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "b",
+          "p"
+        ],
+        [
+          "p",
+          "g"
+        ],
+        [
+          "g",
+          "sel"
+        ],
+        [
+          "sel",
+          "ret"
+        ],
+        [
+          "ret",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Creative and social agencies",
+        "In-house brand studios",
+        "E-commerce content teams",
+        "Publishers"
+      ],
+      "requirements": [
+        "A documented brand and style guide",
+        "A prompt library organised by role and output type",
+        "A named creative approver"
+      ],
+      "steps": [
+        "Start with one repeatable format such as social statics",
+        "Build a prompt library and test outputs against the brand guide",
+        "Compare cost and turnaround with the outsourced baseline",
+        "Add video once stills are reliable",
+        "Keep human approval on every client-facing asset"
+      ],
+      "tools": [
+        "Image generation model",
+        "Video generation model",
+        "Language model",
+        "Digital asset management",
+        "Brand guideline reference"
+      ],
+      "risks": [
+        "Generated assets that breach brand or legal standards",
+        "Model bias in representation",
+        "Client rejection of AI-generated work"
+      ],
+      "kpis": [
+        "Cost per asset",
+        "Days from brief to first cut",
+        "Concepts tested per campaign",
+        "Revision rounds",
+        "Client approval rate"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Assisted ideation",
+          "description": "Use a language model for concepts and scripts, with production outsourced as before.",
+          "when": "Ideation is the bottleneck."
+        },
+        {
+          "level": "Level 2",
+          "title": "In-house stills",
+          "description": "Generate images and statics internally against a brand guide.",
+          "when": "Static volume drives cost."
+        },
+        {
+          "level": "Level 3",
+          "title": "Full generative pipeline",
+          "description": "Add video generation, prompt frameworks and a structured review workflow.",
+          "when": "Video production is the main cost and delay."
+        }
+      ]
+    },
+    "gaps": [
+      "No generative model vendor is named.",
+      "The four-week to seven-day comparison has no stated project type or scope.",
+      "No independent coverage was located."
+    ],
+    "confidence": "B",
+    "companyUrl": "https://goodstuph.com/"
+  },
+  {
+    "idx": 19,
+    "slug": "ihub-solutions",
+    "headline": "iHub Solutions put a natural-language assistant on its warehouse system and saved 15 hours a day.",
+    "useCase": "Knowledge retrieval",
+    "aiType": "Conversational AI",
+    "outcomes": [
+      "Time",
+      "Cost",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Projected annual cost savings",
+        "value": "$94,500",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Time handling data requests",
+        "value": "60% less",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Daily time saved",
+        "value": "15 hours per day",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "iHub Solutions provides technology-enabled logistics, including smart warehousing, e-commerce fulfilment and last-mile delivery. Its customers need answers about their own stock: what is where, how much moved, and when it will arrive. The company runs a Warehouse Management System, and its public materials describe a Virtual Logistics System deployed across Singapore, Malaysia, Hong Kong and Thailand.",
+      "c": "Ad hoc data requests required manual extraction, manipulation and report creation beyond the standard system reports. Complex requests needed software developers to write SQL queries against the underlying database. Customer service and software development teams spent about 25 employee-hours a day responding to reporting and data requests. Developers were therefore doing reporting work instead of building, and customers waited for answers that the system already held. Customers experienced the delay as poor service, even though the data existed and was accurate.",
+      "q": "How could customers and staff get answers from warehouse data in plain language, without a developer writing a query for each request?",
+      "a": "iHub built Gideon, a generative AI virtual assistant that uses natural-language conversation to make warehouse and delivery data accessible. Users ask questions in plain language instead of searching reports or understanding database structure. The assistant converts requests into SQL queries and retrieves data directly from the Warehouse Management System. It generates charts, refines queries through conversation and presents results in a readable format. Self-service analytics lets customers and non-technical employees reach operational insight without the technical teams. The published result is $94,500 in projected annual cost savings, 60% less time handling data requests, and 15 hours saved per day. The critical design choice is that the assistant queries the system of record rather than a copy, which keeps the answer current but puts weight on query safety and access control. The citation does not describe how customer-level access is enforced, which is the main risk in exposing a shared warehouse database. The daily hours figure is more meaningful than the annual saving, because it describes capacity returned to the development team, and that capacity is what a logistics operator would otherwise have to buy in. The saving recurs monthly, which is what makes it worth engineering rather than buying as a one-off."
+    },
+    "takeaway": "Text-to-SQL works when the schema is yours and the permissions already exist. Point the assistant at the system of record, not a stale extract.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Complex requests required developers to write SQL queries against underlying databases.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Customer service and development teams spent about 25 employee-hours daily on reporting and data requests.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Gideon converts user requests into SQL and retrieves data from the Warehouse Management System.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "iHub operates a Virtual Logistics System across Singapore, Malaysia, Hong Kong and Thailand.",
+        "sourceIds": [
+          "T1-IHUB"
+        ],
+        "evidence": "corroborated",
+        "basis": "The company's own site independently describes VLS 2.0 in those markets."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Language model for natural-language to SQL translation and chart selection",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Direct query access to the Warehouse Management System",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Processing",
+        "what": "Conversational query refinement and chart generation",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Access",
+        "what": "Customer and employee self-service analytics",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "q",
+          "label": "Plain-language question",
+          "kind": "input"
+        },
+        {
+          "id": "g",
+          "label": "Gideon assistant",
+          "kind": "ai"
+        },
+        {
+          "id": "sql",
+          "label": "SQL generation",
+          "kind": "process"
+        },
+        {
+          "id": "wms",
+          "label": "Warehouse Management System",
+          "kind": "system"
+        },
+        {
+          "id": "chart",
+          "label": "Chart and result presentation",
+          "kind": "output"
+        },
+        {
+          "id": "user",
+          "label": "Customer or employee",
+          "kind": "human"
+        }
+      ],
+      "edges": [
+        [
+          "q",
+          "g"
+        ],
+        [
+          "g",
+          "sql"
+        ],
+        [
+          "sql",
+          "wms"
+        ],
+        [
+          "wms",
+          "chart"
+        ],
+        [
+          "chart",
+          "user"
+        ],
+        [
+          "user",
+          "g"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another logistics operator. This is not iHub's production system.",
+      "nodes": [
+        {
+          "id": "q",
+          "label": "User question",
+          "kind": "input"
+        },
+        {
+          "id": "sem",
+          "label": "Schema-aware prompt layer",
+          "kind": "process"
+        },
+        {
+          "id": "llm",
+          "label": "Query generation",
+          "kind": "ai"
+        },
+        {
+          "id": "guard",
+          "label": "Query allowlist and row limits",
+          "kind": "process"
+        },
+        {
+          "id": "db",
+          "label": "Read replica",
+          "kind": "system"
+        },
+        {
+          "id": "vis",
+          "label": "Chart rendering",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "q",
+          "sem"
+        ],
+        [
+          "sem",
+          "llm"
+        ],
+        [
+          "llm",
+          "guard"
+        ],
+        [
+          "guard",
+          "db"
+        ],
+        [
+          "db",
+          "vis"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Logistics and warehousing",
+        "Distribution",
+        "Any operator with a well-structured operational database"
+      ],
+      "requirements": [
+        "A documented schema with clear table and column names",
+        "A read-only database role",
+        "Row-level access rules per customer"
+      ],
+      "steps": [
+        "Start with a fixed set of the twenty most common questions",
+        "Test query generation against those questions with known answers",
+        "Add a read-only role and row limits before any user access",
+        "Log every generated query for review",
+        "Open self-service only after accuracy is stable"
+      ],
+      "tools": [
+        "Language model with schema context",
+        "Read replica",
+        "Query logging",
+        "BI or chart library"
+      ],
+      "risks": [
+        "A generated query that exposes another customer's data",
+        "Expensive queries affecting production performance",
+        "Confident answers from misinterpreted joins"
+      ],
+      "kpis": [
+        "Query accuracy against known answers",
+        "Data request turnaround",
+        "Developer hours spent on reporting",
+        "Failed query rate",
+        "Access exceptions"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Canned reports",
+          "description": "Build the most requested reports as self-service dashboards.",
+          "when": "Requests repeat and the questions are known."
+        },
+        {
+          "level": "Level 2",
+          "title": "Assisted query",
+          "description": "Let staff ask in plain language, with generated SQL reviewed before running.",
+          "when": "Requests vary and developers are the bottleneck."
+        },
+        {
+          "level": "Level 3",
+          "title": "Self-service analytics",
+          "description": "Give customers direct access with row-level permissions, logging and guardrails.",
+          "when": "Volume and customer demand justify the controls."
+        }
+      ]
+    },
+    "gaps": [
+      "No model or platform vendor is named.",
+      "Currency is published as '$' without specifying Singapore or US dollars.",
+      "Access control and query safety measures are not described publicly."
+    ],
+    "confidence": "B",
+    "companyUrl": "https://www.ihubsolutions.com/"
+  }
+]

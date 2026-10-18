@@ -1,0 +1,14 @@
+node_modules
+.next
+.nextbuild
+out
+.vercel
+.vercelbin
+.npmcache
+.vc-native.tgz
+data/content
+scripts
+research
+qa
+public/shots/*.png
+*.log

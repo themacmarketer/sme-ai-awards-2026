@@ -1,0 +1,1674 @@
+[
+  {
+    "idx": 5,
+    "slug": "greenphyto",
+    "companyUrl": "https://greenphyto.com/",
+    "headline": "Greenphyto runs a 23-metre indoor farm on computer vision, cutting crop inspection time tenfold.",
+    "useCase": "Computer vision",
+    "aiType": "Computer vision",
+    "outcomes": [
+      "Time",
+      "Quality",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Crop inspection time",
+        "value": "10x faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Productivity",
+        "value": "Up to 150x improvement",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Crop yield consistency",
+        "value": "90%",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Greenphyto operates a high-density indoor vertical farm for large-scale crop production. The company opened a S$80 million facility in January 2026. Independent reporting describes a 23-metre growing structure, robots that place seedlings, and image analysis of plant height and leaf condition to track growth. Vertical farming compresses many growing layers into a small footprint, so a single undetected problem can affect a large share of output at once.",
+      "c": "Plant defects and abnormal growth were not detected in time for intervention. Crop and equipment checks relied heavily on people working across multiple systems. Continuous crop measurement was limited, which made harvest planning difficult. In a stacked indoor farm, a person walking the racks sees a fraction of the crop at any moment, and the interval between inspections is the window in which a defect spreads. A defect found on a Tuesday walk-through had already affected the trays around it, and the cost appeared later as inconsistent yield rather than as a visible loss.",
+      "q": "How could the farm inspect every growing layer continuously, catch defects earlier than a manual walk-through allows, and forecast harvest with enough confidence to plan supply?",
+      "a": "Greenphyto built the AI-powered Farm Operations Management System, FOMS. It connects farm data, images, sensors and workflows into one system. Computer vision detects crop growth issues, defects and abnormalities earlier, and replaces many manual crop checks with image-based inspection. AI analysis of farm data improves yield forecasting, which supports harvest planning. Integrating farm systems, sensors and workflows reduces manual work, and real-time alerts flag problems such as lighting or device faults for follow-up. The published result is inspection ten times faster, a productivity improvement of up to 150 times, and 90% crop yield consistency. The company describes the platform as a fully integrated AI-driven autonomous farming system that lets operators farm without prior experience. Read plainly, the system moves the farm from periodic human observation to continuous machine observation, with people responding to exceptions. The citation does not state how many cameras cover the facility or how the model was trained, so the detection quality behind the tenfold figure is not documented. Yield consistency is the number that matters commercially, because a vertical farm's economics depend on predictable throughput across cycles rather than on peak output in a good one, and consistency is what buyers contract for."
+    },
+    "takeaway": "In a stacked growing environment, the sensor grid is the business. Continuous observation is what makes both quality and harvest forecasting possible.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "FOMS uses computer vision to detect crop growth issues, defects and abnormalities earlier.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "The system improves yield forecasting by analysing farm data with AI.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Greenphyto opened a S$80 million, 23-metre vertical farm in January 2026.",
+        "sourceIds": [
+          "T3-GREENPHYTO-BLOOMBERG"
+        ],
+        "evidence": "corroborated",
+        "basis": "Reported independently by Bloomberg-syndicated coverage. The report describes the facility and its automation; it does not name FOMS."
+      },
+      {
+        "id": "c4",
+        "text": "Greenphyto describes its platform as a fully integrated AI-driven autonomous farming platform.",
+        "sourceIds": [
+          "T1-GREENPHYTO-SITE"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Computer vision for defect and growth-stage detection",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Sensing",
+        "what": "Farm sensors, cameras and equipment telemetry",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Processing",
+        "what": "Yield forecasting from farm data",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Farm systems and workflows joined into one operations system",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Automation",
+        "what": "Robotic seedling placement and environmental control",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T3-GREENPHYTO-BLOOMBERG"
+        ],
+        "basis": "Described in independent reporting on the facility, not in the award citation."
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-01-07",
+        "event": "S$80 million, 23-metre vertical farm opens; independent coverage describes automation and AI-controlled growing conditions.",
+        "sourceIds": [
+          "T3-GREENPHYTO-BLOOMBERG"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "cam",
+          "label": "Crop images and sensors",
+          "kind": "input"
+        },
+        {
+          "id": "cv",
+          "label": "Defect detection",
+          "kind": "ai"
+        },
+        {
+          "id": "fc",
+          "label": "Yield forecasting",
+          "kind": "ai"
+        },
+        {
+          "id": "int",
+          "label": "Integrated farm systems",
+          "kind": "system"
+        },
+        {
+          "id": "al",
+          "label": "Real-time alerts",
+          "kind": "process"
+        },
+        {
+          "id": "op",
+          "label": "Farm operator response",
+          "kind": "human"
+        },
+        {
+          "id": "har",
+          "label": "Harvest plan",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "cam",
+          "cv"
+        ],
+        [
+          "cam",
+          "fc"
+        ],
+        [
+          "int",
+          "al"
+        ],
+        [
+          "cv",
+          "al"
+        ],
+        [
+          "al",
+          "op"
+        ],
+        [
+          "fc",
+          "har"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another indoor farm. This is not Greenphyto's production system.",
+      "nodes": [
+        {
+          "id": "c",
+          "label": "Fixed cameras per grow tier",
+          "kind": "input"
+        },
+        {
+          "id": "edge",
+          "label": "Edge inference",
+          "kind": "process"
+        },
+        {
+          "id": "det",
+          "label": "Growth-stage and defect model",
+          "kind": "ai"
+        },
+        {
+          "id": "db",
+          "label": "Crop record store",
+          "kind": "system"
+        },
+        {
+          "id": "dash",
+          "label": "Tier heatmap dashboard",
+          "kind": "output"
+        },
+        {
+          "id": "grow",
+          "label": "Grower intervention",
+          "kind": "human"
+        }
+      ],
+      "edges": [
+        [
+          "c",
+          "edge"
+        ],
+        [
+          "edge",
+          "det"
+        ],
+        [
+          "det",
+          "db"
+        ],
+        [
+          "db",
+          "dash"
+        ],
+        [
+          "dash",
+          "grow"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Indoor and vertical farms",
+        "Plant nurseries",
+        "Controlled-environment horticulture",
+        "Food processing inspection"
+      ],
+      "requirements": [
+        "Fixed camera positions with consistent lighting",
+        "A labelled image set of healthy and defective plants",
+        "A grower who can act on a flag within the same shift"
+      ],
+      "steps": [
+        "Photograph a sample of tiers on a fixed schedule and label defects",
+        "Train a narrow classifier for the top three defect types",
+        "Run in parallel with manual inspection and compare findings",
+        "Add yield forecasting once growth-stage labels are consistent",
+        "Extend to environmental and equipment alerts"
+      ],
+      "tools": [
+        "Fixed cameras",
+        "Edge inference device or managed vision API",
+        "Time-series or image store",
+        "Dashboard"
+      ],
+      "risks": [
+        "Lighting changes that shift model output",
+        "Class imbalance when defects are rare",
+        "Alert fatigue from low-precision flags"
+      ],
+      "kpis": [
+        "Defect detection recall",
+        "Inspection minutes per tier",
+        "Forecast error against actual harvest",
+        "Yield consistency",
+        "Time from flag to intervention"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Scheduled imaging",
+          "description": "Fixed cameras and a human reviewing a daily image set.",
+          "when": "Inspection is manual and the team is small."
+        },
+        {
+          "level": "Level 2",
+          "title": "Assisted detection",
+          "description": "A trained classifier flags suspect plants and routes them to a grower.",
+          "when": "Labelled images and stable lighting exist."
+        },
+        {
+          "level": "Level 3",
+          "title": "Closed-loop farm operations",
+          "description": "Join vision, sensors and equipment control, with forecasting and automated alerts.",
+          "when": "The facility is instrumented and volumes justify engineering."
+        }
+      ]
+    },
+    "gaps": [
+      "No camera, model or platform vendor is named.",
+      "The 150x productivity figure has no stated unit of comparison.",
+      "The relationship between FOMS and the January 2026 facility is not documented in public sources."
+    ],
+    "confidence": "A"
+  },
+  {
+    "idx": 6,
+    "slug": "iapps-health-group",
+    "companyUrl": "https://www.1doc.sg/",
+    "headline": "iAPPS Health Group built an AI-native clinic operating system and lifted doctor productivity up to four times.",
+    "useCase": "Clinical decision support",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Capacity",
+      "Revenue",
+      "Time"
+    ],
+    "metrics": [
+      {
+        "label": "Doctor productivity",
+        "value": "Up to 4x increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Health coach productivity",
+        "value": "Up to 10x increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Revenue across AI-enabled clinics",
+        "value": "Up to 4x growth",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "iAPPS Health Group provides primary care, preventive health and diagnostic services supported by proprietary digital health infrastructure. Its consumer brand, 1doc, operates a network of clinics and corporate health programmes. Third-party reporting in October 2025 recorded 9 own clinics and 21 affiliated clinics, more than 79,000 patients served and over 300 corporate clients. A clinic network of that shape generates administrative load faster than clinical revenue.",
+      "c": "Pharmacy, claims and finance processes needed significant administrative resources as clinic operations grew. Patient records, pharmacy, claims, finance and workforce management sat in isolated systems. Workload was uneven and decision support was limited, which made it hard to expand while holding care quality constant. The constraint was not clinical demand. It was the administrative and coordination cost of serving each additional patient. Doctors absorbed the difference, which meant clinical time was being spent on administration rather than on patients.",
+      "q": "How could the group expand clinic capacity without proportionally more administrative staff, while keeping doctors accountable for every clinical decision?",
+      "a": "The group built 1docAI, described as an AI-native healthcare operating system. It connects six AI domains: patient care, clinical decision-making, health coaching, pharmacy, enterprise operations and payments. Patient management coordinates appointments, live queues and follow-ups. Clinical decision support retrieves source-linked clinical evidence, supports diagnostic reasoning and applies safety checks, with final decisions made by doctors. Health coaching uses longitudinal health data and behavioural signals to provide personalised coaching between consultations. Pharmacy and enterprise operations automate dispensing, inventory, claims, finance, reconciliation, HR and rostering. Clinical, operational and payment workflows share one longitudinal patient record. The published result is up to four times higher doctor productivity, up to ten times higher health coach productivity, and up to four times revenue growth across AI-enabled clinics. The design boundary is explicit: AI retrieves and drafts, the doctor decides. The citation does not publish clinical validation results, so the effect on diagnostic accuracy, as distinct from throughput, is not established. The coaching multiple is larger than the doctor multiple, which fits the design: coaching is routine guidance that a model can carry between consultations, while clinical judgement cannot be delegated without a governance answer."
+    },
+    "takeaway": "Start with the record, not the model. A shared longitudinal record is what lets six AI domains serve one patient safely.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "1docAI connects six AI domains across patient care, clinical decision-making, health coaching, pharmacy, enterprise operations and payments.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Clinical decision support retrieves source-linked evidence and applies safety checks, with final decisions made by doctors.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "The 1doc network operates 9 own clinics and 21 affiliated clinics, and has served more than 79,000 patients.",
+        "sourceIds": [
+          "T3-1DOC-GSD"
+        ],
+        "evidence": "stated",
+        "basis": "Reported by Sina in October 2025 in coverage of a corporate partnership. Figures are third-party reported and predate the award."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Clinical evidence retrieval and diagnostic reasoning support",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Data",
+        "what": "Shared longitudinal patient record across clinical, operational and payment workflows",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Orchestration",
+        "what": "Six AI domains coordinated across care and operations",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Appointments, pharmacy, claims, finance, HR and rostering",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Safety checks and doctor sign-off on clinical decisions",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-10-23",
+        "event": "Third-party coverage records network scale and patient numbers.",
+        "sourceIds": [
+          "T3-1DOC-GSD"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "pat",
+          "label": "Patient encounter and history",
+          "kind": "input"
+        },
+        {
+          "id": "cds",
+          "label": "Clinical decision support",
+          "kind": "ai"
+        },
+        {
+          "id": "coach",
+          "label": "Health coaching",
+          "kind": "ai"
+        },
+        {
+          "id": "rec",
+          "label": "Longitudinal record",
+          "kind": "system"
+        },
+        {
+          "id": "pharm",
+          "label": "Pharmacy and claims automation",
+          "kind": "process"
+        },
+        {
+          "id": "doc",
+          "label": "Doctor decision",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Care plan, dispensing, payment",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "pat",
+          "rec"
+        ],
+        [
+          "rec",
+          "cds"
+        ],
+        [
+          "cds",
+          "doc"
+        ],
+        [
+          "rec",
+          "coach"
+        ],
+        [
+          "doc",
+          "pharm"
+        ],
+        [
+          "pharm",
+          "out"
+        ],
+        [
+          "coach",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another clinic group. This is not iAPPS Health Group's production system.",
+      "nodes": [
+        {
+          "id": "emr",
+          "label": "Electronic medical record",
+          "kind": "system"
+        },
+        {
+          "id": "ret",
+          "label": "Guideline retrieval",
+          "kind": "ai"
+        },
+        {
+          "id": "sum",
+          "label": "Consultation summary draft",
+          "kind": "ai"
+        },
+        {
+          "id": "clin",
+          "label": "Clinician review and sign-off",
+          "kind": "human"
+        },
+        {
+          "id": "bill",
+          "label": "Claims and billing",
+          "kind": "process"
+        },
+        {
+          "id": "out",
+          "label": "Record update and claim",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "emr",
+          "ret"
+        ],
+        [
+          "ret",
+          "sum"
+        ],
+        [
+          "sum",
+          "clin"
+        ],
+        [
+          "clin",
+          "bill"
+        ],
+        [
+          "bill",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Clinic groups",
+        "Diagnostic providers",
+        "Corporate health programmes",
+        "Allied health networks"
+      ],
+      "requirements": [
+        "A single patient identifier across systems",
+        "A curated, versioned clinical evidence source",
+        "Written clinical governance rules and a named medical owner"
+      ],
+      "steps": [
+        "Consolidate the patient record before adding AI",
+        "Pilot decision support on one low-risk condition",
+        "Measure agreement with clinician judgement, not just speed",
+        "Add administrative automation such as claims and dispensing",
+        "Extend to coaching with clinical oversight"
+      ],
+      "tools": [
+        "Electronic medical record with API access",
+        "Grounded retrieval over clinical guidelines",
+        "Claims and billing integration",
+        "Audit logging"
+      ],
+      "risks": [
+        "Automation bias in clinical decisions",
+        "Patient data handling that breaches the PDPA or professional obligations",
+        "Model drift when guidelines change"
+      ],
+      "kpis": [
+        "Patients seen per clinician hour",
+        "Documentation time per consultation",
+        "Guideline concordance",
+        "Claim rejection rate",
+        "Adverse event reviews"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Administrative automation",
+          "description": "Automate appointments, reminders and claims submission.",
+          "when": "Administrative load limits clinic capacity."
+        },
+        {
+          "level": "Level 2",
+          "title": "Documentation and retrieval support",
+          "description": "Draft consultation notes and surface guidelines, with clinician sign-off.",
+          "when": "Documentation time is the main constraint."
+        },
+        {
+          "level": "Level 3",
+          "title": "Integrated care operating system",
+          "description": "Join clinical, pharmacy, claims and coaching on one longitudinal record with governance.",
+          "when": "Multiple clinics and a mature clinical governance function."
+        }
+      ]
+    },
+    "gaps": [
+      "No model provider or clinical validation study is published.",
+      "Productivity multiples have no stated baseline or measurement method.",
+      "Six AI domains are named but not individually documented."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 7,
+    "slug": "kyanon-digital",
+    "companyUrl": "https://kyanondigital.com/",
+    "headline": "Kyanon Digital productised its AI delivery stack, cutting new engagement setup time by 83%.",
+    "useCase": "Platform engineering",
+    "aiType": "Agentic workflow",
+    "outcomes": [
+      "Time",
+      "Capacity",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Setup time for new AI engagements",
+        "value": "83% reduction",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Business-rule changes",
+        "value": "80x faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Concurrent AI delivery capacity",
+        "value": "75% increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Kyanon Digital is a digital technology company and agile software development firm specialising in digital transformation, data analytics and enterprise IT. It delivers AI work for client organisations. A third-party report in April 2026 records that its Kyanon Consulting unit, formed in 2025, serves retail, banking and manufacturing clients. Consultancy economics depend on how much of each engagement is genuinely new work.",
+      "c": "Teams rebuilt common capabilities for agent orchestration, retrieval, integrations, AI evaluation and monitoring before client-specific development could begin. Business rules were embedded in application code, so a routine rule change needed about five working days of engineering effort. AI quality checks depended heavily on manual review. The company could support around four concurrent AI engagements without adding senior AI engineers at the same rate. Demand could grow, but capacity could not, because each project started from zero. Senior engineers were therefore the constraint on revenue, and every new client competed for the same small group.",
+      "q": "How could the firm stop rebuilding the same AI foundations on every engagement, and let non-engineers change business rules without a five-day code cycle?",
+      "a": "Kyanon built WisdomMind, an enterprise AI platform that standardises core AI capabilities, business rules, integrations and quality controls. Teams start from a governed production framework and adapt it per client. A reusable foundation provides shared agent orchestration, retrieval, integrations and deployment. Governed business-rule management separates rules from application code, so authorised teams can update rules directly, with evaluation, versioning and approval applied before changes reach production. Automated quality evaluation tests AI changes against defined ground-truth scenarios and business rules before deployment, which catches regressions consistently rather than by inspection. Shared integration interfaces are built once and reused across agents and engagements. End-to-end monitoring tracks execution, latency, errors and inference cost. The citation reports 83% less setup time, business-rule changes 80 times faster, and 75% more concurrent delivery capacity. The citation does not report defect rates or client outcomes, so the platform's effect on delivery quality is not documented. The rule-change figure is the one that alters the commercial model, because it moves a task from engineering to operations without moving accountability, which is the difference between selling hours and selling a platform."
+    },
+    "takeaway": "If every project rebuilds retrieval, evaluation and monitoring, you are not selling AI. You are selling repeated setup.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "A routine business-rule change required around five working days of engineering effort.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "The company could support around four concurrent AI engagements without adding senior AI engineers at the same rate.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Automated evaluation tests AI changes against ground-truth scenarios before deployment.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Kyanon Consulting, formed in 2025, serves retail, banking and manufacturing clients.",
+        "sourceIds": [
+          "T3-KYANON-ANDERSEN"
+        ],
+        "evidence": "stated",
+        "basis": "Third-party report on a partnership announcement. Provides company context only."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Models used by client agents, routed through the platform",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Orchestration",
+        "what": "Shared agent orchestration and retrieval capabilities",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Rules",
+        "what": "Business rules separated from application code with versioning and approval",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Evaluation",
+        "what": "Automated testing against ground-truth scenarios before deployment",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Monitoring",
+        "what": "Execution, latency, error and inference-cost tracking",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Reusable enterprise integration and tool interfaces",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-01-01",
+        "event": "Kyanon Consulting unit formed, per third-party report.",
+        "sourceIds": [
+          "T3-KYANON-ANDERSEN"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "req",
+          "label": "Client engagement requirements",
+          "kind": "input"
+        },
+        {
+          "id": "fnd",
+          "label": "Reusable AI foundation",
+          "kind": "system"
+        },
+        {
+          "id": "rule",
+          "label": "Governed rule management",
+          "kind": "process"
+        },
+        {
+          "id": "eval",
+          "label": "Automated quality evaluation",
+          "kind": "ai"
+        },
+        {
+          "id": "dep",
+          "label": "Deployment",
+          "kind": "process"
+        },
+        {
+          "id": "mon",
+          "label": "Execution and cost monitoring",
+          "kind": "process"
+        },
+        {
+          "id": "out",
+          "label": "Client AI application",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "req",
+          "fnd"
+        ],
+        [
+          "fnd",
+          "rule"
+        ],
+        [
+          "rule",
+          "eval"
+        ],
+        [
+          "eval",
+          "dep"
+        ],
+        [
+          "dep",
+          "out"
+        ],
+        [
+          "out",
+          "mon"
+        ],
+        [
+          "mon",
+          "eval"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another AI delivery firm. This is not Kyanon's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "Engagement brief",
+          "kind": "input"
+        },
+        {
+          "id": "tpl",
+          "label": "Reference implementation template",
+          "kind": "system"
+        },
+        {
+          "id": "rag",
+          "label": "Retrieval module",
+          "kind": "ai"
+        },
+        {
+          "id": "cfg",
+          "label": "Rule configuration interface",
+          "kind": "process"
+        },
+        {
+          "id": "test",
+          "label": "Regression test suite",
+          "kind": "process"
+        },
+        {
+          "id": "obs",
+          "label": "Tracing and cost dashboard",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "tpl"
+        ],
+        [
+          "tpl",
+          "rag"
+        ],
+        [
+          "tpl",
+          "cfg"
+        ],
+        [
+          "cfg",
+          "test"
+        ],
+        [
+          "test",
+          "obs"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "AI consultancies",
+        "Systems integrators",
+        "In-house platform teams serving several business units"
+      ],
+      "requirements": [
+        "Two or three real projects to abstract from",
+        "A test set of representative scenarios per domain",
+        "Version control and approval workflow for rule changes"
+      ],
+      "steps": [
+        "Extract shared components from the second similar project, not the first",
+        "Move business rules out of code into configuration",
+        "Build a regression suite before enabling self-service rules",
+        "Add cost and latency monitoring",
+        "Measure setup time per engagement before and after"
+      ],
+      "tools": [
+        "Agent orchestration framework",
+        "Vector store",
+        "Rules engine or configuration service",
+        "Evaluation harness",
+        "Observability stack"
+      ],
+      "risks": [
+        "Premature abstraction from a single project",
+        "Rule changes that bypass evaluation",
+        "Platform debt that clients inherit"
+      ],
+      "kpis": [
+        "Days from contract to first working prototype",
+        "Rule change lead time",
+        "Regression escape rate",
+        "Concurrent engagements per senior engineer",
+        "Inference cost per engagement"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Template library",
+          "description": "Maintain reusable prompts, connectors and deployment scripts.",
+          "when": "Fewer than five engagements a year."
+        },
+        {
+          "level": "Level 2",
+          "title": "Shared platform",
+          "description": "Centralise orchestration, retrieval and evaluation behind a configuration layer.",
+          "when": "Repeatable engagement types emerge."
+        },
+        {
+          "level": "Level 3",
+          "title": "Governed AI platform",
+          "description": "Add rule versioning, approval gates, automated evaluation and cost monitoring.",
+          "when": "Multiple delivery teams and regulated clients."
+        }
+      ]
+    },
+    "gaps": [
+      "No model vendor or cloud provider is named.",
+      "The 80x rule-change figure compares a five-day cycle with an unstated new cycle time.",
+      "Platform architecture is described only at capability level."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 8,
+    "slug": "limteh-project",
+    "headline": "Limteh Project reads personalised gift orders with AI and cut rework on orders by 80%.",
+    "useCase": "Order processing",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Quality",
+      "Time",
+      "Cost"
+    ],
+    "metrics": [
+      {
+        "label": "Rework on orders",
+        "value": "80% less",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Staff time",
+        "value": "More than 20 hours saved each week",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Cost",
+        "value": "Up to $5,800 saved monthly",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Limteh Project creates customised corporate gifts, gift sets and personalised presents. Each order carries customer-specific text, names, logos or artwork. The business runs on marketplaces and chat channels, so the personalisation instruction arrives as free text in whichever channel the customer used.",
+      "c": "Personalisation details arrived through order notes, customer chats and messages, sometimes in different languages. Staff processed around 2,500 orders a month by hand, which created a daily production bottleneck. Order mistakes produced reprints, reshipping, wasted materials and unhappy customers. In a made-to-order business, an error found after printing cannot be corrected cheaply, because the material is already consumed. Staff time was also the constraint on customer service, because the same people answered enquiries, prepared production files and chased artwork approvals, so a busy week in production became a slow week for customers.",
+      "q": "How could the company interpret thousands of free-text personalisation requests accurately enough to send straight to production, without a person retyping every order?",
+      "a": "Limteh built Milo, an AI order automation system that carries personalised orders from sales to production. It reads orders and marketplace chats to identify each customer's personalisation requirements. It turns those requirements into production instructions and automates print-file preparation. A verification step cross-checks order details and flags uncertain orders for staff review, which keeps a person on the ambiguous cases rather than on every case. The system learns from staff corrections, so accuracy improves with use. Beyond production, it automates sales reporting, stock alerts, profit-and-loss dashboards and marketing content creation. The published result is 80% less rework on orders, more than 20 hours saved each week, and up to $5,800 saved monthly. The pattern is a narrow, high-value extraction task with a human exception queue, rather than a general assistant. The design also keeps a person on the ambiguous cases rather than on every case, which is what makes the throughput gain compatible with made-to-order accuracy at this volume. The monthly saving is small in absolute terms, which is precisely why it matters here: at this order volume the fix had to be cheap enough to justify itself quickly, and a large platform investment would not have paid back."
+    },
+    "takeaway": "In made-to-order production, accuracy is cheaper than speed. Route uncertain orders to a person before the printer starts.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Personalisation details arrived through order notes, chats and messages in different languages.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Staff processed around 2,500 orders each month manually.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Milo cross-checks order details and flags uncertainties for staff review, and learns from staff corrections.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Language model for order interpretation and verification",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Processing",
+        "what": "Production instruction generation and print-file preparation",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Marketplace and chat channels",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Feedback",
+        "what": "Learning from staff corrections",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Reporting",
+        "what": "Sales reporting, stock alerts and P&L dashboards",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "ord",
+          "label": "Marketplace orders and chats",
+          "kind": "input"
+        },
+        {
+          "id": "int",
+          "label": "Order interpretation",
+          "kind": "ai"
+        },
+        {
+          "id": "ver",
+          "label": "AI verification",
+          "kind": "ai"
+        },
+        {
+          "id": "rev",
+          "label": "Staff review of flagged orders",
+          "kind": "human"
+        },
+        {
+          "id": "prod",
+          "label": "Production instructions and print files",
+          "kind": "process"
+        },
+        {
+          "id": "out",
+          "label": "Printed personalised order",
+          "kind": "output"
+        },
+        {
+          "id": "learn",
+          "label": "Correction learning",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        [
+          "ord",
+          "int"
+        ],
+        [
+          "int",
+          "ver"
+        ],
+        [
+          "ver",
+          "rev"
+        ],
+        [
+          "rev",
+          "prod"
+        ],
+        [
+          "prod",
+          "out"
+        ],
+        [
+          "rev",
+          "learn"
+        ],
+        [
+          "learn",
+          "int"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another made-to-order business. This is not Limteh's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "Order export from marketplace",
+          "kind": "input"
+        },
+        {
+          "id": "ext",
+          "label": "Field extraction with schema",
+          "kind": "ai"
+        },
+        {
+          "id": "chk",
+          "label": "Validation rules",
+          "kind": "process"
+        },
+        {
+          "id": "q",
+          "label": "Exception queue",
+          "kind": "human"
+        },
+        {
+          "id": "tpl",
+          "label": "Print template fill",
+          "kind": "system"
+        },
+        {
+          "id": "out",
+          "label": "Print-ready file",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "ext"
+        ],
+        [
+          "ext",
+          "chk"
+        ],
+        [
+          "chk",
+          "q"
+        ],
+        [
+          "chk",
+          "tpl"
+        ],
+        [
+          "q",
+          "tpl"
+        ],
+        [
+          "tpl",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Corporate gifting and personalisation",
+        "Print and apparel",
+        "Custom manufacturing",
+        "E-commerce with order notes"
+      ],
+      "requirements": [
+        "Order export with the raw customer text intact",
+        "A defined output schema for production",
+        "A person available to clear an exception queue daily"
+      ],
+      "steps": [
+        "Collect 500 past orders with the final production instruction as ground truth",
+        "Define a strict extraction schema",
+        "Measure field-level accuracy before automating file generation",
+        "Add the exception queue and track its size",
+        "Feed corrections back into prompts or examples weekly"
+      ],
+      "tools": [
+        "Marketplace API or order export",
+        "Language model with structured output",
+        "Validation rules",
+        "Print or production template engine"
+      ],
+      "risks": [
+        "Hallucinated personalisation text",
+        "Mixed-language orders misread",
+        "Exception queue growing faster than staff can clear it"
+      ],
+      "kpis": [
+        "Field accuracy against ground truth",
+        "Rework rate",
+        "Exception rate",
+        "Orders processed per staff hour",
+        "Cost per order"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Structured order form",
+          "description": "Constrain customer input with a form so personalisation arrives as fields, not prose.",
+          "when": "Customers can be guided at the point of order."
+        },
+        {
+          "level": "Level 2",
+          "title": "Assisted extraction",
+          "description": "Extract fields from free text and route low-confidence orders to staff.",
+          "when": "Orders arrive through marketplaces and chat."
+        },
+        {
+          "level": "Level 3",
+          "title": "Automated production handoff",
+          "description": "Generate print-ready files automatically, with verification and a correction feedback loop.",
+          "when": "Accuracy is proven and volume justifies integration."
+        }
+      ]
+    },
+    "gaps": [
+      "No model or platform vendor is named.",
+      "Currency is published as '$' without specifying Singapore or US dollars.",
+      "No independent coverage was located."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 9,
+    "slug": "lithan-academy",
+    "companyUrl": "https://www.lithan.com/",
+    "headline": "Lithan Academy cut curriculum development time by 75% and grew revenue about 60% year on year.",
+    "useCase": "Content generation",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Time",
+      "Revenue",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Curriculum development",
+        "value": "75% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Manual monitoring and support",
+        "value": "60% less",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Revenue",
+        "value": "About 60% year-on-year growth",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Lithan Academy provides adult education intended to bridge AI skills for the workforce. Its model is Competency Learning as a Service, which combines structured curricula with work-integrated learning. Course development is the production line: a module must map to competencies, carry content, assessments and rubrics, and survive quality review.",
+      "c": "A 60-hour module required around 300 staff hours to map competencies and prepare content, assessments and rubrics. Learners progressed at different speeds, and limited trainer capacity made timely, customised support difficult. Attendance, assignments and programme progress were tracked separately, so learner problems surfaced late. The organisation was constrained at both ends: slow to produce a course, and slow to notice a learner falling behind. Both constraints hit the same budget line, so investment in course production competed directly with learner support.",
+      "q": "How could the academy produce courses faster and support each learner individually, without diluting curriculum quality or losing trainer oversight?",
+      "a": "Lithan built Adaptive CLaaS, an AI-powered personalised learning system in three modules. CLaaS Developer uses generative AI to draft learning pathways, session plans, content and assessments, with AI-assisted quality checks and curriculum teams reviewing and refining the output. CLaaS Mentor adjusts pace and difficulty based on learner progress and recommends resources for identified gaps, while providing on-demand guidance, reminders and automated assessment feedback, and escalating learners who need more support. CLaaS Manager consolidates enrolment, attendance, assignment completion and programme progress into a single view. The citation reports 75% faster curriculum development, 60% less manual monitoring and support, and about 60% year-on-year revenue growth. The human-in-the-loop boundary is explicit: AI handles repetitive drafting and routine guidance, while curriculum teams and trainers remain responsible for content quality and complex interventions. The citation does not report learning outcomes or completion rates, so the effect on educational quality, as distinct from production speed, is unmeasured. Revenue growth is the least attributable figure in the citation, because course production speed is one input among several, alongside demand for AI skills, pricing, and the sales capacity to fill the additional courses produced. Completion and pass rates would show whether faster production improved learning or merely accelerated it."
+    },
+    "takeaway": "Generate the draft, not the decision. Curriculum teams kept authority over quality, which is what made the speed gain safe to sell.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "A 60-hour module required around 300 staff hours to develop.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "CLaaS Mentor adjusts learning pace and difficulty based on learner progress.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Attendance, assignments and programme progress were tracked separately before the change.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Lithan operates Competency Learning as a Service and describes AI-powered enterprise digitalisation.",
+        "sourceIds": [
+          "T1-LITHAN"
+        ],
+        "evidence": "corroborated",
+        "basis": "The company's own site independently describes the CLaaS model and AI-powered digitalisation."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Generative AI for curriculum drafting and assessment feedback",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Applications",
+        "what": "CLaaS Developer, CLaaS Mentor and CLaaS Manager",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Processing",
+        "what": "Adaptive pacing and resource recommendation",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Enrolment, attendance, assignments and programme progress",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Curriculum team review and trainer responsibility for quality",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "comp",
+          "label": "Competency requirements",
+          "kind": "input"
+        },
+        {
+          "id": "dev",
+          "label": "CLaaS Developer drafting",
+          "kind": "ai"
+        },
+        {
+          "id": "qchk",
+          "label": "AI quality checks",
+          "kind": "process"
+        },
+        {
+          "id": "team",
+          "label": "Curriculum team review",
+          "kind": "human"
+        },
+        {
+          "id": "men",
+          "label": "CLaaS Mentor adaptation",
+          "kind": "ai"
+        },
+        {
+          "id": "mgr",
+          "label": "CLaaS Manager 360 view",
+          "kind": "system"
+        },
+        {
+          "id": "out",
+          "label": "Delivered module and learner support",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "comp",
+          "dev"
+        ],
+        [
+          "dev",
+          "qchk"
+        ],
+        [
+          "qchk",
+          "team"
+        ],
+        [
+          "team",
+          "out"
+        ],
+        [
+          "men",
+          "out"
+        ],
+        [
+          "mgr",
+          "men"
+        ],
+        [
+          "team",
+          "mgr"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another training provider. This is not Lithan's production system.",
+      "nodes": [
+        {
+          "id": "std",
+          "label": "Competency framework",
+          "kind": "input"
+        },
+        {
+          "id": "gen",
+          "label": "Draft generator with templates",
+          "kind": "ai"
+        },
+        {
+          "id": "rub",
+          "label": "Rubric and assessment builder",
+          "kind": "process"
+        },
+        {
+          "id": "sme",
+          "label": "Subject expert review",
+          "kind": "human"
+        },
+        {
+          "id": "lms",
+          "label": "Learning management system",
+          "kind": "system"
+        },
+        {
+          "id": "dash",
+          "label": "Learner progress dashboard",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "std",
+          "gen"
+        ],
+        [
+          "gen",
+          "rub"
+        ],
+        [
+          "rub",
+          "sme"
+        ],
+        [
+          "sme",
+          "lms"
+        ],
+        [
+          "lms",
+          "dash"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Training providers",
+        "Corporate learning teams",
+        "Universities and polytechnics",
+        "Professional certification bodies"
+      ],
+      "requirements": [
+        "A written competency framework",
+        "Past courses with expert-reviewed versions as reference",
+        "Trainers with authority to reject generated content"
+      ],
+      "steps": [
+        "Pick one module and measure current development hours",
+        "Generate drafts against the competency framework with strict templates",
+        "Have subject experts edit and record their changes",
+        "Use the edits to tighten templates before scaling",
+        "Add learner monitoring once content production is stable"
+      ],
+      "tools": [
+        "Language model with long-context drafting",
+        "Learning management system",
+        "Assessment and rubric templates",
+        "Analytics dashboard"
+      ],
+      "risks": [
+        "Generic content that passes review but teaches nothing",
+        "Assessment items that leak answers",
+        "Over-automation of feedback that learners need from a person"
+      ],
+      "kpis": [
+        "Staff hours per module",
+        "Expert edit ratio",
+        "Learner completion rate",
+        "Assessment pass rate",
+        "Trainer hours per learner"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Drafting assistant",
+          "description": "Use a language model to draft session plans and quiz items from an existing outline.",
+          "when": "Development time is the bottleneck."
+        },
+        {
+          "level": "Level 2",
+          "title": "Structured generation pipeline",
+          "description": "Generate against a competency framework with templates, rubrics and expert review.",
+          "when": "Multiple modules and consistent quality are required."
+        },
+        {
+          "level": "Level 3",
+          "title": "Adaptive learning system",
+          "description": "Add pace adaptation, automated feedback and consolidated learner monitoring.",
+          "when": "Learner support capacity is the constraint."
+        }
+      ]
+    },
+    "gaps": [
+      "No model provider is named.",
+      "Revenue growth is attributed to the AI system but other commercial factors are not excluded.",
+      "No independent evaluation of learning outcomes is published."
+    ],
+    "confidence": "B"
+  }
+]

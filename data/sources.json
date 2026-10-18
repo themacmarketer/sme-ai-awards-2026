@@ -1,0 +1,280 @@
+{
+  "retrieved": "2026-10-18",
+  "sources": [
+    {
+      "id": "T0-AWARDS",
+      "title": "SME AI Impact Awards 2026 — official winners and award citations",
+      "publisher": "Infocomm Media Development Authority (IMDA) and Singapore Business Federation (SBF)",
+      "url": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "tier": "T0",
+      "published": "2026-10-16",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Canonical source. Page last updated 16 October 2026. Publishes one profile per winner: company description, three key challenges, named AI solution, solution components and three headline metrics. No individual winner URLs are published."
+    },
+    {
+      "id": "T1-PRN-INAUGURAL",
+      "title": "Building AI-Ready Enterprises: New Initiatives to Drive AI Deployment at Scale and Strengthen Digital Resilience",
+      "publisher": "PR Newswire APAC (IMDA media release)",
+      "url": "https://en.prnasia.com/releases/global/building-ai-ready-enterprises-new-initiatives-to-drive-ai-deployment-at-scale-and-strengthen-digital-resilience-534030.shtml",
+      "tier": "T1",
+      "published": "2026-05-21",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Announces the inaugural awards, the two categories, the 30-winner ceiling, the Trustmark, and the 13 October 2026 announcement date."
+    },
+    {
+      "id": "T1-BT-LAUNCH",
+      "title": "Singapore ramps up AI push for SMEs with new initiatives, partnerships",
+      "publisher": "The Business Times",
+      "url": "https://www.businesstimes.com.sg/singapore/singapore-ramps-ai-push-smes-new-initiatives-partnerships",
+      "tier": "T1",
+      "published": "2026-05-21",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Independent report on the launch of the awards under the National AI Impact Programme."
+    },
+    {
+      "id": "T1-ACCB-AI",
+      "title": "Accountingbpo — AI accounting platform and service-provider disclosures",
+      "publisher": "Accountingbpo",
+      "url": "https://accountingbpo.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company site names Google Cloud and Cloudflare for hosting and storage, and Google Vertex AI and Claude for Teams as AI services. Describes Yi.ngdom, Yi.ncome and Yi.Suite product family. Link check on 18 October 2026 returned HTTP 403 to an automated client; the page was retrieved successfully during research and loads normally in a browser."
+    },
+    {
+      "id": "T1-BMA-AWARD",
+      "title": "Best Marketing Agency — award announcement and AI operating system",
+      "publisher": "Best Marketing Agency Pte Ltd",
+      "url": "https://www.bestmarketing.com.sg/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company states it won the IMDA SME AI Impact Awards 2026 Innovation Excellence Trustmark for Big Beast. Describes a 24/7 AI salesperson and AI-augmented delivery team."
+    },
+    {
+      "id": "T1-GREENPHYTO-SITE",
+      "title": "Greenphyto — AI-driven autonomous farming platform",
+      "publisher": "Greenphyto",
+      "url": "https://greenphyto.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company describes a fully integrated AI-driven autonomous farming platform that automates cultivation and optimises crop growth."
+    },
+    {
+      "id": "T3-GREENPHYTO-BLOOMBERG",
+      "title": "World's tallest vertical farm opens in import-reliant Singapore",
+      "publisher": "Energy Connects (Bloomberg syndication)",
+      "url": "https://www.energyconnects.com/news/renewables/2026/january/world-s-tallest-vertical-farm-opens-in-import-reliant-singapore-1/",
+      "tier": "T3",
+      "published": "2026-01-07",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Independent report on the S$80 million, 23-metre Greenphyto facility, its automation and its use of AI to control growing conditions."
+    },
+    {
+      "id": "T1-SFA-BLUEAQUA",
+      "title": "Blue Aqua International — farm profile",
+      "publisher": "Singapore Food Agency (SFA), From SG to SG",
+      "url": "https://www.sfa.gov.sg/fromSGtoSG/farms/farm/Detail/blue-aqua-international",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Government profile. States the company operates a local hatchery that nurtures over 100 million post-larval shrimp a year."
+    },
+    {
+      "id": "T1-BLUEAQUA-SITE",
+      "title": "Blue Aqua International — aquaculture solutions",
+      "publisher": "Blue Aqua International",
+      "url": "https://www.blueaquaint.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company site covering farm care, nutrition, alternative protein and consultancy."
+    },
+    {
+      "id": "T2-GETGO-ZENDESK",
+      "title": "GetGo + Zendesk: Driving sustainable mobility with efficiency",
+      "publisher": "Zendesk",
+      "url": "https://www.zendesk.com/dk/customer/getgo/",
+      "tier": "T2",
+      "published": "2024-01-04",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Vendor case study naming GetGo. States GetGo operates more than 2,400 cars across more than 1,500 locations. Concerns customer support, not damage detection."
+    },
+    {
+      "id": "T1-GETGO-SITE",
+      "title": "GetGo — carsharing service",
+      "publisher": "GetGo Technologies",
+      "url": "https://getgo.sg/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid"
+    },
+    {
+      "id": "T1-THRIVINGWEEDS",
+      "title": "Thriving Weeds — AI and IoT waste tracking",
+      "publisher": "Thriving Weeds",
+      "url": "https://www.thrivingweeds.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company describes AI- and IoT-enabled tracking for food waste segregation, waste tonnage and contamination visibility across multiple locations."
+    },
+    {
+      "id": "T1-TTS",
+      "title": "TTS Group — intelligent transport systems",
+      "publisher": "TTS Group",
+      "url": "https://ttsgroup.com.sg/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company describes AI-powered ITS analytics within its transport portfolio."
+    },
+    {
+      "id": "T1-LITHAN",
+      "title": "Lithan eduCLaaS — digital skills accelerator",
+      "publisher": "Lithan Academy",
+      "url": "https://www.lithan.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company describes Competency Learning as a Service and AI-powered enterprise digitalisation."
+    },
+    {
+      "id": "T1-CLAAS2SAAS",
+      "title": "CLaaS2SaaS — AI-powered digital skilling platform",
+      "publisher": "Lithan Academy",
+      "url": "https://claas2saas.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid"
+    },
+    {
+      "id": "T1-1DOC",
+      "title": "1doc — preventive healthcare and AI health services",
+      "publisher": "1doc (iAPPS Health Group)",
+      "url": "https://www.1doc.sg/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid"
+    },
+    {
+      "id": "T3-1DOC-GSD",
+      "title": "Gushengtang and Singapore's 1doc announce strategic cooperation",
+      "publisher": "Sina News",
+      "url": "https://t.cj.sina.cn/articles/view/1682207150/644471ae02001iikm",
+      "tier": "T3",
+      "published": "2025-10-23",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "States 1doc operates 9 own clinics and 21 affiliated clinics, has served more than 79,000 patients and supports over 300 corporate clients. Used for scale context only."
+    },
+    {
+      "id": "T1-LBM",
+      "title": "Mighty Proud: Celebrating Our SME AI Impact Award and the People Behind It",
+      "publisher": "Lil' but Mighty English",
+      "url": "https://lilbutmightyenglish.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company article announcing its SME AI Impact Award. Article indexed on the site's news listing."
+    },
+    {
+      "id": "T1-RESTOKE",
+      "title": "Restoke — restaurant process automation",
+      "publisher": "Restoke.ai",
+      "url": "https://restoke.ai/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Vendor product site describing AI-powered restaurant management, task management and team operations."
+    },
+    {
+      "id": "T1-IHUB",
+      "title": "iHub Solutions — warehouse and logistics systems",
+      "publisher": "iHub Solutions",
+      "url": "https://www.ihubsolutions.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company describes its Virtual Logistics System (VLS 2.0) deployed across Singapore, Malaysia, Hong Kong and Thailand. Link check on 18 October 2026 returned HTTP 403 to an automated client; the page was retrieved successfully during research and loads normally in a browser."
+    },
+    {
+      "id": "T1-ONGONG",
+      "title": "ONG&ONG Group — 360 solution consultancy",
+      "publisher": "ONG&ONG Group",
+      "url": "https://group.ong-ong.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company describes its cross-discipline 360 solution spanning architecture, engineering, interior design and masterplanning. Link check on 18 October 2026 could not complete from the automated client; the page was retrieved successfully during research and loads normally in a browser."
+    },
+    {
+      "id": "T1-SCI",
+      "title": "Supreme Components International — component distributor",
+      "publisher": "Supreme Components International",
+      "url": "https://www.supremecomponents.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid"
+    },
+    {
+      "id": "T3-OCEANUS-SBR",
+      "title": "Creating new realities with the Futurealistic Studio",
+      "publisher": "Singapore Business Review",
+      "url": "https://sbr.com.sg/co-written-partner/event-news/creating-new-realities-futurealistic-studio",
+      "tier": "T3",
+      "published": "2023-05-26",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Partner content describing Oceanus Media Global's virtual production and immersive showcase work."
+    },
+    {
+      "id": "T3-KYANON-ANDERSEN",
+      "title": "Andersen Consulting strengthens digital transformation services through Kyanon Consulting partnership",
+      "publisher": "Baijiahao",
+      "url": "https://baijiahao.baidu.com/s?id=1862071042597780393",
+      "tier": "T3",
+      "published": "2026-04-10",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "States Kyanon Consulting, a Kyanon Digital unit formed in 2025, serves retail, banking and manufacturing clients. Used for company context only."
+    },
+    {
+      "id": "T1-MENCAST",
+      "title": "Mencast — marine and offshore engineering",
+      "publisher": "Mencast Holdings",
+      "url": "https://www.mencast.com.sg/",
+      "tier": "T1",
+      "retrieved": "2026-10-18",
+      "status": "valid"
+    },
+    {
+      "id": "T3-MENCAST-EDB",
+      "title": "AI, 3D printing and a strategic partner: How Singapore manufacturers are building for what's next",
+      "publisher": "Singapore Economic Development Board (EDB)",
+      "url": "https://www.edb.gov.sg/en/business-insights/insights/ai-3d-printing-and-a-strategic-partner-how-singapore-manufacturers-are-building-for-whats-next.html",
+      "tier": "T3",
+      "published": "2026-08-20",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Government article stating Mencast Marine produced Singapore's first additively manufactured marine component. Does not describe the AI platform."
+    },
+    {
+      "id": "T1-CATALYST-PR",
+      "title": "Singapore Personal Training Studio Catalyst Performance Becomes the First Fitness Brand Ever to Win the National SME AI Impact Awards",
+      "publisher": "GlobeNewswire, distributed via Business Insider Markets",
+      "url": "https://markets.businessinsider.com/news/stocks/singapore-personal-training-studio-catalyst-performance-becomes-the-first-fitness-brand-ever-to-win-the-national-sme-ai-impact-awards-1036635068",
+      "tier": "T1",
+      "published": "2026-10-16",
+      "retrieved": "2026-10-18",
+      "status": "valid",
+      "note": "Company-issued press release. The page states that Markets Insider and Business Insider editorial teams were not involved in its creation, so it corroborates the company's own account and is not independent reporting. Adds founder detail, named models, the Search Console comparison period, and updated traffic figures."
+    }
+  ]
+}

@@ -1,0 +1,1647 @@
+[
+  {
+    "idx": 10,
+    "slug": "mencast-marine",
+    "companyUrl": "https://www.mencast.com.sg/",
+    "headline": "Mencast used AI to explore thousands of propulsion designs, and generated S$900,000 in new revenue.",
+    "useCase": "Design optimisation",
+    "aiType": "Predictive ML",
+    "outcomes": [
+      "Revenue",
+      "Time",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Design turnaround",
+        "value": "50% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Productivity on knowledge-intensive tasks",
+        "value": "75% higher",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "New revenue",
+        "value": "$900,000 within 18 months",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Mencast Marine provides marine propulsion design, manufacturing and repair for the global marine and offshore industry. Its design work draws on decades of engineering and sea-trial data. The company competes in a market where lower-cost suppliers can replicate standard designs, so differentiation has to come from engineering judgement applied to a specific vessel.",
+      "c": "Conventional design methods restricted the number of options engineers could evaluate, which slowed complex projects. Competition from lower-cost players compressed margins and put pressure on a design-led business. Production cycles were long, and manual information retrieval slowed quotations, claims processing and research. The constraint was not engineering capability. It was the number of design options a small team could explore, and the time spent finding information that already existed inside the company. Quotation delays cost orders in a market where the buyer is comparing several suppliers on response time.",
+      "q": "How could a mid-sized propulsion designer evaluate far more design options per project and speed up quotation work, without hiring a larger engineering team?",
+      "a": "Mencast built the Mencast AI Platform, MAIP, which combines AI, computer vision and enterprise knowledge automation. AI-powered propulsion design analyses thousands of design possibilities to identify higher-performing options and shortens the design process. Design differentiation uses decades of engineering and sea-trial data, so the firm can offer solutions beyond price competition. Intelligent manufacturing optimisation combines AI, computer vision and sensors to improve quality and support more efficient production. Enterprise knowledge automation organises company knowledge and automates workflows including quotations, claims processing, research and information retrieval. The published result is 50% faster design turnaround, 75% higher productivity on knowledge-intensive tasks, and $900,000 in new revenue within 18 months. The revenue figure matters more than the efficiency figures, because it shows the capability was sold, not only used internally. The citation does not state how design options are validated, so it is not clear whether the model replaces simulation or only ranks candidates for it. The revenue figure is the strongest evidence in the citation, because it is the only one that shows an external buyer paying for the capability, rather than the company measuring its own internal efficiency."
+    },
+    "takeaway": "Point AI at the work you already charge for. Design exploration and quotation speed convert directly into won contracts.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Conventional methods restricted the number of design options engineers could evaluate.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "MAIP analyses thousands of design possibilities to identify higher-performing options.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "MAIP combines AI, computer vision and sensors for manufacturing quality.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Mencast Marine produced Singapore's first additively manufactured marine component.",
+        "sourceIds": [
+          "T3-MENCAST-EDB"
+        ],
+        "evidence": "stated",
+        "basis": "Government article on manufacturing capability. It does not describe MAIP or the AI implementation."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Design-space search and evaluation over propulsion parameters",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Computer vision",
+        "what": "Vision and sensors for manufacturing quality",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Knowledge",
+        "what": "Enterprise knowledge organisation and retrieval",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Data",
+        "what": "Engineering and sea-trial records used as design input",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Automation",
+        "what": "Quotation, claims and research workflows",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-08-20",
+        "event": "Government article records Mencast Marine manufacturing capability.",
+        "sourceIds": [
+          "T3-MENCAST-EDB"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "req",
+          "label": "Vessel requirements and sea-trial data",
+          "kind": "input"
+        },
+        {
+          "id": "des",
+          "label": "Design-space search",
+          "kind": "ai"
+        },
+        {
+          "id": "kb",
+          "label": "Enterprise knowledge automation",
+          "kind": "ai"
+        },
+        {
+          "id": "mfg",
+          "label": "Vision-assisted manufacturing",
+          "kind": "process"
+        },
+        {
+          "id": "eng",
+          "label": "Engineer selection and sign-off",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Propulsion design and quotation",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "req",
+          "des"
+        ],
+        [
+          "req",
+          "kb"
+        ],
+        [
+          "kb",
+          "eng"
+        ],
+        [
+          "des",
+          "eng"
+        ],
+        [
+          "eng",
+          "mfg"
+        ],
+        [
+          "eng",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another engineering firm. This is not Mencast's production system.",
+      "nodes": [
+        {
+          "id": "p",
+          "label": "Parameterised design model",
+          "kind": "system"
+        },
+        {
+          "id": "s",
+          "label": "Design-space sampler",
+          "kind": "process"
+        },
+        {
+          "id": "sim",
+          "label": "Performance simulation",
+          "kind": "process"
+        },
+        {
+          "id": "ml",
+          "label": "Surrogate model",
+          "kind": "ai"
+        },
+        {
+          "id": "eng",
+          "label": "Engineer review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Shortlisted designs",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "p",
+          "s"
+        ],
+        [
+          "s",
+          "sim"
+        ],
+        [
+          "sim",
+          "ml"
+        ],
+        [
+          "ml",
+          "eng"
+        ],
+        [
+          "eng",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Marine and offshore engineering",
+        "Precision manufacturing",
+        "HVAC and mechanical design",
+        "Any business with a parameterised design process"
+      ],
+      "requirements": [
+        "A parameterised design model or CAD that can be driven programmatically",
+        "Historical performance data tied to design parameters",
+        "Engineers willing to validate model output"
+      ],
+      "steps": [
+        "Define the design parameters and the performance objective",
+        "Run a structured design-of-experiments sweep",
+        "Train a surrogate model to predict performance cheaply",
+        "Compare surrogate rankings with physical or simulated results",
+        "Keep an engineer's signature on every released design"
+      ],
+      "tools": [
+        "Parametric CAD or simulation tool with scripting",
+        "Design-of-experiments library",
+        "Surrogate modelling framework",
+        "Internal document retrieval"
+      ],
+      "risks": [
+        "Surrogate model extrapolating outside the validated range",
+        "Historical data reflecting obsolete designs",
+        "Knowledge automation returning superseded specifications"
+      ],
+      "kpis": [
+        "Designs evaluated per project",
+        "Days from brief to shortlist",
+        "Quotation turnaround",
+        "Win rate",
+        "Engineering hours per project"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Knowledge retrieval",
+          "description": "Index past projects and specifications so engineers can find prior work.",
+          "when": "Information retrieval is the main delay."
+        },
+        {
+          "level": "Level 2",
+          "title": "Design-space exploration",
+          "description": "Script the parametric model and run automated sweeps with a surrogate model.",
+          "when": "Design parameters and performance data exist."
+        },
+        {
+          "level": "Level 3",
+          "title": "Integrated engineering platform",
+          "description": "Join design search, manufacturing vision and workflow automation in one governed platform.",
+          "when": "Multiple engineering and production teams need shared data."
+        }
+      ]
+    },
+    "gaps": [
+      "No model, CAD or cloud vendor is named.",
+      "Currency is published as '$' without specifying Singapore or US dollars.",
+      "Sea-trial data volume and model validation are not described."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 11,
+    "slug": "oceanus-media-global",
+    "companyUrl": "https://oceanusmedia.com/",
+    "headline": "Oceanus Media Global films against AI-built virtual sets, cutting production timelines by around 80%.",
+    "useCase": "Generative media",
+    "aiType": "Generative media",
+    "outcomes": [
+      "Time",
+      "Cost",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Production timelines",
+        "value": "80% shorter",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Production costs",
+        "value": "Up to 85% lower",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Multi-location project capacity",
+        "value": "200% increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Oceanus Media Global is a creative media technology company specialising in virtual production, generative AI, content production, distribution and IP licensing. Third-party coverage from 2023 describes its work in virtual and augmented production. The company's cost base is driven by where it films, not only by what it films.",
+      "c": "Multi-location productions could take 14 to 15 weeks, because location scouting, permits, travel, set construction and filming run in sequence. Location fees, permits, travel, transport and set construction added significant cost. Crews and equipment were largely committed to one major production at a time, which capped the number of concurrent projects. The business was therefore limited by logistics rather than by creative capacity. Each location added a fixed cost that had to be recovered whether or not the shoot ran to schedule.",
+      "q": "How could the company produce multi-location content without moving a crew to each location, and take on more projects with the same crew?",
+      "a": "Oceanus built an AI-integrated virtual production pipeline that creates multiple locations virtually. It combines generative AI, computer vision and AI agents across pre-production, filming, post-production and localisation, with creative control retained by the team. Pre-production support covers script breakdown, scene planning, scheduling, storyboarding and visualisation. AI-generated virtual environments create digital sets and reconstruct real locations for filming in a controlled studio. Actors are filmed against those environments with real-time camera tracking maintaining correct perspective. AI-supported visual effects automate repetitive editing tasks and help build effects elements. Localisation supports dubbing in four languages and adapts approved content for different formats and platforms. The published result is around 80% shorter production timelines, up to 85% lower production costs, and a 200% increase in multi-location project capacity. The economics change because the studio becomes the location. The citation does not name the generation models or describe the studio hardware, so the technical basis of the 80% figure is not documented. A cost reduction of this size changes which briefs are viable, not only how profitably existing ones are delivered, because a client with a modest budget can now be offered a multi-location treatment that was previously out of reach."
+    },
+    "takeaway": "Move the location into the studio, not the crew to the location. Fixed costs become reusable assets.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Multi-location productions could take 14 to 15 weeks.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Actors are filmed against AI-built virtual environments with real-time camera tracking.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "The pipeline supports dubbing in four languages and multi-format versioning.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Oceanus Media Global works in virtual and immersive production.",
+        "sourceIds": [
+          "T3-OCEANUS-SBR"
+        ],
+        "evidence": "corroborated",
+        "basis": "Partner content in Singapore Business Review from 2023 describes the company's virtual production work. It predates the award and does not describe the AI pipeline."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "Generative AI",
+        "what": "Virtual environment generation and set reconstruction",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Computer vision",
+        "what": "Real-time camera tracking for correct perspective",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Agents",
+        "what": "AI agents across pre-production, post-production and localisation",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Production",
+        "what": "LED volume or controlled studio filming environment",
+        "origin": "unknown",
+        "evidence": "inferred",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "basis": "Filming against virtual environments with live camera tracking normally requires a controllable studio and tracking system. The specific technology is not named."
+      },
+      {
+        "layer": "Localisation",
+        "what": "Dubbing in four languages and format versioning",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Creative control retained by the production team",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-05-26",
+        "event": "Third-party coverage describes the company's virtual production work.",
+        "sourceIds": [
+          "T3-OCEANUS-SBR"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "scr",
+          "label": "Script and brief",
+          "kind": "input"
+        },
+        {
+          "id": "pre",
+          "label": "AI pre-production",
+          "kind": "ai"
+        },
+        {
+          "id": "env",
+          "label": "AI virtual environments",
+          "kind": "ai"
+        },
+        {
+          "id": "trk",
+          "label": "Real-time camera tracking",
+          "kind": "process"
+        },
+        {
+          "id": "film",
+          "label": "Studio filming",
+          "kind": "process"
+        },
+        {
+          "id": "vfx",
+          "label": "AI visual effects",
+          "kind": "ai"
+        },
+        {
+          "id": "loc",
+          "label": "Localisation and versioning",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "scr",
+          "pre"
+        ],
+        [
+          "pre",
+          "env"
+        ],
+        [
+          "env",
+          "trk"
+        ],
+        [
+          "trk",
+          "film"
+        ],
+        [
+          "film",
+          "vfx"
+        ],
+        [
+          "vfx",
+          "loc"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another production house. This is not Oceanus Media Global's production system.",
+      "nodes": [
+        {
+          "id": "b",
+          "label": "Storyboard and shot list",
+          "kind": "input"
+        },
+        {
+          "id": "g",
+          "label": "Image and video generation",
+          "kind": "ai"
+        },
+        {
+          "id": "led",
+          "label": "LED volume playback",
+          "kind": "system"
+        },
+        {
+          "id": "cam",
+          "label": "Tracked camera",
+          "kind": "process"
+        },
+        {
+          "id": "comp",
+          "label": "Compositing",
+          "kind": "process"
+        },
+        {
+          "id": "del",
+          "label": "Deliverable versions",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "b",
+          "g"
+        ],
+        [
+          "g",
+          "led"
+        ],
+        [
+          "led",
+          "cam"
+        ],
+        [
+          "cam",
+          "comp"
+        ],
+        [
+          "comp",
+          "del"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Film and video production",
+        "Advertising and brand content",
+        "Corporate communications",
+        "Training content producers"
+      ],
+      "requirements": [
+        "A controlled studio space with consistent lighting",
+        "A shot list that separates virtual and practical elements",
+        "Clear rights and consent for generated environments"
+      ],
+      "steps": [
+        "Choose one recurring location type and build it as a virtual set",
+        "Shoot a short test against the set and compare with a practical shoot",
+        "Standardise camera tracking and colour pipeline",
+        "Add automated versioning for formats and languages",
+        "Measure cost and days per deliverable"
+      ],
+      "tools": [
+        "Generative image and video tools",
+        "Game engine for virtual sets",
+        "Camera tracking system",
+        "Compositing software"
+      ],
+      "risks": [
+        "Rights issues in generated imagery",
+        "Uncanny results that fail brand review",
+        "Client expectations set by unrealistic demos"
+      ],
+      "kpis": [
+        "Days from brief to delivery",
+        "Cost per finished minute",
+        "Number of concurrent projects",
+        "Revision rounds",
+        "Localisation cost per language"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "AI-assisted pre-production",
+          "description": "Use generative tools for storyboards, mood boards and concept frames.",
+          "when": "Pre-production is the bottleneck."
+        },
+        {
+          "level": "Level 2",
+          "title": "Virtual set production",
+          "description": "Build reusable virtual environments and film against them with tracking.",
+          "when": "Location cost and travel dominate the budget."
+        },
+        {
+          "level": "Level 3",
+          "title": "Integrated virtual pipeline",
+          "description": "Join generation, tracking, effects and localisation into one governed workflow.",
+          "when": "Volume and multi-market delivery justify the studio investment."
+        }
+      ]
+    },
+    "gaps": [
+      "No generative model or engine vendor is named.",
+      "The 14 to 15 week baseline is stated without specifying project type.",
+      "The studio technology stack is not documented publicly."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 12,
+    "slug": "ong-ong-group",
+    "companyUrl": "https://group.ong-ong.com/",
+    "headline": "ONG&ONG put 12,000 projects behind a search box and recovered 22,500 professional hours a year.",
+    "useCase": "Knowledge retrieval",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Time",
+      "Cost",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Workflow duration",
+        "value": "Up to 95% savings",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Professional hours",
+        "value": "22,500 estimated recovered annually",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Return on AI investment",
+        "value": "Approximately 4x",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "ONG&ONG Group provides built environment consultancy across Asia, integrating architecture, urban master planning, landscape design, interior design and project management with civil, structural, mechanical and electrical engineering. The firm describes its offer as a 360 solution, which means a single project draws on several disciplines and decades of accumulated precedent.",
+      "c": "The citation reports that up to 2,750 manhours a week went into searching for project precedents, building regulations, policies and project information scattered across multiple systems. Technical expertise sat with experienced staff, and retrieving knowledge from past projects required knowing the exact reference to search for. Regulatory, design, presentation and financial reporting tasks were manual. The knowledge existed, but access depended on knowing who held it and what it was called. New staff took longer to become useful, and senior staff became a lookup service for their own archive.",
+      "q": "How could the firm make twelve thousand past projects and Singapore's building regulations searchable in plain language, so that any staff member could find precedent without asking a senior colleague?",
+      "a": "ONG&ONG built 360i, an AI platform that connects project knowledge, regulatory information and business workflows in a governed environment. Knowledge retrieval lets staff search over 12,000 historical projects and internal information using plain-language questions, with answers linked back to source records. Dedicated assistants answer questions on Singapore building regulations and CORENET X requirements, with citations to the relevant clauses. Design visualisation generates and edits architectural, interior, urban and landscape concept images, so designers can explore several directions within hours. Financial reporting consolidates and validates data across 10 entities to produce the group profit and loss statement, with AI analyst modules generating alerts, forecasts and scenario analyses. The platform extends into PowerPoint, Excel, Outlook and document workflows. The published result is up to 95% savings in workflow duration, an estimated 22,500 professional hours recovered annually, and approximately 4x return on the AI investment. The citation-linked answer is the control that makes the system usable in a regulated profession. The citation does not report retrieval accuracy or the proportion of answers that staff accepted without checking the source. The return figure is approximate, but the hours figure is the one a practice can test against its own timesheets before committing, which makes it the more useful number for another firm deciding whether to build the same thing."
+    },
+    "takeaway": "Citation-linked retrieval is the difference between a search tool and a professional instrument. Architects can defend an answer they can source.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Up to 2,750 manhours a week were spent searching for precedents, regulations and project information.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Staff search over 12,000 historical projects with answers linked to source records.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Dedicated assistants answer questions on Singapore building regulations and CORENET X requirements with clause citations.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "ONG&ONG operates a cross-discipline 360 solution across architecture, engineering and design.",
+        "sourceIds": [
+          "T1-ONGONG"
+        ],
+        "evidence": "corroborated",
+        "basis": "The company's own site independently describes the 360 solution model."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Language models for retrieval, regulation Q&A and analysis",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Retrieval",
+        "what": "Plain-language search over 12,000 projects with source links",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Knowledge base",
+        "what": "Singapore building regulations and CORENET X requirements",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Generation",
+        "what": "Concept image generation and editing",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Ten entities consolidated for group financial reporting; Office workflows",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Governed environment with answers linked to source records",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "q",
+          "label": "Plain-language staff query",
+          "kind": "input"
+        },
+        {
+          "id": "ret",
+          "label": "Knowledge retrieval",
+          "kind": "ai"
+        },
+        {
+          "id": "reg",
+          "label": "Regulatory assistants",
+          "kind": "ai"
+        },
+        {
+          "id": "proj",
+          "label": "12,000 project records",
+          "kind": "system"
+        },
+        {
+          "id": "fin",
+          "label": "Group financial consolidation",
+          "kind": "process"
+        },
+        {
+          "id": "staff",
+          "label": "Staff decision",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Cited answer or concept image",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "q",
+          "ret"
+        ],
+        [
+          "proj",
+          "ret"
+        ],
+        [
+          "ret",
+          "staff"
+        ],
+        [
+          "q",
+          "reg"
+        ],
+        [
+          "reg",
+          "staff"
+        ],
+        [
+          "staff",
+          "out"
+        ],
+        [
+          "fin",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another design practice. This is not ONG&ONG's production system.",
+      "nodes": [
+        {
+          "id": "docs",
+          "label": "Project archive and drawings",
+          "kind": "input"
+        },
+        {
+          "id": "chunk",
+          "label": "Chunking and metadata tagging",
+          "kind": "process"
+        },
+        {
+          "id": "idx",
+          "label": "Hybrid search index",
+          "kind": "system"
+        },
+        {
+          "id": "llm",
+          "label": "Grounded answer model",
+          "kind": "ai"
+        },
+        {
+          "id": "arch",
+          "label": "Architect verification",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Precedent brief",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "docs",
+          "chunk"
+        ],
+        [
+          "chunk",
+          "idx"
+        ],
+        [
+          "idx",
+          "llm"
+        ],
+        [
+          "llm",
+          "arch"
+        ],
+        [
+          "arch",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Architecture and engineering practices",
+        "Legal and professional services",
+        "Construction and project management",
+        "Any firm with a large document archive"
+      ],
+      "requirements": [
+        "A digitised archive with usable metadata",
+        "A versioned regulatory corpus with effective dates",
+        "Professionals who will verify answers before relying on them"
+      ],
+      "steps": [
+        "Start with regulations, because the corpus is public and the value is immediate",
+        "Add the project archive with discipline and date metadata",
+        "Require every answer to link to a source record",
+        "Measure search time before and after",
+        "Add design visualisation only after retrieval is trusted"
+      ],
+      "tools": [
+        "Document store with metadata",
+        "Hybrid search or vector index",
+        "Language model with grounded prompting",
+        "Office productivity integrations"
+      ],
+      "risks": [
+        "Answers from superseded regulation versions",
+        "Drawings and client data exposed across project boundaries",
+        "Over-reliance on generated concept images"
+      ],
+      "kpis": [
+        "Time to find a precedent",
+        "Query volume per week",
+        "Answer verification rate",
+        "Hours recovered per professional",
+        "Reporting cycle time"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Regulation assistant",
+          "description": "Index public building regulations and answer with clause citations.",
+          "when": "Compliance lookup consumes professional time."
+        },
+        {
+          "level": "Level 2",
+          "title": "Project knowledge search",
+          "description": "Add the project archive with metadata and source-linked answers.",
+          "when": "Precedent search depends on senior staff memory."
+        },
+        {
+          "level": "Level 3",
+          "title": "Practice platform",
+          "description": "Add visualisation, financial consolidation and Office workflow automation in one governed system.",
+          "when": "Multiple disciplines and entities need a shared platform."
+        }
+      ]
+    },
+    "gaps": [
+      "No model or platform vendor is named.",
+      "The 2,750 weekly manhours and 22,500 annual hours are estimates without a stated method.",
+      "Return on investment is approximate and its calculation is not published."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 13,
+    "slug": "supreme-components-international",
+    "companyUrl": "https://www.supremecomponents.com/",
+    "headline": "Supreme Components turned unstructured RFQs into structured data, cutting quote preparation time by up to 90%.",
+    "useCase": "Document processing",
+    "aiType": "Document AI",
+    "outcomes": [
+      "Time",
+      "Cost",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Sourcing and quote preparation",
+        "value": "Up to 90% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Bills of materials preparation",
+        "value": "96% reduction in time",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Productivity gains",
+        "value": "Up to $32,000 monthly",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Supreme Components International supplies active, passive and electromechanical components to original equipment manufacturers and electronics manufacturing companies. A distributor at this layer carries a wide franchise portfolio and competes on response speed and quoting accuracy. The work begins when a customer sends a request for quotation, often as an email with an attached spreadsheet or a PDF.",
+      "c": "RFQs arrived in multiple formats and growing volumes, which made them difficult to process, track and manage. Manual product and brand matching increased the risk of quoting errors and caused avoidable follow-up. Supplier pricing and lead-time information was scattered across emails and records. Every quote therefore depended on a person assembling information from several places, and an error in part matching could produce a wrong price or a wrong lead time. Each avoidable follow-up consumed sales time twice: once to send the quote and again to correct it.",
+      "q": "How could the distributor convert incoming RFQs of any format into structured, searchable requests and quote accurately without a person rebuilding the same information for every enquiry?",
+      "a": "Supreme Components built Atlas, an AI RFQ-to-fulfilment platform. It extracts customer and product requirements from emails, PDFs, spreadsheets and other formats into structured data. Intelligent product matching matches requested products and brands against supplier information to streamline sourcing and quotation. Supplier intelligence extracts prices, inventory and lead times from emails, and identifies stock availability, supplier options and product alternatives. An automated workflow centralises RFQ and supplier information and automates supplier outreach, so information is easier to search, track and reuse. The published result is sourcing and quote preparation up to 90% faster, a 96% reduction in bills-of-materials preparation time, and up to $32,000 in monthly productivity gains. The durable asset is the structured record, because it makes the next similar RFQ cheaper than the last. The citation does not report line-item matching accuracy, which is the measure that determines whether the approach is safe at higher volumes. Bills-of-materials preparation is the sharper figure, because it measures a bounded task with a clear before and after, whereas sourcing time blends several activities that a distributor may define differently. Only then does the time saving translate into margin rather than into spare capacity."
+    },
+    "takeaway": "Extraction is only the first step. The value compounds when each parsed RFQ becomes reusable structured supply data.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "RFQs arrived in multiple formats and increasing volumes.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Atlas extracts requirements from emails, PDFs and spreadsheets into structured data.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Supplier prices, inventory and lead times are extracted from emails.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Document extraction and product matching",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Processing",
+        "what": "Parsing of emails, PDFs and spreadsheets into structured records",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Data",
+        "what": "Supplier pricing, inventory and lead-time records",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Orchestration",
+        "what": "RFQ workflow and automated supplier outreach",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "rfq",
+          "label": "RFQ email, PDF or spreadsheet",
+          "kind": "input"
+        },
+        {
+          "id": "ext",
+          "label": "Requirement extraction",
+          "kind": "ai"
+        },
+        {
+          "id": "match",
+          "label": "Product and brand matching",
+          "kind": "ai"
+        },
+        {
+          "id": "sup",
+          "label": "Supplier price and lead-time data",
+          "kind": "system"
+        },
+        {
+          "id": "wf",
+          "label": "RFQ workflow and outreach",
+          "kind": "process"
+        },
+        {
+          "id": "sales",
+          "label": "Sales review",
+          "kind": "human"
+        },
+        {
+          "id": "quote",
+          "label": "Quotation",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "rfq",
+          "ext"
+        ],
+        [
+          "ext",
+          "match"
+        ],
+        [
+          "sup",
+          "match"
+        ],
+        [
+          "match",
+          "wf"
+        ],
+        [
+          "wf",
+          "sales"
+        ],
+        [
+          "sales",
+          "quote"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another distributor. This is not Supreme Components' production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "Shared RFQ inbox",
+          "kind": "input"
+        },
+        {
+          "id": "doc",
+          "label": "Document AI parsing",
+          "kind": "ai"
+        },
+        {
+          "id": "sku",
+          "label": "SKU and brand normalisation",
+          "kind": "process"
+        },
+        {
+          "id": "erp",
+          "label": "ERP stock and pricing",
+          "kind": "system"
+        },
+        {
+          "id": "q",
+          "label": "Exception review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Quote and BOM",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "doc"
+        ],
+        [
+          "doc",
+          "sku"
+        ],
+        [
+          "sku",
+          "erp"
+        ],
+        [
+          "erp",
+          "q"
+        ],
+        [
+          "q",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Electronic component distributors",
+        "Industrial suppliers",
+        "Wholesale and trading firms",
+        "Any business quoting from unstructured enquiries"
+      ],
+      "requirements": [
+        "A product master with brand and part-number normalisation",
+        "Supplier price and lead-time data in a queryable form",
+        "A salesperson accountable for the final quote"
+      ],
+      "steps": [
+        "Collect several hundred historical RFQs with the final quote as ground truth",
+        "Normalise part numbers and brands before modelling",
+        "Measure line-item matching accuracy",
+        "Add supplier data extraction",
+        "Automate supplier outreach last"
+      ],
+      "tools": [
+        "Document AI or PDF parsing",
+        "Part-number normalisation service",
+        "ERP or PIM database",
+        "Email integration"
+      ],
+      "risks": [
+        "Matching a near-identical part number to the wrong component",
+        "Stale supplier pricing producing an unprofitable quote",
+        "Extraction failures on scanned or handwritten RFQs"
+      ],
+      "kpis": [
+        "Line-item match accuracy",
+        "Quote turnaround time",
+        "Quote-to-order conversion",
+        "Rework rate",
+        "Margin per quote"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Structured intake",
+          "description": "Standardise an RFQ template and parse it into a spreadsheet.",
+          "when": "Volume is low and formats are stable."
+        },
+        {
+          "level": "Level 2",
+          "title": "Extraction and matching",
+          "description": "Parse mixed formats and match against the product master with an exception queue.",
+          "when": "Formats vary and matching consumes sales time."
+        },
+        {
+          "level": "Level 3",
+          "title": "RFQ-to-fulfilment workflow",
+          "description": "Join extraction, supplier intelligence, outreach and quoting in one tracked pipeline.",
+          "when": "Volume and supplier complexity justify integration."
+        }
+      ]
+    },
+    "gaps": [
+      "No model or platform vendor is named.",
+      "Currency is published as '$' without specifying Singapore or US dollars.",
+      "No independent coverage was located."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 14,
+    "slug": "thriving-weeds",
+    "companyUrl": "https://www.thrivingweeds.com/",
+    "headline": "Thriving Weeds replaced 12-hour manual waste audits with continuous AI monitoring at over 95% accuracy.",
+    "useCase": "Computer vision",
+    "aiType": "IoT analytics",
+    "outcomes": [
+      "Quality",
+      "Time",
+      "Cost"
+    ],
+    "metrics": [
+      {
+        "label": "Flagged contamination incidents",
+        "value": "60% fewer",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Waste weight data accuracy",
+        "value": "More than 95%",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Manhours per audit",
+        "value": "Up to 384 saved",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Thriving Weeds provides waste audits, data analysis and sustainability consultancy. Its clients need evidence of what they throw away, in what quantity, and how contaminated the waste streams are. That evidence usually underpins sustainability reporting and waste-reduction programmes. The company's own site describes AI- and IoT-enabled tracking for food waste segregation across multiple locations.",
+      "c": "Conventional audits could involve six to eight people collecting and sorting waste for up to 12 hours a day. Short manual sampling periods made it hard to identify daily variation, repeated contamination or longer-term patterns. Repeated on-site audits and lengthy reporting required significant time for each premises. The result was a snapshot presented as a baseline, with the labour cost of producing it repeated for every site. Clients received a defensible snapshot, but not a trend, and the cost of the next snapshot was the same as the first.",
+      "q": "How could the company measure waste continuously rather than in one exhausting sampling day, and do so across many premises without proportional labour?",
+      "a": "Thriving Weeds built AuditEye, a waste-to-cloud ecosystem combining AI, IoT and cloud technology. Continuous monitoring captures disposal records throughout the deployment period, producing a larger and more representative dataset. AI-enabled contaminant detection identifies contaminants in waste streams and records when contamination occurs, including disposal weight and frequency. Automated data capture links images with weight, time, location and waste-stream information to create standardised records. Cloud processing handles records in near real time and provides access to waste data, images and downloadable records. Human-validated analysis combines continuous monitoring with consultant review and physical audits. The published result is 60% fewer flagged contamination incidents, more than 95% accuracy in waste weight measurement, and up to 384 manhours saved per audit. The company retains human verification and professional consultancy for recommendations, which keeps the output defensible. The citation does not describe the hardware or the reference method used to establish the 95% accuracy figure. The contamination figure is the commercial one, because clients buy a reduction in incidents rather than the accuracy of the measurement behind it, though the accuracy figure is what makes the incident count defensible in a report."
+    },
+    "takeaway": "Continuous measurement beats a heroic sampling day. A longer, lighter dataset is both cheaper and more credible.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Conventional audits could involve six to eight people sorting waste for up to 12 hours a day.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Automated capture links images with weight, time, location and waste-stream information.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "The company describes AI- and IoT-enabled tracking for food waste segregation and contamination visibility.",
+        "sourceIds": [
+          "T1-THRIVINGWEEDS"
+        ],
+        "evidence": "corroborated",
+        "basis": "The company's own site independently describes the same capability."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Computer vision for contaminant detection in waste streams",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Sensing",
+        "what": "Weight and image capture at disposal points",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Infrastructure",
+        "what": "Cloud processing and record storage",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Data",
+        "what": "Standardised records linking image, weight, time, location and stream",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Consultant review and physical audit verification",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "bin",
+          "label": "Disposal point capture",
+          "kind": "input"
+        },
+        {
+          "id": "cap",
+          "label": "Image and weight capture",
+          "kind": "process"
+        },
+        {
+          "id": "cv",
+          "label": "Contaminant detection",
+          "kind": "ai"
+        },
+        {
+          "id": "cloud",
+          "label": "Cloud record store",
+          "kind": "system"
+        },
+        {
+          "id": "cons",
+          "label": "Consultant review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Waste report and recommendations",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "bin",
+          "cap"
+        ],
+        [
+          "cap",
+          "cv"
+        ],
+        [
+          "cv",
+          "cloud"
+        ],
+        [
+          "cloud",
+          "cons"
+        ],
+        [
+          "cons",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another waste consultancy. This is not Thriving Weeds' production system.",
+      "nodes": [
+        {
+          "id": "s",
+          "label": "Camera and scale at bin",
+          "kind": "input"
+        },
+        {
+          "id": "edge",
+          "label": "Edge capture and timestamp",
+          "kind": "process"
+        },
+        {
+          "id": "cls",
+          "label": "Waste-stream classifier",
+          "kind": "ai"
+        },
+        {
+          "id": "db",
+          "label": "Cloud time-series store",
+          "kind": "system"
+        },
+        {
+          "id": "dash",
+          "label": "Site dashboard",
+          "kind": "output"
+        },
+        {
+          "id": "act",
+          "label": "Site team corrective action",
+          "kind": "human"
+        }
+      ],
+      "edges": [
+        [
+          "s",
+          "edge"
+        ],
+        [
+          "edge",
+          "cls"
+        ],
+        [
+          "cls",
+          "db"
+        ],
+        [
+          "db",
+          "dash"
+        ],
+        [
+          "dash",
+          "act"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Waste management and recycling",
+        "Facilities management",
+        "Food and beverage outlets",
+        "Hotels and retail chains"
+      ],
+      "requirements": [
+        "A power and network connection at the disposal point",
+        "A labelled image set of waste streams and contaminants",
+        "Agreement on how contamination is defined and reported"
+      ],
+      "steps": [
+        "Instrument one site and run it alongside a manual audit",
+        "Label images for the contaminant categories that matter to clients",
+        "Compare measured weights with manual weights to establish accuracy",
+        "Publish a method statement with the accuracy figure",
+        "Scale site by site with a monthly verification sample"
+      ],
+      "tools": [
+        "Camera and connected scale",
+        "Edge compute",
+        "Vision model",
+        "Cloud database and dashboard"
+      ],
+      "risks": [
+        "Occluded or dirty camera lenses",
+        "Contamination categories that vary by client contract",
+        "Privacy concerns where people are visible in images"
+      ],
+      "kpis": [
+        "Weight accuracy against manual audit",
+        "Contamination rate over time",
+        "Audit hours per site",
+        "Data completeness",
+        "Client-reported diversion rate"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Connected scale",
+          "description": "Measure weight per stream automatically and record it in a spreadsheet or dashboard.",
+          "when": "Weight data is the main gap."
+        },
+        {
+          "level": "Level 2",
+          "title": "Image-assisted sorting",
+          "description": "Add cameras and a vision model to classify contamination, with human review.",
+          "when": "Contamination is the client's concern."
+        },
+        {
+          "level": "Level 3",
+          "title": "Continuous monitoring platform",
+          "description": "Join capture, classification, cloud records and consultant analysis across sites.",
+          "when": "Multiple sites and recurring reporting obligations."
+        }
+      ]
+    },
+    "gaps": [
+      "No hardware, model or cloud vendor is named.",
+      "The 95% accuracy figure has no stated reference measurement method.",
+      "The relationship between fewer contamination incidents and audit frequency is not explained."
+    ],
+    "confidence": "B"
+  }
+]

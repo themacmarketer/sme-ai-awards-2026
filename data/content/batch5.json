@@ -1,0 +1,1588 @@
+[
+  {
+    "idx": 20,
+    "slug": "innovative-hub-sg",
+    "headline": "Innovative Hub cut proposal drafting from a full day to a few hours, and doubled productivity per employee.",
+    "useCase": "Workflow automation",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Time",
+      "Capacity",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Employee productivity",
+        "value": "2x higher",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Customer response time",
+        "value": "75% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Proposal creation",
+        "value": "80% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Innovative Hub (SG) offers digital marketing and e-commerce services to clients across Singapore, Malaysia and Vietnam. The work is proposal-led and multilingual: a client asks for a scope, the team drafts a response, and content must then be localised for several markets. Three countries mean three time zones and several languages.",
+      "c": "Proposal drafting and compliance checks required significant manual effort. Customer response and content translation depended on specialist availability and were limited by time zones. Business growth depended on hiring more staff to handle increasing workload. A request that arrived after a specialist's working day waited until the next one, and every new client added proposal and compliance work before it added revenue. Compliance review was the step most exposed to that delay, because it sat at the end of the process.",
+      "q": "How could the agency respond to clients across three markets without adding staff for every increment of volume, while keeping compliance checks intact?",
+      "a": "Innovative Hub embedded AI tools including Claude, ChatGPT and OpenMax across daily workflows to automate routine tasks, retrieve data and respond to clients quickly. Proposal turnaround fell from a full day to a few hours. Content localisation and translation complete within the same day rather than waiting on a specialist in another time zone. Automated compliance streamlines audits, checklists and sensitive-word checks. Cross-platform task support lets the tools work across messaging platforms, spreadsheets and internal databases on multi-step tasks. The automation extends to prospecting, HR triage, morning briefings, reporting and client monitoring. The published result is twice the employee productivity, 75% faster customer response and 80% faster proposal creation. The compliance automation is the part worth copying: in a multilingual agency, sensitive-word checks are the step most likely to be skipped under deadline pressure, and the step most likely to cause a problem. The citation does not report the false-positive rate of the sensitive-word checks, so the review burden they create is unknown. The compliance automation is the part that protects the speed gain, because faster proposals without a checking step would simply move risk downstream to the client relationship and the contract. The ordering matters more than the tools chosen, because a check after the draft is what makes speed safe."
+    },
+    "takeaway": "Automate the compliance check, not only the draft. It is the task people skip when they are busy, and the one that creates liability.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Proposal drafting and compliance checks required significant manual effort.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Proposal turnaround fell from a full day to a few hours.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "The agency uses Claude, ChatGPT and OpenMax across daily workflows.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "Automated compliance covers audits, checklists and sensitive-word checks.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Claude, ChatGPT and OpenMax used across daily workflows",
+        "vendor": "Anthropic (Claude), OpenAI (ChatGPT), OpenMax",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Processing",
+        "what": "Proposal drafting, localisation and translation",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Compliance",
+        "what": "Automated audits, checklists and sensitive-word checks",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Integration",
+        "what": "Messaging platforms, spreadsheets and internal databases",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described beyond automated compliance checks",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "brief",
+          "label": "Client brief or enquiry",
+          "kind": "input"
+        },
+        {
+          "id": "llm",
+          "label": "Claude, ChatGPT, OpenMax",
+          "kind": "ai"
+        },
+        {
+          "id": "comp",
+          "label": "Compliance and sensitive-word checks",
+          "kind": "process"
+        },
+        {
+          "id": "loc",
+          "label": "Localisation and translation",
+          "kind": "ai"
+        },
+        {
+          "id": "sys",
+          "label": "Messaging, spreadsheets, databases",
+          "kind": "system"
+        },
+        {
+          "id": "staff",
+          "label": "Staff review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Proposal or client response",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "brief",
+          "llm"
+        ],
+        [
+          "llm",
+          "comp"
+        ],
+        [
+          "comp",
+          "staff"
+        ],
+        [
+          "llm",
+          "loc"
+        ],
+        [
+          "loc",
+          "staff"
+        ],
+        [
+          "sys",
+          "llm"
+        ],
+        [
+          "staff",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another regional agency. This is not Innovative Hub's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "RFP or enquiry inbox",
+          "kind": "input"
+        },
+        {
+          "id": "draft",
+          "label": "Proposal draft generation",
+          "kind": "ai"
+        },
+        {
+          "id": "rule",
+          "label": "Claim and sensitive-word rules",
+          "kind": "process"
+        },
+        {
+          "id": "trans",
+          "label": "Translation",
+          "kind": "ai"
+        },
+        {
+          "id": "rev",
+          "label": "Account director review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Localised proposal",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "draft"
+        ],
+        [
+          "draft",
+          "rule"
+        ],
+        [
+          "rule",
+          "trans"
+        ],
+        [
+          "trans",
+          "rev"
+        ],
+        [
+          "rev",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Marketing agencies",
+        "B2B services firms",
+        "Regional teams across time zones",
+        "Any business writing repeated proposals"
+      ],
+      "requirements": [
+        "A library of past proposals and approved claims",
+        "A list of prohibited or sensitive terms per market",
+        "A reviewer accountable for every submitted proposal"
+      ],
+      "steps": [
+        "Assemble past proposals and the claims that were approved",
+        "Build a proposal template the model must follow",
+        "Add a sensitive-word and claim check as a mandatory step",
+        "Measure turnaround and rejection rate",
+        "Extend to localisation once drafts are stable"
+      ],
+      "tools": [
+        "Language model",
+        "Proposal template",
+        "Term and claim checklist",
+        "Document management"
+      ],
+      "risks": [
+        "Proposals promising capability the firm does not have",
+        "Translation that changes commercial meaning",
+        "Compliance checks bypassed under deadline pressure"
+      ],
+      "kpis": [
+        "Proposal turnaround",
+        "Win rate",
+        "Compliance exception count",
+        "Response time by market",
+        "Revenue per employee"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Draft assistance",
+          "description": "Use a language model against a fixed proposal template.",
+          "when": "Proposal writing consumes senior time."
+        },
+        {
+          "level": "Level 2",
+          "title": "Checked drafting",
+          "description": "Add mandatory claim and sensitive-word checks before review.",
+          "when": "Compliance risk is material."
+        },
+        {
+          "level": "Level 3",
+          "title": "Multi-market workflow",
+          "description": "Join drafting, compliance, translation and delivery across markets.",
+          "when": "Several languages and time zones are involved."
+        }
+      ]
+    },
+    "gaps": [
+      "Model versions and subscription arrangements are not published.",
+      "The 2x productivity figure has no stated measurement method.",
+      "No independent coverage was located."
+    ],
+    "confidence": "B",
+    "companyUrl": "https://innovativehub.sg/"
+  },
+  {
+    "idx": 21,
+    "slug": "iyla-collective",
+    "headline": "IYLA Collective used Claude and Claude Code to quadruple content output and save S$14,000 in annual labour.",
+    "useCase": "Content generation",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Cost",
+      "Capacity",
+      "Time"
+    ],
+    "metrics": [
+      {
+        "label": "Annual recurring labour",
+        "value": "More than $14,000 saved",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Content output",
+        "value": "Up to 4x increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Content production time",
+        "value": "60 manhours per month freed",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "IYLA Collective distributes clean and certified-organic beauty and family care products through e-commerce marketplaces and retail channels. It runs several brands, which means several product catalogues, several content voices and several sales channels. The work is content-heavy and marketplace-dependent.",
+      "c": "Article research, writing and email campaign creation required significant manual effort, which restricted output and marketing reach. Sales data from multiple platforms had to be consolidated and reconciled by hand, delaying pricing and inventory decisions. Mobile app development was costly and depended on external vendors. The business was therefore limited in three directions at once: how much content it could publish, how fast it could read its own sales data, and what software it could afford. Each constraint had a different supplier, so the company was managing three dependencies with a small team.",
+      "q": "How could a small distributor publish more content, decide pricing faster, and build its own digital products without adding headcount or agency fees?",
+      "a": "IYLA embedded Claude, Grok and Claude Code across the business. Content support covers research, drafting and localisation of educational content and product information across multiple brands. Marketing automation builds and refines email campaigns and customer journeys, so more campaigns run with the same team. AI-assisted sales analytics analyses and reconciles sales across marketplaces, which speeds up pricing and inventory decisions. AI-assisted coding tools build customer-facing digital products in-house instead of through external agencies. The published result is more than $14,000 saved in annual recurring labour, up to four times more content output, and 60 manhours a month freed from content production. The coding element is the least common among the thirty winners: a beauty distributor used a coding assistant to remove a vendor dependency, not to write marketing copy. The citation does not say which applications were built, so the durability of that in-house capability is not established. The content multiple is modest next to the labour saving, which suggests the real constraint was production capacity rather than creative ambition, and that the tools removed a bottleneck rather than expanded demand. The labour saving is recurring, while the content gain depends on how much the marketplaces will absorb."
+    },
+    "takeaway": "The unexpected win was software. A coding assistant let a non-technical business stop renting its own storefront.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Sales data from multiple platforms had to be consolidated and reconciled manually.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Mobile app development was costly and relied on external vendors.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "The company embedded Claude, Grok and Claude Code across the business.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "AI-assisted coding tools are used to build customer-facing digital products in-house.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Claude and Grok for content, campaigns and analysis",
+        "vendor": "Anthropic (Claude), xAI (Grok)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Development",
+        "what": "Claude Code for in-house application development",
+        "vendor": "Anthropic (Claude Code)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Analytics",
+        "what": "Marketplace sales reconciliation and insight",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Marketing",
+        "what": "Email campaigns and customer journeys",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "cat",
+          "label": "Product and brand catalogue",
+          "kind": "input"
+        },
+        {
+          "id": "cl",
+          "label": "Claude content and campaigns",
+          "kind": "ai"
+        },
+        {
+          "id": "gr",
+          "label": "Grok analysis",
+          "kind": "ai"
+        },
+        {
+          "id": "sales",
+          "label": "Marketplace sales data",
+          "kind": "system"
+        },
+        {
+          "id": "code",
+          "label": "Claude Code development",
+          "kind": "ai"
+        },
+        {
+          "id": "team",
+          "label": "Team review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Content, campaigns, app",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "cat",
+          "cl"
+        ],
+        [
+          "sales",
+          "gr"
+        ],
+        [
+          "gr",
+          "team"
+        ],
+        [
+          "cl",
+          "team"
+        ],
+        [
+          "code",
+          "out"
+        ],
+        [
+          "team",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another e-commerce distributor. This is not IYLA's production system.",
+      "nodes": [
+        {
+          "id": "p",
+          "label": "Product data and claims",
+          "kind": "input"
+        },
+        {
+          "id": "gen",
+          "label": "Content generation with brand voice",
+          "kind": "ai"
+        },
+        {
+          "id": "fact",
+          "label": "Ingredient and claim check",
+          "kind": "process"
+        },
+        {
+          "id": "ed",
+          "label": "Editor approval",
+          "kind": "human"
+        },
+        {
+          "id": "cms",
+          "label": "Marketplace and email publishing",
+          "kind": "system"
+        },
+        {
+          "id": "out",
+          "label": "Published listing or campaign",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "p",
+          "gen"
+        ],
+        [
+          "gen",
+          "fact"
+        ],
+        [
+          "fact",
+          "ed"
+        ],
+        [
+          "ed",
+          "cms"
+        ],
+        [
+          "cms",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "E-commerce brands",
+        "Beauty and personal care",
+        "Marketplace sellers",
+        "Small distributors with several brands"
+      ],
+      "requirements": [
+        "Structured product data with verified ingredient claims",
+        "A brand voice guide per label",
+        "A reviewer for regulated product claims"
+      ],
+      "steps": [
+        "Start with product descriptions, which are repetitive and factual",
+        "Add a claim-check step for regulated categories",
+        "Measure output volume and revision rate",
+        "Add campaign and journey automation",
+        "Consider in-house app development only after content is stable"
+      ],
+      "tools": [
+        "Language model",
+        "Product information management",
+        "Email platform",
+        "Coding assistant"
+      ],
+      "risks": [
+        "Unsupported health or beauty claims",
+        "Brand voice drift across models",
+        "App code that nobody on the team can maintain"
+      ],
+      "kpis": [
+        "Assets published per month",
+        "Cost per asset",
+        "Revision rate",
+        "Email revenue per campaign",
+        "Hours on content production"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Product copy assistance",
+          "description": "Generate and edit listings from structured product data.",
+          "when": "Catalogue work consumes hours."
+        },
+        {
+          "level": "Level 2",
+          "title": "Campaign automation",
+          "description": "Add email campaign and journey generation with claim checks.",
+          "when": "Marketing output is the constraint."
+        },
+        {
+          "level": "Level 3",
+          "title": "In-house product development",
+          "description": "Use a coding assistant to build and maintain customer-facing tools.",
+          "when": "Vendor costs and dependencies are material."
+        }
+      ]
+    },
+    "gaps": [
+      "Currency is published as '$' without specifying Singapore or US dollars, though the company is Singapore-based.",
+      "Model versions and costs are not published.",
+      "No independent coverage was located."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 22,
+    "slug": "kopi-near-me",
+    "headline": "Kopi Near Me runs automated coffee machines on one AI operating system, cutting enquiry processing by 70%.",
+    "useCase": "Operations scheduling",
+    "aiType": "Agentic workflow",
+    "outcomes": [
+      "Revenue",
+      "Time",
+      "Capacity"
+    ],
+    "metrics": [
+      {
+        "label": "Sales conversion",
+        "value": "Up to 15% increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Manual enquiry processing",
+        "value": "70% reduction",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Technician scheduling time",
+        "value": "80% less",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Kopi Near Me operates a network of automated coffee vending machines across commercial, healthcare and transport locations in Singapore. The business is a field operation disguised as a retail one: every machine needs replenishment, cleaning and repair, and every site has different access rules and demand patterns. Revenue depends on machines being available and stocked.",
+      "c": "Customer requirements arrived through multiple communication channels, and staff had to extract the information manually and prepare sales documents. Managing replenishment, maintenance and repairs across machines required extensive coordination of technicians, routes and operational priorities. Inventory, logistics and operational records sat across multiple systems and spreadsheets, which meant manual data entry and limited visibility. The company could see sales, but not the operational state that produced them. A machine could be sold out and broken on the same day without either fact reaching the person planning tomorrow's route.",
+      "q": "How could the operator schedule technicians and stock across a growing machine network without a coordinator rebuilding the plan by hand each day?",
+      "a": "Kopi Near Me built an AI-enabled operating system that automates sales, scheduling and operational workflows. The sales component extracts customer requirements from enquiries and converts them into structured sales orders, quotations and contracts. Dynamic scheduling and routing optimise replenishment, maintenance and repair schedules, and adjust technician deployment as operational needs change. A centralised operations layer manages inventory, logistics and operational records in one platform, which reduces manual administration. Real-time dashboards give management live operational visibility for planning. The published result is up to 15% higher sales conversion, a 70% reduction in manual enquiry processing, and 80% less time on technician scheduling. The interesting number is conversion: enquiry handling speed affects revenue directly in a business where a site manager is comparing suppliers. The citation does not report stock-out or machine-uptime figures, so the operational effect of scheduling is not quantified. Conversion is the figure to watch, because scheduling and stock accuracy reach the customer as machine availability, and availability is the thing a site manager is actually buying when comparing suppliers. Uptime and stock-out rates would be the next figures to publish, because they show whether availability improved."
+    },
+    "takeaway": "Scheduling is the product in a field-service business. Optimise the route and the machine is available when the customer wants coffee.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Customer requirements arrived through multiple channels and were extracted manually.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Inventory, logistics and operational records were spread across systems and spreadsheets.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Dynamic scheduling optimises replenishment, maintenance and repair schedules.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Enquiry extraction and scheduling optimisation",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Orchestration",
+        "what": "Sales-to-contract workflow and field deployment",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Operations",
+        "what": "Inventory, logistics and operational records in one platform",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Telemetry",
+        "what": "Machine-level operational data feeding dashboards",
+        "origin": "unknown",
+        "evidence": "inferred",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "basis": "Replenishment and fault scheduling across a machine network normally requires machine telemetry. The citation describes operational visibility but does not name the data source."
+      },
+      {
+        "layer": "Governance",
+        "what": "Not described in any public source",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "enq",
+          "label": "Customer enquiry",
+          "kind": "input"
+        },
+        {
+          "id": "ext",
+          "label": "Requirement extraction",
+          "kind": "ai"
+        },
+        {
+          "id": "con",
+          "label": "Order, quotation, contract",
+          "kind": "output"
+        },
+        {
+          "id": "sch",
+          "label": "Dynamic scheduling",
+          "kind": "ai"
+        },
+        {
+          "id": "ops",
+          "label": "Inventory and logistics",
+          "kind": "system"
+        },
+        {
+          "id": "tech",
+          "label": "Technician deployment",
+          "kind": "human"
+        },
+        {
+          "id": "dash",
+          "label": "Management dashboard",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "enq",
+          "ext"
+        ],
+        [
+          "ext",
+          "con"
+        ],
+        [
+          "ops",
+          "sch"
+        ],
+        [
+          "sch",
+          "tech"
+        ],
+        [
+          "tech",
+          "dash"
+        ],
+        [
+          "ops",
+          "dash"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another vending or field-service operator. This is not Kopi Near Me's production system.",
+      "nodes": [
+        {
+          "id": "m",
+          "label": "Machine telemetry",
+          "kind": "input"
+        },
+        {
+          "id": "stock",
+          "label": "Stock and fault prediction",
+          "kind": "ai"
+        },
+        {
+          "id": "route",
+          "label": "Route optimisation",
+          "kind": "process"
+        },
+        {
+          "id": "app",
+          "label": "Technician mobile app",
+          "kind": "system"
+        },
+        {
+          "id": "visit",
+          "label": "Completed visit",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Updated service record",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "m",
+          "stock"
+        ],
+        [
+          "stock",
+          "route"
+        ],
+        [
+          "route",
+          "app"
+        ],
+        [
+          "app",
+          "visit"
+        ],
+        [
+          "visit",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Vending operators",
+        "Field service and maintenance",
+        "Facilities management",
+        "Equipment rental"
+      ],
+      "requirements": [
+        "Machine or asset identifiers with location data",
+        "Consumption and fault history",
+        "Technician availability and skills data"
+      ],
+      "steps": [
+        "Start with a fixed weekly route based on history",
+        "Add consumption forecasting per machine",
+        "Optimise routes against forecast and technician skills",
+        "Give technicians a mobile list rather than a printed schedule",
+        "Measure missed visits and stock-outs"
+      ],
+      "tools": [
+        "Telemetry or manual stock counts",
+        "Routing and scheduling library",
+        "Inventory system",
+        "Mobile app for technicians"
+      ],
+      "risks": [
+        "Forecast errors causing stock-outs at high-traffic sites",
+        "Over-optimisation that leaves no slack for emergencies",
+        "Technician resistance to algorithmic scheduling"
+      ],
+      "kpis": [
+        "Stock-out rate",
+        "Visits per technician day",
+        "Mean time to repair",
+        "Cost per visit",
+        "Enquiry-to-contract rate"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Scheduled routes",
+          "description": "Fixed routes with a shared spreadsheet of machine status.",
+          "when": "The network is small."
+        },
+        {
+          "level": "Level 2",
+          "title": "Forecast-driven routing",
+          "description": "Predict consumption and faults, then generate routes daily.",
+          "when": "Route planning consumes coordinator time."
+        },
+        {
+          "level": "Level 3",
+          "title": "Integrated operations system",
+          "description": "Join sales, inventory, scheduling and dashboards in one platform.",
+          "when": "Sales and operations data are separate."
+        }
+      ]
+    },
+    "gaps": [
+      "No scheduling engine, model or platform vendor is named.",
+      "The 15% conversion increase has no stated baseline conversion rate.",
+      "The telemetry source is not described."
+    ],
+    "confidence": "B"
+  },
+  {
+    "idx": 23,
+    "slug": "lil-but-mighty-education-centre",
+    "headline": "Lil' but Mighty cut parent communication turnaround by up to 83% and saved over 6,200 hours a year.",
+    "useCase": "Content generation",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Time",
+      "Capacity",
+      "Quality"
+    ],
+    "metrics": [
+      {
+        "label": "Marketing output",
+        "value": "300% increase",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Parent communication turnaround",
+        "value": "Up to 83% reduction",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Hours saved on repetitive tasks",
+        "value": "Over 6,200 yearly",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Lil' but Mighty Education Centre provides English enrichment for primary and secondary students using its own curriculum. The centre's product is teacher attention, but much of its staff time goes to material preparation and communication. Parents expect specific, personal updates about their child, not circulars.",
+      "c": "Lesson materials, marketing campaigns and parent communications required significant manual effort, which slowed turnaround and limited output. Staff training materials, standard operating procedures, performance-management documents and internal reports took substantial time to prepare and maintain. Expertise stayed with individuals, which produced duplicated work, inconsistent documentation and repeated coordination. Every hour spent writing a parent update was an hour not spent teaching or developing curriculum. The centre could not add classes without adding administrative hours, which capped growth at the speed of hiring.",
+      "q": "How could the centre personalise communication with hundreds of families and keep its curriculum current, without taking teachers out of the classroom?",
+      "a": "The centre embedded AI across curriculum development, marketing and operational workflows. Curriculum support accelerates lesson planning, assessment creation and teaching resources, with educators reviewing and refining AI-generated materials. Content and communications support creates first drafts of marketing content, webinar materials, website content and parent communications. Connected automation streamlines repetitive processes and reduces manual coordination across departments. AI-assisted documentation creates and maintains staff training materials, standard operating procedures and performance-management documents. Knowledge management organises tasks, prioritises information and improves access to organisational knowledge. The published result is a 300% increase in marketing output, up to 83% less time to turn around parent communication, and over 6,200 hours saved yearly. The company also publishes its own account of the award. The boundary that matters is that educators review and refine generated curriculum material, which keeps pedagogical judgement with teachers. The citation does not report parent satisfaction or learning outcomes, so the effect on quality is not measured. The hours figure matters operationally, because it represents teaching capacity returned rather than cost removed, and a centre can convert returned hours into classes more easily than it can convert a budget saving into revenue. Whether parents noticed the change, and whether it helped, is the measure the citation leaves out."
+    },
+    "takeaway": "Personalisation at scale needs a first draft, not a final answer. Teachers should edit, not author, the routine communication.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Lesson materials, marketing campaigns and parent communications required significant manual effort.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Curriculum support accelerates lesson planning and assessment creation, with educators reviewing and refining materials.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Expertise and information remained distributed across individuals, causing duplicated work.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c4",
+        "text": "The centre publishes its own account of winning the SME AI Impact Award.",
+        "sourceIds": [
+          "T1-LBM"
+        ],
+        "evidence": "corroborated",
+        "basis": "The company's site carries an article titled 'Mighty Proud: Celebrating Our SME AI Impact Award and the People Behind It'."
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Language model for curriculum, marketing and parent communication drafts",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Automation",
+        "what": "Connected automation tools for repetitive administrative processes",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Knowledge",
+        "what": "Organisational knowledge access and task prioritisation",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Educator review and refinement of generated curriculum material",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "date": "2026-10-17",
+        "event": "Centre publishes its own award announcement article.",
+        "sourceIds": [
+          "T1-LBM"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "need",
+          "label": "Curriculum or communication need",
+          "kind": "input"
+        },
+        {
+          "id": "gen",
+          "label": "Draft generation",
+          "kind": "ai"
+        },
+        {
+          "id": "edu",
+          "label": "Educator review",
+          "kind": "human"
+        },
+        {
+          "id": "auto",
+          "label": "Connected automation",
+          "kind": "process"
+        },
+        {
+          "id": "kb",
+          "label": "Knowledge management",
+          "kind": "system"
+        },
+        {
+          "id": "out",
+          "label": "Material or parent update",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "need",
+          "gen"
+        ],
+        [
+          "gen",
+          "edu"
+        ],
+        [
+          "edu",
+          "out"
+        ],
+        [
+          "kb",
+          "gen"
+        ],
+        [
+          "auto",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another enrichment centre. This is not the centre's production system.",
+      "nodes": [
+        {
+          "id": "rec",
+          "label": "Student progress record",
+          "kind": "input"
+        },
+        {
+          "id": "tpl",
+          "label": "Parent update template",
+          "kind": "system"
+        },
+        {
+          "id": "llm",
+          "label": "Draft generation",
+          "kind": "ai"
+        },
+        {
+          "id": "tch",
+          "label": "Teacher edit and approve",
+          "kind": "human"
+        },
+        {
+          "id": "send",
+          "label": "Send to parent",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "rec",
+          "llm"
+        ],
+        [
+          "tpl",
+          "llm"
+        ],
+        [
+          "llm",
+          "tch"
+        ],
+        [
+          "tch",
+          "send"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Enrichment and tuition centres",
+        "Schools",
+        "Training providers",
+        "Any organisation sending personalised updates"
+      ],
+      "requirements": [
+        "Student progress data in a structured form",
+        "A communication template that reflects the centre's voice",
+        "Teacher sign-off before anything reaches a parent"
+      ],
+      "steps": [
+        "Pick one recurring communication, such as term updates",
+        "Draft from structured progress data, not free text",
+        "Have teachers edit for one term and record common corrections",
+        "Refine templates from those corrections",
+        "Extend to marketing content once the routine is stable"
+      ],
+      "tools": [
+        "Student management system",
+        "Language model",
+        "Communication template",
+        "Email or messaging platform"
+      ],
+      "risks": [
+        "Inaccurate statements about a child's progress",
+        "Loss of the centre's voice through generic drafting",
+        "Parent data handled without consent"
+      ],
+      "kpis": [
+        "Minutes per parent update",
+        "Teacher edit time",
+        "Parent response rate",
+        "Content published per month",
+        "Staff hours on administration"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Template assistance",
+          "description": "Draft updates from structured data with teacher editing.",
+          "when": "Communication volume is manageable but slow."
+        },
+        {
+          "level": "Level 2",
+          "title": "Automated drafting at scale",
+          "description": "Generate drafts for every student from progress records, with approval.",
+          "when": "Hundreds of families receive regular updates."
+        },
+        {
+          "level": "Level 3",
+          "title": "Integrated content operations",
+          "description": "Join curriculum, marketing and internal documentation in one workflow.",
+          "when": "Multiple departments compete for the same staff time."
+        }
+      ]
+    },
+    "gaps": [
+      "No model or platform vendor is named.",
+      "The 6,200-hour figure has no stated derivation.",
+      "No independent press coverage was located beyond the company's own announcement."
+    ],
+    "confidence": "B",
+    "companyUrl": "https://lilbutmightyenglish.com/"
+  },
+  {
+    "idx": 24,
+    "slug": "linksworkz-design-studio",
+    "headline": "Linksworkz reported a 1300% first-year return by putting AI assistants on proposal and research work.",
+    "useCase": "Workflow automation",
+    "aiType": "LLM application",
+    "outcomes": [
+      "Cost",
+      "Time",
+      "Revenue"
+    ],
+    "metrics": [
+      {
+        "label": "Return on investment",
+        "value": "1300% within the first year",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Annual manpower savings",
+        "value": "$60,000",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      },
+      {
+        "label": "Proposal preparation",
+        "value": "70% faster",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "attribution": "Company-reported; published in the IMDA/SBF award citation"
+      }
+    ],
+    "scqa": {
+      "s": "Linksworkz Design Studio provides signage, wayfinding and environmental graphics consultancy for hotels, commercial developments and transportation facilities. Each project begins with a client brief, a request for proposals and a set of drawings. Wayfinding work also requires location, cultural and user-journey research before a concept is credible.",
+      "c": "Client briefs, requests for proposals and drawings required extensive review before customised proposals could be developed, and that review consumed senior leadership time. Location, cultural and user-journey research required around three working days of analysis before concept development could begin. Meeting records, project documentation and coordination consumed significant staff time and created bottlenecks across concurrent projects. A small studio therefore had a fixed ceiling on how many proposals it could pursue, set by the principal's reading time. Declining a brief for lack of review capacity costs nothing visibly, which makes the loss easy to miss.",
+      "q": "How could a small studio review more briefs and research more sites without the principal reading every document personally?",
+      "a": "Linksworkz built company-specific AI assistants to support business development, project research and operational workflows. The assistants handle first-stage reading, organisation and drafting, which lets staff focus on design thinking, client engagement and quality control. Proposal support reviews client briefs, requests for proposals and drawings to identify project scope, deliverables, risks and the information needed for fee preparation. Research support covers user-journey analysis, signage planning and information organisation using the studio's own methods. Operational support covers contract reviews, meeting summaries, project documentation and access to company procedures. Design exploration supports early concept development by testing visual directions, materials and options. Human-led review keeps design decisions, technical accuracy and final approvals with experienced staff. The published result is a 1300% first-year return, $60,000 in annual manpower savings, and 70% faster proposal preparation. The citation does not publish the cost base behind the return figure, so the payback calculation cannot be checked. A return of this size on a small studio suggests a low absolute cost base, so the payback period and the cash outlay matter more than the multiple, which will fall sharply once the initial tooling cost is behind the firm."
+    },
+    "takeaway": "For a small studio, the principal's reading time is the constraint. Give the first read to an assistant and keep the judgement.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Location, cultural and user-journey research required around three working days before concept development.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Proposal support reviews briefs, RFPs and drawings to identify scope, deliverables, risks and fee information.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      },
+      {
+        "id": "c3",
+        "text": "Human-led review keeps design decisions and final approvals with experienced staff.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "AI model",
+        "what": "Company-specific assistants for document review and drafting",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Knowledge",
+        "what": "Studio methods, procedures and standards",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Processing",
+        "what": "Brief, RFP and drawing review for scope and risk",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Design",
+        "what": "Early concept exploration of directions and materials",
+        "origin": "unknown",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      },
+      {
+        "layer": "Governance",
+        "what": "Experienced staff retain design decisions and final approval",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-13",
+        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS"
+        ]
+      }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented implementation",
+      "caption": "Components named in the award citation.",
+      "nodes": [
+        {
+          "id": "rfp",
+          "label": "Brief, RFP and drawings",
+          "kind": "input"
+        },
+        {
+          "id": "rev",
+          "label": "Assistant first-stage review",
+          "kind": "ai"
+        },
+        {
+          "id": "res",
+          "label": "Project and journey research",
+          "kind": "ai"
+        },
+        {
+          "id": "des",
+          "label": "Design exploration",
+          "kind": "ai"
+        },
+        {
+          "id": "staff",
+          "label": "Experienced staff review",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Proposal and concept",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "rfp",
+          "rev"
+        ],
+        [
+          "rev",
+          "staff"
+        ],
+        [
+          "res",
+          "des"
+        ],
+        [
+          "des",
+          "staff"
+        ],
+        [
+          "staff",
+          "out"
+        ]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Illustrative reference architecture",
+      "caption": "A feasible build for another design studio. This is not Linksworkz's production system.",
+      "nodes": [
+        {
+          "id": "in",
+          "label": "RFP pack",
+          "kind": "input"
+        },
+        {
+          "id": "sum",
+          "label": "Scope and risk extraction",
+          "kind": "ai"
+        },
+        {
+          "id": "lib",
+          "label": "Past proposal library",
+          "kind": "system"
+        },
+        {
+          "id": "draft",
+          "label": "Proposal draft",
+          "kind": "ai"
+        },
+        {
+          "id": "prin",
+          "label": "Principal review and pricing",
+          "kind": "human"
+        },
+        {
+          "id": "out",
+          "label": "Submitted proposal",
+          "kind": "output"
+        }
+      ],
+      "edges": [
+        [
+          "in",
+          "sum"
+        ],
+        [
+          "sum",
+          "draft"
+        ],
+        [
+          "lib",
+          "draft"
+        ],
+        [
+          "draft",
+          "prin"
+        ],
+        [
+          "prin",
+          "out"
+        ]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Design studios",
+        "Architecture practices",
+        "Wayfinding and signage consultants",
+        "Small consultancies bidding for work"
+      ],
+      "requirements": [
+        "A library of past proposals with fee outcomes",
+        "Drawings and briefs in a readable digital format",
+        "A principal who will price and approve"
+      ],
+      "steps": [
+        "Collect past proposals and note which were won",
+        "Build a scope and risk checklist from those documents",
+        "Generate a first-pass review against the checklist",
+        "Measure review time and proposal win rate",
+        "Add research support once review is trusted"
+      ],
+      "tools": [
+        "Document parsing",
+        "Language model",
+        "Proposal library",
+        "Drawing viewer with text extraction"
+      ],
+      "risks": [
+        "Missed scope items in complex drawings",
+        "Proposals priced from incomplete extraction",
+        "Over-reliance on generated concept directions"
+      ],
+      "kpis": [
+        "Hours per proposal",
+        "Proposal win rate",
+        "Days from brief to submission",
+        "Manpower cost per proposal",
+        "Change orders per project"
+      ],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Document summary",
+          "description": "Summarise briefs and RFPs so the principal reads less.",
+          "when": "Reading time is the bottleneck."
+        },
+        {
+          "level": "Level 2",
+          "title": "Checklist-driven review",
+          "description": "Extract scope, deliverables and risks against a fixed checklist, then draft.",
+          "when": "Proposal volume is rising."
+        },
+        {
+          "level": "Level 3",
+          "title": "Studio knowledge assistant",
+          "description": "Add research, procedures and concept exploration grounded in studio methods.",
+          "when": "Several staff need consistent access to expertise."
+        }
+      ]
+    },
+    "gaps": [
+      "No model or platform vendor is named.",
+      "The 1300% return figure does not publish its calculation or cost base.",
+      "Currency is published as '$' without specifying Singapore or US dollars."
+    ],
+    "confidence": "B"
+  }
+]

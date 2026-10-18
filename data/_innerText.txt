@@ -1,0 +1,1192 @@
+Get Started
+Grow your business through digital
+Explore key digital tools designed to help you grow your business safely through digital.
+Go Digital Advisor
+FEATURED
+Go Digital Advisor
+Explore Digital Solutions
+Enhance Cybersecurity
+Discover GenAI
+RECOMMENDED
+White Restaurant’s AI-enabled HRMS cut payroll errors by 90%
+Behind White Restaurant’s kitchen is a streamlined HR setup that cut errors by 90% and rostering time by 70%. Find out how they did it.
+Far East Flora sees 50% productivity gains and 66% faster replies with GenAI Chatbot
+Instant answers, better shopping experiences. See how Far East Flora slashed customer response time by 66% and boosted productivity by 50% with GenAI.
+Digital Solutions
+Find the right solutions for your business
+Reduce cost, boost profit, and enhance customer engagement with a wide range of pre-approved solutions with up to 50% grant support.
+FEATURED
+Essential Business Solutions
+AI for SMEs
+Cybersecurity Solutions
+Integrated Enterprise Resource Planning Solutions
+POPULAR CATEGORIES
+Accounting & Sales Management
+Human Resource Management System (HRMS)
+Digital Marketing
+E-commerce - Online Shop (B2C)
+Highlights
+Stay ahead through digital
+Discover flagship events, AI awards, proven SME success stories, and complimentary Partner tools & services designed to help strengthen cybersecurity and grow your business through digital.
+Flagship Event: SMEs Go Digital Day
+SME AI Impact Awards
+SME Success Stories
+Additional Insights
+Partner Programmes
+Free Trial Data Organisation for AI
+Free Trial AI Agent for your business
+Free Trial Sector AI Solutions
+Tools & Guides
+Unlock tools and guides to support your digital journey
+Discover practical resources to identify the right digital solutions and tackle your business challenges with confidence. 
+Go Digital Advisor
+Industry Digital Plans
+GenAI Navigator
+Digital Transformation
+GenAI Playbook
+About
+Search
+Log in
+ 
+
+You have proven AI works for your business and team. 
+
+Now get the recognition you deserve.
+
+About the awards2026 WinnersCategory & eligibilityNomination processJudging criteriaFAQ
+About the Awards
+
+The SME AI Impact Awards celebrate and recognise SMEs that have achieved business benefits, growth and digital transformation through Al. This award, jointly organised by IMDA and SBF, is part of the National AI Impact Programme and is in support of Singapore's National Al Strategy.
+
+This year, the Awards recognise 30 SMEs who have achieved business impact and results with Al.
+
+SME AI Impact Awards 2026 winners
+Meet the 30 Innovation & Adoption Excellence winners
+INNOVATION EXCELLENCE
+15 WINNERS
+Accountingbpo
+Uses AI to cut accounting document processing time by up to 67%
+Business Services
+Accountingbpo
+Professional services firm and business process outsourcing (BPO) provider specialising in tech-enabled financial management, corporate compliance, and digital accounting workflows.
+Up to 67% reduction
+in accounting document processing time
+Up to 16x faster
+management reporting
+396 manhours
+redirected monthly from administrative coordination to client work
+KEY CHALLENGES
+Labour-intensive accounting processes
+Manual data entry and reconciliation created heavy administrative work and delayed the timely completion of accounts
+Fragmented work coordination
+Assignments and client information were managed across various documents, requiring 400 hours of coordination each month
+Limited ability to scale
+Higher client volumes required more manpower, limiting scalability and margins
+THE AI SOLUTION
+Yi.Suite: AI Accounting Ecosystem
+An integrated ecosystem of specialised AI solutions built around its accounting workflows
+Yi.Suite connects document processing, client requests, reconciliation, financial reporting and analysis in an end-to-end workflow
+Automated document processing
+Uses AI to extract information from invoices and accounting documents, suggest accounts and match vendors, and supports batch or single-document processing
+AI-supported work coordination
+Converts client emails into trackable work tickets, recommends task assignments, drafts context-aware replies and provides workload and status summaries
+Automated reconciliation and follow-up
+Matches bank transactions against accounting records, drafts receivables follow-up communications and prepares scheduled management reports
+Conversational financial analysis
+Allows business owners to ask financial questions in plain language and generates KPI summaries, charts and dashboards from accounting data
+AI-assisted financial statement preparation
+Supports document verification, draft financial statement compilation and cash-flow preparation, with accountants reviewing and approving the outputs
+Best Marketing Agency
+Uses AI to automate routine workflows and increase revenue per employee by 71%
+Media & Creative
+Best Marketing Agency
+Provides digital marketing services including SEO, paid advertising, social media management and content creation services
+71% increase
+in revenue per employee
+73% increase
+in delivery capacity per head
+1,000 staff-hours saved
+from routine work per month
+KEY CHALLENGES
+Fragmented and manual operations
+Client delivery, reporting, finance and internal operations were spread across separate tools, spreadsheets and chat threads
+Time-consuming administrative work
+Account managers spent around two working days per client each month preparing reports, while finance and other administrative processes were also handled manually
+Rising costs and missed opportunities
+Manual coordination contributed to high overheads while taking senior staff away from sales, strategy and client engagement
+THE AI SOLUTION
+Big Beast: AI-powered Operating System
+Connects and automates client delivery, reporting, finance and internal operations
+Big Beast embeds AI agents across business workflows to execute routine processes, while retaining human approval for consequential actions
+Automated client reporting
+Pulls advertising and SEO data, tracks keyword performance and generates AI-assisted campaign summaries and live reports
+AI-enabled finance workflows
+Automates invoicing, bank reconciliation and accounting workflows, with human approval for financial actions
+Integrated business operations
+Brings task management, payroll, CPF computation, HR processes and contract e-signing into one platform
+AI-assisted content and quality control
+Drafts SEO content, advertisements and landing pages, with automated quality and compliance checks supporting human review
+Automated client and lead management
+Routes leads to relevant teams, flags unanswered enquiries and identifies renewal risks using campaign and payment records
+Blue Aqua International
+Uses AI to improve feed efficiency by around 30%
+Aquaculture
+Blue Aqua International
+Provides sustainable aquaculture, animal nutrition and farm management solutions to farmers worldwide
+30% improvement
+in managing production cost
+6–9 % higher
+survival rates
+Around 2,500 manpower
+hours saved annually
+KEY CHALLENGES
+Limited visibility of farm conditions
+Infrequent water quality checks meant issues could go undetected between readings, increasing the risk of losses
+Reactive feeding and disease management
+Generic feeding led to inefficient feed use and spending, while late disease detection increased the risk of stock losses
+Fragmented decision-making
+Farm decisions relied heavily on individual experience, paper logs and inconsistent records, making performance difficult to compare across farms
+THE AI SOLUTION
+AquaPilot: AI-driven Aquaculture Intelligence Platform
+Predicts farm risks and recommends actions using real-time aquaculture data
+AquaPilot analyses water quality, feeding, health and production data to translate Blue Aqua's aquaculture expertise into consistent, data-driven farm decisions
+Predictive water quality management
+Analyses sensor and farm data to forecast oxygen, ammonia and temperature 6 to 24 hours ahead and alert teams to potential issues
+AI-enabled disease risk detection
+Generates daily pond-level risk scores and flags potential health issues 4 to 7 days before they typically become visible
+AI-powered feed optimisation
+Calculates daily feed requirements for each pond based on biomass, water conditions, growth patterns and health risks
+AI-assisted system management
+Monitors the Recirculating Aquaculture System to predict potential issues and adjust feeding accordingly
+Data-driven farm intelligence
+Benchmarks ponds on feed conversion, survival, growth and production cost and provides farm-specific recommendations to increase farm yield
+GetGo Technologies
+Uses AI to detect vehicle damage and recovers $20,000 in billings
+Transport & Mobility
+GetGo Technologies
+Provides on-demand carsharing on a pay-as-you-drive basis
+53% reduction
+in lead time for damage-to-invoices
+60% less
+manual review workload
+S$20,000 recovered
+in damage costs within two months
+KEY CHALLENGES
+Impractical manual screening
+Around 7,000 daily bookings generate about 56,000 end-trip photos, making it impractical to manually inspect every booking for damage
+Delayed damage detection
+Vehicle damage could go unnoticed until reported by users or discovered during workshop inspection days or weeks later
+Difficulty recovering damage costs
+Late detection made it difficult to attribute damage to the responsible booking, resulting in cost of repair that cannot be recovered
+THE AI SOLUTION
+Project Desmond: AI-powered Vehicle Damage Detection
+Auto detects vehicle damage to reduce damage costs
+Combines computer vision, image matching and human validation to identify vehicle damage, determine when it occurred and support accurate billing
+AI vehicle damage detection
+Analyses end-trip photos to detect billable damage such as scratches, dents, cracks and dangling parts
+Booking-level damage attribution
+Compares consecutive bookings to determine when damage first appeared and link it to the relevant booking
+AI-powered image matching
+Uses image embeddings to determine whether detected damage is new or recurring across adjacent bookings
+Human-validated damage workflow
+Routes AI-flagged cases to human reviewers for validation before confirmed cases proceed for follow-up and billing
+Continuous AI model improvement
+Retrains the model using real-world failure cases such as rain and reflections to improve precision and reduce false positives
+Glints Singapore
+Uses AI to speed up internal knowledge searches by around 90%
+Talent & Recruitment
+Glints Singapore
+Provides talent and managed workforce services across Singapore, Malaysia, Indonesia, Vietnam, the Philippines and Taiwan.
+90% reduction
+in time spent fact-finding
+1,700 specialist hours
+saved in six months
+S$120,000 worth
+of staff time saved a year
+KEY CHALLENGES
+Fragmented company knowledge
+Critical information was spread across databases, business systems and employment laws in six different markets
+Slow responses to queries
+Routine questions often required help from Finance, Engineering or other specialists, with complex queries taking hours or days
+Operational and compliance risks
+Repeated queries distracted specialists from their work, while inconsistent answers created regulatory risks across different markets
+THE AI SOLUTION
+Glimmer: Knowledge Mining AI Agent
+Connects company data and knowledge to help employees answer customers’ questions
+Glimmer lets employees ask questions in plain language and retrieves answers from company systems, internal knowledge, source code and employment laws
+Unified AI knowledge assistant
+Answers questions in plain language using company data and internal knowledge, with supporting sources shown
+Real-time enterprise data retrieval
+Retrieves up-to-date client, employee, invoice and billing information from systems such as NetSuite and HubSpot
+AI-enabled technical support
+Reads the company&apos;s source code to answer platform questions and provide first-line support before unresolved issues are escalated
+Built-in accuracy and governance
+System automatically flags missing information, restricts citations to accessed sources and maintains audit logs
+Greenphyto
+Uses AI to improve crop inspection time by 10X
+Agriculture
+Greenphyto
+Operates a high-density indoor vertical farm for large-scale crop production
+10x faster
+in crop inspection time
+Up to 150x
+productivity improvement
+90% crop yield
+consistency
+KEY CHALLENGES
+Late detection of crop issues
+Plant defects and abnormal growth are not detected timely for intervention
+Manual inspections
+Crop and equipment checks relied heavily on people and multiple systems
+Challenging yield forecasting
+Limited continuous crop measurements made harvest planning difficult
+THE AI SOLUTION
+AI-powered Farm Operations Management System (FOMS™)
+Connects farm data, images, sensors and workflows into one system
+Uses AI to support decisions and improve production efficiency, moving farm operations from manual monitoring to a continuous, data-driven model.
+Early defect detection
+Detects crop growth issues, defects and abnormalities earlier using computer vision for early intervention
+Faster inspections
+Replaces many manual crop checks with AI-powered image checks
+More accurate harvest planning
+Improves yield forecasting by analysing farm data with AI
+Less manual intervention
+Integrates farm systems, sensors and workflows to reduce manual work
+Real-time alerts
+Flags issues such as lighting or device problems for timely follow-up
+iAPPS Health Group
+Uses AI to help doctors manage up to four times more patients
+Healthcare
+iAPPS Health Group
+Provides primary care, preventive health and diagnostic services supported by proprietary digital health infrastructure
+Up to 4x increase
+in doctor productivity
+Up to 10x increase
+in health coach productivity
+Up to 4x revenue growth
+across AI-enabled clinics
+KEY CHALLENGES
+Manpower-intensive operations
+Pharmacy, claims and finance processes required significant administrative resources as clinic operations grew
+Fragmented and reactive care
+Patient records, pharmacy, claims, finance and workforce management were spread across isolated systems
+Difficult to scale consistently
+Uneven workload and limited decision support made it difficult to expand while maintaining consistent care quality
+THE AI SOLUTION
+1docAI: AI-native Healthcare Operating System
+Integrates AI across patient care, clinical decisions and healthcare operations
+1docAI connects six AI domains across patient care, clinical decision-making, health coaching, pharmacy, enterprise operations and payments
+AI-enabled patient management
+Coordinates appointments, live queues and follow-ups to support patient flow and continuity of care
+AI-assisted clinical decision support
+Retrieves source-linked clinical evidence, supports diagnostic reasoning and applies safety checks, with final decisions made by doctors
+Personalised health coaching
+Uses longitudinal health data and behavioural intelligence to provide personalised, real-time coaching between consultations
+Automated pharmacy and enterprise operations
+Automates dispensing, inventory, claims, finance, reconciliation, HR and workforce rostering
+Integrated healthcare and payments
+Connects clinical, operational and payment workflows through a shared longitudinal data record
+Kyanon Digital
+Uses AI to cut new AI project setup time by 83%
+ICT/Consultancy
+Kyanon Digital
+Digital technology company and agile software development firm specialising in end-to-end digital transformation, data analytics, and enterprise IT solutions.
+83% reduction
+in setup time for new AI engagements
+80x faster
+business-rule changes
+75% increase
+in concurrent AI delivery capacity
+KEY CHALLENGES
+Repetitive & long lead time for development work
+Teams had to rebuild common capabilities for orchestral, retrieval, integrations, AI evaluation and monitoring before client-specific development could begin
+Heavy reliance on AI engineers
+Business-rules were embedded in application code with routine rule changes requiring around five working days of engineering effort, while AI quality checks also relied heavily on manual review
+Limited planning flexibility
+The company could support around four concurrent AI engagements without adding senior AI engineers at a similar rate, limiting its ability to grow efficiently even as demand increased
+THE AI SOLUTION
+WisdomMind: Enterprise AI Platform
+Standardises core AI capabilities, business rules, integrations and quality controls for faster deployment
+WisdomMind allows teams to start from a governed production framework and adapt it to each client engagement
+Reusable AI foundation
+Shared capabilities for AI-agent orchestration, retrieval, integrations and deployment, allowing new engagements to start from proven platform capabilities instead of building from scratch
+Governed business-rule management
+Separates business rules from application code, allowing authorised teams to update rules directly while evaluation, versioning and approval controls are applied before changes reach production
+Automated AI quality evaluation
+Tests AI changes against defined ground-truth scenarios and business rules before deployment, helping teams identify regressions consistently
+Reusable enterprise integrations
+Provides shared integration and tool interfaces that can be built once and reused across AI agents and client engagements
+End-to-end AI monitoring
+Tracks AI execution, latency, errors and inference costs, giving teams visibility to diagnose issues and optimise production workloads
+Limteh Project
+Uses AI to reduce 80% rework on orders
+Retail
+Limteh Project
+Creates customised corporate gifts, gift sets and personalised presents
+80% less
+rework on orders
+More than 20 hours
+saved each week
+Up to $5,800
+saved monthly
+KEY CHALLENGES
+Complex personalised orders
+Personalisation details from customers through order notes, customer chats and messages in different languages
+Labour-intensive order processing
+Staff manually process around 2,500 orders each month, creating a daily production bottleneck
+Costly errors
+Order mistakes resulted in reprints, reshipping, wasted materials and unhappy customers
+THE AI SOLUTION
+Milo: AI-powered Order Automation
+Automates personalised orders from sales to production
+Milo interprets customer orders and prepares production instructions, while AI verification helps improve accuracy and flags uncertain orders for review
+AI order interpretation
+Reads orders and chats across marketplaces to identify each customer’s personalisation requirements
+Automated production preparation
+Turns customer requirements into production instructions and automates print-file preparation
+AI-powered verification
+Cross-checks order details and flags uncertainties for staff review
+Continuous improvement
+Learns from staff corrections to improve order processing over time
+Business and marketing automation
+Automates sales reporting, stock alerts, profit-and-loss dashboards and creation of marketing content
+Lithan Academy
+Uses AI to cut curriculum development time by 75%
+Education
+Lithan Academy
+Provides adult education to bridge AI skills for a productive workforce
+75% faster
+curriculum development
+60% less
+manual monitoring and support
+About 60%
+year-on-year revenue growth
+KEY CHALLENGES
+Lengthy curriculum development
+A 60-hour module required around 300 staff hours to map competencies, prepare content, assessments and rubrics
+Difficulty scaling personalised learner support
+Learners progressed at different speeds, while limited trainer capacity made it difficult to provide timely, customised support
+Delayed learner intervention
+Attendance, assignments and programme progress tracked separately, making it harder to spot learner issues in-time.
+THE AI SOLUTION
+Adaptive CLaaS: AI-powered Personalised Learning System
+Reduces curriculum work and extends personalised support beyond trainer capacity
+Comprises three integrated modules: CLaaS Developer for curriculum development, CLaaS Mentor for personalised learner experience and CLaaS Manager for learner monitoring & management
+AI-assisted curriculum development
+CLaaS Developer uses generative AI to create first drafts of learning pathways, session plans, content and assessments, with AI-assisted quality checks and curriculum teams reviewing and refining outputs
+Adaptive personalised learning
+CLaaS Mentor adjusts learning pace and difficulty based on learner progress and recommends resources for identified gaps
+AI-powered learner support
+Provides on-demand guidance, reminders and automated assessment feedback, while escalating learners that need more support
+Data-driven learner management
+CLaaS Manager consolidates enrolment, attendance, assignment completion and programme progress into a 360 view
+Human-in-the-loop learning delivery
+AI handles repetitive curriculum development and routine learner guidance, while curriculum teams and trainers retain responsibility for content quality and complex interventions
+Mencast Marine
+Uses AI to generate $900,000 in new revenue
+Marine and Offshore Energy
+Mencast Marine
+Provides marine propulsion design, manufacturing and repair for the global marine and offshore industry
+50% faster
+design turnaround
+75% higher
+productivity for knowledge-intensive tasks
+$900,000 new
+revenue within 18 months
+KEY CHALLENGES
+Time-consuming design process
+Conventional methods restrict the number of options engineers could evaluate, slowing complex projects
+Pressure to lower design costs
+Growing competition from lower-cost players reduced margins and placed pressure on Mencast's design-led business
+Labour-intensive and manual operations
+Lengthy production cycles and manual information retrieval slowed quotations, workflows and operational efficiency
+THE AI SOLUTION
+Mencast AI Platform (MAIP)
+Uses AI to enhance propulsion design, manufacturing and operational workflows
+MAIP combines AI, computer vision and enterprise knowledge automation to improve productivity, streamline workflows and centralise data access
+AI-powered propulsion design
+Analyses thousands of design possibilities to identify higher-performing options and shorten the design process
+Design differentiation
+Leverages decades of engineering and sea-trial data to develop differentiated propulsion solutions beyond competing primarily on price
+Intelligent manufacturing optimisation
+Combines AI, computer vision and sensors to improve quality and support more efficient production
+Enterprise knowledge automation
+Organises enterprise knowledge and automates workflows such as quotations, claims processing, research and information retrieval
+Oceanus Media Global
+Uses AI to cut production timelines by around 80%
+Media & Creative
+Oceanus Media Global
+Creative media technology company specialising in virtual production, generative AI, content production, distribution and IP licensing
+80% shorter
+production timelines
+Up to 85% lower
+production costs
+200% increase
+in multi-location project capacity
+KEY CHALLENGES
+Long production timelines
+Multi-location productions could take 14-15 weeks due to location scouting, permits, travel, set construction and filming
+High production costs
+Location fees, permits, travel, transport and set construction increased  production costs significantly
+Limited production capacity
+Crews and equipment were largely committed to one major production at a time, limiting the number of projects the company could take on concurrently
+THE AI SOLUTION
+AI-integrated Virtual Production Pipeline
+Creates multiple locations virtually for faster, more efficient media production
+Combines generative AI, computer vision and AI agents across pre-production, filming, post-production and localisation, with creative control retained by the team
+AI-assisted pre-production
+Supports script breakdown, scene planning, scheduling, storyboarding and visualisation before filming
+AI-generated virtual environments
+Creates digital environments and reconstructs real locations as virtual sets for filming in a controlled studio
+AI-enabled filming
+Films actors against AI-built virtual environments, with real-time camera tracking maintaining correct perspective
+AI-supported visual effects
+Automates repetitive editing tasks and supports the creation of visual-effects elements
+AI-powered localisation and versioning
+Supports dubbing in four languages and adapts approved content for different formats and platforms
+ONG&ONG Group
+Uses AI to cut workflow durations by up to 95%
+Built Environment
+ONG&ONG Group
+Provides built environment consultancy services across Asia, integrating architectural practice, urban master planning, landscape design, interior design and project management with comprehensive civil, structural, mechanical and electrical engineering
+Up to 95% savings
+in workflow duration
+22,500 professional hours
+estimated to be recovered annually
+Approx. 4x return
+on AI investment
+KEY CHALLENGES
+Time-consuming information retrieval
+Up to 2,750 manhours a week spent searching for project precedents, building regulations, policies and project information scattered across multiple systems
+Reliance on staff knowledge
+Technical expertise sat with experienced staff, while accessing knowledge from past projects required staff to know the exact reference to search for
+Labour-intensive processes
+Manual regulatory, design, presentation and financial reporting tasks slowed project delivery and management reporting
+THE AI SOLUTION
+360i: AI Platform
+Connects the company’s project knowledge, regulatory information and business workflows in a secure and governed environment
+360i enables staff to search institutional knowledge, check regulations, generate project materials and automate selected business processes using AI grounded in the firm's own data and standards.
+AI-powered knowledge retrieval
+Allows staff to search over 12,000 historical projects and internal information using plain-language questions, with answers linked back to source records
+Regulatory compliance support
+Dedicated assistants answer questions on Singapore building regulations and CORENET X requirements, providing citations to relevant source clauses
+AI-assisted design visualisation
+Generates and edits architectural, interior, urban and landscape concept images, allowing designers to explore multiple directions within hours  
+AI-powered financial reporting and analysis
+Consolidates and validates financial data across 10 entities to produce the Group's P&L, while AI analyst modules generate alerts, forecasts and scenario analyses
+AI-enabled professional workflows
+Extends into PowerPoint, Excel, Outlook and document workflows, while specialised tools support branded presentation creation, exact calculations and landscape research
+Supreme Components International
+Uses AI to accelerate RFQ processing, cutting sourcing and quote preparation time by up to 90%
+Wholesale Trade
+Supreme Components International
+Supplies active, passive and electromechanical components to original equipment manufacturers and electronic manufacturing companies across tech sectors
+Up to 90% faster
+sourcing and quote preparation
+96% reduction
+in bills of materials preparation time
+Up to $32,000
+in monthly productivity gains
+KEY CHALLENGES
+Unstructured Request For Quotation (RFQ) submissions
+RFQs arrived in multiple formats and increasing volumes, making them difficult to process, track and manage efficiently
+Inaccurate and error-prone matching
+Manual product and brand matching increased the risk of quoting inaccuracies and cause unnecessary followups
+Fragmented supplier information 
+Supplier pricing and lead-time information was scattered across emails and records
+THE AI SOLUTION
+Atlas (AI RFQ-to-Fulfilment Platform)
+Uses AI to transform RFQ and supplier data into structured, searchable information
+Automates RFQ processing and sourcing workflows - help teams improve accuracy, reduce manual effort and respond to customer requests more efficiently
+AI-enabled RFQ processing
+Extracts customer and product requirements from emails, PDFs, spreadsheets and other RFQ formats into structured data
+Intelligent product matching
+Matches requested products and brands against supplier information to streamline sourcing and quotation workflows
+Supplier intelligence and sourcing
+Extracts supplier prices, inventory and lead times from emails while identifying stock availability, supplier options and product alternatives
+Automated RFQ workflow
+Centralises RFQ and supplier information while automating supplier outreach, making information easier to search, track and reuse
+Thriving Weeds
+Uses AI to enable continuous waste monitoring with more than 95% accuracy in waste weight measurements
+Environmental Services
+Thriving Weeds
+Provides waste audits, data analysis and sustainability consultancy to help organisations improve resource and waste management
+60% fewer
+flagged contamination incidents
+>95%
+data accuracy
+Up to 384 manhours
+saved per audit
+KEY CHALLENGES
+Manpower-intensive waste audits
+Conventional audits could involve 6-8 people collecting and sorting waste for up to 12 hours a day
+Limited visibility between audits
+Short manual sampling periods made it difficult to identify daily variations, repeated contamination and longer-term waste patterns
+Manual process limited scalability
+Repeated on-site audits and lengthy reporting required significant time and resources for each premise
+THE AI SOLUTION
+AuditEye Waste-to-Cloud Ecosystem
+Combines AI, IoT and cloud technology for continuous waste monitoring
+AuditEye captures and structures waste data over longer periods, while retaining human verification and professional consultancy for waste-reduction recommendations
+Continuous monitoring
+Captures disposal records throughout the deployment period to provide a larger and more representative dataset
+AI-enabled contaminant detection
+Identifies contaminants in waste streams and records when contamination occurs, including disposal weight and frequency
+Automated data capture
+Links images with weight, time, location and waste-stream information to create standardised records for analysis
+Cloud-based intelligence
+Processes records in near real time and provides access to waste data, images and downloadable records
+Human-validated analysis
+Combines continuous monitoring with consultant review and physical audits to verify findings and develop recommendations
+View all winners
+ADOPTION EXCELLENCE
+15 WINNERS
+Agape CP Holdings
+Uses AI to cut administration tasks by over 60%
+Business Services
+Agape CP Holdings
+Social enterprise providing contact centre, customer experience, business process outsourcing, recruitment and workforce development services
+63% less time
+spent on administrative tasks
+33% faster
+new-agent onboarding
+16x more
+quality assurance coverage
+KEY CHALLENGES
+Time-consuming post-call administration
+Agents spent 3-5 minutes documenting each interaction and updating records, reducing time available to serve customers
+Limited service-quality visibility
+Supervisors could only review 5% of interactions, limiting their ability to identify service gaps, compliance risks and coaching opportunities
+Slow onboarding
+New agents could take around six weeks to reach independent productivity, with some requiring additional knowledge support and initial-deployment coaching
+THE AI SOLUTION
+AI-powered Contact Centre and BPO Platform
+Supports customer service, quality monitoring and workforce productivity with AI
+Combines generative AI, speech analytics and workflow automation to support agents and supervisors across customer interactions, administration, quality assurance and knowledge management
+AI-assisted customer service
+Provides real-time guidance, suggested responses and instant access to relevant knowledge during customer interactions
+Automated call documentation
+Generates call summaries, customer-interaction notes and email drafts to reduce repetitive post-call work
+AI-powered quality assurance
+Analyses customer interactions at scale to identify service-quality issues, compliance risks, sentiment and coaching opportunities
+AI-powered knowledge retrieval
+Gives agents immediate access to SOPs, policies and campaign information without manually searching documents
+AI-enabled workforce support
+Provides new employees with real-time guidance and standardised knowledge to support faster learning and greater independence
+Brew Interactive
+Uses AI to cut client onboarding time by 85%
+Media & Creative
+Brew Interactive
+Provides lead generation, performance marketing, SEO, Generative Engine Optimisation (GEO) and marketing automation services
+85% faster
+client onboarding
+About 85% reduction
+in time spent producing videos
+Up to $10,000 saved
+monthly on creative production
+KEY CHALLENGES
+Manual succession of client onboarding
+Handover documents for new clients took 3-4 hours, risking information gaps between sales and delivery teams
+Labour-intensive content creation
+Research, strategy development, content drafting and client communications required significant effort and time
+Slow creative production
+Video production could take 2-3 weeks, limiting the speed and variety of creative testing
+THE AI SOLUTION
+AI-powered Sales, Operations and Creative Workflows
+Streamlines workflows and improves productivity
+Embeds AI tools including Claude, MeetGeek, Higgsfield and AdCreative.ai across the agency
+Fast and structured client onboarding
+MeetGeek transcribes client meetings while Claude generates structured handover documents
+AI-assisted content development
+Claude assists with research, strategy development, content drafting and client communications
+AI-assisted creative production
+Higgsfield generates AI video assets while AdCreative.ai generates advertising creatives
+Standardised business communications
+Blip AI helps employees with routine written communications across departments
+Catalyst Performance
+Uses AI to improve organic search clicks by over 300%
+Personal Care Services
+Catalyst Performance
+Specialises in assessment-led fitness coaching and long-term health optimisation through personal training and wellness
+Over 300% increase
+in organic search clicks
+190% increase
+in search impressions
+More than 2X improvement
+in Google search ranking
+KEY CHALLENGES
+Limited online visibility
+The legacy website lacked SEO and GEO infrastructure, limiting organic discoverability
+Manual and resource-intensive marketing
+Website updates, content creation, advertising campaigns and lead outreach required significant time or external agency support
+Limited in-house digital capacity
+The website, marketing systems and operational tools required significant time or external agency support
+THE AI SOLUTION
+AI-powered Digital Operations
+Builds and manages digital capabilities that would otherwise require external agencies or dedicated technical staff
+Embeds Claude across website, marketing and operational workflows
+AI-built website and search optimisation
+Rebuilt the website with SEO and GEO infrastructure to improve visibility across Google and AI search engines
+Automated outreach and lead nurturing
+Powers LinkedIn outreach, automated email campaigns and personalised follow-ups to convert leads
+AI-powered advertising analysis
+Analyses Meta, Google and TikTok campaign data to identify inefficient ad spend and improve allocation
+AI-operated dashboards
+Built dashboards that provide visibility on bookings, leads, protocol sales, email performance and funnel analytics
+GOODSTUPH
+Uses AI to cut campaign production from four weeks to seven days
+Media & Creative
+GOODSTUPH
+Provides creative media social marketing services
+More than 30%
+cost savings
+Up to 4X faster
+production turnaround
+Over 200% increase
+in creative output
+KEY CHALLENGES
+High outsourced production costs
+External shoots, studios and post-production accounted for roughly 60% of total expenses in H1 2025
+Long production cycles
+External production added 2-4 weeks to a typical campaign, while changes could add another 3-5 days
+Limited experimentation and client reach
+High production costs limit the number of concepts the agency could test and made some lower-budget briefs uneconomical to serve
+THE AI SOLUTION
+AI.YAH: Generative-AI Creative Production System
+Combines large language models, image generation and generative video within a structured creative workflow
+AI accelerates ideation and production, while human creatives direct the process, evaluate outputs and retain final creative approval
+AI-assisted ideation and scripting
+Uses large language models to develop creative concepts and scripts, helping teams explore and develop ideas faster
+Generative image and video production
+Produces images, videos and creative variations in-house, reducing reliance on external shoots and post-production
+Structured AI creative workflows
+Uses role-based prompt frameworks that guide outputs against defined creative and quality standards
+Human-led creative control
+Human creatives direct the process, evaluate AI-generated outputs and retain final judgement over what is good enough to release
+iHub Solutions
+Uses AI to halve the time needed to handle data requests
+Logistics
+iHub Solutions
+Provides technology-enabled logistics solutions, including smart warehousing, e-commerce fulfilment and last-mile delivery services
+$94,500
+in projected annual cost savings
+60% less time
+handling data requests
+15 hours saved
+per day
+KEY CHALLENGES
+Labour-intensive report preparation
+Ad hoc data requests required manual extraction, manipulation and report creation beyond standard system reports
+Dependence on technical expertise
+Complex requests required software developers to write SQL queries and retrieve information from underlying databases
+High query-handling workload
+Customer service and software development teams spent approximately 25 employee-hours daily responding to reporting and data requests
+THE AI SOLUTION
+Gideon: GenAI Virtual Assistant
+Uses natural-language conversations to make warehouse and delivery data more accessible
+Enables customers and employees to retrieve, analyse and explore operational data without requiring technical knowledge or developer support
+Natural-language data queries
+Allows users to ask questions in plain language instead of searching reports or understanding database structures
+Automated data retrieval
+Converts user requests into SQL queries and retrieves data directly from iHub's Warehouse Management System
+Interactive data analysis
+Generates charts, refines queries through conversations and presents results in an easy-to-understand format
+Self-service analytics
+Empowers customers and non-technical employees to independently access operational insights without relying on technical teams
+Innovative Hub (SG)
+Uses AI to cut proposal drafting time by around 80%
+Media & Creative
+Innovative Hub (SG)
+Offers digital marketing and e-commerce services to clients across Singapore, Malaysia and Vietnam
+2x higher
+employee productivity
+75% faster
+customer response times
+80% faster
+proposal creation
+KEY CHALLENGES
+Manual and time-intensive work
+Proposal drafting and compliance checks required significant manual effort
+Slow customer response and content delivery
+Customer response and content translations were dependent on specialist availability and limited by time zones
+Limited scalability
+Business growth depended on hiring more staff to handle increasing workload
+THE AI SOLUTION
+AI-powered Workflow Automation
+Leverages AI tools like Claude, ChatGPT and OpenMax across daily workflows
+Using AI tools to automate routine tasks, retrieve data and respond to clients quickly.
+Faster proposal creation
+Reduces proposal turnaround time from a full day to just a few hours
+Multilingual support
+Completes content localisation and translations within the same day
+Automated compliance
+Streamlines audits, checklists and sensitive-word checks 
+Cross-platform task support
+Supports multi-step tasks completion by working across messaging platforms, spreadsheets, and internal databases
+Broader workflow automation
+Supports prospecting, HR triage, morning briefings, reporting, client monitoring and other routine tasks
+IYLA Collective
+Uses AI to increase content output by 4x
+Retail
+IYLA Collective
+Distributes clean and certified-organic beauty and family care products through e-commerce marketplaces and retail channels
+More than $14,000 saved
+in annual recurring labour
+Up to 4x increase
+in content output
+60 manhours
+per month freed from content production
+KEY CHALLENGES
+Time-consuming content and marketing production
+Article research, writing and email campaign creation required significant manual effort, restricting output and marketing reach
+Labour-intensive sales analysis
+Sales data from multiple platforms had to be consolidated and reconciled manually, delaying pricing and inventory decisions
+Limited capacity for product development
+Mobile app development was costly and relied on external vendors
+THE AI SOLUTION
+AI-powered Operations Solution
+Uses AI to automate content, marketing, analytics and software development workflows
+IYLA embedded Claude, Grok and Claude Code across the business to expand operating capacity and reduce reliance on external resources
+Content creation support
+Researches, drafts and localises educational content and product information across multiple brands
+Marketing automation
+Builds and refines email campaigns and customer journeys, enabling more campaigns to be produced with the same team
+AI-assisted sales analytics
+Analyses and reconciles sales across multiple marketplaces, providing faster insights for pricing and inventory decisions
+In-house app development
+Uses AI-assisted coding tools to build customer-facing digital products without relying on external agencies
+Kopi Near Me
+Uses AI to cut technician scheduling time by 80%
+Food & Beverage
+Kopi Near Me
+Operates a network of automated coffee vending machines across commercial, healthcare and transport locations in Singapore
+Up to 15% increase
+in sales conversion
+70% reduction
+in manual enquiry processing
+80% less time
+on technician scheduling
+KEY CHALLENGES
+Fragmented sales and contract processes
+Customer requirements arrived through multiple communication channels, requiring staff to manually extract information and prepare sales documents
+Complex field operations scheduling
+Managing replenishment, maintenance and repairs across machines required extensive coordination of technicians, routes and operational priorities
+Fragmented operational data
+Inventory, logistics and operational records were spread across multiple systems and spreadsheets, resulting in significant manual data entry and limited visibility
+THE AI SOLUTION
+AI-enabled Operating System
+Automates sales, scheduling and operational workflows across the business
+The integrated platform streamlines customer onboarding, optimises field operations and provides real-time operational visibility
+Sales process automation
+Extracts customer requirements from enquiries and converts them into structured sales orders, quotations and contracts
+Dynamic scheduling and routing
+Optimises replenishment, maintenance and repair schedules while adjusting technician deployment based on operational needs
+Centralised operations management
+Manages inventory, logistics and operational records through a unified platform, reducing manual administration
+Real-time operational visibility
+Provides management dashboards and live operational insights to support planning and decision-making
+Lil' but Mighty Education Centre
+Uses AI to cut personalised parent communication preparation time by over 80%
+Education
+Lil' but Mighty Education Centre
+Provides English enrichment for primary and secondary school students with its proprietary curriculum
+300% increase
+in marketing output
+Up to 83% reduction
+in parent communication turnaround time
+Over 6,200 hours
+saved yearly on repetitive tasks
+KEY CHALLENGES
+Labour-intensive content creation
+Lesson materials, marketing campaigns and parent communications required significant manual effort, slowing turnaround and limiting output
+Manual internal documentation
+Staff training materials, SOPs, performance-management documents and internal reports required significant time to prepare and maintain
+Fragmented organisational knowledge
+Expertise and information remained distributed across individuals, resulting in duplicated work, inconsistent documentation and repeated coordination
+THE AI SOLUTION
+AI-powered Curriculum, Content and Operations
+Streamlines repetitive work and improves organisational efficiency
+Embeds AI across curriculum development, marketing and operational workflows
+AI-enhanced curriculum development
+Accelerates lesson planning, assessment creation and development of teaching resources, with educators reviewing and refining AI-generated materials
+AI-assisted content and communications
+Creates first drafts of marketing content, webinar materials, website content and parent communications
+Automated administrative workflows
+Uses AI and connected automation tools to streamline repetitive processes, consolidate information and reduce manual coordination across departments
+AI-assisted internal documentation
+Helps create and maintain staff training materials, SOPs and performance-management documents
+Knowledge management
+Organises tasks, prioritises information and improves access to organisational knowledge
+Linksworkz Design Studio
+Uses AI to cut proposal preparation tasks time
+Built Environment
+Linksworkz Design Studio
+Provides signage, wayfinding and environmental graphics consultancy services for hotels, commercial developments and transportation facilities
+1300% Return on Investment
+(ROI) within the first year
+$60,000
+in annual manpower savings
+70% faster
+proposal preparation
+KEY CHALLENGES
+Time-consuming proposal preparation
+Client briefs, Request for Proposals (RFPs) and drawings required extensive review before customised proposals could be developed, consuming significant senior leadership time
+Labour-intensive project research
+Location, cultural and user-journey research required around three working days of analysis before concept development could begin
+High operational and documentation workload
+Meeting records, project documentation and coordination tasks consumed significant staff time and created bottlenecks across concurrent projects
+THE AI SOLUTION
+AI Assistants and Semi-Automated Workflows
+Uses company-specific AI assistants to support business development, project research and operational workflows
+The AI assistants handle first-stage reading, organisation and drafting, allowing staff to focus on design thinking, client engagement and quality control.
+Proposal development support
+Reviews client briefs, RFPs and drawings to identify project scope, deliverables, risks and information required for fee preparation
+Project research and wayfinding
+Supports research, user-journey analysis, signage planning and information organisation using Linksworkz's methods and expertise
+Streamlined operations and documentation
+Assists with contract reviews, meeting summaries, project documentation and access to company procedures and standards
+Design exploration
+Supports early-stage concept development by exploring visual directions, materials and design options for client presentations
+Human-led review
+Keeps design decisions, technical accuracy and final approvals under the responsibility of experienced staff
+McLink Asia
+Uses AI to increase campaign production capacity by 200%
+ICT/Consultancy
+McLink Asia
+Provides office equipment, enterprise software integration and managed IT services to businesses in Singapore and Asia
+200% increase
+in campaign production capacity
+95% faster
+response to customers
+85% faster
+campaign roll-out
+KEY CHALLENGES
+Slow to respond to customers
+Staff took hours or days to respond to social media enquiries
+Long time taken to deliver campaigns
+A single campaign required 8-12 hours of combined staff effort to deliver
+Delayed campaign launches
+Manual revisions and handovers slowed campaign production, limiting the ability to respond quickly to market opportunities
+THE AI SOLUTION
+Multi-agent AI Marketing Platform
+Automates marketing from lead qualification to reporting
+Specialised AI agents work together to qualify leads, create content, prepare campaigns and analyse performance, reducing repetitive work and handovers
+Automated AI lead qualification
+Responds to social enquiries and helps identify and qualify potential leads
+AI campaign creation
+AI content generation creates blogs, newsletters, videos and promotional images quickly and prepares campaigns for distribution
+Connected multi-agent workflow
+AI agents work across campaign tasks, reducing manual handovers and delays
+Automated marketing analytics
+Collects advertising data and prepares performance reports with less manual work
+Nami Japanese Academy
+Uses AI to handle scheduling requests, cutting resolution time to under two hours
+Education
+Nami Japanese Academy
+Language school specialising in Japanese language instruction and cultural enrichment, with lessons delivered in small-group and digital classroom settings.
+Up to 83% less
+time spent on administrative tasks
+50% fewer
+no-shows
+100% on-time
+payment
+KEY CHALLENGES
+Time-consuming administrative work
+Two administrators spent around 60 hours each week managing messages, schedules and reminders, reducing time available for other work
+Slow responses to rescheduling requests
+Manual coordination between students and teachers meant requests took 3-8 hours to resolve, with after-hours requests delayed until staff were available
+Missed lessons and delayed payments
+Inconsistent reminders contributed to more than 10 no-shows and last-minute cancellations each month, while overdue invoices could go unnoticed for weeks
+THE AI SOLUTION
+The Nami Concierge: AI-powered WhatsApp Platform
+Automates lesson scheduling, communication and routine administration
+The Nami Concierge uses AI to manage routine WhatsApp enquiries and administrative workflows, allowing staff to spend more time towards enhancing teaching quality and student engagement
+AI-powered message handling
+Reads and classifies WhatsApp messages and responds to routine requests in the student’s preferred language
+Automated lesson rescheduling
+Checks live calendars, identifies available slots, coordinates teacher approval and updates bookings automatically
+Automated reminders and administration
+Sends lesson and invoice reminders, marks attendance, generates invoices and extends recurring lesson series
+Centralised conversation management
+Provides staff with a single view of conversations, AI-generated summaries and the ability to take over when needed
+Human-controlled escalation
+Routes billing matters, complaints and complex requests to staff for review and action
+The Gourmet Factor
+Uses AI to cut invoice processing time by 80%
+Food & Beverage
+The Gourmet Factor
+Operates and manages restaurant brands across a range of dining concept
+100% Return on Investment
+(ROI) within five months
+80% faster
+invoice processing
+40% less
+time spent on stocktaking
+KEY CHALLENGES
+Manual inventory and invoice processing
+Stocktaking and supplier invoice processing required significant staff effort, reducing time available for higher-value work
+Inventory visibility gaps
+Fragmented stock records reduced visibility into inventory levels, contributing to shortages, over-ordering and excess stock
+Limited visibility into food costs and margins
+Supplier pricing data was buried in unprocessed invoices, making it challenging to maintain accurate menu costing and respond to cost increases
+THE AI SOLUTION
+Restoke.ai: AI-driven Inventory and Back-of-House Platform
+Uses AI to automate inventory management, invoice processing and food-cost tracking
+By connecting supplier pricing, inventory and recipes in a single platform, Restoke.ai provides real-time visibility into stock levels, food costs and margins while reducing manual administration
+Automated invoice processing
+Extracts supplier invoice details using Optical Character Recognition (OCR) and machine learning, reducing manual data entry and processing effort
+Digital stocktaking
+Captures inventory counts through mobile devices and synchronises stock information across locations
+Real-time recipe costing
+Updates recipe costs using live supplier prices, providing greater visibility into menu-item costs and margins
+Data-driven purchasing
+Uses inventory and costing data to guide purchasing decisions and reduce shortages, over-ordering and excess stock
+TTS Group
+Uses AI to increase traffic-data acquisition capacity by about 98%
+Transport & Mobility
+TTS Group
+Provides transport planning, traffic engineering and transport analytics consultancy services.
+About 98% increase
+in traffic-data acquisition capacity
+About 30 hours saved
+per engineer each week on manual traffic footage review
+About 50x more sites
+processed monthly
+KEY CHALLENGES
+Labour-intensive traffic data collection
+Surveyors manually counted and classified vehicles and pedestrians, requiring multiple personnel and extended shifts for high-volume sites
+Time-consuming safety analysis
+Engineers spent around 15 hours per week reviewing footage for a single intersection, limiting the number of sites that could be assessed
+Reactive road-safety assessment
+Periodic observations and historical crash data made it difficult to detect near-misses and identify safety risks before incidents occurred
+THE AI SOLUTION
+TTS Proactive Framework for Near-Miss-Based Traffic Risk Assessment
+Uses AI to automate traffic analysis and identify safety risks earlier
+Combines computer vision, predictive analytics and large language models to collect traffic data, detect near-misses and support risk assessment and intervention planning, with engineers retaining responsibility for safety recommendations
+Automated traffic detection and classification
+Detects, tracks and classifies vehicles and pedestrians using computer vision, reducing reliance on manual traffic counting
+AI-enabled near-miss detection
+Analyses movement patterns to identify traffic conflicts that may not appear in conventional crash-based assessments
+Data-driven risk assessment
+Uses traffic and near-miss data to quantify risk and identify higher-risk locations
+AI-assisted intervention planning
+Synthesises data from high-risk intersections to support targeted safety interventions such as signal optimisation
+Continuous post-intervention monitoring
+Reassesses sites after interventions to measure changes in safety risk and compare results before and after improvements
+You Tiao Man
+Uses AI to cut supplier invoice processing time by 85%
+Food & Beverage
+You Tiao Man
+Manufactures traditional Asian snacks and frozen dough fritters, supplying hotels, restaurants, caterers and supermarkets
+85% Return on Investment (ROI)
+within the first year
+83% less time
+processing invoices
+40 manhours
+saved per week
+KEY CHALLENGES
+Fragmented order management
+Orders arrived through multiple sales channels, requiring staff to manually capture and consolidate information across systems
+Labour-intensive invoice processing
+Supplier invoices had to be manually entered, validated and reconciled across spreadsheets and finance systems
+ Time-consuming administrative work
+Manual payment tracking, follow-up activities and repetitive order administration reduced time available for business development and customer engagement
+THE AI SOLUTION
+AI Operations Co-Pilot
+Uses AI to automate order, finance and marketing workflows while keeping staff in control of approvals
+Built using n8n and Claude, the solution integrates with existing business systems to reduce manual processing, improve visibility and streamline day-to-day operations
+AI-assisted invoice processing
+Extracts invoice details, validates pricing against master records and flags discrepancies for staff review
+Automated finance workflows
+Maintains payment records and transfers approved invoice information into finance systems, reducing duplicate data entry and reconciliation work
+Multi-channel order visibility
+Consolidates orders across sales channels into a live dashboard, providing a unified view of revenue, orders and outstanding actions
+AI-assisted marketing
+Researches and drafts social media content, checks it against company policies and routes posts for approval before publication
+View all winners
+Award categories
+SME Innovation Excellence Award
+SMEs who have developed a proprietary AI solution and successfully deployed it within their own business
+SME Adoption Excellence Award
+SMEs who have successfully implemented ready-to-use or off-the-shelf AI solutions
+Eligibility criteria
+
+SMEs who submit nominations must meet the following eligibility requirements:
+
+Singapore-registered company with local operations
+At least 30% local shareholding
+Group annual sales turnover below S$100 million, OR group employment size below 200
+Minimum 6 months of AI solution deployment with positive business impact
+Nomination process
+
+4 steps to nominate your company for the SME AI Impact Awards — from submitting key company information to celebrating at the Awards ceremony on 13 Oct 2026.
+
+Nomination for 2026 closed on 14 August.
+
+ 
+Submit key information
+
+Start your nomination process and proceed to submit key information about your company.
+
+ 
+Get notified
+
+SMEs will receive an email with a unique link to continue the application process.
+
+All submissions need to be received by 14 Aug 2026.
+
+ 
+Judging and site visits
+
+Nominations will be evaluated and judged.
+
+As part of the judging validation, site visits will be conducted to observe the use of AI in the business.
+
+Attend the Awards ceremony
+
+Attend the SME AI Impact Awards ceremony on 13 Oct 2026 at SMEs Go Digital Day.
+
+Winners will receive the award on stage.
+
+Judging panel
+Mr. Ng Cher Pong
+CE, IMDA
+Mr. Kok Ping Soon
+CEO, SBF
+Mr. Loh Hean-Ho
+MD & Senior Partner, BCG
+Mr. Liew Nam Soon
+Singapore and Asean Managing Partner, EY
+Mr. Ben King
+Country MD Singapore, Google
+Mr. Chia Wee Luen
+MD Singapore, Microsoft
+Mr. Oliver Jay
+MD International, OpenAI
+Judging criteria
+
+The SME AI Impact Awards assess the impact of AI on your business. Nominations are evaluated based on the following criteria:
+
+Impact and value add of AI
+
+Business problem definition
+
+Describe the specific business challenge your company faced.
+
+How significant was the impact of the business challenge on the business?
+
+Effectiveness of solution
+
+How did the AI solution address the problem?
+
+Measurable results
+
+Productivity gains
+
+What measurable improvements were seen in key business performance metrics?
+
+Financial impact
+
+What financial benefits were achieved as a result of implementing the AI solution?
+
+Operational benefits
+
+Did your business achieve benefits in operations?
+
+Change management and workforce impact
+
+Staff training
+
+How did your company train staff to ensure successful, ongoing usage of the AI solution in daily operations?
+
+Change in work processes
+
+How has the AI solution changed day-to-day work processes?
+
+Future readiness
+
+What are the key learning points and how well-prepared is the company for deeper use of AI?
+
+Frequently asked questions
+
+Can a company apply for both award categories?
+
+No, a company can only apply for one award category. We recommend selecting the category that best reflects your strongest business impact.
+
+Can I apply if my company received grant support for the AI solution?
+
+Yes. The SME AI Impact Awards is open to all SMEs who have adopted AI solutions, regardless of government programme participation or grant support. All SMEs are evaluated equally regardless of solution type or grant support received
+
+Can a company apply if the AI solution was developed by a third-party vendor?
+
+Yes. The SME AI Impact Awards recognises the business transformation achieved through the use of AI, regardless of whether the solution was built in-house or developed by an external vendor. What matters is how your company has adopted, integrated and leveraged the AI solution to drive measurable impact.
+
+Do IMDA pre-approved AI solutions have any advantage during judging?
+
+No. All SMEs are evaluated equally regardless of solution type or grant support.
+
+Can a subsidiary of a larger company apply?
+
+A subsidiary may still apply if it meets all of the following eligibility requirements:
+Be registered and operating in Singapore.
+Have at least 30% local shareholding.
+Have a group annual sales turnover not exceeding S$100 million OR a group employment size not exceeding 200 employees.
+Have used an AI solution for a minimum of 6 months with positive business impact.
+
+What if my company uses multiple AI solutions?
+
+You are welcome to highlight multiple AI solutions in your nomination. However, we encourage you to focus on one solution that has delivered the most significant and measurable business impact.
+
+As an AI solution vendor, can I submit a nomination on behalf of my SME customers?
+
+All nominations should come directly from SME end users. If you're a vendor or AI solution provider, you could invite your SME customers to submit their nominations.
+
+What is the closing date of the nomination period?
+
+The nomination will be open until the 14th August 2026, 2359hrs.
+
+When does the 6 months of solution deployment start and end?
+
+Your company must have used the AI solution for at least 6 months from the date your nomination is submitted.
+
+What happens after I submit my nomination?
+
+Once your nomination is submitted, you will receive an acknowledgement of receipt.
+
+Your submission will be reviewed by our assessment team, and we will be in touch if your company is shortlisted for a site visit.
+
+Final winners will be announced at the Awards ceremony on 13 October 2026. Invitation to attend the Awards ceremony will be sent closer to date. Company representatives must be present in person.
+
+What is the purpose of the site visit? Who will conduct the site visit?
+
+The site visit serves to verify the information provided in your nomination for a first-hand understanding of how your AI solution has been implemented and the tangible impact it has had on your business. Site visits will be conducted by SBF, the co-organiser and may include a walkthrough of your operations, a demonstration of the AI solution, and a discussion with key personnel involved in the implementation or use of the AI solution.
+
+Will I be notified in advance of the site visit?
+
+Yes. Shortlisted companies will be notified in advance, and the site visit will be scheduled at a mutually convenient date and time. You will be given sufficient notice to prepare accordingly. Should you need to reschedule, please contact the organising team as early as possible.
+
+What should I prepare for the site visit?
+
+To make the most of your site visit, we recommend preparing the following:
+A brief presentation or overview of your AI solution including a live demonstration of the AI solution, where possible
+Supporting documentation such as performance metrics, KPIs, and data showing measurable business impact
+Key personnel who were involved in the AI implementation (e.g., project leads, operations staff) to speak to the solution's outcomes
+Personnel who are actively using the AI solution to speak about how they use the AI solution and how their work scope has changed with AI
+
+How many award winners will there be?
+
+We will be recognising up to 30 SMEs this year.
+
+Is my nomination information confidential?
+
+All information disclosed to IMDA will be kept strictly confidential and used primarily for the purpose of evaluating and selecting award winners. Where applicable, selected information may also be used for marketing and publicity purposes including features on our website and media coverage. We will seek your consent before publishing any such materials.
+
+What if I still cannot find answers to my question?
+
+You can email us at sme_ai_awards@imda.gov.sg.
+Report Vulnerability
+Contact us
+Terms of Use
+Privacy Policy
+Reach
+© 2026, Infocomm Media Development Authority. Last Updated 16 Oct 2026

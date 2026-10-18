@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.nextbuild/
+out/
+.vercel/
+.DS_Store
+*.log
+.vercel
+.env*
+
+# Local tooling caches
+.npmcache/
+.vercelbin/
+.vc-native.tgz
+.vercel-meta.json

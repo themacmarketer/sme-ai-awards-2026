@@ -1,0 +1,2065 @@
+{
+  "provenance": {
+    "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+    "sourcePublisher": "Infocomm Media Development Authority (IMDA) / Singapore Business Federation (SBF)",
+    "pageTitle": "AI Awards | SMEs Go Digital",
+    "pageLastUpdated": "16 Oct 2026",
+    "extractionTimestampSGT": "2026-10-18T16:15:51+08:00",
+    "extractionMethod": "Headless Chromium via agent-browser (Playwright-based). Rendered DOM queried with CSS selectors after full client-side hydration. document.body.innerText captured in full (63,928 characters). No accordions required expansion: all 30 winner panels are present in the hydrated DOM.",
+    "selectors": {
+      ".winner-item": "winner record",
+      ".winner-name": "company name",
+      ".winner-solution-used": "one-line AI impact statement",
+      ".sector-label": "sector",
+      ".description": "company profile",
+      ".stat-info-holder .stat-desc.main/.sub": "headline metrics",
+      ".challenge-item": "key challenges (title + description)",
+      ".solution-intro": "named AI solution",
+      ".solution-desc.main/.sub": "solution description",
+      ".solution-item": "solution component (title + description)"
+    },
+    "categoryDerivation": "Two .winners lists exist in the DOM. Items 0-14 belong to list index 0 (Innovation Excellence, 15 winners). Items 15-29 belong to list index 1 (Adoption Excellence, 15 winners).",
+    "checks": {
+      "distinctWinners": 30,
+      "distinctNames": 30,
+      "innovationCount": 15,
+      "adoptionCount": 15,
+      "withThreeMetrics": 30,
+      "withThreeChallenges": 30,
+      "withNamedSolution": 30,
+      "withSolutionComponents": 30,
+      "duplicateNames": [],
+      "missingFields": []
+    },
+    "status": "complete",
+    "notes": [
+      "The page publishes no individual winner URLs. Stable local permalinks are generated from company slugs.",
+      "Company logos are hosted by IMDA at services2.imda.gov.sg; they are not reproduced in this project."
+    ]
+  },
+  "awardContext": {
+    "name": "SME AI Impact Awards 2026",
+    "organisers": [
+      "Infocomm Media Development Authority (IMDA)",
+      "Singapore Business Federation (SBF)"
+    ],
+    "programme": "National AI Impact Programme, in support of Singapore's National AI Strategy",
+    "ceremonyDate": "13 October 2026",
+    "totalWinners": 30,
+    "categories": [
+      {
+        "key": "innovation",
+        "label": "Innovation Excellence",
+        "count": 15,
+        "description": "SMEs recognised for developing proprietary AI solutions."
+      },
+      {
+        "key": "adoption",
+        "label": "Adoption Excellence",
+        "count": 15,
+        "description": "SMEs recognised for adopting ready-to-use AI solutions."
+      }
+    ],
+    "eligibility": [
+      "Registered and operating in Singapore",
+      "At least 30% local shareholding",
+      "Group annual sales turnover not exceeding S$100 million OR group employment not exceeding 200 employees",
+      "Used an AI solution for at least 6 months with positive business impact"
+    ],
+    "judging": "Nominations reviewed by an assessment team; shortlisted companies receive a site visit conducted by SBF to verify claims."
+  },
+  "winners": [
+    {
+      "canonicalIndex": 0,
+      "companyName": "Accountingbpo",
+      "category": "innovation",
+      "sector": "Business Services",
+      "impactStatement": "Uses AI to cut accounting document processing time by up to 67%",
+      "companyProfile": "Professional services firm and business process outsourcing (BPO) provider specialising in tech-enabled financial management, corporate compliance, and digital accounting workflows.",
+      "headlineMetrics": [
+        {
+          "main": "Up to 67% reduction",
+          "sub": "in accounting document processing time"
+        },
+        {
+          "main": "Up to 16x faster",
+          "sub": "management reporting"
+        },
+        {
+          "main": "396 manhours",
+          "sub": "redirected monthly from administrative coordination to client work"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Labour-intensive accounting processes",
+          "description": "Manual data entry and reconciliation created heavy administrative work and delayed the timely completion of accounts"
+        },
+        {
+          "title": "Fragmented work coordination",
+          "description": "Assignments and client information were managed across various documents, requiring 400 hours of coordination each month"
+        },
+        {
+          "title": "Limited ability to scale",
+          "description": "Higher client volumes required more manpower, limiting scalability and margins"
+        }
+      ],
+      "aiSolution": {
+        "name": "Yi.Suite: AI Accounting Ecosystem",
+        "description": [
+          "An integrated ecosystem of specialised AI solutions built around its accounting workflows",
+          "Yi.Suite connects document processing, client requests, reconciliation, financial reporting and analysis in an end-to-end workflow"
+        ],
+        "components": [
+          {
+            "title": "Automated document processing",
+            "description": "Uses AI to extract information from invoices and accounting documents, suggest accounts and match vendors, and supports batch or single-document processing"
+          },
+          {
+            "title": "AI-supported work coordination",
+            "description": "Converts client emails into trackable work tickets, recommends task assignments, drafts context-aware replies and provides workload and status summaries"
+          },
+          {
+            "title": "Automated reconciliation and follow-up",
+            "description": "Matches bank transactions against accounting records, drafts receivables follow-up communications and prepares scheduled management reports"
+          },
+          {
+            "title": "Conversational financial analysis",
+            "description": "Allows business owners to ask financial questions in plain language and generates KPI summaries, charts and dashboards from accounting data"
+          },
+          {
+            "title": "AI-assisted financial statement preparation",
+            "description": "Supports document verification, draft financial statement compilation and cash-flow preparation, with accountants reviewing and approving the outputs"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 1,
+      "companyName": "Best Marketing Agency",
+      "category": "innovation",
+      "sector": "Media & Creative",
+      "impactStatement": "Uses AI to automate routine workflows and increase revenue per employee by 71%",
+      "companyProfile": "Provides digital marketing services including SEO, paid advertising, social media management and content creation services",
+      "headlineMetrics": [
+        {
+          "main": "71% increase",
+          "sub": "in revenue per employee"
+        },
+        {
+          "main": "73% increase",
+          "sub": "in delivery capacity per head"
+        },
+        {
+          "main": "1,000 staff-hours saved",
+          "sub": "from routine work per month"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Fragmented and manual operations",
+          "description": "Client delivery, reporting, finance and internal operations were spread across separate tools, spreadsheets and chat threads"
+        },
+        {
+          "title": "Time-consuming administrative work",
+          "description": "Account managers spent around two working days per client each month preparing reports, while finance and other administrative processes were also handled manually"
+        },
+        {
+          "title": "Rising costs and missed opportunities",
+          "description": "Manual coordination contributed to high overheads while taking senior staff away from sales, strategy and client engagement"
+        }
+      ],
+      "aiSolution": {
+        "name": "Big Beast: AI-powered Operating System",
+        "description": [
+          "Connects and automates client delivery, reporting, finance and internal operations",
+          "Big Beast embeds AI agents across business workflows to execute routine processes, while retaining human approval for consequential actions"
+        ],
+        "components": [
+          {
+            "title": "Automated client reporting",
+            "description": "Pulls advertising and SEO data, tracks keyword performance and generates AI-assisted campaign summaries and live reports"
+          },
+          {
+            "title": "AI-enabled finance workflows",
+            "description": "Automates invoicing, bank reconciliation and accounting workflows, with human approval for financial actions"
+          },
+          {
+            "title": "Integrated business operations",
+            "description": "Brings task management, payroll, CPF computation, HR processes and contract e-signing into one platform"
+          },
+          {
+            "title": "AI-assisted content and quality control",
+            "description": "Drafts SEO content, advertisements and landing pages, with automated quality and compliance checks supporting human review"
+          },
+          {
+            "title": "Automated client and lead management",
+            "description": "Routes leads to relevant teams, flags unanswered enquiries and identifies renewal risks using campaign and payment records"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 2,
+      "companyName": "Blue Aqua International",
+      "category": "innovation",
+      "sector": "Aquaculture",
+      "impactStatement": "Uses AI to improve feed efficiency by around 30%",
+      "companyProfile": "Provides sustainable aquaculture, animal nutrition and farm management solutions to farmers worldwide",
+      "headlineMetrics": [
+        {
+          "main": "30% improvement",
+          "sub": "in managing production cost"
+        },
+        {
+          "main": "6–9 % higher",
+          "sub": "survival rates"
+        },
+        {
+          "main": "Around 2,500 manpower",
+          "sub": "hours saved annually"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Limited visibility of farm conditions",
+          "description": "Infrequent water quality checks meant issues could go undetected between readings, increasing the risk of losses"
+        },
+        {
+          "title": "Reactive feeding and disease management",
+          "description": "Generic feeding led to inefficient feed use and spending, while late disease detection increased the risk of stock losses"
+        },
+        {
+          "title": "Fragmented decision-making",
+          "description": "Farm decisions relied heavily on individual experience, paper logs and inconsistent records, making performance difficult to compare across farms"
+        }
+      ],
+      "aiSolution": {
+        "name": "AquaPilot: AI-driven Aquaculture Intelligence Platform",
+        "description": [
+          "Predicts farm risks and recommends actions using real-time aquaculture data",
+          "AquaPilot analyses water quality, feeding, health and production data to translate Blue Aqua's aquaculture expertise into consistent, data-driven farm decisions"
+        ],
+        "components": [
+          {
+            "title": "Predictive water quality management",
+            "description": "Analyses sensor and farm data to forecast oxygen, ammonia and temperature 6 to 24 hours ahead and alert teams to potential issues"
+          },
+          {
+            "title": "AI-enabled disease risk detection",
+            "description": "Generates daily pond-level risk scores and flags potential health issues 4 to 7 days before they typically become visible"
+          },
+          {
+            "title": "AI-powered feed optimisation",
+            "description": "Calculates daily feed requirements for each pond based on biomass, water conditions, growth patterns and health risks"
+          },
+          {
+            "title": "AI-assisted system management",
+            "description": "Monitors the Recirculating Aquaculture System to predict potential issues and adjust feeding accordingly"
+          },
+          {
+            "title": "Data-driven farm intelligence",
+            "description": "Benchmarks ponds on feed conversion, survival, growth and production cost and provides farm-specific recommendations to increase farm yield"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 3,
+      "companyName": "GetGo Technologies",
+      "category": "innovation",
+      "sector": "Transport & Mobility",
+      "impactStatement": "Uses AI to detect vehicle damage and recovers $20,000 in billings",
+      "companyProfile": "Provides on-demand carsharing on a pay-as-you-drive basis",
+      "headlineMetrics": [
+        {
+          "main": "53% reduction",
+          "sub": "in lead time for damage-to-invoices"
+        },
+        {
+          "main": "60% less",
+          "sub": "manual review workload"
+        },
+        {
+          "main": "S$20,000 recovered",
+          "sub": "in damage costs within two months"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Impractical manual screening",
+          "description": "Around 7,000 daily bookings generate about 56,000 end-trip photos, making it impractical to manually inspect every booking for damage"
+        },
+        {
+          "title": "Delayed damage detection",
+          "description": "Vehicle damage could go unnoticed until reported by users or discovered during workshop inspection days or weeks later"
+        },
+        {
+          "title": "Difficulty recovering damage costs",
+          "description": "Late detection made it difficult to attribute damage to the responsible booking, resulting in cost of repair that cannot be recovered"
+        }
+      ],
+      "aiSolution": {
+        "name": "Project Desmond: AI-powered Vehicle Damage Detection",
+        "description": [
+          "Auto detects vehicle damage to reduce damage costs",
+          "Combines computer vision, image matching and human validation to identify vehicle damage, determine when it occurred and support accurate billing"
+        ],
+        "components": [
+          {
+            "title": "AI vehicle damage detection",
+            "description": "Analyses end-trip photos to detect billable damage such as scratches, dents, cracks and dangling parts"
+          },
+          {
+            "title": "Booking-level damage attribution",
+            "description": "Compares consecutive bookings to determine when damage first appeared and link it to the relevant booking"
+          },
+          {
+            "title": "AI-powered image matching",
+            "description": "Uses image embeddings to determine whether detected damage is new or recurring across adjacent bookings"
+          },
+          {
+            "title": "Human-validated damage workflow",
+            "description": "Routes AI-flagged cases to human reviewers for validation before confirmed cases proceed for follow-up and billing"
+          },
+          {
+            "title": "Continuous AI model improvement",
+            "description": "Retrains the model using real-world failure cases such as rain and reflections to improve precision and reduce false positives"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 4,
+      "companyName": "Glints Singapore",
+      "category": "innovation",
+      "sector": "Talent & Recruitment",
+      "impactStatement": "Uses AI to speed up internal knowledge searches by around 90%",
+      "companyProfile": "Provides talent and managed workforce services across Singapore, Malaysia, Indonesia, Vietnam, the Philippines and Taiwan.",
+      "headlineMetrics": [
+        {
+          "main": "90% reduction",
+          "sub": "in time spent fact-finding"
+        },
+        {
+          "main": "1,700 specialist hours",
+          "sub": "saved in six months"
+        },
+        {
+          "main": "S$120,000 worth",
+          "sub": "of staff time saved a year"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Fragmented company knowledge",
+          "description": "Critical information was spread across databases, business systems and employment laws in six different markets"
+        },
+        {
+          "title": "Slow responses to queries",
+          "description": "Routine questions often required help from Finance, Engineering or other specialists, with complex queries taking hours or days"
+        },
+        {
+          "title": "Operational and compliance risks",
+          "description": "Repeated queries distracted specialists from their work, while inconsistent answers created regulatory risks across different markets"
+        }
+      ],
+      "aiSolution": {
+        "name": "Glimmer: Knowledge Mining AI Agent",
+        "description": [
+          "Connects company data and knowledge to help employees answer customers’ questions",
+          "Glimmer lets employees ask questions in plain language and retrieves answers from company systems, internal knowledge, source code and employment laws"
+        ],
+        "components": [
+          {
+            "title": "Unified AI knowledge assistant",
+            "description": "Answers questions in plain language using company data and internal knowledge, with supporting sources shown"
+          },
+          {
+            "title": "Real-time enterprise data retrieval",
+            "description": "Retrieves up-to-date client, employee, invoice and billing information from systems such as NetSuite and HubSpot"
+          },
+          {
+            "title": "AI-enabled technical support",
+            "description": "Reads the company&apos;s source code to answer platform questions and provide first-line support before unresolved issues are escalated"
+          },
+          {
+            "title": "Built-in accuracy and governance",
+            "description": "System automatically flags missing information, restricts citations to accessed sources and maintains audit logs"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 5,
+      "companyName": "Greenphyto",
+      "category": "innovation",
+      "sector": "Agriculture",
+      "impactStatement": "Uses AI to improve crop inspection time by 10X",
+      "companyProfile": "Operates a high-density indoor vertical farm for large-scale crop production",
+      "headlineMetrics": [
+        {
+          "main": "10x faster",
+          "sub": "in crop inspection time"
+        },
+        {
+          "main": "Up to 150x",
+          "sub": "productivity improvement"
+        },
+        {
+          "main": "90% crop yield",
+          "sub": "consistency"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Late detection of crop issues",
+          "description": "Plant defects and abnormal growth are not detected timely for intervention"
+        },
+        {
+          "title": "Manual inspections",
+          "description": "Crop and equipment checks relied heavily on people and multiple systems"
+        },
+        {
+          "title": "Challenging yield forecasting",
+          "description": "Limited continuous crop measurements made harvest planning difficult"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-powered Farm Operations Management System (FOMS™)",
+        "description": [
+          "Connects farm data, images, sensors and workflows into one system",
+          "Uses AI to support decisions and improve production efficiency, moving farm operations from manual monitoring to a continuous, data-driven model."
+        ],
+        "components": [
+          {
+            "title": "Early defect detection",
+            "description": "Detects crop growth issues, defects and abnormalities earlier using computer vision for early intervention"
+          },
+          {
+            "title": "Faster inspections",
+            "description": "Replaces many manual crop checks with AI-powered image checks"
+          },
+          {
+            "title": "More accurate harvest planning",
+            "description": "Improves yield forecasting by analysing farm data with AI"
+          },
+          {
+            "title": "Less manual intervention",
+            "description": "Integrates farm systems, sensors and workflows to reduce manual work"
+          },
+          {
+            "title": "Real-time alerts",
+            "description": "Flags issues such as lighting or device problems for timely follow-up"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 6,
+      "companyName": "iAPPS Health Group",
+      "category": "innovation",
+      "sector": "Healthcare",
+      "impactStatement": "Uses AI to help doctors manage up to four times more patients",
+      "companyProfile": "Provides primary care, preventive health and diagnostic services supported by proprietary digital health infrastructure",
+      "headlineMetrics": [
+        {
+          "main": "Up to 4x increase",
+          "sub": "in doctor productivity"
+        },
+        {
+          "main": "Up to 10x increase",
+          "sub": "in health coach productivity"
+        },
+        {
+          "main": "Up to 4x revenue growth",
+          "sub": "across AI-enabled clinics"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Manpower-intensive operations",
+          "description": "Pharmacy, claims and finance processes required significant administrative resources as clinic operations grew"
+        },
+        {
+          "title": "Fragmented and reactive care",
+          "description": "Patient records, pharmacy, claims, finance and workforce management were spread across isolated systems"
+        },
+        {
+          "title": "Difficult to scale consistently",
+          "description": "Uneven workload and limited decision support made it difficult to expand while maintaining consistent care quality"
+        }
+      ],
+      "aiSolution": {
+        "name": "1docAI: AI-native Healthcare Operating System",
+        "description": [
+          "Integrates AI across patient care, clinical decisions and healthcare operations",
+          "1docAI connects six AI domains across patient care, clinical decision-making, health coaching, pharmacy, enterprise operations and payments"
+        ],
+        "components": [
+          {
+            "title": "AI-enabled patient management",
+            "description": "Coordinates appointments, live queues and follow-ups to support patient flow and continuity of care"
+          },
+          {
+            "title": "AI-assisted clinical decision support",
+            "description": "Retrieves source-linked clinical evidence, supports diagnostic reasoning and applies safety checks, with final decisions made by doctors"
+          },
+          {
+            "title": "Personalised health coaching",
+            "description": "Uses longitudinal health data and behavioural intelligence to provide personalised, real-time coaching between consultations"
+          },
+          {
+            "title": "Automated pharmacy and enterprise operations",
+            "description": "Automates dispensing, inventory, claims, finance, reconciliation, HR and workforce rostering"
+          },
+          {
+            "title": "Integrated healthcare and payments",
+            "description": "Connects clinical, operational and payment workflows through a shared longitudinal data record"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 7,
+      "companyName": "Kyanon Digital",
+      "category": "innovation",
+      "sector": "ICT/Consultancy",
+      "impactStatement": "Uses AI to cut new AI project setup time by 83%",
+      "companyProfile": "Digital technology company and agile software development firm specialising in end-to-end digital transformation, data analytics, and enterprise IT solutions.",
+      "headlineMetrics": [
+        {
+          "main": "83% reduction",
+          "sub": "in setup time for new AI engagements"
+        },
+        {
+          "main": "80x faster",
+          "sub": "business-rule changes"
+        },
+        {
+          "main": "75% increase",
+          "sub": "in concurrent AI delivery capacity"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Repetitive & long lead time for development work",
+          "description": "Teams had to rebuild common capabilities for orchestral, retrieval, integrations, AI evaluation and monitoring before client-specific development could begin"
+        },
+        {
+          "title": "Heavy reliance on AI engineers",
+          "description": "Business-rules were embedded in application code with routine rule changes requiring around five working days of engineering effort, while AI quality checks also relied heavily on manual review"
+        },
+        {
+          "title": "Limited planning flexibility",
+          "description": "The company could support around four concurrent AI engagements without adding senior AI engineers at a similar rate, limiting its ability to grow efficiently even as demand increased"
+        }
+      ],
+      "aiSolution": {
+        "name": "WisdomMind: Enterprise AI Platform",
+        "description": [
+          "Standardises core AI capabilities, business rules, integrations and quality controls for faster deployment",
+          "WisdomMind allows teams to start from a governed production framework and adapt it to each client engagement"
+        ],
+        "components": [
+          {
+            "title": "Reusable AI foundation",
+            "description": "Shared capabilities for AI-agent orchestration, retrieval, integrations and deployment, allowing new engagements to start from proven platform capabilities instead of building from scratch"
+          },
+          {
+            "title": "Governed business-rule management",
+            "description": "Separates business rules from application code, allowing authorised teams to update rules directly while evaluation, versioning and approval controls are applied before changes reach production"
+          },
+          {
+            "title": "Automated AI quality evaluation",
+            "description": "Tests AI changes against defined ground-truth scenarios and business rules before deployment, helping teams identify regressions consistently"
+          },
+          {
+            "title": "Reusable enterprise integrations",
+            "description": "Provides shared integration and tool interfaces that can be built once and reused across AI agents and client engagements"
+          },
+          {
+            "title": "End-to-end AI monitoring",
+            "description": "Tracks AI execution, latency, errors and inference costs, giving teams visibility to diagnose issues and optimise production workloads"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 8,
+      "companyName": "Limteh Project",
+      "category": "innovation",
+      "sector": "Retail",
+      "impactStatement": "Uses AI to reduce 80% rework on orders",
+      "companyProfile": "Creates customised corporate gifts, gift sets and personalised presents",
+      "headlineMetrics": [
+        {
+          "main": "80% less",
+          "sub": "rework on orders"
+        },
+        {
+          "main": "More than 20 hours",
+          "sub": "saved each week"
+        },
+        {
+          "main": "Up to $5,800",
+          "sub": "saved monthly"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Complex personalised orders",
+          "description": "Personalisation details from customers through order notes, customer chats and messages in different languages"
+        },
+        {
+          "title": "Labour-intensive order processing",
+          "description": "Staff manually process around 2,500 orders each month, creating a daily production bottleneck"
+        },
+        {
+          "title": "Costly errors",
+          "description": "Order mistakes resulted in reprints, reshipping, wasted materials and unhappy customers"
+        }
+      ],
+      "aiSolution": {
+        "name": "Milo: AI-powered Order Automation",
+        "description": [
+          "Automates personalised orders from sales to production",
+          "Milo interprets customer orders and prepares production instructions, while AI verification helps improve accuracy and flags uncertain orders for review"
+        ],
+        "components": [
+          {
+            "title": "AI order interpretation",
+            "description": "Reads orders and chats across marketplaces to identify each customer’s personalisation requirements"
+          },
+          {
+            "title": "Automated production preparation",
+            "description": "Turns customer requirements into production instructions and automates print-file preparation"
+          },
+          {
+            "title": "AI-powered verification",
+            "description": "Cross-checks order details and flags uncertainties for staff review"
+          },
+          {
+            "title": "Continuous improvement",
+            "description": "Learns from staff corrections to improve order processing over time"
+          },
+          {
+            "title": "Business and marketing automation",
+            "description": "Automates sales reporting, stock alerts, profit-and-loss dashboards and creation of marketing content"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 9,
+      "companyName": "Lithan Academy",
+      "category": "innovation",
+      "sector": "Education",
+      "impactStatement": "Uses AI to cut curriculum development time by 75%",
+      "companyProfile": "Provides adult education to bridge AI skills for a productive workforce",
+      "headlineMetrics": [
+        {
+          "main": "75% faster",
+          "sub": "curriculum development"
+        },
+        {
+          "main": "60% less",
+          "sub": "manual monitoring and support"
+        },
+        {
+          "main": "About 60%",
+          "sub": "year-on-year revenue growth"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Lengthy curriculum development",
+          "description": "A 60-hour module required around 300 staff hours to map competencies, prepare content, assessments and rubrics"
+        },
+        {
+          "title": "Difficulty scaling personalised learner support",
+          "description": "Learners progressed at different speeds, while limited trainer capacity made it difficult to provide timely, customised support"
+        },
+        {
+          "title": "Delayed learner intervention",
+          "description": "Attendance, assignments and programme progress tracked separately, making it harder to spot learner issues in-time."
+        }
+      ],
+      "aiSolution": {
+        "name": "Adaptive CLaaS: AI-powered Personalised Learning System",
+        "description": [
+          "Reduces curriculum work and extends personalised support beyond trainer capacity",
+          "Comprises three integrated modules: CLaaS Developer for curriculum development, CLaaS Mentor for personalised learner experience and CLaaS Manager for learner monitoring & management"
+        ],
+        "components": [
+          {
+            "title": "AI-assisted curriculum development",
+            "description": "CLaaS Developer uses generative AI to create first drafts of learning pathways, session plans, content and assessments, with AI-assisted quality checks and curriculum teams reviewing and refining outputs"
+          },
+          {
+            "title": "Adaptive personalised learning",
+            "description": "CLaaS Mentor adjusts learning pace and difficulty based on learner progress and recommends resources for identified gaps"
+          },
+          {
+            "title": "AI-powered learner support",
+            "description": "Provides on-demand guidance, reminders and automated assessment feedback, while escalating learners that need more support"
+          },
+          {
+            "title": "Data-driven learner management",
+            "description": "CLaaS Manager consolidates enrolment, attendance, assignment completion and programme progress into a 360 view"
+          },
+          {
+            "title": "Human-in-the-loop learning delivery",
+            "description": "AI handles repetitive curriculum development and routine learner guidance, while curriculum teams and trainers retain responsibility for content quality and complex interventions"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 10,
+      "companyName": "Mencast Marine",
+      "category": "innovation",
+      "sector": "Marine and Offshore Energy",
+      "impactStatement": "Uses AI to generate $900,000 in new revenue",
+      "companyProfile": "Provides marine propulsion design, manufacturing and repair for the global marine and offshore industry",
+      "headlineMetrics": [
+        {
+          "main": "50% faster",
+          "sub": "design turnaround"
+        },
+        {
+          "main": "75% higher",
+          "sub": "productivity for knowledge-intensive tasks"
+        },
+        {
+          "main": "$900,000 new",
+          "sub": "revenue within 18 months"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Time-consuming design process",
+          "description": "Conventional methods restrict the number of options engineers could evaluate, slowing complex projects"
+        },
+        {
+          "title": "Pressure to lower design costs",
+          "description": "Growing competition from lower-cost players reduced margins and placed pressure on Mencast's design-led business"
+        },
+        {
+          "title": "Labour-intensive and manual operations",
+          "description": "Lengthy production cycles and manual information retrieval slowed quotations, workflows and operational efficiency"
+        }
+      ],
+      "aiSolution": {
+        "name": "Mencast AI Platform (MAIP)",
+        "description": [
+          "Uses AI to enhance propulsion design, manufacturing and operational workflows",
+          "MAIP combines AI, computer vision and enterprise knowledge automation to improve productivity, streamline workflows and centralise data access"
+        ],
+        "components": [
+          {
+            "title": "AI-powered propulsion design",
+            "description": "Analyses thousands of design possibilities to identify higher-performing options and shorten the design process"
+          },
+          {
+            "title": "Design differentiation",
+            "description": "Leverages decades of engineering and sea-trial data to develop differentiated propulsion solutions beyond competing primarily on price"
+          },
+          {
+            "title": "Intelligent manufacturing optimisation",
+            "description": "Combines AI, computer vision and sensors to improve quality and support more efficient production"
+          },
+          {
+            "title": "Enterprise knowledge automation",
+            "description": "Organises enterprise knowledge and automates workflows such as quotations, claims processing, research and information retrieval"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 11,
+      "companyName": "Oceanus Media Global",
+      "category": "innovation",
+      "sector": "Media & Creative",
+      "impactStatement": "Uses AI to cut production timelines by around 80%",
+      "companyProfile": "Creative media technology company specialising in virtual production, generative AI, content production, distribution and IP licensing",
+      "headlineMetrics": [
+        {
+          "main": "80% shorter",
+          "sub": "production timelines"
+        },
+        {
+          "main": "Up to 85% lower",
+          "sub": "production costs"
+        },
+        {
+          "main": "200% increase",
+          "sub": "in multi-location project capacity"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Long production timelines",
+          "description": "Multi-location productions could take 14-15 weeks due to location scouting, permits, travel, set construction and filming"
+        },
+        {
+          "title": "High production costs",
+          "description": "Location fees, permits, travel, transport and set construction increased production costs significantly"
+        },
+        {
+          "title": "Limited production capacity",
+          "description": "Crews and equipment were largely committed to one major production at a time, limiting the number of projects the company could take on concurrently"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-integrated Virtual Production Pipeline",
+        "description": [
+          "Creates multiple locations virtually for faster, more efficient media production",
+          "Combines generative AI, computer vision and AI agents across pre-production, filming, post-production and localisation, with creative control retained by the team"
+        ],
+        "components": [
+          {
+            "title": "AI-assisted pre-production",
+            "description": "Supports script breakdown, scene planning, scheduling, storyboarding and visualisation before filming"
+          },
+          {
+            "title": "AI-generated virtual environments",
+            "description": "Creates digital environments and reconstructs real locations as virtual sets for filming in a controlled studio"
+          },
+          {
+            "title": "AI-enabled filming",
+            "description": "Films actors against AI-built virtual environments, with real-time camera tracking maintaining correct perspective"
+          },
+          {
+            "title": "AI-supported visual effects",
+            "description": "Automates repetitive editing tasks and supports the creation of visual-effects elements"
+          },
+          {
+            "title": "AI-powered localisation and versioning",
+            "description": "Supports dubbing in four languages and adapts approved content for different formats and platforms"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 12,
+      "companyName": "ONG&ONG Group",
+      "category": "innovation",
+      "sector": "Built Environment",
+      "impactStatement": "Uses AI to cut workflow durations by up to 95%",
+      "companyProfile": "Provides built environment consultancy services across Asia, integrating architectural practice, urban master planning, landscape design, interior design and project management with comprehensive civil, structural, mechanical and electrical engineering",
+      "headlineMetrics": [
+        {
+          "main": "Up to 95% savings",
+          "sub": "in workflow duration"
+        },
+        {
+          "main": "22,500 professional hours",
+          "sub": "estimated to be recovered annually"
+        },
+        {
+          "main": "Approx. 4x return",
+          "sub": "on AI investment"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Time-consuming information retrieval",
+          "description": "Up to 2,750 manhours a week spent searching for project precedents, building regulations, policies and project information scattered across multiple systems"
+        },
+        {
+          "title": "Reliance on staff knowledge",
+          "description": "Technical expertise sat with experienced staff, while accessing knowledge from past projects required staff to know the exact reference to search for"
+        },
+        {
+          "title": "Labour-intensive processes",
+          "description": "Manual regulatory, design, presentation and financial reporting tasks slowed project delivery and management reporting"
+        }
+      ],
+      "aiSolution": {
+        "name": "360i: AI Platform",
+        "description": [
+          "Connects the company’s project knowledge, regulatory information and business workflows in a secure and governed environment",
+          "360i enables staff to search institutional knowledge, check regulations, generate project materials and automate selected business processes using AI grounded in the firm's own data and standards."
+        ],
+        "components": [
+          {
+            "title": "AI-powered knowledge retrieval",
+            "description": "Allows staff to search over 12,000 historical projects and internal information using plain-language questions, with answers linked back to source records"
+          },
+          {
+            "title": "Regulatory compliance support",
+            "description": "Dedicated assistants answer questions on Singapore building regulations and CORENET X requirements, providing citations to relevant source clauses"
+          },
+          {
+            "title": "AI-assisted design visualisation",
+            "description": "Generates and edits architectural, interior, urban and landscape concept images, allowing designers to explore multiple directions within hours"
+          },
+          {
+            "title": "AI-powered financial reporting and analysis",
+            "description": "Consolidates and validates financial data across 10 entities to produce the Group's P&L, while AI analyst modules generate alerts, forecasts and scenario analyses"
+          },
+          {
+            "title": "AI-enabled professional workflows",
+            "description": "Extends into PowerPoint, Excel, Outlook and document workflows, while specialised tools support branded presentation creation, exact calculations and landscape research"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 13,
+      "companyName": "Supreme Components International",
+      "category": "innovation",
+      "sector": "Wholesale Trade",
+      "impactStatement": "Uses AI to accelerate RFQ processing, cutting sourcing and quote preparation time by up to 90%",
+      "companyProfile": "Supplies active, passive and electromechanical components to original equipment manufacturers and electronic manufacturing companies across tech sectors",
+      "headlineMetrics": [
+        {
+          "main": "Up to 90% faster",
+          "sub": "sourcing and quote preparation"
+        },
+        {
+          "main": "96% reduction",
+          "sub": "in bills of materials preparation time"
+        },
+        {
+          "main": "Up to $32,000",
+          "sub": "in monthly productivity gains"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Unstructured Request For Quotation (RFQ) submissions",
+          "description": "RFQs arrived in multiple formats and increasing volumes, making them difficult to process, track and manage efficiently"
+        },
+        {
+          "title": "Inaccurate and error-prone matching",
+          "description": "Manual product and brand matching increased the risk of quoting inaccuracies and cause unnecessary followups"
+        },
+        {
+          "title": "Fragmented supplier information",
+          "description": "Supplier pricing and lead-time information was scattered across emails and records"
+        }
+      ],
+      "aiSolution": {
+        "name": "Atlas (AI RFQ-to-Fulfilment Platform)",
+        "description": [
+          "Uses AI to transform RFQ and supplier data into structured, searchable information",
+          "Automates RFQ processing and sourcing workflows - help teams improve accuracy, reduce manual effort and respond to customer requests more efficiently"
+        ],
+        "components": [
+          {
+            "title": "AI-enabled RFQ processing",
+            "description": "Extracts customer and product requirements from emails, PDFs, spreadsheets and other RFQ formats into structured data"
+          },
+          {
+            "title": "Intelligent product matching",
+            "description": "Matches requested products and brands against supplier information to streamline sourcing and quotation workflows"
+          },
+          {
+            "title": "Supplier intelligence and sourcing",
+            "description": "Extracts supplier prices, inventory and lead times from emails while identifying stock availability, supplier options and product alternatives"
+          },
+          {
+            "title": "Automated RFQ workflow",
+            "description": "Centralises RFQ and supplier information while automating supplier outreach, making information easier to search, track and reuse"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 14,
+      "companyName": "Thriving Weeds",
+      "category": "innovation",
+      "sector": "Environmental Services",
+      "impactStatement": "Uses AI to enable continuous waste monitoring with more than 95% accuracy in waste weight measurements",
+      "companyProfile": "Provides waste audits, data analysis and sustainability consultancy to help organisations improve resource and waste management",
+      "headlineMetrics": [
+        {
+          "main": "60% fewer",
+          "sub": "flagged contamination incidents"
+        },
+        {
+          "main": ">95%",
+          "sub": "data accuracy"
+        },
+        {
+          "main": "Up to 384 manhours",
+          "sub": "saved per audit"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Manpower-intensive waste audits",
+          "description": "Conventional audits could involve 6-8 people collecting and sorting waste for up to 12 hours a day"
+        },
+        {
+          "title": "Limited visibility between audits",
+          "description": "Short manual sampling periods made it difficult to identify daily variations, repeated contamination and longer-term waste patterns"
+        },
+        {
+          "title": "Manual process limited scalability",
+          "description": "Repeated on-site audits and lengthy reporting required significant time and resources for each premise"
+        }
+      ],
+      "aiSolution": {
+        "name": "AuditEye Waste-to-Cloud Ecosystem",
+        "description": [
+          "Combines AI, IoT and cloud technology for continuous waste monitoring",
+          "AuditEye captures and structures waste data over longer periods, while retaining human verification and professional consultancy for waste-reduction recommendations"
+        ],
+        "components": [
+          {
+            "title": "Continuous monitoring",
+            "description": "Captures disposal records throughout the deployment period to provide a larger and more representative dataset"
+          },
+          {
+            "title": "AI-enabled contaminant detection",
+            "description": "Identifies contaminants in waste streams and records when contamination occurs, including disposal weight and frequency"
+          },
+          {
+            "title": "Automated data capture",
+            "description": "Links images with weight, time, location and waste-stream information to create standardised records for analysis"
+          },
+          {
+            "title": "Cloud-based intelligence",
+            "description": "Processes records in near real time and provides access to waste data, images and downloadable records"
+          },
+          {
+            "title": "Human-validated analysis",
+            "description": "Combines continuous monitoring with consultant review and physical audits to verify findings and develop recommendations"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 15,
+      "companyName": "Agape CP Holdings",
+      "category": "adoption",
+      "sector": "Business Services",
+      "impactStatement": "Uses AI to cut administration tasks by over 60%",
+      "companyProfile": "Social enterprise providing contact centre, customer experience, business process outsourcing, recruitment and workforce development services",
+      "headlineMetrics": [
+        {
+          "main": "63% less time",
+          "sub": "spent on administrative tasks"
+        },
+        {
+          "main": "33% faster",
+          "sub": "new-agent onboarding"
+        },
+        {
+          "main": "16x more",
+          "sub": "quality assurance coverage"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Time-consuming post-call administration",
+          "description": "Agents spent 3-5 minutes documenting each interaction and updating records, reducing time available to serve customers"
+        },
+        {
+          "title": "Limited service-quality visibility",
+          "description": "Supervisors could only review 5% of interactions, limiting their ability to identify service gaps, compliance risks and coaching opportunities"
+        },
+        {
+          "title": "Slow onboarding",
+          "description": "New agents could take around six weeks to reach independent productivity, with some requiring additional knowledge support and initial-deployment coaching"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-powered Contact Centre and BPO Platform",
+        "description": [
+          "Supports customer service, quality monitoring and workforce productivity with AI",
+          "Combines generative AI, speech analytics and workflow automation to support agents and supervisors across customer interactions, administration, quality assurance and knowledge management"
+        ],
+        "components": [
+          {
+            "title": "AI-assisted customer service",
+            "description": "Provides real-time guidance, suggested responses and instant access to relevant knowledge during customer interactions"
+          },
+          {
+            "title": "Automated call documentation",
+            "description": "Generates call summaries, customer-interaction notes and email drafts to reduce repetitive post-call work"
+          },
+          {
+            "title": "AI-powered quality assurance",
+            "description": "Analyses customer interactions at scale to identify service-quality issues, compliance risks, sentiment and coaching opportunities"
+          },
+          {
+            "title": "AI-powered knowledge retrieval",
+            "description": "Gives agents immediate access to SOPs, policies and campaign information without manually searching documents"
+          },
+          {
+            "title": "AI-enabled workforce support",
+            "description": "Provides new employees with real-time guidance and standardised knowledge to support faster learning and greater independence"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 16,
+      "companyName": "Brew Interactive",
+      "category": "adoption",
+      "sector": "Media & Creative",
+      "impactStatement": "Uses AI to cut client onboarding time by 85%",
+      "companyProfile": "Provides lead generation, performance marketing, SEO, Generative Engine Optimisation (GEO) and marketing automation services",
+      "headlineMetrics": [
+        {
+          "main": "85% faster",
+          "sub": "client onboarding"
+        },
+        {
+          "main": "About 85% reduction",
+          "sub": "in time spent producing videos"
+        },
+        {
+          "main": "Up to $10,000 saved",
+          "sub": "monthly on creative production"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Manual succession of client onboarding",
+          "description": "Handover documents for new clients took 3-4 hours, risking information gaps between sales and delivery teams"
+        },
+        {
+          "title": "Labour-intensive content creation",
+          "description": "Research, strategy development, content drafting and client communications required significant effort and time"
+        },
+        {
+          "title": "Slow creative production",
+          "description": "Video production could take 2-3 weeks, limiting the speed and variety of creative testing"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-powered Sales, Operations and Creative Workflows",
+        "description": [
+          "Streamlines workflows and improves productivity",
+          "Embeds AI tools including Claude, MeetGeek, Higgsfield and AdCreative.ai across the agency"
+        ],
+        "components": [
+          {
+            "title": "Fast and structured client onboarding",
+            "description": "MeetGeek transcribes client meetings while Claude generates structured handover documents"
+          },
+          {
+            "title": "AI-assisted content development",
+            "description": "Claude assists with research, strategy development, content drafting and client communications"
+          },
+          {
+            "title": "AI-assisted creative production",
+            "description": "Higgsfield generates AI video assets while AdCreative.ai generates advertising creatives"
+          },
+          {
+            "title": "Standardised business communications",
+            "description": "Blip AI helps employees with routine written communications across departments"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 17,
+      "companyName": "Catalyst Performance",
+      "category": "adoption",
+      "sector": "Personal Care Services",
+      "impactStatement": "Uses AI to improve organic search clicks by over 300%",
+      "companyProfile": "Specialises in assessment-led fitness coaching and long-term health optimisation through personal training and wellness",
+      "headlineMetrics": [
+        {
+          "main": "Over 300% increase",
+          "sub": "in organic search clicks"
+        },
+        {
+          "main": "190% increase",
+          "sub": "in search impressions"
+        },
+        {
+          "main": "More than 2X improvement",
+          "sub": "in Google search ranking"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Limited online visibility",
+          "description": "The legacy website lacked SEO and GEO infrastructure, limiting organic discoverability"
+        },
+        {
+          "title": "Manual and resource-intensive marketing",
+          "description": "Website updates, content creation, advertising campaigns and lead outreach required significant time or external agency support"
+        },
+        {
+          "title": "Limited in-house digital capacity",
+          "description": "The website, marketing systems and operational tools required significant time or external agency support"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-powered Digital Operations",
+        "description": [
+          "Builds and manages digital capabilities that would otherwise require external agencies or dedicated technical staff",
+          "Embeds Claude across website, marketing and operational workflows"
+        ],
+        "components": [
+          {
+            "title": "AI-built website and search optimisation",
+            "description": "Rebuilt the website with SEO and GEO infrastructure to improve visibility across Google and AI search engines"
+          },
+          {
+            "title": "Automated outreach and lead nurturing",
+            "description": "Powers LinkedIn outreach, automated email campaigns and personalised follow-ups to convert leads"
+          },
+          {
+            "title": "AI-powered advertising analysis",
+            "description": "Analyses Meta, Google and TikTok campaign data to identify inefficient ad spend and improve allocation"
+          },
+          {
+            "title": "AI-operated dashboards",
+            "description": "Built dashboards that provide visibility on bookings, leads, protocol sales, email performance and funnel analytics"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 18,
+      "companyName": "GOODSTUPH",
+      "category": "adoption",
+      "sector": "Media & Creative",
+      "impactStatement": "Uses AI to cut campaign production from four weeks to seven days",
+      "companyProfile": "Provides creative media social marketing services",
+      "headlineMetrics": [
+        {
+          "main": "More than 30%",
+          "sub": "cost savings"
+        },
+        {
+          "main": "Up to 4X faster",
+          "sub": "production turnaround"
+        },
+        {
+          "main": "Over 200% increase",
+          "sub": "in creative output"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "High outsourced production costs",
+          "description": "External shoots, studios and post-production accounted for roughly 60% of total expenses in H1 2025"
+        },
+        {
+          "title": "Long production cycles",
+          "description": "External production added 2-4 weeks to a typical campaign, while changes could add another 3-5 days"
+        },
+        {
+          "title": "Limited experimentation and client reach",
+          "description": "High production costs limit the number of concepts the agency could test and made some lower-budget briefs uneconomical to serve"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI.YAH: Generative-AI Creative Production System",
+        "description": [
+          "Combines large language models, image generation and generative video within a structured creative workflow",
+          "AI accelerates ideation and production, while human creatives direct the process, evaluate outputs and retain final creative approval"
+        ],
+        "components": [
+          {
+            "title": "AI-assisted ideation and scripting",
+            "description": "Uses large language models to develop creative concepts and scripts, helping teams explore and develop ideas faster"
+          },
+          {
+            "title": "Generative image and video production",
+            "description": "Produces images, videos and creative variations in-house, reducing reliance on external shoots and post-production"
+          },
+          {
+            "title": "Structured AI creative workflows",
+            "description": "Uses role-based prompt frameworks that guide outputs against defined creative and quality standards"
+          },
+          {
+            "title": "Human-led creative control",
+            "description": "Human creatives direct the process, evaluate AI-generated outputs and retain final judgement over what is good enough to release"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 19,
+      "companyName": "iHub Solutions",
+      "category": "adoption",
+      "sector": "Logistics",
+      "impactStatement": "Uses AI to halve the time needed to handle data requests",
+      "companyProfile": "Provides technology-enabled logistics solutions, including smart warehousing, e-commerce fulfilment and last-mile delivery services",
+      "headlineMetrics": [
+        {
+          "main": "$94,500",
+          "sub": "in projected annual cost savings"
+        },
+        {
+          "main": "60% less time",
+          "sub": "handling data requests"
+        },
+        {
+          "main": "15 hours saved",
+          "sub": "per day"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Labour-intensive report preparation",
+          "description": "Ad hoc data requests required manual extraction, manipulation and report creation beyond standard system reports"
+        },
+        {
+          "title": "Dependence on technical expertise",
+          "description": "Complex requests required software developers to write SQL queries and retrieve information from underlying databases"
+        },
+        {
+          "title": "High query-handling workload",
+          "description": "Customer service and software development teams spent approximately 25 employee-hours daily responding to reporting and data requests"
+        }
+      ],
+      "aiSolution": {
+        "name": "Gideon: GenAI Virtual Assistant",
+        "description": [
+          "Uses natural-language conversations to make warehouse and delivery data more accessible",
+          "Enables customers and employees to retrieve, analyse and explore operational data without requiring technical knowledge or developer support"
+        ],
+        "components": [
+          {
+            "title": "Natural-language data queries",
+            "description": "Allows users to ask questions in plain language instead of searching reports or understanding database structures"
+          },
+          {
+            "title": "Automated data retrieval",
+            "description": "Converts user requests into SQL queries and retrieves data directly from iHub's Warehouse Management System"
+          },
+          {
+            "title": "Interactive data analysis",
+            "description": "Generates charts, refines queries through conversations and presents results in an easy-to-understand format"
+          },
+          {
+            "title": "Self-service analytics",
+            "description": "Empowers customers and non-technical employees to independently access operational insights without relying on technical teams"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 20,
+      "companyName": "Innovative Hub (SG)",
+      "category": "adoption",
+      "sector": "Media & Creative",
+      "impactStatement": "Uses AI to cut proposal drafting time by around 80%",
+      "companyProfile": "Offers digital marketing and e-commerce services to clients across Singapore, Malaysia and Vietnam",
+      "headlineMetrics": [
+        {
+          "main": "2x higher",
+          "sub": "employee productivity"
+        },
+        {
+          "main": "75% faster",
+          "sub": "customer response times"
+        },
+        {
+          "main": "80% faster",
+          "sub": "proposal creation"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Manual and time-intensive work",
+          "description": "Proposal drafting and compliance checks required significant manual effort"
+        },
+        {
+          "title": "Slow customer response and content delivery",
+          "description": "Customer response and content translations were dependent on specialist availability and limited by time zones"
+        },
+        {
+          "title": "Limited scalability",
+          "description": "Business growth depended on hiring more staff to handle increasing workload"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-powered Workflow Automation",
+        "description": [
+          "Leverages AI tools like Claude, ChatGPT and OpenMax across daily workflows",
+          "Using AI tools to automate routine tasks, retrieve data and respond to clients quickly."
+        ],
+        "components": [
+          {
+            "title": "Faster proposal creation",
+            "description": "Reduces proposal turnaround time from a full day to just a few hours"
+          },
+          {
+            "title": "Multilingual support",
+            "description": "Completes content localisation and translations within the same day"
+          },
+          {
+            "title": "Automated compliance",
+            "description": "Streamlines audits, checklists and sensitive-word checks"
+          },
+          {
+            "title": "Cross-platform task support",
+            "description": "Supports multi-step tasks completion by working across messaging platforms, spreadsheets, and internal databases"
+          },
+          {
+            "title": "Broader workflow automation",
+            "description": "Supports prospecting, HR triage, morning briefings, reporting, client monitoring and other routine tasks"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 21,
+      "companyName": "IYLA Collective",
+      "category": "adoption",
+      "sector": "Retail",
+      "impactStatement": "Uses AI to increase content output by 4x",
+      "companyProfile": "Distributes clean and certified-organic beauty and family care products through e-commerce marketplaces and retail channels",
+      "headlineMetrics": [
+        {
+          "main": "More than $14,000 saved",
+          "sub": "in annual recurring labour"
+        },
+        {
+          "main": "Up to 4x increase",
+          "sub": "in content output"
+        },
+        {
+          "main": "60 manhours",
+          "sub": "per month freed from content production"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Time-consuming content and marketing production",
+          "description": "Article research, writing and email campaign creation required significant manual effort, restricting output and marketing reach"
+        },
+        {
+          "title": "Labour-intensive sales analysis",
+          "description": "Sales data from multiple platforms had to be consolidated and reconciled manually, delaying pricing and inventory decisions"
+        },
+        {
+          "title": "Limited capacity for product development",
+          "description": "Mobile app development was costly and relied on external vendors"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-powered Operations Solution",
+        "description": [
+          "Uses AI to automate content, marketing, analytics and software development workflows",
+          "IYLA embedded Claude, Grok and Claude Code across the business to expand operating capacity and reduce reliance on external resources"
+        ],
+        "components": [
+          {
+            "title": "Content creation support",
+            "description": "Researches, drafts and localises educational content and product information across multiple brands"
+          },
+          {
+            "title": "Marketing automation",
+            "description": "Builds and refines email campaigns and customer journeys, enabling more campaigns to be produced with the same team"
+          },
+          {
+            "title": "AI-assisted sales analytics",
+            "description": "Analyses and reconciles sales across multiple marketplaces, providing faster insights for pricing and inventory decisions"
+          },
+          {
+            "title": "In-house app development",
+            "description": "Uses AI-assisted coding tools to build customer-facing digital products without relying on external agencies"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 22,
+      "companyName": "Kopi Near Me",
+      "category": "adoption",
+      "sector": "Food & Beverage",
+      "impactStatement": "Uses AI to cut technician scheduling time by 80%",
+      "companyProfile": "Operates a network of automated coffee vending machines across commercial, healthcare and transport locations in Singapore",
+      "headlineMetrics": [
+        {
+          "main": "Up to 15% increase",
+          "sub": "in sales conversion"
+        },
+        {
+          "main": "70% reduction",
+          "sub": "in manual enquiry processing"
+        },
+        {
+          "main": "80% less time",
+          "sub": "on technician scheduling"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Fragmented sales and contract processes",
+          "description": "Customer requirements arrived through multiple communication channels, requiring staff to manually extract information and prepare sales documents"
+        },
+        {
+          "title": "Complex field operations scheduling",
+          "description": "Managing replenishment, maintenance and repairs across machines required extensive coordination of technicians, routes and operational priorities"
+        },
+        {
+          "title": "Fragmented operational data",
+          "description": "Inventory, logistics and operational records were spread across multiple systems and spreadsheets, resulting in significant manual data entry and limited visibility"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-enabled Operating System",
+        "description": [
+          "Automates sales, scheduling and operational workflows across the business",
+          "The integrated platform streamlines customer onboarding, optimises field operations and provides real-time operational visibility"
+        ],
+        "components": [
+          {
+            "title": "Sales process automation",
+            "description": "Extracts customer requirements from enquiries and converts them into structured sales orders, quotations and contracts"
+          },
+          {
+            "title": "Dynamic scheduling and routing",
+            "description": "Optimises replenishment, maintenance and repair schedules while adjusting technician deployment based on operational needs"
+          },
+          {
+            "title": "Centralised operations management",
+            "description": "Manages inventory, logistics and operational records through a unified platform, reducing manual administration"
+          },
+          {
+            "title": "Real-time operational visibility",
+            "description": "Provides management dashboards and live operational insights to support planning and decision-making"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 23,
+      "companyName": "Lil' but Mighty Education Centre",
+      "category": "adoption",
+      "sector": "Education",
+      "impactStatement": "Uses AI to cut personalised parent communication preparation time by over 80%",
+      "companyProfile": "Provides English enrichment for primary and secondary school students with its proprietary curriculum",
+      "headlineMetrics": [
+        {
+          "main": "300% increase",
+          "sub": "in marketing output"
+        },
+        {
+          "main": "Up to 83% reduction",
+          "sub": "in parent communication turnaround time"
+        },
+        {
+          "main": "Over 6,200 hours",
+          "sub": "saved yearly on repetitive tasks"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Labour-intensive content creation",
+          "description": "Lesson materials, marketing campaigns and parent communications required significant manual effort, slowing turnaround and limiting output"
+        },
+        {
+          "title": "Manual internal documentation",
+          "description": "Staff training materials, SOPs, performance-management documents and internal reports required significant time to prepare and maintain"
+        },
+        {
+          "title": "Fragmented organisational knowledge",
+          "description": "Expertise and information remained distributed across individuals, resulting in duplicated work, inconsistent documentation and repeated coordination"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI-powered Curriculum, Content and Operations",
+        "description": [
+          "Streamlines repetitive work and improves organisational efficiency",
+          "Embeds AI across curriculum development, marketing and operational workflows"
+        ],
+        "components": [
+          {
+            "title": "AI-enhanced curriculum development",
+            "description": "Accelerates lesson planning, assessment creation and development of teaching resources, with educators reviewing and refining AI-generated materials"
+          },
+          {
+            "title": "AI-assisted content and communications",
+            "description": "Creates first drafts of marketing content, webinar materials, website content and parent communications"
+          },
+          {
+            "title": "Automated administrative workflows",
+            "description": "Uses AI and connected automation tools to streamline repetitive processes, consolidate information and reduce manual coordination across departments"
+          },
+          {
+            "title": "AI-assisted internal documentation",
+            "description": "Helps create and maintain staff training materials, SOPs and performance-management documents"
+          },
+          {
+            "title": "Knowledge management",
+            "description": "Organises tasks, prioritises information and improves access to organisational knowledge"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 24,
+      "companyName": "Linksworkz Design Studio",
+      "category": "adoption",
+      "sector": "Built Environment",
+      "impactStatement": "Uses AI to cut proposal preparation tasks time",
+      "companyProfile": "Provides signage, wayfinding and environmental graphics consultancy services for hotels, commercial developments and transportation facilities",
+      "headlineMetrics": [
+        {
+          "main": "1300% Return on Investment",
+          "sub": "(ROI) within the first year"
+        },
+        {
+          "main": "$60,000",
+          "sub": "in annual manpower savings"
+        },
+        {
+          "main": "70% faster",
+          "sub": "proposal preparation"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Time-consuming proposal preparation",
+          "description": "Client briefs, Request for Proposals (RFPs) and drawings required extensive review before customised proposals could be developed, consuming significant senior leadership time"
+        },
+        {
+          "title": "Labour-intensive project research",
+          "description": "Location, cultural and user-journey research required around three working days of analysis before concept development could begin"
+        },
+        {
+          "title": "High operational and documentation workload",
+          "description": "Meeting records, project documentation and coordination tasks consumed significant staff time and created bottlenecks across concurrent projects"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI Assistants and Semi-Automated Workflows",
+        "description": [
+          "Uses company-specific AI assistants to support business development, project research and operational workflows",
+          "The AI assistants handle first-stage reading, organisation and drafting, allowing staff to focus on design thinking, client engagement and quality control."
+        ],
+        "components": [
+          {
+            "title": "Proposal development support",
+            "description": "Reviews client briefs, RFPs and drawings to identify project scope, deliverables, risks and information required for fee preparation"
+          },
+          {
+            "title": "Project research and wayfinding",
+            "description": "Supports research, user-journey analysis, signage planning and information organisation using Linksworkz's methods and expertise"
+          },
+          {
+            "title": "Streamlined operations and documentation",
+            "description": "Assists with contract reviews, meeting summaries, project documentation and access to company procedures and standards"
+          },
+          {
+            "title": "Design exploration",
+            "description": "Supports early-stage concept development by exploring visual directions, materials and design options for client presentations"
+          },
+          {
+            "title": "Human-led review",
+            "description": "Keeps design decisions, technical accuracy and final approvals under the responsibility of experienced staff"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 25,
+      "companyName": "McLink Asia",
+      "category": "adoption",
+      "sector": "ICT/Consultancy",
+      "impactStatement": "Uses AI to increase campaign production capacity by 200%",
+      "companyProfile": "Provides office equipment, enterprise software integration and managed IT services to businesses in Singapore and Asia",
+      "headlineMetrics": [
+        {
+          "main": "200% increase",
+          "sub": "in campaign production capacity"
+        },
+        {
+          "main": "95% faster",
+          "sub": "response to customers"
+        },
+        {
+          "main": "85% faster",
+          "sub": "campaign roll-out"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Slow to respond to customers",
+          "description": "Staff took hours or days to respond to social media enquiries"
+        },
+        {
+          "title": "Long time taken to deliver campaigns",
+          "description": "A single campaign required 8-12 hours of combined staff effort to deliver"
+        },
+        {
+          "title": "Delayed campaign launches",
+          "description": "Manual revisions and handovers slowed campaign production, limiting the ability to respond quickly to market opportunities"
+        }
+      ],
+      "aiSolution": {
+        "name": "Multi-agent AI Marketing Platform",
+        "description": [
+          "Automates marketing from lead qualification to reporting",
+          "Specialised AI agents work together to qualify leads, create content, prepare campaigns and analyse performance, reducing repetitive work and handovers"
+        ],
+        "components": [
+          {
+            "title": "Automated AI lead qualification",
+            "description": "Responds to social enquiries and helps identify and qualify potential leads"
+          },
+          {
+            "title": "AI campaign creation",
+            "description": "AI content generation creates blogs, newsletters, videos and promotional images quickly and prepares campaigns for distribution"
+          },
+          {
+            "title": "Connected multi-agent workflow",
+            "description": "AI agents work across campaign tasks, reducing manual handovers and delays"
+          },
+          {
+            "title": "Automated marketing analytics",
+            "description": "Collects advertising data and prepares performance reports with less manual work"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 26,
+      "companyName": "Nami Japanese Academy",
+      "category": "adoption",
+      "sector": "Education",
+      "impactStatement": "Uses AI to handle scheduling requests, cutting resolution time to under two hours",
+      "companyProfile": "Language school specialising in Japanese language instruction and cultural enrichment, with lessons delivered in small-group and digital classroom settings.",
+      "headlineMetrics": [
+        {
+          "main": "Up to 83% less",
+          "sub": "time spent on administrative tasks"
+        },
+        {
+          "main": "50% fewer",
+          "sub": "no-shows"
+        },
+        {
+          "main": "100% on-time",
+          "sub": "payment"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Time-consuming administrative work",
+          "description": "Two administrators spent around 60 hours each week managing messages, schedules and reminders, reducing time available for other work"
+        },
+        {
+          "title": "Slow responses to rescheduling requests",
+          "description": "Manual coordination between students and teachers meant requests took 3-8 hours to resolve, with after-hours requests delayed until staff were available"
+        },
+        {
+          "title": "Missed lessons and delayed payments",
+          "description": "Inconsistent reminders contributed to more than 10 no-shows and last-minute cancellations each month, while overdue invoices could go unnoticed for weeks"
+        }
+      ],
+      "aiSolution": {
+        "name": "The Nami Concierge: AI-powered WhatsApp Platform",
+        "description": [
+          "Automates lesson scheduling, communication and routine administration",
+          "The Nami Concierge uses AI to manage routine WhatsApp enquiries and administrative workflows, allowing staff to spend more time towards enhancing teaching quality and student engagement"
+        ],
+        "components": [
+          {
+            "title": "AI-powered message handling",
+            "description": "Reads and classifies WhatsApp messages and responds to routine requests in the student’s preferred language"
+          },
+          {
+            "title": "Automated lesson rescheduling",
+            "description": "Checks live calendars, identifies available slots, coordinates teacher approval and updates bookings automatically"
+          },
+          {
+            "title": "Automated reminders and administration",
+            "description": "Sends lesson and invoice reminders, marks attendance, generates invoices and extends recurring lesson series"
+          },
+          {
+            "title": "Centralised conversation management",
+            "description": "Provides staff with a single view of conversations, AI-generated summaries and the ability to take over when needed"
+          },
+          {
+            "title": "Human-controlled escalation",
+            "description": "Routes billing matters, complaints and complex requests to staff for review and action"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 27,
+      "companyName": "The Gourmet Factor",
+      "category": "adoption",
+      "sector": "Food & Beverage",
+      "impactStatement": "Uses AI to cut invoice processing time by 80%",
+      "companyProfile": "Operates and manages restaurant brands across a range of dining concept",
+      "headlineMetrics": [
+        {
+          "main": "100% Return on Investment",
+          "sub": "(ROI) within five months"
+        },
+        {
+          "main": "80% faster",
+          "sub": "invoice processing"
+        },
+        {
+          "main": "40% less",
+          "sub": "time spent on stocktaking"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Manual inventory and invoice processing",
+          "description": "Stocktaking and supplier invoice processing required significant staff effort, reducing time available for higher-value work"
+        },
+        {
+          "title": "Inventory visibility gaps",
+          "description": "Fragmented stock records reduced visibility into inventory levels, contributing to shortages, over-ordering and excess stock"
+        },
+        {
+          "title": "Limited visibility into food costs and margins",
+          "description": "Supplier pricing data was buried in unprocessed invoices, making it challenging to maintain accurate menu costing and respond to cost increases"
+        }
+      ],
+      "aiSolution": {
+        "name": "Restoke.ai: AI-driven Inventory and Back-of-House Platform",
+        "description": [
+          "Uses AI to automate inventory management, invoice processing and food-cost tracking",
+          "By connecting supplier pricing, inventory and recipes in a single platform, Restoke.ai provides real-time visibility into stock levels, food costs and margins while reducing manual administration"
+        ],
+        "components": [
+          {
+            "title": "Automated invoice processing",
+            "description": "Extracts supplier invoice details using Optical Character Recognition (OCR) and machine learning, reducing manual data entry and processing effort"
+          },
+          {
+            "title": "Digital stocktaking",
+            "description": "Captures inventory counts through mobile devices and synchronises stock information across locations"
+          },
+          {
+            "title": "Real-time recipe costing",
+            "description": "Updates recipe costs using live supplier prices, providing greater visibility into menu-item costs and margins"
+          },
+          {
+            "title": "Data-driven purchasing",
+            "description": "Uses inventory and costing data to guide purchasing decisions and reduce shortages, over-ordering and excess stock"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 28,
+      "companyName": "TTS Group",
+      "category": "adoption",
+      "sector": "Transport & Mobility",
+      "impactStatement": "Uses AI to increase traffic-data acquisition capacity by about 98%",
+      "companyProfile": "Provides transport planning, traffic engineering and transport analytics consultancy services.",
+      "headlineMetrics": [
+        {
+          "main": "About 98% increase",
+          "sub": "in traffic-data acquisition capacity"
+        },
+        {
+          "main": "About 30 hours saved",
+          "sub": "per engineer each week on manual traffic footage review"
+        },
+        {
+          "main": "About 50x more sites",
+          "sub": "processed monthly"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Labour-intensive traffic data collection",
+          "description": "Surveyors manually counted and classified vehicles and pedestrians, requiring multiple personnel and extended shifts for high-volume sites"
+        },
+        {
+          "title": "Time-consuming safety analysis",
+          "description": "Engineers spent around 15 hours per week reviewing footage for a single intersection, limiting the number of sites that could be assessed"
+        },
+        {
+          "title": "Reactive road-safety assessment",
+          "description": "Periodic observations and historical crash data made it difficult to detect near-misses and identify safety risks before incidents occurred"
+        }
+      ],
+      "aiSolution": {
+        "name": "TTS Proactive Framework for Near-Miss-Based Traffic Risk Assessment",
+        "description": [
+          "Uses AI to automate traffic analysis and identify safety risks earlier",
+          "Combines computer vision, predictive analytics and large language models to collect traffic data, detect near-misses and support risk assessment and intervention planning, with engineers retaining responsibility for safety recommendations"
+        ],
+        "components": [
+          {
+            "title": "Automated traffic detection and classification",
+            "description": "Detects, tracks and classifies vehicles and pedestrians using computer vision, reducing reliance on manual traffic counting"
+          },
+          {
+            "title": "AI-enabled near-miss detection",
+            "description": "Analyses movement patterns to identify traffic conflicts that may not appear in conventional crash-based assessments"
+          },
+          {
+            "title": "Data-driven risk assessment",
+            "description": "Uses traffic and near-miss data to quantify risk and identify higher-risk locations"
+          },
+          {
+            "title": "AI-assisted intervention planning",
+            "description": "Synthesises data from high-risk intersections to support targeted safety interventions such as signal optimisation"
+          },
+          {
+            "title": "Continuous post-intervention monitoring",
+            "description": "Reassesses sites after interventions to measure changes in safety risk and compare results before and after improvements"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    },
+    {
+      "canonicalIndex": 29,
+      "companyName": "You Tiao Man",
+      "category": "adoption",
+      "sector": "Food & Beverage",
+      "impactStatement": "Uses AI to cut supplier invoice processing time by 85%",
+      "companyProfile": "Manufactures traditional Asian snacks and frozen dough fritters, supplying hotels, restaurants, caterers and supermarkets",
+      "headlineMetrics": [
+        {
+          "main": "85% Return on Investment (ROI)",
+          "sub": "within the first year"
+        },
+        {
+          "main": "83% less time",
+          "sub": "processing invoices"
+        },
+        {
+          "main": "40 manhours",
+          "sub": "saved per week"
+        }
+      ],
+      "keyChallenges": [
+        {
+          "title": "Fragmented order management",
+          "description": "Orders arrived through multiple sales channels, requiring staff to manually capture and consolidate information across systems"
+        },
+        {
+          "title": "Labour-intensive invoice processing",
+          "description": "Supplier invoices had to be manually entered, validated and reconciled across spreadsheets and finance systems"
+        },
+        {
+          "title": "Time-consuming administrative work",
+          "description": "Manual payment tracking, follow-up activities and repetitive order administration reduced time available for business development and customer engagement"
+        }
+      ],
+      "aiSolution": {
+        "name": "AI Operations Co-Pilot",
+        "description": [
+          "Uses AI to automate order, finance and marketing workflows while keeping staff in control of approvals",
+          "Built using n8n and Claude, the solution integrates with existing business systems to reduce manual processing, improve visibility and streamline day-to-day operations"
+        ],
+        "components": [
+          {
+            "title": "AI-assisted invoice processing",
+            "description": "Extracts invoice details, validates pricing against master records and flags discrepancies for staff review"
+          },
+          {
+            "title": "Automated finance workflows",
+            "description": "Maintains payment records and transfers approved invoice information into finance systems, reducing duplicate data entry and reconciliation work"
+          },
+          {
+            "title": "Multi-channel order visibility",
+            "description": "Consolidates orders across sales channels into a live dashboard, providing a unified view of revenue, orders and outstanding actions"
+          },
+          {
+            "title": "AI-assisted marketing",
+            "description": "Researches and drafts social media content, checks it against company policies and routes posts for approval before publication"
+          }
+        ]
+      },
+      "sourceUrl": "https://smesgodigital.gov.sg/web/sme-ai-awards",
+      "retrieved": "2026-10-18T16:15:51+08:00",
+      "extractionStatus": "complete"
+    }
+  ]
+}

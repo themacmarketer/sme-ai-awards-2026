@@ -1,0 +1,155 @@
+{
+  "_note": "Additional authored sentences appended to the Complication and Answer sections so each SCQA narrative reaches the 350-600 word target. Merged by scripts/apply_scqa_expansion.py, then folded into the batch files.",
+  "additions": [
+    {
+      "slug": "accountingbpo",
+      "c": "The firm could not promise a faster turnaround without hiring, and hiring reduced the margin on the work that funded it.",
+      "a": "The citation does not report error rates, and it does not describe how the firm validates extraction accuracy, so the quality effect of the change remains unquantified."
+    },
+    {
+      "slug": "best-marketing-agency",
+      "c": "Growth therefore added cost at roughly the same rate as revenue, which kept margin flat regardless of how many clients the agency won.",
+      "a": "The citation does not separate the contribution of the agents from other changes in the period, so the 71% figure should be read as the firm's own account of the combined effect."
+    },
+    {
+      "slug": "blue-aqua-international",
+      "c": "A farm manager's departure took the operating knowledge with them, and the company had no consistent way to compare one pond's performance against another.",
+      "a": "The citation does not report model accuracy or the number of ponds covered, so the improvement cannot be separated from farm-level management changes."
+    },
+    {
+      "slug": "getgo-technologies",
+      "c": "The company also carried the cost of disputes, because a charge raised weeks later is harder to defend than one raised at handover.",
+      "a": "The citation does not publish the model's precision or the dispute rate, so the commercial effect of a false positive is not documented."
+    },
+    {
+      "slug": "glints-singapore",
+      "c": "The cost was not only time. It was the risk that two staff members would answer the same question differently in two markets.",
+      "a": "The citation does not report how the agent handles a question that spans two jurisdictions, which is the hardest case in a six-market operation."
+    },
+    {
+      "slug": "greenphyto",
+      "c": "A defect found on a Tuesday walk-through had already affected the trays around it, and the cost appeared later as inconsistent yield rather than as a visible loss.",
+      "a": "The citation does not state how many cameras cover the facility or how the model was trained, so the detection quality behind the tenfold figure is not documented."
+    },
+    {
+      "slug": "iapps-health-group",
+      "c": "Doctors absorbed the difference, which meant clinical time was being spent on administration rather than on patients.",
+      "a": "The citation does not publish clinical validation results, so the effect on diagnostic accuracy, as distinct from throughput, is not established."
+    },
+    {
+      "slug": "kyanon-digital",
+      "c": "Senior engineers were therefore the constraint on revenue, and every new client competed for the same small group.",
+      "a": "The citation does not report defect rates or client outcomes, so the platform's effect on delivery quality is not documented."
+    },
+    {
+      "slug": "limteh-project",
+      "c": "Staff time was also the constraint on customer service, because the same people answered enquiries, prepared production files and chased artwork approvals, so a busy week in production became a slow week for customers.",
+      "a": "The design also keeps a person on the ambiguous cases rather than on every case, which is what makes the throughput gain compatible with made-to-order accuracy at this volume."
+    },
+    {
+      "slug": "lithan-academy",
+      "c": "Both constraints hit the same budget line, so investment in course production competed directly with learner support.",
+      "a": "The citation does not report learning outcomes or completion rates, so the effect on educational quality, as distinct from production speed, is unmeasured."
+    },
+    {
+      "slug": "mencast-marine",
+      "c": "Quotation delays cost orders in a market where the buyer is comparing several suppliers on response time.",
+      "a": "The citation does not state how design options are validated, so it is not clear whether the model replaces simulation or only ranks candidates for it."
+    },
+    {
+      "slug": "oceanus-media-global",
+      "c": "Each location added a fixed cost that had to be recovered whether or not the shoot ran to schedule.",
+      "a": "The citation does not name the generation models or describe the studio hardware, so the technical basis of the 80% figure is not documented."
+    },
+    {
+      "slug": "ong-ong-group",
+      "c": "New staff took longer to become useful, and senior staff became a lookup service for their own archive.",
+      "a": "The citation does not report retrieval accuracy or the proportion of answers that staff accepted without checking the source."
+    },
+    {
+      "slug": "supreme-components-international",
+      "c": "Each avoidable follow-up consumed sales time twice: once to send the quote and again to correct it.",
+      "a": "The citation does not report line-item matching accuracy, which is the measure that determines whether the approach is safe at higher volumes."
+    },
+    {
+      "slug": "thriving-weeds",
+      "c": "Clients received a defensible snapshot, but not a trend, and the cost of the next snapshot was the same as the first.",
+      "a": "The citation does not describe the hardware or the reference method used to establish the 95% accuracy figure."
+    },
+    {
+      "slug": "agape-cp-holdings",
+      "c": "Coaching therefore relied on anecdote, because the sample rarely contained the interactions that caused problems.",
+      "a": "The citation does not report the resulting review coverage as a percentage, so the 16-fold figure cannot be converted into an absolute rate."
+    },
+    {
+      "slug": "brew-interactive",
+      "c": "Producing a video was therefore a scheduling decision as much as a creative one, and the agency could not promise a client a fast test cycle when its supplier was busy with another account.",
+      "a": "The stack is also the most completely disclosed in the set, which makes it the easiest implementation to replicate and the easiest to cost before committing budget."
+    },
+    {
+      "slug": "catalyst-performance",
+      "c": "Marketing was therefore intermittent, which is the worst pattern for search visibility, because gains decay when publishing stops.",
+      "a": "The citation does not publish baseline traffic, so the percentage changes cannot be converted into absolute visitor numbers."
+    },
+    {
+      "slug": "goodstuph",
+      "c": "Every concept the agency did not test was a decision made by budget rather than by judgement.",
+      "a": "The citation does not name the generation models, and it does not report client approval or rejection rates for generated work."
+    },
+    {
+      "slug": "ihub-solutions",
+      "c": "Customers experienced the delay as poor service, even though the data existed and was accurate.",
+      "a": "The citation does not describe how customer-level access is enforced, which is the main risk in exposing a shared warehouse database."
+    },
+    {
+      "slug": "innovative-hub-sg",
+      "c": "Compliance review was the step most exposed to that delay, because it sat at the end of the process.",
+      "a": "The citation does not report the false-positive rate of the sensitive-word checks, so the review burden they create is unknown."
+    },
+    {
+      "slug": "iyla-collective",
+      "c": "Each constraint had a different supplier, so the company was managing three dependencies with a small team.",
+      "a": "The citation does not say which applications were built, so the durability of that in-house capability is not established."
+    },
+    {
+      "slug": "kopi-near-me",
+      "c": "A machine could be sold out and broken on the same day without either fact reaching the person planning tomorrow's route.",
+      "a": "The citation does not report stock-out or machine-uptime figures, so the operational effect of scheduling is not quantified."
+    },
+    {
+      "slug": "lil-but-mighty-education-centre",
+      "c": "The centre could not add classes without adding administrative hours, which capped growth at the speed of hiring.",
+      "a": "The citation does not report parent satisfaction or learning outcomes, so the effect on quality is not measured."
+    },
+    {
+      "slug": "linksworkz-design-studio",
+      "c": "Declining a brief for lack of review capacity costs nothing visibly, which makes the loss easy to miss.",
+      "a": "The citation does not publish the cost base behind the return figure, so the payback calculation cannot be checked."
+    },
+    {
+      "slug": "mclink-asia",
+      "c": "Response delay is expensive in social selling, because the first supplier to reply usually sets the shortlist, and a late answer is often no answer at all.",
+      "a": "The architecture separates qualification, content and reporting so that each step can be evaluated, tuned and replaced without rebuilding the others, which is the practical advantage of splitting agents by role rather than deploying one general assistant across the whole function."
+    },
+    {
+      "slug": "nami-japanese-academy",
+      "c": "After-hours requests waited, which is exactly when working adults tend to reschedule.",
+      "a": "The citation does not report how many messages the agent handles without escalation."
+    },
+    {
+      "slug": "the-gourmet-factor",
+      "c": "Menu pricing was therefore set on last quarter's costs, which is a slow way to react to a supplier increase.",
+      "a": "The citation does not report the size of the group or the number of invoices processed monthly."
+    },
+    {
+      "slug": "tts-group",
+      "c": "Waiting for collisions to accumulate means the evidence arrives only after the harm.",
+      "a": "The citation does not publish validation of the near-miss metric against observed crash frequency."
+    },
+    {
+      "slug": "you-tiao-man",
+      "c": "The work also fell on the same small team that handles sales, so administration displaced revenue-generating activity.",
+      "a": "The citation does not report the exception rate or how often invoices require manual correction."
+    }
+  ]
+}
