@@ -149,8 +149,8 @@ and `Article` + `BreadcrumbList` JSON-LD.
 2. **One Grade A** — independent coverage of a five-day-old award is genuinely thin. General web
    search also returned a high proportion of irrelevant results for small-company queries.
 3. **No winner was contacted** — no company confirmed or corrected its case study.
-4. **Vendor disclosure is sparse** — 21 of 30 winners name no vendor at any layer. Nothing has been
-   guessed to fill the gap.
+4. **Vendor disclosure is sparse** — 19 of 30 winners name no vendor at any layer (11 now have
+   independently corroborated or company-disclosed vendors). Nothing has been guessed to fill the gap.
 5. **No paired baselines** — every citation reports relative change without before-and-after
    values, so no improvement percentage has been calculated from an assumed baseline.
 6. **Diagrams scroll horizontally below 560 px** rather than shrinking, because scaling a 680 px
@@ -163,7 +163,7 @@ and `Article` + `BreadcrumbList` JSON-LD.
 
 ```
 data/winners-raw.json      canonical extraction + provenance
-data/sources.json          28-record source registry (T0–T3)
+data/sources.json          43-record source registry (T0–T3)
 data/content/batch1-6.json authored case studies
 data/winners.json          built dataset (consumed by the app)
 lib/schema.mjs             Zod schema (runtime validation)
