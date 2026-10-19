@@ -15,6 +15,7 @@ INDEPENDENT = {
     "T1-PRN-INAUGURAL", "T1-BT-LAUNCH", "T1-SFA-BLUEAQUA", "T2-GETGO-ZENDESK",
     "T3-GREENPHYTO-BLOOMBERG", "T3-1DOC-GSD", "T3-OCEANUS-SBR",
     "T3-KYANON-ANDERSEN", "T3-MENCAST-EDB", "T1-IMDA-DAY2026", "T2-FOCALSCOPE-AGAPE",
+    "T3-ST-AWARDS", "T1-IMDA-PR-AWARDS",
 }
 
 content = {}
@@ -147,6 +148,21 @@ meta = {
     "extractedAt": EXTRACTED,
     "researchedAt": RESEARCHED,
     "totalWinners": len(winners),
+    "awardScale": {
+        "nominations": 290,
+        "sectors": 21,
+        "winners": len(winners),
+        "sourceId": "T1-IMDA-PR-AWARDS",
+        "pressSourceId": "T3-ST-AWARDS",
+    },
+    "nationalBenchmarks": {
+        "smeAiAdoption2025": 23.4,
+        "smeAiAdoption2024": 14.5,
+        "productivityBenefitPct": 87.6,
+        "costReductionBenefitPct": 44.0,
+        "source": "IMDA Singapore Digital Economy Report 2025 (cited in SME AI Impact Awards release)",
+        "sourceId": "T1-IMDA-PR-AWARDS",
+    },
     "categories": [
         {"key": "innovation", "label": "Innovation Excellence", "count": sum(1 for x in winners if x["category"] == "innovation")},
         {"key": "adoption", "label": "Adoption Excellence", "count": sum(1 for x in winners if x["category"] == "adoption")},

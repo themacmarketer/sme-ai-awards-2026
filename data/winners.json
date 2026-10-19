@@ -6,6 +6,21 @@
     "extractedAt": "2026-10-18T16:15:51+08:00",
     "researchedAt": "2026-10-18T19:40:00+08:00",
     "totalWinners": 30,
+    "awardScale": {
+      "nominations": 290,
+      "sectors": 21,
+      "winners": 30,
+      "sourceId": "T1-IMDA-PR-AWARDS",
+      "pressSourceId": "T3-ST-AWARDS"
+    },
+    "nationalBenchmarks": {
+      "smeAiAdoption2025": 23.4,
+      "smeAiAdoption2024": 14.5,
+      "productivityBenefitPct": 87.6,
+      "costReductionBenefitPct": 44.0,
+      "source": "IMDA Singapore Digital Economy Report 2025 (cited in SME AI Impact Awards release)",
+      "sourceId": "T1-IMDA-PR-AWARDS"
+    },
     "categories": [
       {
         "key": "innovation",
@@ -19,8 +34,8 @@
       }
     ],
     "evidenceGrades": {
-      "B": 29,
-      "A": 1
+      "B": 27,
+      "A": 3
     },
     "sectors": {
       "Media & Creative": 5,
@@ -923,6 +938,23 @@
           "attribution": "Company-reported; published in the IMDA/SBF award citation"
         },
         {
+          "label": "Shrimp feeding efficiency",
+          "value": "Improved by about 30%",
+          "sourceIds": [
+            "T3-ST-AWARDS"
+          ],
+          "attribution": "Reported by Blue Aqua CEO Farshad Shishehchian to The Straits Times; provides a specific operational measure behind the broader production-cost result"
+        },
+        {
+          "label": "Advance risk warning lead-time",
+          "value": "4–7 days earlier",
+          "sourceIds": [
+            "T0-AWARDS",
+            "T3-ST-AWARDS"
+          ],
+          "attribution": "Advance warning lead-time for water-quality anomalies and disease risks, published in award citation and corroborated by The Straits Times"
+        },
+        {
           "label": "Shrimp survival rate",
           "value": "6–9% higher",
           "sourceIds": [
@@ -943,7 +975,7 @@
         "s": "Blue Aqua International provides sustainable aquaculture, animal nutrition and farm management solutions to farmers worldwide. The Singapore Food Agency records that the company runs a local hatchery nurturing more than 100 million post-larval shrimp a year. Shrimp farming is a biological operation with thin margins: feed is a major cost, water conditions change faster than manual checks, and disease can spread through a pond before it is visible.",
         "c": "Water quality was checked infrequently, so problems could develop undetected between readings. Feeding was generic rather than matched to the pond, which wasted feed and money, and late disease detection raised the risk of stock loss. Decisions depended heavily on individual experience, paper logs and inconsistent records, which made performance hard to compare across farms. Expertise therefore did not scale: each farm's results depended on who was managing it. A farm manager's departure took the operating knowledge with them, and the company had no consistent way to compare one pond's performance against another.",
         "q": "How could the company convert scattered pond observations and individual experience into consistent, early warnings that any farm team could act on?",
-        "a": "The company built AquaPilot, an aquaculture intelligence platform that analyses water quality, feeding, health and production data. It forecasts oxygen, ammonia and temperature six to 24 hours ahead using sensor and farm data, and alerts teams to emerging issues. It generates daily pond-level disease risk scores and flags potential health problems four to seven days before they usually become visible. Feed calculations are pond-specific and use biomass, water conditions, growth patterns and health risk. The system also monitors the recirculating aquaculture system, predicting issues and adjusting feeding in response. A benchmarking layer compares ponds on feed conversion, survival, growth and production cost, and returns farm-specific recommendations. The published result is a 30% improvement in production cost management, survival rates 6 to 9 percentage points higher, and around 2,500 manpower hours saved each year. The citation does not report model accuracy or the number of ponds covered, so the improvement cannot be separated from farm-level management changes. The survival-rate range is the more telling number, because it moves a biological outcome rather than a cost line, and biological outcomes are harder to attribute to any single management change than a feed bill is."
+        "a": "The company built AquaPilot, an aquaculture intelligence platform that analyses water quality, feeding, health and production data. Deployed across farm operations for approximately 1.5 years at the time of reporting, the system forecasts dissolved oxygen, ammonia and temperature six to 24 hours ahead using sensor and biological data, alerting teams to emerging water anomalies. It generates daily pond-level disease risk scores, delivering advance warnings four to seven days before health issues typically become visible. Feed calculations are pond-specific, dynamically weighing biomass, water conditions, growth trajectories and health risk. According to CEO Farshad Shishehchian in The Straits Times, this predictive feeding regime improved shrimp feeding efficiency by about 30%, adding operational specificity to the citation's broader 30% production cost management result. The system also monitors the recirculating aquaculture system, predicting equipment issues and adjusting feeding in response. A benchmarking layer compares ponds on feed conversion, survival, growth and cost, returning farm-specific recommendations. The published result is a 30% improvement in production cost management, survival rates 6 to 9 percentage points higher, and around 2,500 manpower hours saved each year. The survival-rate range is the more telling number, because it moves a biological outcome rather than a cost line, and biological outcomes are harder to attribute to any single management change than a feed bill is."
       },
       "takeaway": "The model is the easy part. The value sits in turning sensor readings into a daily decision that a farm hand can act on before the loss happens.",
       "claims": [
@@ -965,11 +997,13 @@
         },
         {
           "id": "c3",
-          "text": "The platform flags disease risk four to seven days before issues typically become visible.",
+          "text": "The platform flags disease risk and water-quality anomalies four to seven days before issues typically become visible.",
           "sourceIds": [
-            "T0-AWARDS"
+            "T0-AWARDS",
+            "T3-ST-AWARDS"
           ],
-          "evidence": "stated"
+          "evidence": "corroborated",
+          "basis": "Published in official IMDA citation and independently corroborated in The Straits Times interview with Blue Aqua CEO Farshad Shishehchian."
         },
         {
           "id": "c4",
@@ -979,6 +1013,24 @@
           ],
           "evidence": "corroborated",
           "basis": "Stated independently by the Singapore Food Agency."
+        },
+        {
+          "id": "c5",
+          "text": "Shrimp feeding efficiency improved by about 30% through predictive AI feed calculation and pond condition monitoring.",
+          "sourceIds": [
+            "T3-ST-AWARDS"
+          ],
+          "evidence": "corroborated",
+          "basis": "Reported by CEO Farshad Shishehchian to The Straits Times, providing operational specificity to the 30% cost improvement."
+        },
+        {
+          "id": "c6",
+          "text": "Blue Aqua had operated AI in its commercial farm operations for approximately 1.5 years at the time of the awards reporting.",
+          "sourceIds": [
+            "T3-ST-AWARDS"
+          ],
+          "evidence": "corroborated",
+          "basis": "Reported in The Straits Times coverage of the SME AI Impact Awards winners."
         }
       ],
       "stack": [
@@ -986,28 +1038,34 @@
           "layer": "AI model",
           "what": "Forecasting for water quality and daily disease risk scoring",
           "origin": "in-house",
-          "evidence": "stated",
+          "evidence": "corroborated",
           "sourceIds": [
-            "T0-AWARDS"
-          ]
+            "T0-AWARDS",
+            "T3-ST-AWARDS"
+          ],
+          "basis": "Detailed in award citation and corroborated by The Straits Times reporting on predictive disease alerts."
         },
         {
           "layer": "Sensing",
-          "what": "Pond sensors feeding water quality and farm data",
+          "what": "Pond sensors feeding water quality, biological data and farm records",
           "origin": "unknown",
-          "evidence": "stated",
+          "evidence": "corroborated",
           "sourceIds": [
-            "T0-AWARDS"
-          ]
+            "T0-AWARDS",
+            "T3-ST-AWARDS"
+          ],
+          "basis": "Reported in citation and confirmed in Straits Times coverage of sensor and water data inputs."
         },
         {
           "layer": "Processing",
-          "what": "Feed requirement calculation per pond",
+          "what": "Feed requirement calculation per pond achieving ~30% feeding efficiency gain",
           "origin": "in-house",
-          "evidence": "stated",
+          "evidence": "corroborated",
           "sourceIds": [
-            "T0-AWARDS"
-          ]
+            "T0-AWARDS",
+            "T3-ST-AWARDS"
+          ],
+          "basis": "Named in citation and independently reported by CEO in The Straits Times."
         },
         {
           "layer": "Integration",
@@ -1039,6 +1097,13 @@
       ],
       "timeline": [
         {
+          "date": "2025-04-15",
+          "event": "Began deploying predictive AI in farm operations, establishing ~1.5 years of operational tenure by the October 2026 awards.",
+          "sourceIds": [
+            "T3-ST-AWARDS"
+          ]
+        },
+        {
           "date": "2026-10-13",
           "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
           "sourceIds": [
@@ -1047,9 +1112,10 @@
         },
         {
           "date": "2026-10-16",
-          "event": "Award citation published with AquaPilot details.",
+          "event": "Award citation published with AquaPilot details; featured in The Straits Times reporting ~30% feed efficiency gain and 4–7 day advance warnings.",
           "sourceIds": [
-            "T0-AWARDS"
+            "T0-AWARDS",
+            "T3-ST-AWARDS"
           ]
         }
       ],
@@ -1265,14 +1331,25 @@
           "retrieved": "2026-10-18",
           "status": "valid",
           "note": "Government profile. States the company operates a local hatchery that nurtures over 100 million post-larval shrimp a year."
+        },
+        {
+          "id": "T3-ST-AWARDS",
+          "title": "Social enterprise using sentiment analysis at call centre among 30 winners of SME AI Impact Awards",
+          "publisher": "The Straits Times",
+          "url": "https://www.straitstimes.com/singapore/politics/social-enterprise-using-sentiment-analysis-at-call-centre-among-30-winners-of-sme-ai-impact-awards",
+          "tier": "T3",
+          "published": "2026-10-16",
+          "retrieved": "2026-10-19",
+          "status": "valid",
+          "note": "Mainstream independent news coverage of the inaugural awards ceremony. Reports on 290 nominations across 21 sectors and provides in-depth operational reporting on Blue Aqua International (30% shrimp feed efficiency improvement, 4-7 days advance water-quality/disease warnings, 1.5 years operational tenure) and Agape Connecting People (real-time caller sentiment analysis and customer profiling informed by past calls across agents, including its contact centre inside Changi Women's Prison)."
         }
       ],
       "gaps": [
-        "No named sensor, cloud or model vendor.",
-        "The 30% cost improvement has no stated baseline period or currency value.",
+        "Specific IoT sensor manufacturer and cloud hosting provider are not publicly disclosed.",
+        "The 30% cost improvement has no stated currency baseline, though ~30% feed efficiency gain explains the main operational lever.",
         "Governance and data-handling practices are not published."
       ],
-      "confidence": "B",
+      "confidence": "A",
       "coverage": 90,
       "coverageDimensions": {
         "Company and industry context": 1,
@@ -6316,7 +6393,7 @@
         "s": "Agape CP Holdings is a social enterprise providing contact centre, customer experience, business process outsourcing, recruitment and workforce development services. Its output is measured in handled interactions, and its cost base is agent time. In a contact centre, the minutes after a call are as expensive as the call itself, because they are paid for but not billable to the customer.",
         "c": "Agents spent three to five minutes documenting each interaction and updating records, which reduced the time available to serve customers. Supervisors could review only about 5% of interactions, so service gaps, compliance risks and coaching opportunities went unseen in the other 95%. New agents took around six weeks to reach independent productivity, and some needed extra knowledge support and coaching during initial deployment. The operation was therefore limited by documentation load and by the thin sample of quality review. Coaching therefore relied on anecdote, because the sample rarely contained the interactions that caused problems.",
         "q": "How could the contact centre reduce post-call administration and review far more interactions for quality, without adding supervisors or slowing onboarding?",
-        "a": "Agape built an AI-powered contact centre and BPO platform that combines generative AI, speech analytics and workflow automation. Agents receive real-time guidance, suggested responses and instant access to relevant knowledge during interactions. Automated documentation generates call summaries, interaction notes and email drafts, which removes most repetitive post-call work. Quality assurance analyses interactions at scale to identify service-quality issues, compliance risks, sentiment and coaching opportunities, so review is no longer limited to a small sample. Knowledge retrieval gives agents immediate access to standard operating procedures, policies and campaign information without searching documents. New employees receive real-time guidance and standardised knowledge, which shortens the path to independent work. The published result is 63% less time on administrative tasks, 33% faster onboarding, and 16 times more quality assurance coverage. The quality coverage figure is the more interesting one, because it changes supervision from sampling to census. The citation does not report the resulting review coverage as a percentage, so the 16-fold figure cannot be converted into an absolute rate. Review coverage is the number to watch, because it converts quality assurance from a sample into a control that can be audited, and an audited control is what a regulated client will pay for in an outsourcing contract."
+        "a": "Agape built an AI-powered contact centre and BPO platform that combines generative AI, speech analytics and workflow automation. During live calls, agents receive real-time caller sentiment analysis and customer profiles synthesized from past calls, helping them assess caller emotions and de-escalate difficult conversations on the spot. The platform provides real-time guidance, suggested responses and instant access to relevant standard operating procedures and campaign information without searching through documents. Automated documentation transcribes conversations and generates interaction notes, structured summaries and email follow-up drafts, removing three to five minutes of repetitive post-call administrative work per call. Quality assurance analyses interactions at scale to identify service gaps, compliance risks, sentiment trends and specific coaching opportunities, expanding supervision from a 5% sample to near-complete coverage. New employees receive live prompts and standardised knowledge, shortening the path to independent work. The published result is 63% less time on administrative tasks, 33% faster onboarding, and 16 times more quality assurance coverage. The quality coverage figure is the more interesting one, because it changes supervision from sampling to census, converting quality assurance from an ad hoc check into an auditable control that regulated outsourcing clients require."
       },
       "takeaway": "Automate the note-taking, then use the transcript you now own. Full coverage of interactions is a supervision capability, not a reporting nicety.",
       "claims": [
@@ -6354,9 +6431,20 @@
           "text": "Quality assurance analyses interactions at scale for service quality, compliance risk and sentiment.",
           "sourceIds": [
             "T0-AWARDS",
-            "T1-AGAPE-SITE"
+            "T1-AGAPE-SITE",
+            "T3-ST-AWARDS"
           ],
-          "evidence": "stated"
+          "evidence": "corroborated",
+          "basis": "Reported in award citation and independently corroborated in The Straits Times reporting on live call sentiment analysis."
+        },
+        {
+          "id": "c5",
+          "text": "AI delivers real-time caller sentiment analysis and customer profiles informed by past calls to guide agents during interactions.",
+          "sourceIds": [
+            "T3-ST-AWARDS"
+          ],
+          "evidence": "corroborated",
+          "basis": "Reported in The Straits Times feature on Agape Connecting People's contact-centre technology and founder Anil David."
         }
       ],
       "stack": [
@@ -6372,15 +6460,17 @@
           "vendor": "FocalScope"
         },
         {
-          "layer": "Speech analytics",
-          "what": "Interaction analysis for quality assurance, compliance and sentiment",
+          "layer": "Speech analytics & sentiment",
+          "what": "Real-time caller sentiment analysis and customer profiling informed by past calls to assist de-escalation and live interaction",
           "origin": "vendor",
-          "evidence": "stated",
+          "evidence": "corroborated",
           "sourceIds": [
             "T0-AWARDS",
-            "T2-FOCALSCOPE-AGAPE"
+            "T2-FOCALSCOPE-AGAPE",
+            "T3-ST-AWARDS"
           ],
-          "vendor": "FocalScope"
+          "vendor": "FocalScope",
+          "basis": "Documented by vendor FocalScope and independently reported in The Straits Times interview with founder Anil David."
         },
         {
           "layer": "Knowledge",
@@ -6425,6 +6515,13 @@
           "sourceIds": [
             "T0-AWARDS",
             "T1-IMDA-DAY2026"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "event": "Featured on the front of The Straits Times SME AI Impact Awards coverage, highlighting real-time sentiment analysis and past-call customer profiling across contact-centre operations.",
+          "sourceIds": [
+            "T3-ST-AWARDS"
           ]
         }
       ],
@@ -6666,6 +6763,17 @@
           "retrieved": "2026-10-19",
           "status": "valid",
           "note": "Technology vendor case study documenting Agape deploying FocalScope across 250+ agents, private cloud hosting compliant with Singapore Prison regulations, AI-assisted writing, and 3-day agent onboarding."
+        },
+        {
+          "id": "T3-ST-AWARDS",
+          "title": "Social enterprise using sentiment analysis at call centre among 30 winners of SME AI Impact Awards",
+          "publisher": "The Straits Times",
+          "url": "https://www.straitstimes.com/singapore/politics/social-enterprise-using-sentiment-analysis-at-call-centre-among-30-winners-of-sme-ai-impact-awards",
+          "tier": "T3",
+          "published": "2026-10-16",
+          "retrieved": "2026-10-19",
+          "status": "valid",
+          "note": "Mainstream independent news coverage of the inaugural awards ceremony. Reports on 290 nominations across 21 sectors and provides in-depth operational reporting on Blue Aqua International (30% shrimp feed efficiency improvement, 4-7 days advance water-quality/disease warnings, 1.5 years operational tenure) and Agape Connecting People (real-time caller sentiment analysis and customer profiling informed by past calls across agents, including its contact centre inside Changi Women's Prison)."
         }
       ],
       "gaps": [
@@ -6673,7 +6781,7 @@
         "Breakdown of interaction volume between prison-based and off-site centres is unstated.",
         "Detailed accuracy benchmarks for automated compliance scoring are not published."
       ],
-      "confidence": "B",
+      "confidence": "A",
       "coverage": 100,
       "coverageDimensions": {
         "Company and industry context": 1,

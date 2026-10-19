@@ -116,6 +116,23 @@ export interface Winner {
   updatedAt: string;
 }
 
+export interface AwardScale {
+  nominations: number;
+  sectors: number;
+  winners: number;
+  sourceId: string;
+  pressSourceId?: string;
+}
+
+export interface NationalBenchmarks {
+  smeAiAdoption2025: number;
+  smeAiAdoption2024: number;
+  productivityBenefitPct: number;
+  costReductionBenefitPct: number;
+  source: string;
+  sourceId: string;
+}
+
 export interface DatasetMeta {
   title: string;
   tagline: string;
@@ -130,6 +147,8 @@ export interface DatasetMeta {
   aiTypes: Record<string, number>;
   outcomes: Record<string, number>;
   averageCoverage: number;
+  awardScale?: AwardScale;
+  nationalBenchmarks?: NationalBenchmarks;
 }
 
 export interface Dataset {

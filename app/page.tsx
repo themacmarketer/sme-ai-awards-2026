@@ -43,7 +43,7 @@ export default function HomePage() {
           <dl className="grid grid-cols-2 gap-x-6 gap-y-7 border-t border-rule pt-6 md:border-l md:border-t-0 md:pl-8 md:pt-0">
             {[
               { k: 'Verified winners', v: String(meta.totalWinners) },
-              { k: 'Innovation / Adoption', v: '15 / 15' },
+              { k: 'Nominations / Sectors', v: `${meta.awardScale?.nominations ?? 290} / ${meta.awardScale?.sectors ?? 21}` },
               { k: 'Sources cited', v: String(totalSources()) },
               { k: 'Avg. research coverage', v: `${meta.averageCoverage}%` },
             ].map((s) => (
@@ -70,16 +70,17 @@ export default function HomePage() {
               The SME AI Impact Awards are jointly organised by the Infocomm Media Development
               Authority (IMDA) and the Singapore Business Federation (SBF), under the National AI
               Impact Programme and in support of Singapore&apos;s National AI Strategy. The
-              inaugural awards recognised 30 SMEs across two categories: 15 for developing
-              proprietary AI solutions, and 15 for adopting ready-to-use ones.
+              inaugural edition drew <strong>290 nominations across 21 sectors</strong>, recognising
+              30 standout SMEs across two categories: 15 for developing proprietary AI solutions,
+              and 15 for adopting ready-to-use ones.
             </p>
             <p>
-              Winners were announced at SMEs Go Digital Day on 13 October 2026. Nominations
-              required at least six months of live use with positive business impact, and
-              shortlisted companies received a site visit conducted by SBF to verify the claims.
-              That verification process is why the published outcomes are worth studying, and why
-              this showcase treats the award citation as the primary record rather than a press
-              release.
+              According to IMDA&apos;s Singapore Digital Economy Report 2025, Singapore SME AI adoption
+              reached <strong>23.4% in 2025</strong> (surging from 14.5% in 2024), with 87.6% of
+              AI-adopting enterprises reporting productivity/process improvements and 44% reporting cost
+              reductions. While adoption is accelerating nationwide, the 30 award winners represent the
+              vanguard with substantive operating tenure (at least six months of live use with positive
+              business impact) verified through on-site audits conducted by SBF.
             </p>
           </div>
         </div>

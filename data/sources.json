@@ -35,6 +35,28 @@
       "note": "Independent report on the launch of the awards under the National AI Impact Programme."
     },
     {
+      "id": "T1-IMDA-PR-AWARDS",
+      "title": "30 SMEs Recognised at Inaugural SME AI Impact Awards",
+      "publisher": "Infocomm Media Development Authority (IMDA)",
+      "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/30-smes-recognised-at-inaugural-sme-ai-impact-awards",
+      "tier": "T1",
+      "published": "2026-10-16",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Official IMDA media release recognising the 30 inaugural winners across 21 sectors from 290 nominations. Discloses national enterprise benchmarks from the Singapore Digital Economy Report 2025: SME AI adoption reached 23.4% in 2025 (up from 14.5% in 2024), 87.6% of AI-adopting enterprises reported productivity/process gains, and 44% reported cost reduction/resource optimisation."
+    },
+    {
+      "id": "T3-ST-AWARDS",
+      "title": "Social enterprise using sentiment analysis at call centre among 30 winners of SME AI Impact Awards",
+      "publisher": "The Straits Times",
+      "url": "https://www.straitstimes.com/singapore/politics/social-enterprise-using-sentiment-analysis-at-call-centre-among-30-winners-of-sme-ai-impact-awards",
+      "tier": "T3",
+      "published": "2026-10-16",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Mainstream independent news coverage of the inaugural awards ceremony. Reports on 290 nominations across 21 sectors and provides in-depth operational reporting on Blue Aqua International (30% shrimp feed efficiency improvement, 4-7 days advance water-quality/disease warnings, 1.5 years operational tenure) and Agape Connecting People (real-time caller sentiment analysis and customer profiling informed by past calls across agents, including its contact centre inside Changi Women's Prison)."
+    },
+    {
       "id": "T1-ACCB-AI",
       "title": "Accountingbpo — AI accounting platform and service-provider disclosures",
       "publisher": "Accountingbpo",

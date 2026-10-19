@@ -75,12 +75,15 @@ export default function AboutPage() {
                 Singapore&apos;s National AI Strategy.
               </p>
               <p>
-                The organisers recognised 30 SMEs across two categories: Innovation Excellence,
-                for companies that developed proprietary AI solutions, and Adoption Excellence, for
+                The organisers received <strong>290 nominations across 21 industry sectors</strong>,
+                recognising 30 standout SMEs across two categories: Innovation Excellence, for
+                companies that developed proprietary AI solutions, and Adoption Excellence, for
                 companies that adopted ready-to-use solutions. Winners were announced at SMEs Go
                 Digital Day on 13 October 2026. Eligibility required at least six months of live use
                 with positive business impact, and shortlisted companies received a site visit
-                conducted by SBF to verify their claims.
+                conducted by SBF to verify their claims. According to IMDA&apos;s Singapore Digital
+                Economy Report 2025, national SME AI adoption surged to 23.4% in 2025 (up from 14.5%
+                in 2024), highlighting the selective standard set by the 30 award recipients.
               </p>
               <p>
                 This project covers all 30 winners. It does not cover shortlisted companies that

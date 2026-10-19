@@ -90,7 +90,7 @@ export function wordCount(s: string): number {
   return s.trim().split(/\s+/).filter(Boolean).length;
 }
 
-const EXTERNAL_T1 = new Set(['T1-SFA-BLUEAQUA', 'T1-PRN-INAUGURAL', 'T1-BT-LAUNCH']);
+const EXTERNAL_T1 = new Set(['T1-SFA-BLUEAQUA', 'T1-PRN-INAUGURAL', 'T1-BT-LAUNCH', 'T1-IMDA-PR-AWARDS']);
 
 /** True when a source from a party other than the winner supports the record. */
 export function hasIndependent(w: Winner): boolean {

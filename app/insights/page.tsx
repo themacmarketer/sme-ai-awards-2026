@@ -100,6 +100,75 @@ export default function InsightsPage() {
       </header>
 
       <div className="shell py-12">
+        {/* National Context & Adoption Benchmarks */}
+        <section className="mb-10 rounded-xl border border-rule bg-white p-6 shadow-sm sm:p-8">
+          <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-rule pb-4">
+            <div>
+              <p className="eyebrow">Macro benchmark context</p>
+              <h2 className="mt-1 font-sans text-xl font-bold text-ink sm:text-2xl">
+                Singapore Enterprise AI Landscape
+              </h2>
+            </div>
+            <span className="text-xs text-muted">
+              Source: IMDA Singapore Digital Economy Report 2025 &amp; The Straits Times
+            </span>
+          </div>
+
+          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-lg border border-rule/80 bg-white-alt p-5">
+              <span className="text-xs font-semibold uppercase tracking-wider text-muted">
+                Award competition scale
+              </span>
+              <p className="mt-2 font-sans text-3xl font-bold tabular-nums text-navy">
+                290 <span className="text-lg font-normal text-muted">/ 21</span>
+              </p>
+              <p className="mt-1 text-xs text-muted">
+                <strong>290 nominations</strong> across <strong>21 sectors</strong> submitted for the inaugural 2026 awards; 30 selected (10.3% acceptance).
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-rule/80 bg-white-alt p-5">
+              <span className="text-xs font-semibold uppercase tracking-wider text-muted">
+                SME national AI adoption
+              </span>
+              <p className="mt-2 font-sans text-3xl font-bold tabular-nums text-blue">
+                23.4%
+              </p>
+              <p className="mt-1 text-xs text-muted">
+                Up from <strong>14.5% in 2024</strong>. Almost 1 in 4 Singapore SMEs now deploy AI tools across their daily business operations.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-rule/80 bg-white-alt p-5">
+              <span className="text-xs font-semibold uppercase tracking-wider text-muted">
+                Productivity gain rate
+              </span>
+              <p className="mt-2 font-sans text-3xl font-bold tabular-nums text-navy">
+                87.6%
+              </p>
+              <p className="mt-1 text-xs text-muted">
+                Of Singapore AI-adopting enterprises report productivity/process improvement as a primary benefit, validating the gallery&apos;s heavy time/capacity focus.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-rule/80 bg-white-alt p-5">
+              <span className="text-xs font-semibold uppercase tracking-wider text-muted">
+                Cost reduction rate
+              </span>
+              <p className="mt-2 font-sans text-3xl font-bold tabular-nums text-navy">
+                44.0%
+              </p>
+              <p className="mt-1 text-xs text-muted">
+                Of adopting enterprises achieve cost reduction or resource optimisation — contextualising operational wins like Blue Aqua&apos;s 30% feed efficiency.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-5 rounded-lg border border-amber/30 bg-amber/5 p-4 text-xs leading-relaxed text-ink/80">
+            <strong className="font-semibold text-amber-900">Distinction note:</strong> The 87.6% productivity and 44% cost reduction figures describe all AI-adopting enterprises surveyed in IMDA&apos;s national digital economy study, providing an economy-wide reference point. The 30 award winners in this showcase were chosen from 290 nominations for verified operational tenure and quantified outcomes.
+          </div>
+        </section>
+
         <div className="grid gap-4 md:grid-cols-2">
           <div className="md:col-span-2">
             <ChartBlock

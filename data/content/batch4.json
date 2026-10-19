@@ -43,7 +43,7 @@
       "s": "Agape CP Holdings is a social enterprise providing contact centre, customer experience, business process outsourcing, recruitment and workforce development services. Its output is measured in handled interactions, and its cost base is agent time. In a contact centre, the minutes after a call are as expensive as the call itself, because they are paid for but not billable to the customer.",
       "c": "Agents spent three to five minutes documenting each interaction and updating records, which reduced the time available to serve customers. Supervisors could review only about 5% of interactions, so service gaps, compliance risks and coaching opportunities went unseen in the other 95%. New agents took around six weeks to reach independent productivity, and some needed extra knowledge support and coaching during initial deployment. The operation was therefore limited by documentation load and by the thin sample of quality review. Coaching therefore relied on anecdote, because the sample rarely contained the interactions that caused problems.",
       "q": "How could the contact centre reduce post-call administration and review far more interactions for quality, without adding supervisors or slowing onboarding?",
-      "a": "Agape built an AI-powered contact centre and BPO platform that combines generative AI, speech analytics and workflow automation. Agents receive real-time guidance, suggested responses and instant access to relevant knowledge during interactions. Automated documentation generates call summaries, interaction notes and email drafts, which removes most repetitive post-call work. Quality assurance analyses interactions at scale to identify service-quality issues, compliance risks, sentiment and coaching opportunities, so review is no longer limited to a small sample. Knowledge retrieval gives agents immediate access to standard operating procedures, policies and campaign information without searching documents. New employees receive real-time guidance and standardised knowledge, which shortens the path to independent work. The published result is 63% less time on administrative tasks, 33% faster onboarding, and 16 times more quality assurance coverage. The quality coverage figure is the more interesting one, because it changes supervision from sampling to census. The citation does not report the resulting review coverage as a percentage, so the 16-fold figure cannot be converted into an absolute rate. Review coverage is the number to watch, because it converts quality assurance from a sample into a control that can be audited, and an audited control is what a regulated client will pay for in an outsourcing contract."
+      "a": "Agape built an AI-powered contact centre and BPO platform that combines generative AI, speech analytics and workflow automation. During live calls, agents receive real-time caller sentiment analysis and customer profiles synthesized from past calls, helping them assess caller emotions and de-escalate difficult conversations on the spot. The platform provides real-time guidance, suggested responses and instant access to relevant standard operating procedures and campaign information without searching through documents. Automated documentation transcribes conversations and generates interaction notes, structured summaries and email follow-up drafts, removing three to five minutes of repetitive post-call administrative work per call. Quality assurance analyses interactions at scale to identify service gaps, compliance risks, sentiment trends and specific coaching opportunities, expanding supervision from a 5% sample to near-complete coverage. New employees receive live prompts and standardised knowledge, shortening the path to independent work. The published result is 63% less time on administrative tasks, 33% faster onboarding, and 16 times more quality assurance coverage. The quality coverage figure is the more interesting one, because it changes supervision from sampling to census, converting quality assurance from an ad hoc check into an auditable control that regulated outsourcing clients require."
     },
     "takeaway": "Automate the note-taking, then use the transcript you now own. Full coverage of interactions is a supervision capability, not a reporting nicety.",
     "claims": [
@@ -81,9 +81,20 @@
         "text": "Quality assurance analyses interactions at scale for service quality, compliance risk and sentiment.",
         "sourceIds": [
           "T0-AWARDS",
-          "T1-AGAPE-SITE"
+          "T1-AGAPE-SITE",
+          "T3-ST-AWARDS"
         ],
-        "evidence": "stated"
+        "evidence": "corroborated",
+        "basis": "Reported in award citation and independently corroborated in The Straits Times reporting on live call sentiment analysis."
+      },
+      {
+        "id": "c5",
+        "text": "AI delivers real-time caller sentiment analysis and customer profiles informed by past calls to guide agents during interactions.",
+        "sourceIds": [
+          "T3-ST-AWARDS"
+        ],
+        "evidence": "corroborated",
+        "basis": "Reported in The Straits Times feature on Agape Connecting People's contact-centre technology and founder Anil David."
       }
     ],
     "stack": [
@@ -99,15 +110,17 @@
         "vendor": "FocalScope"
       },
       {
-        "layer": "Speech analytics",
-        "what": "Interaction analysis for quality assurance, compliance and sentiment",
+        "layer": "Speech analytics & sentiment",
+        "what": "Real-time caller sentiment analysis and customer profiling informed by past calls to assist de-escalation and live interaction",
         "origin": "vendor",
-        "evidence": "stated",
+        "evidence": "corroborated",
         "sourceIds": [
           "T0-AWARDS",
-          "T2-FOCALSCOPE-AGAPE"
+          "T2-FOCALSCOPE-AGAPE",
+          "T3-ST-AWARDS"
         ],
-        "vendor": "FocalScope"
+        "vendor": "FocalScope",
+        "basis": "Documented by vendor FocalScope and independently reported in The Straits Times interview with founder Anil David."
       },
       {
         "layer": "Knowledge",
@@ -152,6 +165,13 @@
         "sourceIds": [
           "T0-AWARDS",
           "T1-IMDA-DAY2026"
+        ]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Featured on the front of The Straits Times SME AI Impact Awards coverage, highlighting real-time sentiment analysis and past-call customer profiling across contact-centre operations.",
+        "sourceIds": [
+          "T3-ST-AWARDS"
         ]
       }
     ],
@@ -356,7 +376,7 @@
       "Breakdown of interaction volume between prison-based and off-site centres is unstated.",
       "Detailed accuracy benchmarks for automated compliance scoring are not published."
     ],
-    "confidence": "B",
+    "confidence": "A",
     "companyUrl": "https://agape-cp.com/"
   },
   {
