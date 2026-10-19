@@ -114,12 +114,12 @@
     {
       "slug": "oceanus-media-global",
       "name": "Oceanus Media Global",
-      "url": "https://oceanusmedia.com/",
-      "capturedAt": "2026-10-18",
+      "url": "https://oceanusmedia.global/",
+      "capturedAt": "2026-10-19",
       "status": "captured",
       "src": "/shots/oceanus-media-global.jpg",
       "verdict": "ok",
-      "detail": "282 chars, title: \"Privacy error\""
+      "detail": "Oceanus Media Global virtual production and LED soundstage homepage"
     },
     {
       "slug": "ong-ong-group",
@@ -184,22 +184,22 @@
     {
       "slug": "goodstuph",
       "name": "GOODSTUPH",
-      "url": "https://goodstuph.com/",
-      "capturedAt": "2026-10-18",
+      "url": "https://goodstuph.org/",
+      "capturedAt": "2026-10-19",
       "status": "captured",
       "src": "/shots/goodstuph.jpg",
       "verdict": "ok",
-      "detail": "279 chars, title: \"Privacy error\""
+      "detail": "GOODSTUPH Social-first creative agency homepage"
     },
     {
       "slug": "ihub-solutions",
       "name": "iHub Solutions",
       "url": "https://www.ihubsolutions.com/",
-      "capturedAt": "2026-10-18",
+      "capturedAt": "2026-10-19",
       "status": "captured",
       "src": "/shots/ihub-solutions.jpg",
       "verdict": "ok",
-      "detail": "694 chars, title: \"Attention Required! | Cloudflare\""
+      "detail": "iHub Solutions smart warehousing and logistics homepage"
     },
     {
       "slug": "innovative-hub-sg",

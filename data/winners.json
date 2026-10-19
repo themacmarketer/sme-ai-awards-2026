@@ -4615,7 +4615,7 @@
       "name": "Oceanus Media Global",
       "sector": "Media & Creative",
       "category": "innovation",
-      "companyUrl": "https://oceanusmedia.com/",
+      "companyUrl": "https://oceanusmedia.global/",
       "headline": "Oceanus Media Global films against AI-built virtual sets, cutting production timelines by around 80%.",
       "useCase": "Generative media",
       "aiType": "Generative media",
@@ -5009,8 +5009,8 @@
       "updatedAt": "2026-10-18T19:40:00+08:00",
       "screenshot": {
         "src": "/shots/oceanus-media-global.jpg",
-        "capturedAt": "2026-10-18",
-        "sourceUrl": "https://oceanusmedia.com/"
+        "capturedAt": "2026-10-19",
+        "sourceUrl": "https://oceanusmedia.global/"
       }
     },
     {
@@ -7573,7 +7573,7 @@
       "name": "GOODSTUPH",
       "sector": "Media & Creative",
       "category": "adoption",
-      "companyUrl": "https://goodstuph.com/",
+      "companyUrl": "https://goodstuph.org/",
       "headline": "GOODSTUPH moved production in-house with generative AI and cut campaign production from four weeks to seven days.",
       "useCase": "Generative media",
       "aiType": "Generative media",
@@ -7941,7 +7941,7 @@
           "id": "T1-GOODSTUPH-SITE",
           "title": "GOODSTUPH — Social-First Creative Agency",
           "publisher": "GOODSTUPH Pte Ltd",
-          "url": "https://goodstuph.com/",
+          "url": "https://goodstuph.org/",
           "tier": "T1",
           "retrieved": "2026-10-19",
           "status": "valid",
@@ -7982,8 +7982,8 @@
       "updatedAt": "2026-10-18T19:40:00+08:00",
       "screenshot": {
         "src": "/shots/goodstuph.jpg",
-        "capturedAt": "2026-10-18",
-        "sourceUrl": "https://goodstuph.com/"
+        "capturedAt": "2026-10-19",
+        "sourceUrl": "https://goodstuph.org/"
       }
     },
     {
@@ -8393,7 +8393,7 @@
       "updatedAt": "2026-10-18T19:40:00+08:00",
       "screenshot": {
         "src": "/shots/ihub-solutions.jpg",
-        "capturedAt": "2026-10-18",
+        "capturedAt": "2026-10-19",
         "sourceUrl": "https://www.ihubsolutions.com/"
       }
     },
