@@ -15,7 +15,8 @@
         "label": "Employee productivity",
         "value": "2x higher",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -23,7 +24,8 @@
         "label": "Customer response time",
         "value": "75% faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -31,7 +33,8 @@
         "label": "Proposal creation",
         "value": "80% faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -48,7 +51,8 @@
         "id": "c1",
         "text": "Proposal drafting and compliance checks required significant manual effort.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-INNOVATIVEHUB-SITE"
         ],
         "evidence": "stated"
       },
@@ -56,7 +60,8 @@
         "id": "c2",
         "text": "Proposal turnaround fell from a full day to a few hours.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-INNOVATIVEHUB-SITE"
         ],
         "evidence": "stated"
       },
@@ -64,7 +69,8 @@
         "id": "c3",
         "text": "The agency uses Claude, ChatGPT and OpenMax across daily workflows.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-INNOVATIVEHUB-SITE"
         ],
         "evidence": "stated"
       },
@@ -72,7 +78,8 @@
         "id": "c4",
         "text": "Automated compliance covers audits, checklists and sensitive-word checks.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-INNOVATIVEHUB-SITE"
         ],
         "evidence": "stated"
       }
@@ -127,10 +134,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2016-09-01",
+        "event": "Innovative Hub founded in Singapore, becoming official Alibaba.com channel partner for cross-border e-commerce.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-INNOVATIVEHUB-SITE"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -345,7 +360,8 @@
         "label": "Annual recurring labour",
         "value": "More than $14,000 saved",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -353,7 +369,8 @@
         "label": "Content output",
         "value": "Up to 4x increase",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -361,7 +378,8 @@
         "label": "Content production time",
         "value": "60 manhours per month freed",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -378,7 +396,8 @@
         "id": "c1",
         "text": "Sales data from multiple platforms had to be consolidated and reconciled manually.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IYLA-SITE"
         ],
         "evidence": "stated"
       },
@@ -386,7 +405,8 @@
         "id": "c2",
         "text": "Mobile app development was costly and relied on external vendors.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IYLA-SITE"
         ],
         "evidence": "stated"
       },
@@ -394,7 +414,8 @@
         "id": "c3",
         "text": "The company embedded Claude, Grok and Claude Code across the business.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IYLA-SITE"
         ],
         "evidence": "stated"
       },
@@ -402,7 +423,8 @@
         "id": "c4",
         "text": "AI-assisted coding tools are used to build customer-facing digital products in-house.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IYLA-SITE"
         ],
         "evidence": "stated"
       }
@@ -458,10 +480,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2022-01-20",
+        "event": "IYLA Collective incorporated in Singapore as natural family skincare and wellness e-commerce brand.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-IYLA-SITE"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SME AI Impact Awards 2026 for operations automation in a 2-person team.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -653,7 +683,8 @@
       "Model versions and costs are not published.",
       "No independent coverage was located."
     ],
-    "confidence": "B"
+    "confidence": "B",
+    "companyUrl": "https://iylacollective.com/"
   },
   {
     "idx": 22,
@@ -671,7 +702,8 @@
         "label": "Sales conversion",
         "value": "Up to 15% increase",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -679,7 +711,8 @@
         "label": "Manual enquiry processing",
         "value": "70% reduction",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -687,7 +720,8 @@
         "label": "Technician scheduling time",
         "value": "80% less",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -704,7 +738,8 @@
         "id": "c1",
         "text": "Customer requirements arrived through multiple channels and were extracted manually.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-KOPINEARME-SITE"
         ],
         "evidence": "stated"
       },
@@ -712,7 +747,8 @@
         "id": "c2",
         "text": "Inventory, logistics and operational records were spread across systems and spreadsheets.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-KOPINEARME-SITE"
         ],
         "evidence": "stated"
       },
@@ -720,7 +756,8 @@
         "id": "c3",
         "text": "Dynamic scheduling optimises replenishment, maintenance and repair schedules.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-KOPINEARME-SITE"
         ],
         "evidence": "stated"
       }
@@ -775,10 +812,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2024-05-24",
+        "event": "Kopi Near Me incorporated in Singapore to engineer automated fresh-brew Nanyang kopi vending machines.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-KOPINEARME-SITE"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SME AI Impact Awards 2026 for 3-engine operations AI.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -970,7 +1015,8 @@
       "The 15% conversion increase has no stated baseline conversion rate.",
       "The telemetry source is not described."
     ],
-    "confidence": "B"
+    "confidence": "B",
+    "companyUrl": "https://kopinearme.com/"
   },
   {
     "idx": 23,
@@ -1294,7 +1340,8 @@
         "label": "Return on investment",
         "value": "1300% within the first year",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1302,7 +1349,8 @@
         "label": "Annual manpower savings",
         "value": "$60,000",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1310,7 +1358,8 @@
         "label": "Proposal preparation",
         "value": "70% faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -1327,7 +1376,8 @@
         "id": "c1",
         "text": "Location, cultural and user-journey research required around three working days before concept development.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-LINKSWORKZ-SITE"
         ],
         "evidence": "stated"
       },
@@ -1335,7 +1385,8 @@
         "id": "c2",
         "text": "Proposal support reviews briefs, RFPs and drawings to identify scope, deliverables, risks and fee information.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-LINKSWORKZ-SITE"
         ],
         "evidence": "stated"
       },
@@ -1343,7 +1394,8 @@
         "id": "c3",
         "text": "Human-led review keeps design decisions and final approvals with experienced staff.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-LINKSWORKZ-SITE"
         ],
         "evidence": "stated"
       }
@@ -1397,10 +1449,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2018-03-01",
+        "event": "Linksworkz Design Studio founded by Jeffrey Liu in Singapore as spatial wayfinding consultancy.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-LINKSWORKZ-SITE"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -1583,6 +1643,7 @@
       "The 1300% return figure does not publish its calculation or cost base.",
       "Currency is published as '$' without specifying Singapore or US dollars."
     ],
-    "confidence": "B"
+    "confidence": "B",
+    "companyUrl": "https://www.linksworkz.com/"
   }
 ]

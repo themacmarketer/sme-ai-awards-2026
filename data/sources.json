@@ -275,6 +275,167 @@
       "retrieved": "2026-10-18",
       "status": "valid",
       "note": "Company-issued press release. The page states that Markets Insider and Business Insider editorial teams were not involved in its creation, so it corroborates the company's own account and is not independent reporting. Adds founder detail, named models, the Search Console comparison period, and updated traffic figures."
+    },
+    {
+      "id": "T1-IMDA-DAY2026",
+      "title": "SMEs Go Digital Day 2026: Accelerating AI Adoption Among SMEs",
+      "publisher": "Infocomm Media Development Authority (IMDA)",
+      "url": "https://www.imda.gov.sg/news-and-events/media-room/media-releases/2026/10/smes-go-digital-day-2026-accelerating-ai-adoption-among-smes",
+      "tier": "T1",
+      "published": "2026-10-13",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Official government media release for SMEs Go Digital Day 2026 and inaugural SME AI Impact Awards at Suntec Singapore Convention & Exhibition Centre. Minister Josephine Teo presented awards to 30 SMEs."
+    },
+    {
+      "id": "T1-LIMTEH-SITE",
+      "title": "Limteh Project — Customised Gifts and Personalised Merchandise Singapore",
+      "publisher": "Limteh Project Pte Ltd",
+      "url": "https://limtehproject.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Company website detailing personalised corporate gifts, bespoke drinkware, and made-to-order production workflows."
+    },
+    {
+      "id": "T1-AGAPE-SITE",
+      "title": "Agape Connecting People — Social Enterprise Contact Centre and BPO Services",
+      "publisher": "Agape CP Holdings Pte Ltd",
+      "url": "https://agape-cp.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Company website detailing omnichannel contact centre services, workforce development, and inclusive employment."
+    },
+    {
+      "id": "T2-FOCALSCOPE-AGAPE",
+      "title": "How Agape Connecting People Scales Multichannel Support and Agent Training with FocalScope",
+      "publisher": "FocalScope",
+      "url": "https://www.focalscope.com/customers/agape-connecting-people-contact-center-focalscope.html",
+      "tier": "T2",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Technology vendor case study documenting Agape deploying FocalScope across 250+ agents, private cloud hosting compliant with Singapore Prison regulations, AI-assisted writing, and 3-day agent onboarding."
+    },
+    {
+      "id": "T1-BREW-SITE",
+      "title": "Brew Interactive — Digital Marketing Agency Singapore",
+      "publisher": "Brew Interactive Pte Ltd",
+      "url": "https://brewinteractive.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Agency website detailing inbound marketing, SEO, paid media, CRM integrations, and AI workflow automation."
+    },
+    {
+      "id": "T1-IYLA-SITE",
+      "title": "IYLA Collective — Natural Beauty and Wellness Store for the Family",
+      "publisher": "IYLA Collective Pte Ltd",
+      "url": "https://iylacollective.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "E-commerce website detailing clean skincare and family care catalog, order processing, and brand operations."
+    },
+    {
+      "id": "T1-KOPINEARME-SITE",
+      "title": "Kopi Near Me — Freshly Brewed Traditional Nanyang Coffee On Demand",
+      "publisher": "Kopi Near Me Pte Ltd",
+      "url": "https://kopinearme.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Company website detailing automated fresh-brew Nanyang kopi vending machines, locations, and smart dispensing."
+    },
+    {
+      "id": "T1-LINKSWORKZ-SITE",
+      "title": "Linksworkz Design Studio — Strategic Wayfinding and Environmental Graphics",
+      "publisher": "Linksworkz Design Studio Pte Ltd",
+      "url": "https://www.linksworkz.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Studio website documenting architectural wayfinding, signage design systems, and environmental graphics."
+    },
+    {
+      "id": "T1-MCLINK-SITE",
+      "title": "McLink Asia — Office Print, Photocopier and Enterprise Solutions",
+      "publisher": "McLink Asia Pte Ltd",
+      "url": "https://www.mclink.com.sg/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Corporate website covering office print systems, Ricoh copier solutions, ERP implementation, and digital workplace technology."
+    },
+    {
+      "id": "T1-NAMI-SITE",
+      "title": "Nami Japanese Academy — Japanese Language Online Education",
+      "publisher": "Nami Japanese Academy",
+      "url": "https://www.namijapaneseacademy.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Academy website detailing live online Japanese courses, JLPT preparation, and WhatsApp conversational booking."
+    },
+    {
+      "id": "T1-GOURMETFACTOR-SITE",
+      "title": "The Gourmet Factor — Food and Beverage Concept Management and Incubation",
+      "publisher": "The Gourmet Factor Pte Ltd",
+      "url": "https://thegourmetfactor.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Corporate website covering hospitality brand portfolio (Shin Katsu, OUD Restaurant, Kindle Catering), operations, and back-of-house technology."
+    },
+    {
+      "id": "T1-GLINTS-SITE",
+      "title": "Glints — Southeast Asia Career Discovery and Recruitment Ecosystem",
+      "publisher": "Glints Singapore Pte Ltd",
+      "url": "https://glints.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Recruitment platform website detailing talent marketplace, employer recruitment solutions, and AI-enabled talent discovery."
+    },
+    {
+      "id": "T1-GOODSTUPH-SITE",
+      "title": "GOODSTUPH — Social-First Creative Agency",
+      "publisher": "GOODSTUPH Pte Ltd",
+      "url": "https://goodstuph.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Agency website detailing social media strategy, cultural marketing campaigns, and generative creative production."
+    },
+    {
+      "id": "T1-INNOVATIVEHUB-SITE",
+      "title": "Innovative Hub — E-Commerce Enablement and Global Trade Consultancy",
+      "publisher": "Innovative Hub (SG) Pte Ltd",
+      "url": "https://innovativehub.sg/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Company website detailing B2B cross-border e-commerce onboarding, Alibaba.com partner operations, and automated trade workflows."
+    },
+    {
+      "id": "T1-YOUTIAOMAN-SITE",
+      "title": "You Tiao Man — Heritage F&B and Automated Dough Manufacturing",
+      "publisher": "You Tiao Man Pte Ltd",
+      "url": "https://youtiaoman.com/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Company website detailing automated dough manufacturing, halal traditional snacks, and food service distribution."
+    },
+    {
+      "id": "T1-KYANON-SITE",
+      "title": "Kyanon Digital — Agile Software Development and Enterprise AI Solutions",
+      "publisher": "Kyanon Digital",
+      "url": "https://kyanon.digital/",
+      "tier": "T1",
+      "retrieved": "2026-10-19",
+      "status": "valid",
+      "note": "Company website detailing enterprise AI engineering, software development, data consulting, and digital transformation."
     }
   ]
 }

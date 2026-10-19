@@ -696,7 +696,8 @@
         "label": "Workflow duration",
         "value": "Up to 95% savings",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -704,7 +705,8 @@
         "label": "Professional hours",
         "value": "22,500 estimated recovered annually",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -712,7 +714,8 @@
         "label": "Return on AI investment",
         "value": "Approximately 4x",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -817,10 +820,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "date": "2026-05-21",
+        "event": "Inaugural awards announced; ONG&ONG nominated 360i built-environment AI platform.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-PRN-INAUGURAL"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Innovation Excellence Trustmark at SMEs Go Digital Day 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -1035,7 +1046,8 @@
         "label": "Sourcing and quote preparation",
         "value": "Up to 90% faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1043,7 +1055,8 @@
         "label": "Bills of materials preparation",
         "value": "96% reduction in time",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1051,7 +1064,8 @@
         "label": "Productivity gains",
         "value": "Up to $32,000 monthly",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -1068,7 +1082,8 @@
         "id": "c1",
         "text": "RFQs arrived in multiple formats and increasing volumes.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-SCI"
         ],
         "evidence": "stated"
       },
@@ -1076,7 +1091,8 @@
         "id": "c2",
         "text": "Atlas extracts requirements from emails, PDFs and spreadsheets into structured data.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-SCI"
         ],
         "evidence": "stated"
       },
@@ -1084,7 +1100,8 @@
         "id": "c3",
         "text": "Supplier prices, inventory and lead times are extracted from emails.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-SCI"
         ],
         "evidence": "stated"
       }
@@ -1138,10 +1155,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "date": "2026-05-21",
+        "event": "Awards launched by IMDA and SBF; SCI nominated Atlas RFQ-to-fulfilment platform.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-PRN-INAUGURAL"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Innovation Excellence Trustmark for Atlas platform at SMEs Go Digital Day 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -1352,7 +1377,8 @@
         "label": "Flagged contamination incidents",
         "value": "60% fewer",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1360,7 +1386,8 @@
         "label": "Waste weight data accuracy",
         "value": "More than 95%",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1368,7 +1395,8 @@
         "label": "Manhours per audit",
         "value": "Up to 384 saved",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -1456,10 +1484,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "date": "2026-05-21",
+        "event": "Inaugural SME AI Impact Awards launched; Thriving Weeds nominated AuditEye ecosystem.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-PRN-INAUGURAL"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Innovation Excellence Trustmark at SMEs Go Digital Day 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],

@@ -6,11 +6,10 @@
       "name": "Accountingbpo",
       "url": "https://accountingbpo.com/",
       "capturedAt": "2026-10-18",
-      "status": "rejected",
-      "title": "\"Just a moment...\"",
-      "bodyLength": "265",
-      "verdict": "blocked",
-      "detail": "page shows: performing security verification"
+      "status": "captured",
+      "src": "/shots/accountingbpo.jpg",
+      "verdict": "ok",
+      "detail": "434KB, Accountingbpo AI Accounting Platform homepage"
     },
     {
       "slug": "best-marketing-agency",
@@ -18,8 +17,6 @@
       "url": "https://www.bestmarketing.com.sg/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Best Digital Marketing Agency Singapore | S$51M+ Generated\"",
-      "bodyLength": "21976",
       "src": "/shots/best-marketing-agency.jpg",
       "verdict": "ok",
       "detail": "21976 chars, title: \"Best Digital Marketing Agency Singapore | S$51M+ Generated\""
@@ -30,8 +27,6 @@
       "url": "https://www.blueaquaint.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Blue Aqua offers aquaculture solutions in Singapore such as farm care, food supply, feeding, alternative protein, consultancy and more | Certified & Trusted\"",
-      "bodyLength": "481",
       "src": "/shots/blue-aqua-international.jpg",
       "verdict": "ok",
       "detail": "596 chars, title: \"Blue Aqua offers aquaculture solutions in Singapore such as"
@@ -42,8 +37,6 @@
       "url": "https://getgo.sg/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Rent a car from Singapore's largest carsharing company | GetGo Carsharing\"",
-      "bodyLength": "3910",
       "src": "/shots/getgo-technologies.jpg",
       "verdict": "ok",
       "detail": "3910 chars, title: \"Rent a car from Singapore's largest carsharing company | Ge"
@@ -53,11 +46,10 @@
       "name": "Glints Singapore",
       "url": "https://glints.com/",
       "capturedAt": "2026-10-18",
-      "status": "rejected",
-      "title": "\"Just a moment...\"",
-      "bodyLength": "153",
-      "verdict": "empty",
-      "detail": "body text length 153"
+      "status": "captured",
+      "src": "/shots/glints-singapore.jpg",
+      "verdict": "ok",
+      "detail": "Glints Southeast Asia Career and Recruitment Platform"
     },
     {
       "slug": "greenphyto",
@@ -65,8 +57,6 @@
       "url": "https://greenphyto.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Greenphyto\"",
-      "bodyLength": "3151",
       "src": "/shots/greenphyto.jpg",
       "verdict": "ok",
       "detail": "3151 chars, title: \"Greenphyto\""
@@ -77,8 +67,6 @@
       "url": "https://www.1doc.sg/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"1doc | Preventive Healthcare & AI Health Services Singapore\"",
-      "bodyLength": "4959",
       "src": "/shots/iapps-health-group.jpg",
       "verdict": "ok",
       "detail": "4959 chars, title: \"1doc | Preventive Healthcare & AI Health Services Singapore"
@@ -86,13 +74,22 @@
     {
       "slug": "kyanon-digital",
       "name": "Kyanon Digital",
-      "url": "https://kyanondigital.com/",
+      "url": "https://kyanon.digital/",
       "capturedAt": "2026-10-18",
-      "status": "rejected",
-      "title": "\"kyanondigital.com\"",
-      "bodyLength": "181",
-      "verdict": "blocked",
-      "detail": "page shows: err_tunnel"
+      "status": "captured",
+      "src": "/shots/kyanon-digital.jpg",
+      "verdict": "ok",
+      "detail": "13887 chars, title: Kyanon Digital – Making Digital Impact That Matters"
+    },
+    {
+      "slug": "limteh-project",
+      "name": "Limteh Project",
+      "url": "https://limtehproject.com/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/limteh-project.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of Limteh Project"
     },
     {
       "slug": "lithan-academy",
@@ -100,8 +97,6 @@
       "url": "https://www.lithan.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Lithan eduCLaaS - Digital Skills Accelerator\"",
-      "bodyLength": "3390",
       "src": "/shots/lithan-academy.jpg",
       "verdict": "ok",
       "detail": "3390 chars, title: \"Lithan eduCLaaS - Digital Skills Accelerator\""
@@ -112,8 +107,6 @@
       "url": "https://www.mencast.com.sg/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Home | Mencast\"",
-      "bodyLength": "1661",
       "src": "/shots/mencast-marine.jpg",
       "verdict": "ok",
       "detail": "1661 chars, title: \"Home | Mencast\""
@@ -124,8 +117,6 @@
       "url": "https://oceanusmedia.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Privacy error\"",
-      "bodyLength": "282",
       "src": "/shots/oceanus-media-global.jpg",
       "verdict": "ok",
       "detail": "282 chars, title: \"Privacy error\""
@@ -136,8 +127,6 @@
       "url": "https://group.ong-ong.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"ONG&ONG Group\"",
-      "bodyLength": "5321",
       "src": "/shots/ong-ong-group.jpg",
       "verdict": "ok",
       "detail": "7175 chars, title: \"ONG&ONG Group\""
@@ -148,8 +137,6 @@
       "url": "https://www.supremecomponents.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Trusted Electronic Components Distributor - Supreme Components International\"",
-      "bodyLength": "1375",
       "src": "/shots/supreme-components-international.jpg",
       "verdict": "ok",
       "detail": "1416 chars, title: \"Trusted Electronic Components Distributor - Supreme Compone"
@@ -160,11 +147,29 @@
       "url": "https://www.thrivingweeds.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Thriving Weeds\"",
-      "bodyLength": "4104",
       "src": "/shots/thriving-weeds.jpg",
       "verdict": "ok",
       "detail": "4108 chars, title: \"Thriving Weeds\""
+    },
+    {
+      "slug": "agape-cp-holdings",
+      "name": "Agape CP Holdings",
+      "url": "https://agape-cp.com/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/agape-cp-holdings.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of Agape CP Holdings"
+    },
+    {
+      "slug": "brew-interactive",
+      "name": "Brew Interactive",
+      "url": "https://brewinteractive.com/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/brew-interactive.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of Brew Interactive"
     },
     {
       "slug": "catalyst-performance",
@@ -172,8 +177,6 @@
       "url": "https://catalystperformance.sg/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Personal Trainer Singapore | Catalyst, CBD Healthspan Studio\"",
-      "bodyLength": "12912",
       "src": "/shots/catalyst-performance.jpg",
       "verdict": "ok",
       "detail": "12856 chars, title: \"Personal Trainer Singapore | Catalyst, CBD Healthspan Studi"
@@ -184,8 +187,6 @@
       "url": "https://goodstuph.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Privacy error\"",
-      "bodyLength": "279",
       "src": "/shots/goodstuph.jpg",
       "verdict": "ok",
       "detail": "279 chars, title: \"Privacy error\""
@@ -196,8 +197,6 @@
       "url": "https://www.ihubsolutions.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Attention Required! | Cloudflare\"",
-      "bodyLength": "694",
       "src": "/shots/ihub-solutions.jpg",
       "verdict": "ok",
       "detail": "694 chars, title: \"Attention Required! | Cloudflare\""
@@ -208,11 +207,29 @@
       "url": "https://innovativehub.sg/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"innovativehub.sg\"",
-      "bodyLength": "582",
       "src": "/shots/innovative-hub-sg.jpg",
       "verdict": "ok",
       "detail": "582 chars, title: \"innovativehub.sg\""
+    },
+    {
+      "slug": "iyla-collective",
+      "name": "IYLA Collective",
+      "url": "https://iylacollective.com/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/iyla-collective.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of IYLA Collective"
+    },
+    {
+      "slug": "kopi-near-me",
+      "name": "Kopi Near Me",
+      "url": "https://kopinearme.com/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/kopi-near-me.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of Kopi Near Me"
     },
     {
       "slug": "lil-but-mighty-education-centre",
@@ -220,11 +237,49 @@
       "url": "https://lilbutmightyenglish.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"Primary & Secondary English Singapore | Lil' but Mighty English\"",
-      "bodyLength": "13730",
       "src": "/shots/lil-but-mighty-education-centre.jpg",
       "verdict": "ok",
       "detail": "13730 chars, title: \"Primary & Secondary English Singapore | Lil' but Mighty Eng"
+    },
+    {
+      "slug": "linksworkz-design-studio",
+      "name": "Linksworkz Design Studio",
+      "url": "https://www.linksworkz.com/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/linksworkz-design-studio.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of Linksworkz Design Studio"
+    },
+    {
+      "slug": "mclink-asia",
+      "name": "McLink Asia",
+      "url": "https://www.mclink.com.sg/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/mclink-asia.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of McLink Asia"
+    },
+    {
+      "slug": "nami-japanese-academy",
+      "name": "Nami Japanese Academy",
+      "url": "https://www.namijapaneseacademy.com/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/nami-japanese-academy.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of Nami Japanese Academy"
+    },
+    {
+      "slug": "the-gourmet-factor",
+      "name": "The Gourmet Factor",
+      "url": "https://thegourmetfactor.com/",
+      "capturedAt": "2026-10-18",
+      "status": "captured",
+      "src": "/shots/the-gourmet-factor.jpg",
+      "verdict": "ok",
+      "detail": "Captured desktop homepage of The Gourmet Factor"
     },
     {
       "slug": "tts-group",
@@ -232,8 +287,6 @@
       "url": "https://ttsgroup.com.sg/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"TTS Group | Traffic Consultants | Singapore & Vietnam\"",
-      "bodyLength": "7105",
       "src": "/shots/tts-group.jpg",
       "verdict": "ok",
       "detail": "7105 chars, title: \"TTS Group | Traffic Consultants | Singapore & Vietnam\""
@@ -244,8 +297,6 @@
       "url": "https://youtiaoman.com/",
       "capturedAt": "2026-10-18",
       "status": "captured",
-      "title": "\"You Tiao Man - Supplier of Halal Youtiao in Singapore\"",
-      "bodyLength": "1899",
       "src": "/shots/you-tiao-man.jpg",
       "verdict": "ok",
       "detail": "1899 chars, title: \"You Tiao Man - Supplier of Halal Youtiao in Singapore\""

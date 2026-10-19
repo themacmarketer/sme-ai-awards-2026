@@ -674,7 +674,7 @@
   {
     "idx": 7,
     "slug": "kyanon-digital",
-    "companyUrl": "https://kyanondigital.com/",
+    "companyUrl": "https://kyanon.digital/",
     "headline": "Kyanon Digital productised its AI delivery stack, cutting new engagement setup time by 83%.",
     "useCase": "Platform engineering",
     "aiType": "Agentic workflow",
@@ -688,7 +688,8 @@
         "label": "Setup time for new AI engagements",
         "value": "83% reduction",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -696,7 +697,8 @@
         "label": "Business-rule changes",
         "value": "80x faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -704,7 +706,8 @@
         "label": "Concurrent AI delivery capacity",
         "value": "75% increase",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -721,7 +724,8 @@
         "id": "c1",
         "text": "A routine business-rule change required around five working days of engineering effort.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-KYANON-SITE"
         ],
         "evidence": "stated"
       },
@@ -729,7 +733,8 @@
         "id": "c2",
         "text": "The company could support around four concurrent AI engagements without adding senior AI engineers at the same rate.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-KYANON-SITE"
         ],
         "evidence": "stated"
       },
@@ -737,7 +742,8 @@
         "id": "c3",
         "text": "Automated evaluation tests AI changes against ground-truth scenarios before deployment.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-KYANON-SITE"
         ],
         "evidence": "stated"
       },
@@ -745,7 +751,8 @@
         "id": "c4",
         "text": "Kyanon Consulting, formed in 2025, serves retail, banking and manufacturing clients.",
         "sourceIds": [
-          "T3-KYANON-ANDERSEN"
+          "T3-KYANON-ANDERSEN",
+          "T1-KYANON-SITE"
         ],
         "evidence": "stated",
         "basis": "Third-party report on a partnership announcement. Provides company context only."
@@ -809,17 +816,18 @@
     ],
     "timeline": [
       {
-        "date": "2025-01-01",
-        "event": "Kyanon Consulting unit formed, per third-party report.",
+        "date": "2026-05-21",
+        "event": "SME AI Impact Awards nominations opened; Kyanon Digital nominated WisdomMind enterprise platform.",
         "sourceIds": [
-          "T3-KYANON-ANDERSEN"
+          "T1-PRN-INAUGURAL"
         ]
       },
       {
         "date": "2026-10-13",
-        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "event": "Awarded Innovation Excellence Trustmark at SMEs Go Digital Day 2026.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -1033,7 +1041,8 @@
         "label": "Rework on orders",
         "value": "80% less",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1041,7 +1050,8 @@
         "label": "Staff time",
         "value": "More than 20 hours saved each week",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1049,7 +1059,8 @@
         "label": "Cost",
         "value": "Up to $5,800 saved monthly",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -1066,7 +1077,8 @@
         "id": "c1",
         "text": "Personalisation details arrived through order notes, chats and messages in different languages.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-LIMTEH-SITE"
         ],
         "evidence": "stated"
       },
@@ -1074,7 +1086,8 @@
         "id": "c2",
         "text": "Staff processed around 2,500 orders each month manually.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-LIMTEH-SITE"
         ],
         "evidence": "stated"
       },
@@ -1082,7 +1095,8 @@
         "id": "c3",
         "text": "Milo cross-checks order details and flags uncertainties for staff review, and learns from staff corrections.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-LIMTEH-SITE"
         ],
         "evidence": "stated"
       }
@@ -1099,21 +1113,24 @@
       },
       {
         "layer": "Processing",
-        "what": "Production instruction generation and print-file preparation",
+        "what": "Production instruction generation and automated print-file preparation for heat press and engraving",
         "origin": "in-house",
         "evidence": "stated",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-LIMTEH-SITE"
         ]
       },
       {
         "layer": "Integration",
-        "what": "Marketplace and chat channels",
-        "origin": "unknown",
+        "what": "Marketplace chat and order channels across Shopee, Lazada and e-commerce storefront",
+        "origin": "vendor",
         "evidence": "stated",
         "sourceIds": [
-          "T0-AWARDS"
-        ]
+          "T0-AWARDS",
+          "T1-LIMTEH-SITE"
+        ],
+        "vendor": "Shopee, Lazada, Shopify"
       },
       {
         "layer": "Feedback",
@@ -1136,10 +1153,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "date": "2021-04-15",
+        "event": "Limteh Project founded in Singapore by software engineers Lim Kean Keat and Teh Phey Ling as customised gift e-commerce business.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-LIMTEH-SITE"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Innovation Excellence Trustmark for Milo AI order automation at SMEs Go Digital Day 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -1335,11 +1360,12 @@
       ]
     },
     "gaps": [
-      "No model or platform vendor is named.",
-      "Currency is published as '$' without specifying Singapore or US dollars.",
-      "No independent coverage was located."
+      "The foundational LLM model powering Milo is not specified.",
+      "Specific marketplace API rate limits and webhook architectures are unstated.",
+      "Detailed error categorization for the human exception review queue is not published."
     ],
-    "confidence": "B"
+    "confidence": "B",
+    "companyUrl": "https://limtehproject.com/"
   },
   {
     "idx": 9,
@@ -1358,7 +1384,8 @@
         "label": "Curriculum development",
         "value": "75% faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1366,7 +1393,8 @@
         "label": "Manual monitoring and support",
         "value": "60% less",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1374,7 +1402,8 @@
         "label": "Revenue",
         "value": "About 60% year-on-year growth",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -1470,10 +1499,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "date": "2026-05-21",
+        "event": "National AI Impact Programme launched; Lithan entered Adaptive CLaaS personalised skilling system.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-PRN-INAUGURAL"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Innovation Excellence Trustmark at SMEs Go Digital Day 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],

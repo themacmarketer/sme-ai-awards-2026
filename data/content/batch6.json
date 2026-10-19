@@ -15,7 +15,8 @@
         "label": "Campaign production capacity",
         "value": "200% increase",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -23,7 +24,8 @@
         "label": "Response to customers",
         "value": "95% faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -31,7 +33,8 @@
         "label": "Campaign roll-out",
         "value": "85% faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -48,7 +51,8 @@
         "id": "c1",
         "text": "Staff took hours or days to respond to social media enquiries.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-MCLINK-SITE"
         ],
         "evidence": "stated"
       },
@@ -56,7 +60,8 @@
         "id": "c2",
         "text": "A single campaign required eight to twelve hours of combined staff effort.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-MCLINK-SITE"
         ],
         "evidence": "stated"
       },
@@ -64,7 +69,8 @@
         "id": "c3",
         "text": "Specialised agents qualify leads, create content, prepare campaigns and analyse performance.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-MCLINK-SITE"
         ],
         "evidence": "stated"
       }
@@ -118,10 +124,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2002-08-15",
+        "event": "McLink Asia established in Singapore as print and photocopier equipment specialist.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-MCLINK-SITE"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SME AI Impact Awards 2026 for multi-agent marketing platform.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -318,7 +332,8 @@
       "The 200% capacity figure has no stated baseline volume.",
       "No independent coverage was located."
     ],
-    "confidence": "B"
+    "confidence": "B",
+    "companyUrl": "https://www.mclink.com.sg/"
   },
   {
     "idx": 26,
@@ -336,7 +351,8 @@
         "label": "Time on administrative tasks",
         "value": "Up to 83% less",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -344,7 +360,8 @@
         "label": "No-shows",
         "value": "50% fewer",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -352,7 +369,8 @@
         "label": "On-time payment",
         "value": "100%",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -369,7 +387,8 @@
         "id": "c1",
         "text": "Two administrators spent around 60 hours each week on messages, schedules and reminders.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-NAMI-SITE"
         ],
         "evidence": "stated"
       },
@@ -377,7 +396,8 @@
         "id": "c2",
         "text": "Rescheduling requests took three to eight hours to resolve.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-NAMI-SITE"
         ],
         "evidence": "stated"
       },
@@ -385,7 +405,8 @@
         "id": "c3",
         "text": "More than ten no-shows and last-minute cancellations occurred each month.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-NAMI-SITE"
         ],
         "evidence": "stated"
       },
@@ -393,7 +414,8 @@
         "id": "c4",
         "text": "Billing, complaints and complex requests route to staff for review.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-NAMI-SITE"
         ],
         "evidence": "stated"
       }
@@ -448,10 +470,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2026-05-21",
+        "event": "Awards announced; Nami nominated The Nami Concierge automated WhatsApp placement system.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-PRN-INAUGURAL"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -634,7 +664,8 @@
       "The 60-hour weekly figure covers two administrators but the measurement period is unstated.",
       "No independent coverage was located."
     ],
-    "confidence": "B"
+    "confidence": "B",
+    "companyUrl": "https://www.namijapaneseacademy.com/"
   },
   {
     "idx": 27,
@@ -652,7 +683,8 @@
         "label": "Return on investment",
         "value": "100% within five months",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -660,7 +692,8 @@
         "label": "Invoice processing",
         "value": "80% faster",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -668,7 +701,8 @@
         "label": "Stocktaking time",
         "value": "40% less",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -685,7 +719,8 @@
         "id": "c1",
         "text": "Fragmented stock records contributed to shortages, over-ordering and excess stock.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-GOURMETFACTOR-SITE"
         ],
         "evidence": "stated"
       },
@@ -693,7 +728,8 @@
         "id": "c2",
         "text": "Automated invoice processing uses OCR and machine learning to extract supplier invoice details.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-GOURMETFACTOR-SITE"
         ],
         "evidence": "stated"
       },
@@ -701,7 +737,8 @@
         "id": "c3",
         "text": "Real-time recipe costing updates dish costs using live supplier prices.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-GOURMETFACTOR-SITE"
         ],
         "evidence": "stated"
       },
@@ -709,7 +746,8 @@
         "id": "c4",
         "text": "Restoke.ai describes itself as AI-powered restaurant management software.",
         "sourceIds": [
-          "T1-RESTOKE"
+          "T1-RESTOKE",
+          "T1-GOURMETFACTOR-SITE"
         ],
         "evidence": "corroborated",
         "basis": "The vendor's own product site independently describes the platform. The site does not mention this client."
@@ -766,10 +804,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2018-12-05",
+        "event": "The Gourmet Factor incorporated in Singapore by Lukas Teo as F&B management and incubation firm.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-GOURMETFACTOR-SITE"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -952,7 +998,8 @@
       "The five-month payback period has no published cost base.",
       "No independent coverage of this specific implementation was located."
     ],
-    "confidence": "B"
+    "confidence": "B",
+    "companyUrl": "https://thegourmetfactor.com/"
   },
   {
     "idx": 28,
@@ -970,7 +1017,8 @@
         "label": "Traffic-data acquisition capacity",
         "value": "About 98% increase",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -978,7 +1026,8 @@
         "label": "Engineer time on manual footage review",
         "value": "About 30 hours saved per engineer each week",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -986,7 +1035,8 @@
         "label": "Sites processed monthly",
         "value": "About 50x more",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -1082,10 +1132,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2026-05-21",
+        "event": "Awards launched by IMDA and SBF; TTS Group entered proactive traffic risk assessment framework.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-PRN-INAUGURAL"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SME AI Impact Awards 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -1299,7 +1357,8 @@
         "label": "Return on investment",
         "value": "85% within the first year",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1307,7 +1366,8 @@
         "label": "Invoice processing time",
         "value": "83% less",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1315,7 +1375,8 @@
         "label": "Manhours",
         "value": "40 saved per week",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -1332,7 +1393,8 @@
         "id": "c1",
         "text": "Orders arrived through multiple sales channels and were consolidated manually.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-YOUTIAOMAN-SITE"
         ],
         "evidence": "stated"
       },
@@ -1340,7 +1402,8 @@
         "id": "c2",
         "text": "Supplier invoices were manually entered, validated and reconciled across spreadsheets and finance systems.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-YOUTIAOMAN-SITE"
         ],
         "evidence": "stated"
       },
@@ -1348,7 +1411,8 @@
         "id": "c3",
         "text": "The solution was built using n8n and Claude and integrates with existing business systems.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-YOUTIAOMAN-SITE"
         ],
         "evidence": "stated"
       },
@@ -1356,7 +1420,8 @@
         "id": "c4",
         "text": "Invoice extraction validates pricing against master records and flags discrepancies for staff review.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-YOUTIAOMAN-SITE"
         ],
         "evidence": "stated"
       }
@@ -1412,10 +1477,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Adoption Excellence, SME AI Impact Awards 2026.",
+        "date": "2026-05-21",
+        "event": "SME AI Impact Awards announced; You Tiao Man nominated AI Operations Co-Pilot.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-PRN-INAUGURAL"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Adoption Excellence Trustmark at SMEs Go Digital Day 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],

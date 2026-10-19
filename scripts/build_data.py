@@ -14,7 +14,7 @@ registry = {s["id"]: s for s in json.load(open(D("data", "sources.json")))["sour
 INDEPENDENT = {
     "T1-PRN-INAUGURAL", "T1-BT-LAUNCH", "T1-SFA-BLUEAQUA", "T2-GETGO-ZENDESK",
     "T3-GREENPHYTO-BLOOMBERG", "T3-1DOC-GSD", "T3-OCEANUS-SBR",
-    "T3-KYANON-ANDERSEN", "T3-MENCAST-EDB",
+    "T3-KYANON-ANDERSEN", "T3-MENCAST-EDB", "T1-IMDA-DAY2026", "T2-FOCALSCOPE-AGAPE",
 }
 
 content = {}

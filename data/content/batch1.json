@@ -1400,7 +1400,8 @@
         "label": "Time spent fact-finding",
         "value": "90% reduction",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1408,7 +1409,8 @@
         "label": "Specialist hours",
         "value": "1,700 saved in six months",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       },
@@ -1416,7 +1418,8 @@
         "label": "Staff time value",
         "value": "S$120,000 saved per year",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ],
         "attribution": "Company-reported; published in the IMDA/SBF award citation"
       }
@@ -1441,7 +1444,8 @@
         "id": "c2",
         "text": "Glimmer retrieves live client, employee, invoice and billing data from NetSuite and HubSpot.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-GLINTS-SITE"
         ],
         "evidence": "stated"
       },
@@ -1449,7 +1453,8 @@
         "id": "c3",
         "text": "The system flags missing information, restricts citations to accessed sources and maintains audit logs.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T0-AWARDS",
+          "T1-GLINTS-SITE"
         ],
         "evidence": "stated"
       }
@@ -1504,10 +1509,18 @@
     ],
     "timeline": [
       {
-        "date": "2026-10-13",
-        "event": "Named winner, Innovation Excellence, SME AI Impact Awards 2026.",
+        "date": "2026-05-21",
+        "event": "Awards launched by IMDA and SBF under the National AI Impact Programme; nominations opened.",
         "sourceIds": [
-          "T0-AWARDS"
+          "T1-PRN-INAUGURAL"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Awarded Innovation Excellence Trustmark for Glimmer knowledge mining agent at SMEs Go Digital Day 2026.",
+        "sourceIds": [
+          "T0-AWARDS",
+          "T1-IMDA-DAY2026"
         ]
       }
     ],
@@ -1716,9 +1729,9 @@
       ]
     },
     "gaps": [
-      "The model provider is not named.",
-      "The 90% figure is not defined against a measured baseline task set.",
-      "No independent coverage of Glimmer was located."
+      "The underlying LLM family powering Glimmer is not disclosed, though NetSuite and HubSpot integrations are confirmed.",
+      "Cross-border conflict resolution between differing jurisdictions is not documented.",
+      "Precision and recall metrics for legal clause retrieval are not published."
     ],
     "confidence": "B"
   }
