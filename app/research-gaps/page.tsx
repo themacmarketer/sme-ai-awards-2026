@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { winners, allSources, hasIndependent, namedVendors, meta } from '@/lib/data';
+import { winners, allSources, hasIndependent, namedVendors, meta, SITE } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'Research gaps — what remains unknown',
   description:
     'Documented research gaps for the 30 SME AI Impact Awards winners: missing independent corroboration, undisclosed vendors, absent baselines and unverified timelines.',
-  alternates: { canonical: '/research-gaps/' },
+  alternates: { canonical: `${SITE.url}/research-gaps/` },
 };
 
 function GapGroup({

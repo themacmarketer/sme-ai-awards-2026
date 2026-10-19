@@ -6,14 +6,14 @@ import {
   EvidenceBars,
   HorizontalBars,
 } from '@/components/InsightsCharts';
-import { winners, meta, facetCounts, outcomeCounts, gradeCounts } from '@/lib/data';
+import { winners, meta, facetCounts, outcomeCounts, gradeCounts, SITE } from '@/lib/data';
 import { SectorUseCaseMatrix } from '@/components/Matrix';
 
 export const metadata: Metadata = {
   title: 'Insights — patterns across 30 AI implementations',
   description:
     'Aggregate analysis of the 30 SME AI Impact Awards 2026 winners: sectors, AI use cases, documented technology layers, published benefits and evidence distribution.',
-  alternates: { canonical: '/insights/' },
+  alternates: { canonical: `${SITE.url}/insights/` },
 };
 
 function ChartBlock({

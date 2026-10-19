@@ -26,7 +26,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    alternates: { canonical: `/winners/${w.slug}/` },
+    alternates: { canonical: `${SITE.url}/winners/${w.slug}/` },
     openGraph: {
       type: 'article',
       title,
@@ -34,7 +34,7 @@ export async function generateMetadata({
       url: `${SITE.url}/winners/${w.slug}/`,
       images: [
         {
-          url: `/og/${w.slug}.png`,
+          url: `${SITE.url}/og/${w.slug}.png`,
           width: 1200,
           height: 630,
           alt: `${w.name} — ${w.useCase} case study, evidence grade ${w.confidence}`,
@@ -45,7 +45,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title,
       description,
-      images: [`/og/${w.slug}.png`],
+      images: [`${SITE.url}/og/${w.slug}.png`],
     },
   };
 }

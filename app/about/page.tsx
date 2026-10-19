@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { meta, winners, totalSources, formatDate, allSources } from '@/lib/data';
+import { meta, winners, totalSources, formatDate, allSources, SITE } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'Methodology and independence',
   description:
     'How this showcase was researched: canonical source, evidence hierarchy, evidence status definitions, grading criteria, research coverage scoring and how inference is handled.',
-  alternates: { canonical: '/about/' },
+  alternates: { canonical: `${SITE.url}/about/` },
 };
 
 const DIMENSIONS = [

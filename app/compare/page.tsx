@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import { Compare } from '@/components/Compare';
-import { winners } from '@/lib/data';
+import { winners, SITE } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'Compare case studies',
   description:
     'Compare two or three SME AI Impact Awards winners side by side: industry, business problem, solution type, technology layers, published outcomes and evidence availability.',
-  alternates: { canonical: '/compare/' },
+  alternates: { canonical: `${SITE.url}/compare/` },
 };
 
 export default function ComparePage() {

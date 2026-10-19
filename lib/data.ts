@@ -10,7 +10,7 @@ export const SITE = {
   short: 'SME AI Impact Showcase',
   description:
     'An evidence-graded case-study library of the 30 winners of the Singapore SME AI Impact Awards 2026, organised by IMDA and SBF.',
-  url: 'https://sme-ai-awards-2026.vercel.app',
+  url: 'https://bestcourses.sg/sme-ai',
   awardLine: 'Winner, SME AI Impact Awards 2026 (IMDA & SBF)',
 };
 

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description: SITE.description,
     images: [
       {
-        url: '/og.png',
+        url: `${SITE.url}/og.png`,
         width: 1200,
         height: 630,
         alt: 'Singapore SME AI Impact Showcase — 30 evidence-graded case studies',
@@ -47,10 +47,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Singapore SME AI Impact Showcase',
     description: SITE.description,
-    images: ['/og.png'],
+    images: [`${SITE.url}/og.png`],
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: '/' },
+  alternates: { canonical: `${SITE.url}/` },
 };
 
 const orgLd = {

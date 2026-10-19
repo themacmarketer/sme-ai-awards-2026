@@ -9,11 +9,13 @@ export function SiteShot({ w, size = 'full' }: { w: Winner; size?: 'full' | 'car
   const shot = w.screenshot;
   if (!shot) return null;
 
+  const src = shot.src.startsWith('/sme-ai') ? shot.src : `/sme-ai${shot.src}`;
+
   if (size === 'card') {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
-        src={shot.src}
+        src={src}
         alt={`Homepage of ${w.name}, captured ${shot.capturedAt}`}
         width={1280}
         height={800}
@@ -28,7 +30,7 @@ export function SiteShot({ w, size = 'full' }: { w: Winner; size?: 'full' | 'car
     <figure className="border border-rule bg-white">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={shot.src}
+        src={src}
         alt={`Homepage of ${w.name}, captured ${shot.capturedAt}`}
         width={1280}
         height={800}
