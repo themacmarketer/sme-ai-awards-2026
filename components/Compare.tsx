@@ -3,12 +3,15 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import type { Winner } from '@/lib/types';
-import { CategoryTag, GradeBadge } from './Evidence';
+import { CategoryTag, GradeBadge, ProvenanceBadge } from './Evidence';
+import { caseUrl, allCases as defaultCases } from '@/lib/data';
 
-export function Compare({ winners }: { winners: Winner[] }) {
+export function Compare({ winners }: { winners?: Winner[] }) {
+  const cases = winners ?? defaultCases;
+
   const [selected, setSelected] = useState<string[]>([
-    winners[0]?.slug,
-    winners[15]?.slug,
+    cases[0]?.slug,
+    cases[15]?.slug,
   ].filter(Boolean) as string[]);
   const [copiedLink, setCopiedLink] = useState(false);
 
@@ -19,7 +22,7 @@ export function Compare({ winners }: { winners: Winner[] }) {
     const a = params.get('a');
     const b = params.get('b');
     const c = params.get('c');
-    const validSlugs = new Set(winners.map((w) => w.slug));
+    const validSlugs = new Set(cases.map((w) => w.slug));
 
     const restored: string[] = [];
     if (a && validSlugs.has(a)) restored.push(a);
@@ -29,7 +32,7 @@ export function Compare({ winners }: { winners: Winner[] }) {
     if (restored.length > 0) {
       setSelected(restored);
     }
-  }, [winners]);
+  }, [cases]);
 
   // Synchronize URL query parameters with selection
   useEffect(() => {
@@ -44,8 +47,8 @@ export function Compare({ winners }: { winners: Winner[] }) {
   }, [selected]);
 
   const chosen = useMemo(
-    () => selected.map((s) => winners.find((w) => w.slug === s)).filter(Boolean) as Winner[],
-    [selected, winners]
+    () => selected.map((s) => cases.find((w) => w.slug === s)).filter(Boolean) as Winner[],
+    [selected, cases]
   );
 
   function toggle(slug: string) {
@@ -68,11 +71,15 @@ export function Compare({ winners }: { winners: Winner[] }) {
 
   const rows: { label: string; render: (w: Winner) => React.ReactNode }[] = [
     {
+      label: 'Collection & Provenance',
+      render: (w) => <ProvenanceBadge cohort={w.cohort} provenance={w.provenance} />,
+    },
+    {
       label: 'Industry',
       render: (w) => w.sector,
     },
     {
-      label: 'Award category',
+      label: 'Category',
       render: (w) => <CategoryTag category={w.category} />,
     },
     {
@@ -137,7 +144,7 @@ export function Compare({ winners }: { winners: Winner[] }) {
     <div>
       <div className="border border-rule bg-white/60 p-4 sm:p-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <p className="eyebrow">Select two or three case studies</p>
+          <p className="eyebrow">Select two or three case studies to compare</p>
           <button
             type="button"
             onClick={handleCopyShareLink}
@@ -149,10 +156,12 @@ export function Compare({ winners }: { winners: Winner[] }) {
             <span>{copiedLink ? 'Share link copied!' : 'Share this comparison'}</span>
           </button>
         </div>
-        <div className="mt-3 grid gap-1.5 sm:grid-cols-2 lg:grid-cols-3">
-          {winners.map((w) => {
+        <div className="mt-3 grid gap-1.5 sm:grid-cols-2 lg:grid-cols-3 max-h-96 overflow-y-auto p-1">
+          {cases.map((w) => {
             const on = selected.includes(w.slug);
             const order = selected.indexOf(w.slug) + 1;
+            const isPractitioner = w.cohort === 'practitioner' || w.provenance === 'maple-commerce';
+
             return (
               <label
                 key={w.slug}
@@ -166,10 +175,15 @@ export function Compare({ winners }: { winners: Winner[] }) {
                   onChange={() => toggle(w.slug)}
                   className="h-3.5 w-3.5 accent-[#1F4B43]"
                 />
-                <span className="min-w-0 flex-1 truncate">{w.name}</span>
+                <span className="min-w-0 flex-1 truncate font-medium">{w.name}</span>
+                {isPractitioner && (
+                  <span className="text-[0.65rem] font-semibold text-purple-800 bg-purple-100 rounded px-1.5 py-0.5">
+                    Practitioner
+                  </span>
+                )}
                 {on && (
-                  <span className="text-xs font-medium text-blue" aria-hidden="true">
-                    {order}
+                  <span className="text-xs font-bold text-blue shrink-0" aria-hidden="true">
+                    #{order}
                   </span>
                 )}
               </label>
@@ -195,13 +209,19 @@ export function Compare({ winners }: { winners: Winner[] }) {
             <thead>
               <tr>
                 <th scope="col" className="w-[20%]">Attribute</th>
-                {chosen.map((w) => (
-                  <th key={w.slug} scope="col" className="w-1/4 align-bottom">
-                    <Link href={`/winners/${w.slug}/`} className="link-underline font-sans text-base normal-case tracking-normal">
-                      {w.name}
-                    </Link>
-                  </th>
-                ))}
+                {chosen.map((w) => {
+                  const href = caseUrl(w);
+                  return (
+                    <th key={w.slug} scope="col" className="w-1/4 align-bottom">
+                      <div className="mb-2">
+                        <ProvenanceBadge cohort={w.cohort} provenance={w.provenance} />
+                      </div>
+                      <Link href={href} className="link-underline font-sans text-base normal-case tracking-normal">
+                        {w.name}
+                      </Link>
+                    </th>
+                  );
+                })}
               </tr>
             </thead>
             <tbody>

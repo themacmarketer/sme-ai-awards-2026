@@ -81,6 +81,42 @@ export default function ResearchGapsPage() {
 
       <div className="shell grid gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_260px]">
         <div className="min-w-0 space-y-10">
+          {/* Contrast callout */}
+          <div className="rounded-xl border border-purple-200 bg-gradient-to-r from-purple-50/80 via-white to-slate-50 p-6 shadow-sm">
+            <div className="flex items-center gap-2">
+              <span className="rounded-full bg-purple-700 px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wider text-white">
+                Practitioner Benchmark
+              </span>
+              <span className="text-xs font-bold text-purple-950">Closing the Transparency Gap</span>
+            </div>
+            <h2 className="mt-2 text-lg font-bold text-ink">
+              Demonstrating what public award citations leave out
+            </h2>
+            <p className="mt-2 text-xs leading-relaxed text-muted sm:text-sm">
+              The 30 winners cannot exceed what IMDA and SBF published in their official citations — leaving all 30 cases without paired before-and-after baselines and 60% without named foundation models or vendors. In contrast, our <strong>Practitioner Cases (Maple Commerce implementations)</strong> set the documentation standard: complete model selections, verified architecture diagrams, paired operational baselines, and production telemetry are published openly with full conflict disclosures.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2.5">
+              <Link
+                href="/cases/kiat-seng-hardware/"
+                className="rounded border border-purple-200 bg-white px-2.5 py-1 text-xs font-medium text-purple-900 hover:border-purple-400"
+              >
+                Kiat Seng Hardware (100% Coverage) →
+              </Link>
+              <Link
+                href="/cases/alliance-corporate-advisory/"
+                className="rounded border border-purple-200 bg-white px-2.5 py-1 text-xs font-medium text-purple-900 hover:border-purple-400"
+              >
+                Alliance Advisory (100% Coverage) →
+              </Link>
+              <Link
+                href="/submit/"
+                className="rounded bg-navy px-3 py-1 text-xs font-semibold text-white shadow-sm hover:bg-navy/90"
+              >
+                Submit Verified Case (T1-SUBMITTED) →
+              </Link>
+            </div>
+          </div>
+
           <GapGroup
             id="corroboration"
             title="Winners without independent corroboration"

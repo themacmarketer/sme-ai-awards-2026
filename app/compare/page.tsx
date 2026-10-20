@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import { Compare } from '@/components/Compare';
-import { winners, SITE } from '@/lib/data';
+import { allCases, SITE } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: 'Compare case studies',
+  title: 'Compare case studies — SME AI Impact Showcase',
   description:
-    'Compare two or three SME AI Impact Awards winners side by side: industry, business problem, solution type, technology layers, published outcomes and evidence availability.',
+    'Compare two or three SME AI case studies side by side across award winners and practitioner implementations: industry, problem, solution, technology layers, outcomes, and research coverage.',
   alternates: { canonical: `${SITE.url}/compare/` },
 };
 
@@ -19,14 +19,13 @@ export default function ComparePage() {
             Compare case studies
           </h1>
           <p className="mt-3 max-w-prose text-[1.0625rem] leading-relaxed text-muted">
-            Select two or three winners to compare the problem they faced, the type of AI they
-            deployed, how much of the stack is documented, and what they published as results.
+            Select two or three case studies from the sealed award cohort or Maple Commerce practitioner deployments to compare their operational friction, AI architecture, documented stack, and published outcomes.
           </p>
         </div>
       </header>
 
       <div className="shell py-10">
-        <Compare winners={winners} />
+        <Compare winners={allCases} />
       </div>
     </>
   );
