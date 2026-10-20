@@ -22,6 +22,30 @@ const nextConfig = {
         basePath: false,
         permanent: false,
       },
+      {
+        source: '/sme-ai-playbook',
+        destination: '/sme-ai/playbook/',
+        basePath: false,
+        permanent: false,
+      },
+      {
+        source: '/sme-ai-playbook/',
+        destination: '/sme-ai/playbook/',
+        basePath: false,
+        permanent: false,
+      },
+      {
+        source: '/sme-ai-course',
+        destination: '/sme-ai/course/',
+        basePath: false,
+        permanent: false,
+      },
+      {
+        source: '/sme-ai-course/',
+        destination: '/sme-ai/course/',
+        basePath: false,
+        permanent: false,
+      },
     ];
   },
 };

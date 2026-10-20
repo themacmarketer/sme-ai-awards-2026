@@ -18,9 +18,11 @@ export function SiteFooter() {
         </div>
 
         <nav aria-label="Footer">
-          <p className="text-xs font-semibold uppercase tracking-wider text-white/40">Sections</p>
+          <p className="text-xs font-semibold uppercase tracking-wider text-white/40">Sections &amp; Resources</p>
           <ul className="mt-3 space-y-2 text-sm text-white/80">
             <li><Link className="hover:text-white transition-colors" href="/">Winner directory</Link></li>
+            <li><Link className="hover:text-white transition-colors" href="/playbook">SME AI Playbook (Synthesis)</Link></li>
+            <li><Link className="hover:text-white transition-colors" href="/course">5-Day Email Course</Link></li>
             <li><Link className="hover:text-white transition-colors" href="/insights">Insights</Link></li>
             <li><Link className="hover:text-white transition-colors" href="/compare">Compare case studies</Link></li>
             <li><Link className="hover:text-white transition-colors" href="/research-gaps">Research gaps</Link></li>
