@@ -515,7 +515,9 @@
         "src": "/shots/accountingbpo.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://accountingbpo.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "best-marketing-agency",
@@ -898,7 +900,9 @@
         "src": "/shots/best-marketing-agency.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.bestmarketing.com.sg/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "blue-aqua-international",
@@ -1369,7 +1373,9 @@
         "src": "/shots/blue-aqua-international.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.blueaquaint.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "getgo-technologies",
@@ -1775,7 +1781,9 @@
         "src": "/shots/getgo-technologies.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://getgo.sg/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "glints-singapore",
@@ -2207,7 +2215,9 @@
         "src": "/shots/glints-singapore.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://glints.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "greenphyto",
@@ -2620,7 +2630,9 @@
         "src": "/shots/greenphyto.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://greenphyto.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "iapps-health-group",
@@ -3009,7 +3021,9 @@
         "src": "/shots/iapps-health-group.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.1doc.sg/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "kyanon-digital",
@@ -3455,7 +3469,9 @@
         "src": "/shots/kyanon-digital.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://kyanon.digital/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "limteh-project",
@@ -3867,7 +3883,9 @@
         "src": "/shots/limteh-project.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://limtehproject.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "lithan-academy",
@@ -4289,7 +4307,9 @@
         "src": "/shots/lithan-academy.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.lithan.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "mencast-marine",
@@ -4685,7 +4705,9 @@
         "src": "/shots/mencast-marine.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.mencast.com.sg/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "oceanus-media-global",
@@ -5088,7 +5110,9 @@
         "src": "/shots/oceanus-media-global.jpg",
         "capturedAt": "2026-10-19",
         "sourceUrl": "https://oceanusmedia.global/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "ong-ong-group",
@@ -5519,7 +5543,9 @@
         "src": "/shots/ong-ong-group.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://group.ong-ong.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "supreme-components-international",
@@ -5929,7 +5955,9 @@
         "src": "/shots/supreme-components-international.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.supremecomponents.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "thriving-weeds",
@@ -6330,7 +6358,9 @@
         "src": "/shots/thriving-weeds.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.thrivingweeds.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "agape-cp-holdings",
@@ -6801,7 +6831,9 @@
         "src": "/shots/agape-cp-holdings.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://agape-cp.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "brew-interactive",
@@ -7225,7 +7257,9 @@
         "src": "/shots/brew-interactive.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://brewinteractive.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "catalyst-performance",
@@ -7674,7 +7708,9 @@
         "src": "/shots/catalyst-performance.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://catalystperformance.sg/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "goodstuph",
@@ -8092,7 +8128,9 @@
         "src": "/shots/goodstuph.jpg",
         "capturedAt": "2026-10-19",
         "sourceUrl": "https://goodstuph.org/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "ihub-solutions",
@@ -8503,7 +8541,9 @@
         "src": "/shots/ihub-solutions.jpg",
         "capturedAt": "2026-10-19",
         "sourceUrl": "https://www.ihubsolutions.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "innovative-hub-sg",
@@ -8918,7 +8958,9 @@
         "src": "/shots/innovative-hub-sg.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://innovativehub.sg/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "iyla-collective",
@@ -9329,7 +9371,9 @@
         "src": "/shots/iyla-collective.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://iylacollective.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "kopi-near-me",
@@ -9730,7 +9774,9 @@
         "src": "/shots/kopi-near-me.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://kopinearme.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "lil-but-mighty-education-centre",
@@ -10095,7 +10141,9 @@
         "src": "/shots/lil-but-mighty-education-centre.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://lilbutmightyenglish.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "linksworkz-design-studio",
@@ -10487,7 +10535,9 @@
         "src": "/shots/linksworkz-design-studio.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.linksworkz.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "mclink-asia",
@@ -10892,7 +10942,9 @@
         "src": "/shots/mclink-asia.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.mclink.com.sg/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "nami-japanese-academy",
@@ -11305,7 +11357,9 @@
         "src": "/shots/nami-japanese-academy.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://www.namijapaneseacademy.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "the-gourmet-factor",
@@ -11718,7 +11772,9 @@
         "src": "/shots/the-gourmet-factor.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://thegourmetfactor.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "tts-group",
@@ -12139,7 +12195,9 @@
         "src": "/shots/tts-group.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://ttsgroup.com.sg/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     },
     {
       "slug": "you-tiao-man",
@@ -12552,7 +12610,9 @@
         "src": "/shots/you-tiao-man.jpg",
         "capturedAt": "2026-10-18",
         "sourceUrl": "https://youtiaoman.com/"
-      }
+      },
+      "cohort": "award-2026",
+      "provenance": "official-award"
     }
   ]
 }

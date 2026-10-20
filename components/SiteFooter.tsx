@@ -27,6 +27,7 @@ export function SiteFooter() {
             <li><Link className="hover:text-white transition-colors" href="/compare">Compare case studies</Link></li>
             <li><Link className="hover:text-white transition-colors" href="/research-gaps">Research gaps</Link></li>
             <li><Link className="hover:text-white transition-colors" href="/about">Methodology</Link></li>
+            <li><Link className="hover:text-white transition-colors" href="/submit">Submit Case (Self-Audit)</Link></li>
           </ul>
         </nav>
 

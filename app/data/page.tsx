@@ -10,8 +10,11 @@ export const metadata: Metadata = {
 };
 
 const DATA_DICTIONARY = [
-  { field: 'id', type: 'integer', description: 'Numeric index of the winner (1 to 30) ordered canonically by category and listing.' },
-  { field: 'name', type: 'string', description: 'Official registered entity name as cited in the IMDA/SBF award announcement.' },
+  { field: 'id', type: 'integer', description: 'Numeric index of the record ordered canonically by category and listing.' },
+  { field: 'cohort', type: 'string', description: 'Collection cohort: "award-2026" (sealed 30 award winners), "practitioner" (Maple Commerce deployments), or "community" (verified non-award SME submissions).' },
+  { field: 'provenance', type: 'string', description: 'Origin tier: "official-award" (IMDA & SBF citation), "maple-commerce" (implementer-built), or "community-submission".' },
+  { field: 'disclosed_implementer', type: 'string', description: 'Named implementer entity where conflict of interest is disclosed (e.g. "Maple Commerce"), or empty.' },
+  { field: 'name', type: 'string', description: 'Official registered entity name as cited in the IMDA/SBF award announcement or client submission.' },
   { field: 'slug', type: 'string', description: 'Unique URL slug used for permalink routing on this showcase.' },
   { field: 'category', type: 'string', description: 'Award category: "innovation" (developed proprietary AI) or "adoption" (adopted ready-to-use COTS solution).' },
   { field: 'sector', type: 'string', description: 'Industry classification (e.g. Business Services, Manufacturing, Logistics, F&B).' },
@@ -39,7 +42,7 @@ export default function DataPage() {
     '@type': 'Dataset',
     name: 'Singapore SME AI Impact Awards 2026 Dataset',
     description:
-      'Structured evidence-graded dataset of the 30 winners of the Singapore SME AI Impact Awards 2026, organised by IMDA and SBF. Includes technical architecture, reported business metrics, evidence grades, and citations.',
+      'Structured evidence-graded dataset of the 30 winners of the Singapore SME AI Impact Awards 2026 and practitioner implementations, organised by IMDA and SBF. Includes technical architecture, reported business metrics, evidence grades, and citations.',
     url: `${SITE.url}/data/`,
     license: 'https://creativecommons.org/licenses/by/4.0/',
     isAccessibleForFree: true,
@@ -64,6 +67,11 @@ export default function DataPage() {
         encodingFormat: 'application/json',
         contentUrl: `${SITE.url}/data/sme-ai-winners-2026.json`,
       },
+      {
+        '@type': 'DataDownload',
+        encodingFormat: 'text/csv',
+        contentUrl: `${SITE.url}/data/sme-ai-all-cases.csv`,
+      },
     ],
     temporalCoverage: '2026',
     spatialCoverage: 'Singapore',
@@ -87,24 +95,34 @@ export default function DataPage() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="/sme-ai/data/sme-ai-winners-2026.csv"
-              download="sme-ai-winners-2026.csv"
+              href="/sme-ai/data/sme-ai-all-cases.csv"
+              download="sme-ai-all-cases.csv"
               className="inline-flex items-center gap-2 border border-ink bg-navy px-5 py-2.5 text-sm font-medium text-white transition-colors hover:border-blue hover:bg-blue"
             >
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-              Download CSV (30 records)
+              Download Full Library CSV (All Cohorts)
             </a>
             <a
-              href="/sme-ai/data/sme-ai-winners-2026.json"
-              download="sme-ai-winners-2026.json"
+              href="/sme-ai/data/sme-ai-winners-2026.csv"
+              download="sme-ai-winners-2026.csv"
               className="inline-flex items-center gap-2 border border-rule bg-white px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:border-blue hover:text-blue"
             >
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-              Download Full JSON
+              Download Award Winners CSV (30 records)
+            </a>
+            <a
+              href="/sme-ai/data/sme-ai-all-cases.json"
+              download="sme-ai-all-cases.json"
+              className="inline-flex items-center gap-2 border border-rule bg-white px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:border-blue hover:text-blue"
+            >
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Download Full JSON (All Cohorts)
             </a>
           </div>
         </div>

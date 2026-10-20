@@ -10,35 +10,43 @@
 ## Methodology & Evidence Rigor
 Every case study evaluates public claims against an evidentiary hierarchy:
 - **T0 (Canonical Source)**: Official IMDA and SBF award citations published on `https://smesgodigital.gov.sg/web/sme-ai-awards`.
+- **T1-SUBMITTED (Primary Verified Telemetry)**: Architecture blueprints, production system logs, and paired operational metrics supplied directly by the implementing company or partner and reviewed.
 - **T1 (Direct Primary Sources)**: Corporate newsrooms, government publications, and verified company portals.
 - **T2 (Implementation Partners)**: Disclosed software vendors and solution providers.
 - **T3 (Independent External Corroboration)**: Mainstream press (e.g. The Straits Times, Business Times), trade journals, and third-party audits.
 
+### Cohort Architecture
+The showcase is structured across three distinct collections:
+1. **Award Cohort 2026**: The 30 inaugural winners of the SME AI Impact Awards (IMDA & SBF). Sealed and frozen.
+2. **Practitioner Cases**: Production implementations delivered by Maple Commerce / Ivan Wong. Every surface carries a prominent conflict-of-interest disclosure; documentation depth sets the benchmark with complete architecture, model choices, and paired baselines.
+3. **Community Cases**: Non-award Singapore SMEs meeting the 6-month production tenure threshold and verified via primary documentation.
+
 ### Evidence Grades
-- **Grade A (Independently Supported)**: Claims corroborated by at least one independent third-party source outside the winning company and citation.
+- **Grade A (Independently Supported)**: Claims corroborated by at least one independent third-party source outside the winning company and citation, or fully verified primary telemetry (T1-SUBMITTED).
 - **Grade B (Canonical Source Supported)**: Verified and grounded strictly in the official IMDA/SBF award citation and direct corporate records.
 - **Grade C (Limited Public Evidence)**: Thin public record where architectural details remain proprietary or undisclosed.
 
 ### Research Coverage Scoring
-Scored 0–100% across 10 evaluation dimensions: Company Profile, Business Challenges, Named AI Solution, Solution Components, Named Vendors, Documented Workflow, Quantified Outcomes, Independent Corroboration, Governance Controls, and Implementation Timeline. Average coverage across the set is 94%.
-
-## Key Dataset Findings
-1. **The Vendor Transparency Gap**: 60% of award-winning SMEs (18 of 30) do not publicly disclose their underlying software vendors or LLM models, focusing communication on business outcomes rather than tooling.
-2. **Back-Office Queue Handling Beats Chatbots**: 63.3% of winners (19 of 30) deployed AI for unstructured document parsing, order processing, and queue automation. Customer-facing conversational bots represented under 7% of winners.
-3. **Off-the-Shelf Adoption Parity**: The 15 Adoption Excellence winners achieved comparable or superior efficiency gains (40% to 85% cycle time reduction) using COTS SaaS tools compared to custom proprietary builds.
-4. **Time is the Universal Metric**: 93.3% of winners (28 of 30) published time saved as their primary operational metric.
+Scored 0–100% across 10 evaluation dimensions: Company Profile, Business Challenges, Named AI Solution, Solution Components, Named Vendors, Documented Workflow, Quantified Outcomes, Independent Corroboration, Governance Controls, and Implementation Timeline.
 
 ## Primary URLs & Data Downloads
 - Canonical Website: https://bestcourses.sg/sme-ai/
 - Open Dataset (CSV & JSON): https://bestcourses.sg/sme-ai/data/
-- CSV Direct Download: https://bestcourses.sg/sme-ai/data/sme-ai-winners-2026.csv
-- JSON Direct Download: https://bestcourses.sg/sme-ai/data/sme-ai-winners-2026.json
+- All Cohorts CSV Download: https://bestcourses.sg/sme-ai/data/sme-ai-all-cases.csv
+- Award Winners CSV Download: https://bestcourses.sg/sme-ai/data/sme-ai-winners-2026.csv
+- Full JSON Direct Download: https://bestcourses.sg/sme-ai/data/sme-ai-all-cases.json
+- Intake & 10-Dimension Self-Audit: https://bestcourses.sg/sme-ai/submit/
 - Insights & Aggregate Charts: https://bestcourses.sg/sme-ai/insights/
 - Interactive Comparison Tool: https://bestcourses.sg/sme-ai/compare/
 - Press & Media Pack: https://bestcourses.sg/sme-ai/press/
-- Research Methodology & Independence: https://bestcourses.sg/sme-ai/about/
+- Research Methodology, Tiers & COI: https://bestcourses.sg/sme-ai/about/
 - Changelog & Audit Log: https://bestcourses.sg/sme-ai/changelog/
 - Embeddable Winner Badges: https://bestcourses.sg/sme-ai/badge/
+
+## Practitioner Case Studies (Maple Commerce Implementations)
+1. Kiat Seng Hardware & Marine Supply (Wholesale & Marine Hardware) — https://bestcourses.sg/sme-ai/cases/kiat-seng-hardware/
+2. Alliance Business Advisory & Secretarial (Corporate Services & Legal) — https://bestcourses.sg/sme-ai/cases/alliance-corporate-advisory/
+3. A 14-Staff Precision Engineering & Tooling Distributor (Precision Tooling) — https://bestcourses.sg/sme-ai/cases/precision-tooling-distributor/
 
 ## 30 Winner Case Studies Directory
 ### Innovation Excellence Winners (15)

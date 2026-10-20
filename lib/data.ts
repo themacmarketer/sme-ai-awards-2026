@@ -1,21 +1,49 @@
 import dataset from '@/data/winners.json';
-import type { Dataset, Winner, Source } from './types';
+import practitionerData from '@/data/practitioner-cases.json';
+import communityData from '@/data/community-cases.json';
+import type { Dataset, Winner, Source, Cohort, Provenance } from './types';
 
 export const data = dataset as unknown as Dataset;
 export const winners: Winner[] = data.winners;
+export const practitionerCases: Winner[] = practitionerData as unknown as Winner[];
+export const communityCases: Winner[] = communityData as unknown as Winner[];
+export const allCases: Winner[] = [...winners, ...practitionerCases, ...communityCases];
 export const meta = data.meta;
 
 export const SITE = {
   name: 'SME AI Impact Showcase',
   short: 'SME AI Impact Showcase',
   description:
-    'An evidence-graded case-study library of the 30 winners of the Singapore SME AI Impact Awards 2026, organised by IMDA and SBF.',
+    'An evidence-graded case-study library of Singapore SME AI implementations, anchored by the 30 winners of the SME AI Impact Awards 2026.',
   url: 'https://bestcourses.sg/sme-ai',
   awardLine: 'Winner, SME AI Impact Awards 2026 (IMDA & SBF)',
 };
 
+export const COHORT_LABEL: Record<Cohort, string> = {
+  'award-2026': 'Award Cohort 2026',
+  'practitioner': 'Practitioner Cases (Maple Commerce)',
+  'community': 'Community Verified Cases',
+};
+
+export const PROVENANCE_LABEL: Record<Provenance, string> = {
+  'official-award': 'Official Award Winner (IMDA & SBF)',
+  'maple-commerce': 'Practitioner Case · Maple Commerce',
+  'community-submission': 'Community Verified Submission',
+};
+
+export function caseUrl(w: Winner): string {
+  if (w.cohort === 'award-2026' || !w.cohort) {
+    return `/winners/${w.slug}/`;
+  }
+  return `/cases/${w.slug}/`;
+}
+
 export function getWinner(slug: string): Winner | undefined {
   return winners.find((w) => w.slug === slug);
+}
+
+export function getCase(slug: string): Winner | undefined {
+  return allCases.find((w) => w.slug === slug);
 }
 
 export function neighbours(slug: string) {
@@ -23,6 +51,15 @@ export function neighbours(slug: string) {
   return {
     prev: i > 0 ? winners[i - 1] : null,
     next: i >= 0 && i < winners.length - 1 ? winners[i + 1] : null,
+  };
+}
+
+export function caseNeighbours(slug: string) {
+  const nonAwardCases = [...practitionerCases, ...communityCases];
+  const i = nonAwardCases.findIndex((w) => w.slug === slug);
+  return {
+    prev: i > 0 ? nonAwardCases[i - 1] : null,
+    next: i >= 0 && i < nonAwardCases.length - 1 ? nonAwardCases[i + 1] : null,
   };
 }
 

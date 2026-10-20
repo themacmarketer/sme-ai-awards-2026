@@ -5,6 +5,7 @@ import { JARGON_TOOLTIPS } from '@/components/Evidence';
 const TIER_NOTE: Record<Source['tier'], string> = {
   T0: 'Canonical awards source',
   T1: 'Direct primary source',
+  'T1-SUBMITTED': 'Primary verified telemetry & direct submission',
   T2: 'Named implementation partner',
   T3: 'Independent or supplementary',
 };

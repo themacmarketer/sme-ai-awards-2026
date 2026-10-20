@@ -163,3 +163,55 @@ export function EvidenceFingerprint({
     </div>
   );
 }
+
+export function ProvenanceBadge({
+  cohort,
+  provenance,
+  size = 'sm',
+}: {
+  cohort?: 'award-2026' | 'community' | 'practitioner';
+  provenance?: 'official-award' | 'community-submission' | 'maple-commerce';
+  size?: 'sm' | 'md';
+}) {
+  const resolvedCohort = cohort || (provenance === 'maple-commerce' ? 'practitioner' : provenance === 'community-submission' ? 'community' : 'award-2026');
+
+  if (resolvedCohort === 'practitioner') {
+    return (
+      <span
+        className={`inline-flex items-center gap-1 rounded-full border border-purple-200 bg-purple-50 text-purple-900 font-semibold tracking-wide ${
+          size === 'md' ? 'px-3 py-1 text-xs' : 'px-2 py-0.5 text-[0.7rem]'
+        }`}
+        title="Implementation delivered by Maple Commerce. Written by the implementer with full conflict disclosure."
+      >
+        <span className="h-1.5 w-1.5 rounded-full bg-purple-600" aria-hidden="true" />
+        Practitioner Case · Maple Commerce
+      </span>
+    );
+  }
+
+  if (resolvedCohort === 'community') {
+    return (
+      <span
+        className={`inline-flex items-center gap-1 rounded-full border border-teal-200 bg-teal-50 text-teal-900 font-semibold tracking-wide ${
+          size === 'md' ? 'px-3 py-1 text-xs' : 'px-2 py-0.5 text-[0.7rem]'
+        }`}
+        title="Community verified non-award case study, graded under the same 10-dimension rubric."
+      >
+        <span className="h-1.5 w-1.5 rounded-full bg-teal-600" aria-hidden="true" />
+        Community Verified Case
+      </span>
+    );
+  }
+
+  return (
+    <span
+      className={`inline-flex items-center gap-1 rounded-full border border-amber-300/80 bg-amber-50/90 text-amber-950 font-semibold tracking-wide ${
+        size === 'md' ? 'px-3 py-1 text-xs' : 'px-2 py-0.5 text-[0.7rem]'
+      }`}
+      title="Sealed cohort: Winner of the inaugural Singapore SME AI Impact Awards 2026."
+    >
+      <span className="h-1.5 w-1.5 rounded-full bg-amber-600" aria-hidden="true" />
+      Winner · Award Cohort 2026
+    </span>
+  );
+}

@@ -1,6 +1,9 @@
 export type EvidenceState = 'stated' | 'corroborated' | 'inferred';
 export type EvidenceGrade = 'A' | 'B' | 'C';
-export type Tier = 'T0' | 'T1' | 'T2' | 'T3';
+export type Tier = 'T0' | 'T1' | 'T1-SUBMITTED' | 'T2' | 'T3';
+
+export type Cohort = 'award-2026' | 'community' | 'practitioner';
+export type Provenance = 'official-award' | 'community-submission' | 'maple-commerce';
 
 export interface Source {
   id: string;
@@ -87,6 +90,11 @@ export interface Winner {
   name: string;
   sector: string;
   category: 'innovation' | 'adoption';
+  cohort?: Cohort;
+  provenance?: Provenance;
+  disclosedImplementer?: string;
+  conflictDisclosure?: string;
+  clientConsent?: 'full' | 'anonymised';
   companyUrl?: string;
   screenshot?: { src: string; capturedAt: string; sourceUrl: string };
   coverageDimensions?: Record<string, number>;
@@ -115,6 +123,8 @@ export interface Winner {
   researchedAt: string;
   updatedAt: string;
 }
+
+export type CaseStudy = Winner;
 
 export interface AwardScale {
   nominations: number;

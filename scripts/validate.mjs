@@ -6,10 +6,17 @@
  */
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { DatasetSchema } from '../lib/schema.mjs';
+import { DatasetSchema, WinnerSchema } from '../lib/schema.mjs';
 
 const ROOT = process.cwd();
 const raw = JSON.parse(readFileSync(join(ROOT, 'data/winners.json'), 'utf8'));
+
+let practitionerRaw = [];
+try {
+  practitionerRaw = JSON.parse(readFileSync(join(ROOT, 'data/practitioner-cases.json'), 'utf8'));
+} catch (e) {
+  practitionerRaw = [];
+}
 
 const errors = [];
 const warnings = [];
@@ -23,6 +30,17 @@ if (!parsed.success) {
     fail(`schema: ${issue.path.join('.')} — ${issue.message}`);
   }
 }
+
+// Validate practitioner cases
+for (const pc of practitionerRaw) {
+  const pcParsed = WinnerSchema.safeParse(pc);
+  if (!pcParsed.success) {
+    for (const issue of pcParsed.error.issues.slice(0, 20)) {
+      fail(`practitioner schema (${pc.slug || 'unknown'}): ${issue.path.join('.')} — ${issue.message}`);
+    }
+  }
+}
+
 
 const winners = raw.winners ?? [];
 

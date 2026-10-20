@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Directory } from '@/components/Directory';
 import { GradeBadge } from '@/components/Evidence';
 import { WinnerCard } from '@/components/WinnerCard';
-import { meta, winners, totalSources, getWinner, formatDate } from '@/lib/data';
+import { meta, winners, allCases, totalSources, getWinner, formatDate } from '@/lib/data';
 
 const FEATURED = ['greenphyto', 'ong-ong-group', 'you-tiao-man'];
 
@@ -29,7 +29,7 @@ export default function HomePage() {
                 href="#directory"
                 className="rounded-lg bg-blue px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue/90"
               >
-                Browse the directory
+                Browse directory &amp; cohorts
               </a>
               <Link
                 href="/about"
@@ -134,16 +134,92 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Beyond the Awards Section */}
+      <section className="border-b border-rule bg-slate-soft/40 py-16">
+        <div className="shell">
+          <div className="grid gap-8 lg:grid-cols-[1.3fr_1fr]">
+            <div>
+              <span className="eyebrow">Library Expansion</span>
+              <h2 className="mt-2 text-2xl font-bold sm:text-3xl">Beyond the awards: A permanent library of cohorts</h2>
+              <p className="mt-3 text-sm leading-relaxed text-muted sm:text-base">
+                The 30 winners of the inaugural SME AI Impact Awards are sealed as a permanent historical cohort — nothing will ever be added to or removed from the winner directory. To continue mapping the reality of Singapore enterprise AI, the showcase has expanded into a library of cohorts, all evaluated under the exact same ten-dimension evidence methodology:
+              </p>
+
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                <div className="rounded-lg border border-rule bg-white p-4">
+                  <span className="inline-block rounded-full border border-teal-200 bg-teal-50 px-2 py-0.5 text-[0.7rem] font-semibold text-teal-900">
+                    Community Cases
+                  </span>
+                  <h3 className="mt-2 text-sm font-bold">Non-Award SME Submissions</h3>
+                  <p className="mt-1 text-xs leading-relaxed text-muted">
+                    Open to Singapore SMEs with 6+ months of live production AI and documented outcomes, verified against primary artifacts.
+                  </p>
+                  <Link href="/submit" className="mt-3 inline-block text-xs font-semibold text-blue hover:underline">
+                    Submit your implementation →
+                  </Link>
+                </div>
+
+                <div className="rounded-lg border border-rule bg-white p-4">
+                  <span className="inline-block rounded-full border border-purple-200 bg-purple-50 px-2 py-0.5 text-[0.7rem] font-semibold text-purple-900">
+                    Practitioner Cases
+                  </span>
+                  <h3 className="mt-2 text-sm font-bold">Maple Commerce Deployments</h3>
+                  <p className="mt-1 text-xs leading-relaxed text-muted">
+                    Built by Ivan Wong / Maple Commerce. Fully disclosed conflict of interest with complete architecture schematics and paired baselines.
+                  </p>
+                  <Link href="/about#coi" className="mt-3 inline-block text-xs font-semibold text-purple-900 hover:underline">
+                    Read conflict policy →
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-xl border border-rule bg-white p-6 shadow-sm flex flex-col justify-between">
+              <div>
+                <p className="eyebrow">Rigorous Consistency</p>
+                <h3 className="mt-1 text-lg font-bold">The evidence grading is the brand</h3>
+                <p className="mt-2 text-xs leading-relaxed text-muted sm:text-sm">
+                  We hold our own practitioner cases and community submissions to the exact same strict criteria as the award winners: 6+ months production tenure, quantified before/after outcomes, named stack components, and human governance.
+                </p>
+                <div className="mt-4 rounded border border-rule bg-slate-soft/50 p-3 text-xs text-muted">
+                  <span className="font-semibold text-ink">Inclusion bar:</span> Requires primary technical documentation (T1-SUBMITTED) to qualify. Unverified PR announcements or beta demos are rejected.
+                </div>
+              </div>
+
+              <div className="mt-6 pt-4 border-t border-rule flex flex-wrap gap-3">
+                <Link
+                  href="/submit"
+                  className="rounded-lg bg-blue px-4 py-2 text-xs font-semibold text-white shadow-sm hover:bg-blue/90"
+                >
+                  Run 10-Dimension Self-Audit
+                </Link>
+                <Link
+                  href="/about#inclusion"
+                  className="rounded-lg border border-rule px-4 py-2 text-xs font-medium text-ink hover:border-blue hover:text-blue"
+                >
+                  Review Inclusion Criteria
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Directory */}
       <section id="directory" className="shell scroll-mt-20 py-16">
         <div className="flex flex-wrap items-end justify-between gap-3 border-b border-rule pb-3">
-          <h2 className="text-2xl font-bold">Winner directory</h2>
-          <p className="text-sm text-muted">
-            Search and filters apply immediately, without a page reload
+          <div>
+            <h2 className="text-2xl font-bold">Directory &amp; Cohorts</h2>
+            <p className="mt-1 text-sm text-muted">
+              Explore 30 sealed award winners, Maple Commerce practitioner deployments, and community cases.
+            </p>
+          </div>
+          <p className="text-xs text-muted">
+            Search and filters apply immediately
           </p>
         </div>
         <div className="mt-6">
-          <Directory winners={winners} />
+          <Directory winners={allCases} />
         </div>
       </section>
 

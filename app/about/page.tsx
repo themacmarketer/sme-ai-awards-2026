@@ -48,12 +48,15 @@ export default function AboutPage() {
           <ul className="mt-3 space-y-2 text-sm text-muted">
             {[
               ['#scope', 'Award scope'],
+              ['#cohorts', 'Library cohorts & provenance'],
               ['#source', 'Canonical source'],
               ['#extraction', 'Extraction method'],
               ['#hierarchy', 'Evidence hierarchy'],
               ['#status', 'Evidence status'],
-              ['#grades', 'Winner grading'],
+              ['#grades', 'Case study grading'],
               ['#coverage', 'Coverage scoring'],
+              ['#inclusion', 'Inclusion & verification criteria'],
+              ['#coi', 'Conflict of interest policy'],
               ['#inference', 'Inference handling'],
               ['#limits', 'Research limits'],
               ['#researcher', 'About the researcher'],
@@ -91,6 +94,61 @@ export default function AboutPage() {
                 This project covers all 30 winners. It does not cover shortlisted companies that
                 did not win, and it makes no claim about them.
               </p>
+            </div>
+          </section>
+
+          <section id="cohorts" className="scroll-mt-20 border-t border-rule pt-8">
+            <h2 className="font-sans text-2xl">Library cohorts &amp; provenance</h2>
+            <div className="prose-editorial mt-3 max-w-prose">
+              <p>
+                The showcase is organized as an ongoing, evidence-graded library across distinct,
+                transparently labeled cohorts. The evidence-grading system is the unifying brand; the
+                awards provided the launch cohort.
+              </p>
+            </div>
+            <div className="mt-5 space-y-4">
+              <div className="border border-rule bg-white p-4">
+                <div className="flex items-center gap-2">
+                  <span className="rounded border border-ink bg-navy px-2 py-0.5 text-xs font-bold uppercase tracking-wider text-white">
+                    Award Cohort 2026
+                  </span>
+                  <span className="text-xs text-muted">Sealed &amp; Closed</span>
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-ink/80">
+                  The 30 inaugural recipients of the SME AI Impact Awards 2026, organised by IMDA
+                  and SBF. This cohort is sealed and immutable. Nothing is ever added to this group.
+                  Permalinks remain permanently at <code>/winners/[slug]/</code>.
+                </p>
+              </div>
+
+              <div className="border border-rule bg-white p-4">
+                <div className="flex items-center gap-2">
+                  <span className="rounded border border-slate-300 bg-slate-100 px-2 py-0.5 text-xs font-bold uppercase tracking-wider text-slate-800">
+                    Community Cases
+                  </span>
+                  <span className="text-xs text-muted">Direct SME Submissions</span>
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-ink/80">
+                  Non-award Singapore SMEs that submit primary operational documentation, pass the
+                  technical inclusion audit, and agree to the 10-dimension evidence rubric. Hosted under{' '}
+                  <code>/cases/[slug]/</code> with explicit provenance badging.
+                </p>
+              </div>
+
+              <div className="border border-rule bg-white p-4">
+                <div className="flex items-center gap-2">
+                  <span className="rounded border border-purple-300 bg-purple-50 px-2 py-0.5 text-xs font-bold uppercase tracking-wider text-purple-900">
+                    Practitioner Cases
+                  </span>
+                  <span className="text-xs text-muted">Maple Commerce Implementations</span>
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-ink/80">
+                  Real-world enterprise systems designed, built, or deployed by Ivan Wong and Maple
+                  Commerce. Subject to the strictest version of our evidence rules, with mandatory
+                  conflict-of-interest disclosure on every surface, paired before-and-after baselines,
+                  and fully published architecture stacks.
+                </p>
+              </div>
             </div>
           </section>
 
@@ -168,8 +226,13 @@ export default function AboutPage() {
                 <tbody>
                   <tr>
                     <th scope="row" className="border-b border-rule px-3 py-3 text-left text-xs font-medium">T0</th>
-                    <td className="border-b border-rule px-3 py-3">Official awards page: winner list, categories, citations.</td>
-                    <td className="border-b border-rule px-3 py-3">All 30</td>
+                    <td className="border-b border-rule px-3 py-3">Official awards page: winner list, categories, citations (Award Cohort).</td>
+                    <td className="border-b border-rule px-3 py-3">All 30 winners</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="border-b border-rule px-3 py-3 text-left text-xs font-medium">T1-SUBMITTED</th>
+                    <td className="border-b border-rule px-3 py-3">Primary technical documentation, system logs, and architecture schematics supplied directly by company or implementer and reviewed.</td>
+                    <td className="border-b border-rule px-3 py-3">Community &amp; practitioner cases</td>
                   </tr>
                   <tr>
                     <th scope="row" className="border-b border-rule px-3 py-3 text-left text-xs font-medium">T1</th>
@@ -255,6 +318,87 @@ export default function AboutPage() {
               Coverage is displayed separately from the evidence grade and is never presented as an
               AI maturity rating. The average across the set is {meta.averageCoverage}%.
             </p>
+          </section>
+
+          <section id="inclusion" className="scroll-mt-20 border-t border-rule pt-8">
+            <h2 className="font-sans text-2xl">Inclusion &amp; verification criteria</h2>
+            <div className="prose-editorial mt-3 max-w-prose">
+              <p>
+                To maintain the integrity of the record, every non-award implementation (community
+                and practitioner cases) must clear the same quantitative threshold before inclusion:
+              </p>
+              <ul>
+                <li>
+                  <strong>Production tenure:</strong> At least six months of continuous, live
+                  production operation in Singapore. Prototypes, hackathon demos, and unpaid trials
+                  are strictly excluded.
+                </li>
+                <li>
+                  <strong>Quantified business outcomes:</strong> At least one measured, verifiable
+                  operational metric. Paired before-and-after baselines (e.g. cycle time, error rate,
+                  labor hours) are required for full scoring.
+                </li>
+                <li>
+                  <strong>Named AI solution:</strong> A traceable product, proprietary engine, or
+                  commercial stack layer.
+                </li>
+                <li>
+                  <strong>Verification documentation:</strong> Direct submission of primary
+                  verification artifacts (system screenshots, workflow logs, architectural
+                  schematics, or customer sign-offs) under tier <code>T1-SUBMITTED</code>.
+                </li>
+                <li>
+                  <strong>Human-in-the-loop governance:</strong> Disclosed human oversight controls,
+                  approval mechanisms, and PDPA compliance considerations.
+                </li>
+              </ul>
+              <p>
+                <strong>The Direct Documentation Advantage:</strong> Because submitted companies
+                provide actual numbers and architecture diagrams rather than brief press citations,
+                community and practitioner cases can achieve 10/10 coverage scores that government
+                citations frequently redact.
+              </p>
+            </div>
+          </section>
+
+          <section id="coi" className="scroll-mt-20 border-t border-rule pt-8">
+            <h2 className="font-sans text-2xl">Conflict of interest &amp; practitioner disclosure policy</h2>
+            <div className="prose-editorial mt-3 max-w-prose">
+              <p>
+                Cases delivered by Ivan Wong or Maple Commerce carry an inherent conflict of
+                interest. To protect the credibility of the entire showcase, practitioner cases are
+                governed by four strict, non-negotiable rules:
+              </p>
+              <ol className="space-y-3">
+                <li>
+                  <strong>Mandatory three-point disclosure:</strong> Every practitioner case must
+                  display the verbatim statement on its directory card, page header, and source list:
+                  <em className="block border-l-2 border-purple-500 pl-3 my-2 text-purple-950 font-medium">
+                    &ldquo;Implementation delivered by Maple Commerce. This case is written by the
+                    implementer; the conflict of interest is disclosed.&rdquo;
+                  </em>
+                </li>
+                <li>
+                  <strong>Setting the documentation benchmark:</strong> While public award citations
+                  often omit vendors and model choices, practitioner cases must be the
+                  best-documented records on the site: publishing exact foundation models, orchestration
+                  frameworks, paired before-and-after metrics, and verified workflow diagrams.
+                </li>
+                <li>
+                  <strong>Written client consent &amp; honest grading:</strong> Client consent is
+                  secured prior to publication. Where confidentiality prevents naming the company, an
+                  anonymized archetype is published (e.g. &ldquo;A 14-staff Precision Engineering
+                  Distributor&rdquo;) and penalized 0.5 points on the identity dimension so the scoring
+                  remains mathematically honest.
+                </li>
+                <li>
+                  <strong>Conservative outcome attribution:</strong> Practitioner metrics remain
+                  strictly categorized as &ldquo;company-reported&rdquo;. Outcomes are never upgraded
+                  to &ldquo;independently verified&rdquo; merely because Maple Commerce engineered the
+                  build.
+                </li>
+              </ol>
+            </div>
           </section>
 
           <section id="inference" className="scroll-mt-20">

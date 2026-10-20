@@ -12,6 +12,7 @@ const NAV = [
   { href: '/compare', label: 'Compare' },
   { href: '/research-gaps', label: 'Research gaps' },
   { href: '/about', label: 'Methodology' },
+  { href: '/submit', label: 'Submit Case' },
 ];
 
 export function SiteHeader() {

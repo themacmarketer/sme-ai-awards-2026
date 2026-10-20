@@ -2,7 +2,9 @@ import { z } from 'zod';
 
 export const EvidenceStateSchema = z.enum(['stated', 'corroborated', 'inferred']);
 export const EvidenceGradeSchema = z.enum(['A', 'B', 'C']);
-export const TierSchema = z.enum(['T0', 'T1', 'T2', 'T3']);
+export const TierSchema = z.enum(['T0', 'T1', 'T1-SUBMITTED', 'T2', 'T3']);
+export const CohortSchema = z.enum(['award-2026', 'community', 'practitioner']);
+export const ProvenanceSchema = z.enum(['official-award', 'community-submission', 'maple-commerce']);
 
 export const SourceSchema = z.object({
   id: z.string().min(3),
@@ -83,6 +85,11 @@ export const WinnerSchema = z.object({
   name: z.string().min(2),
   sector: z.string().min(2),
   category: z.enum(['innovation', 'adoption']),
+  cohort: CohortSchema.optional(),
+  provenance: ProvenanceSchema.optional(),
+  disclosedImplementer: z.string().optional(),
+  conflictDisclosure: z.string().optional(),
+  clientConsent: z.enum(['full', 'anonymised']).optional(),
   companyUrl: z.string().url().optional(),
   headline: z.string().min(20),
   useCase: z.string().min(3),

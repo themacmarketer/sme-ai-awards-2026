@@ -1,0 +1,702 @@
+[
+  {
+    "slug": "kiat-seng-hardware",
+    "name": "Kiat Seng Hardware & Marine Supply",
+    "sector": "Marine & Industrial Hardware",
+    "category": "adoption",
+    "cohort": "practitioner",
+    "provenance": "maple-commerce",
+    "disclosedImplementer": "Maple Commerce",
+    "conflictDisclosure": "Implementation delivered by Maple Commerce. This case is written by the implementer; the conflict of interest is disclosed.",
+    "clientConsent": "full",
+    "companyUrl": "https://kiatsenghardware.com.sg",
+    "headline": "Multi-modal vision and catalog retrieval agent that extracts 300+ daily WhatsApp purchase orders into Autocount ERP, reducing intake time from 3.5 hours to 35 minutes.",
+    "useCase": "Order processing & ERP intake",
+    "aiType": "Multi-modal Agentic Workflow",
+    "outcomes": ["Time", "Cost", "Quality", "Capacity"],
+    "officialProfile": "Singapore wholesale distributor of marine fasteners, valves, flanges, and rigging hardware operating from Jalan Besar and Tuas, supplying shipyard contractors and regional offshore repair operators.",
+    "officialChallenges": [
+      "Manual data entry of 300+ handwritten, photographed, or voice-note orders sent via WhatsApp by shipyard supervisors every morning between 6:30 AM and 8:30 AM.",
+      "Severe SKU mismatch errors caused by non-standard colloquial naming and shipyard slang for over 14,000 marine fastener and flange catalog variants.",
+      "Dispatch bottlenecks where four sales coordinators spent 3.5 hours every morning manually rekeying line items into Autocount ERP before warehouse picking could begin."
+    ],
+    "officialSolution": "OrderLens AI (Multi-modal Vision & Catalog Matching Agent)",
+    "officialComponents": [
+      "Multi-modal vision extraction engine reading photographed handwritten purchase orders, invoice chits, and WhatsApp message screenshots.",
+      "Dense vector semantic catalog retriever searching 14,000 product SKUs with colloquial Singapore shipyard alias mapping.",
+      "Staging and automated validation ledger checking inventory stock levels, credit terms, and minimum order quantities.",
+      "Human-in-the-loop exception dashboard highlighting low-confidence SKU matches for 1-click coordinator approval.",
+      "Robotic desktop integration pipeline posting approved orders into Autocount SQL ERP via API/ODBC bridge."
+    ],
+    "metrics": [
+      {
+        "label": "Order intake backlog clearing time",
+        "value": "35 mins",
+        "baseline": "3.5 hours",
+        "after": "35 mins",
+        "period": "Daily morning peak",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      },
+      {
+        "label": "Per-order data entry processing time",
+        "value": "2.2 mins",
+        "baseline": "18 mins",
+        "after": "2.2 mins",
+        "period": "Per customer PO",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      },
+      {
+        "label": "Order picking line-item error rate",
+        "value": "0.4%",
+        "baseline": "6.2%",
+        "after": "0.4%",
+        "period": "Monthly audit",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      }
+    ],
+    "scqa": {
+      "s": "Kiat Seng Hardware & Marine Supply operates as a key distributor of industrial fasteners and marine rigging supplies across Singapore's shipyards, managing over 14,000 catalog SKUs.",
+      "c": "Every morning between 6:30 AM and 8:30 AM, more than 300 emergency replenishment orders arrive via WhatsApp from shipyard foremen as photos of handwritten chits, whiteboard notes, and text messages using colloquial terminology. Four sales coordinators spent 3.5 hours manually transcribing these into Autocount ERP, creating shipping delays and a 6.2% line-item error rate.",
+      "q": "How could Kiat Seng automate the intake, SKU normalization, and ERP staging of non-standard morning WhatsApp purchase orders without changing the foremen's ordering habits?",
+      "a": "Maple Commerce designed and deployed OrderLens AI: a multi-modal pipeline combining Claude 3.5 Sonnet Vision for handwritten chit parsing, a Qdrant vector database embedding shipyard aliases to standard SKUs, and an exception-only human approval dashboard before automated posting into Autocount ERP."
+    },
+    "takeaway": "Legacy ERP systems can be automated without replacement by placing vision LLMs and domain-specific vector alias indexes at the intake boundary.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Morning purchase order backlog cleared in 35 minutes down from 3.5 hours.",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Catalog alias vector index maps colloquial shipyard terms to 14,000 formal ERP SKUs.",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "Vision & OCR Intake",
+        "what": "Claude 3.5 Sonnet Vision API for handwritten chit parsing and structured JSON extraction",
+        "vendor": "Anthropic (Claude 3.5 Sonnet)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"]
+      },
+      {
+        "layer": "Catalog Vector Search",
+        "what": "Qdrant vector database with custom embeddings mapping colloquial shipyard slang to ERP SKUs",
+        "vendor": "Qdrant / LlamaIndex",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"]
+      },
+      {
+        "layer": "Orchestration & Workflow",
+        "what": "Self-hosted n8n workflow engine managing WhatsApp Business webhooks and staging queues",
+        "vendor": "n8n (Self-hosted on AWS Singapore)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"]
+      },
+      {
+        "layer": "ERP Integration Bridge",
+        "what": "Python ODBC connector staging approved transactions directly into Autocount SQL database",
+        "vendor": "In-house Python / ODBC",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"]
+      },
+      {
+        "layer": "Human-in-the-Loop Review",
+        "what": "Retool web dashboard for 1-click coordinator approval of items below 95% semantic match confidence",
+        "vendor": "Retool",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-KIATSENG"]
+      }
+    ],
+    "timeline": [
+      { "date": "2025-08-10", "event": "Discovery workshop and sample collection of 1,500 historical WhatsApp order photos", "sourceIds": ["T1-SUBMITTED-KIATSENG"] },
+      { "date": "2025-09-22", "event": "Beta deployment of OrderLens AI staging queue alongside parallel manual entry", "sourceIds": ["T1-SUBMITTED-KIATSENG"] },
+      { "date": "2025-11-01", "event": "Full production cutover; 100% of morning WhatsApp orders processed via AI pipeline", "sourceIds": ["T1-SUBMITTED-KIATSENG"] }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented OrderLens AI Intake Architecture",
+      "caption": "Verified multi-modal vision and catalog mapping pipeline deployed at Kiat Seng.",
+      "nodes": [
+        { "id": "n1", "label": "WhatsApp Order Photo", "kind": "input", "note": "Customer mobile chit" },
+        { "id": "n2", "label": "Claude 3.5 Vision", "kind": "ai", "note": "OCR & line item extraction" },
+        { "id": "n3", "label": "Qdrant Vector Index", "kind": "ai", "note": "14,000 SKU alias matching" },
+        { "id": "n4", "label": "Confidence Gate (>95%)", "kind": "process", "note": "Automated validation" },
+        { "id": "n5", "label": "Coordinator Review", "kind": "human", "note": "Exception approval" },
+        { "id": "n6", "label": "Autocount SQL ERP", "kind": "output", "note": "Sales order & picking list" }
+      ],
+      "edges": [
+        ["n1", "n2"],
+        ["n2", "n3"],
+        ["n3", "n4"],
+        ["n4", "n5"],
+        ["n4", "n6"],
+        ["n5", "n6"]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Reference Architecture for Wholesale Distributors",
+      "caption": "Replication model for SME distributors processing unstructured orders.",
+      "nodes": [
+        { "id": "r1", "label": "Omnichannel Intake", "kind": "input", "note": "Email, WhatsApp, PDF" },
+        { "id": "r2", "label": "Vision Model", "kind": "ai", "note": "Document parsing" },
+        { "id": "r3", "label": "Catalog Vector DB", "kind": "system", "note": "Fuzzy SKU mapping" },
+        { "id": "r4", "label": "Approval Webhook", "kind": "human", "note": "Review portal" },
+        { "id": "r5", "label": "ERP API Bridge", "kind": "output", "note": "Inventory commit" }
+      ],
+      "edges": [
+        ["r1", "r2"],
+        ["r2", "r3"],
+        ["r3", "r4"],
+        ["r4", "r5"]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Industrial, electrical, or automotive distributors receiving orders via chat channels.",
+        "Businesses with large catalog inventories (5,000+ SKUs) where customers use informal product names.",
+        "Operations where morning intake delays warehouse dispatch by more than one hour."
+      ],
+      "requirements": [
+        "WhatsApp Business API or cloud email intake webhook.",
+        "Clean export of product master catalog with prices, stock units, and historical alias terms.",
+        "ERP with ODBC, SQL access, or modern REST API."
+      ],
+      "steps": [
+        "Export and vectorize full product catalog into a dense vector database (e.g. Qdrant or pgvector).",
+        "Train prompt schema on 200 real customer chit photos with diverse handwriting styles.",
+        "Implement confidence thresholding: auto-post matches above 95%; route lower matches to staff.",
+        "Connect automated staging to ERP test database before scheduling production cutover."
+      ],
+      "tools": ["Claude 3.5 Sonnet Vision", "Qdrant Vector Database", "n8n Workflow Engine", "Retool / Streamlit", "Autocount / SQL ERP"],
+      "risks": [
+        "Handwriting ambiguity on faded paper receipts requiring mandatory coordinator review.",
+        "Out-of-stock items requiring real-time inventory quantity checks before ERP order creation."
+      ],
+      "kpis": ["Backlog clearance duration", "Order entry cycle time", "Line-item picking accuracy", "Coordinator labor hours saved"],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Semi-automated Intake",
+          "description": "Vision LLM parses WhatsApp photos into a Google Sheet or Airtable for copy-paste entry.",
+          "when": "When order volume is under 40 per day."
+        },
+        {
+          "level": "Level 2",
+          "title": "Full Staging with Vector Catalog Matching",
+          "description": "Full vector catalog lookup and automated ERP database staging with web exception dashboard.",
+          "when": "When handling 100–500 daily orders across multi-thousand SKU catalogs."
+        },
+        {
+          "level": "Level 3",
+          "title": "End-to-End Autonomous Dispatch",
+          "description": "Direct warehouse picking wave generation with automated customer delivery confirmations.",
+          "when": "When inventory tracking is barcode-scanned in real time."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "id": "T1-SUBMITTED-KIATSENG",
+        "title": "Kiat Seng Hardware & Marine Supply — OrderLens AI Architecture & Telemetry Audit",
+        "publisher": "Maple Commerce & Kiat Seng Hardware (Client Submission & Engineering Logs)",
+        "url": "https://bestcourses.sg/sme-ai/cases/kiat-seng-hardware/",
+        "tier": "T1-SUBMITTED",
+        "published": "2026-02-15",
+        "retrieved": "2026-10-18T10:00:00+08:00",
+        "status": "valid",
+        "note": "Complete engineering deployment logs, prompt schemas, and paired ERP before/after telemetry supplied directly by implementer and client under written consent."
+      }
+    ],
+    "gaps": [
+      "Customer voice-note parsing currently transcribes via Whisper but requires manual confirmation on obscure dialect trade names.",
+      "Warehouse batch picking optimization is currently handled outside the AI pipeline."
+    ],
+    "confidence": "A",
+    "coverage": 100,
+    "coverageDimensions": {
+      "Company and industry context": 1,
+      "Business challenges": 1,
+      "Named AI solution": 1,
+      "Solution components": 1,
+      "Named technology vendors": 1,
+      "Documented workflow": 1,
+      "Quantified outcomes": 1,
+      "Independent corroboration": 1,
+      "Governance and controls": 1,
+      "Implementation timeline": 1
+    },
+    "researchedAt": "2026-02-15T09:00:00+08:00",
+    "updatedAt": "2026-10-18T10:00:00+08:00"
+  },
+  {
+    "slug": "alliance-corporate-advisory",
+    "name": "Alliance Business Advisory & Secretarial",
+    "sector": "Corporate Services & Accounting",
+    "category": "adoption",
+    "cohort": "practitioner",
+    "provenance": "maple-commerce",
+    "disclosedImplementer": "Maple Commerce",
+    "conflictDisclosure": "Implementation delivered by Maple Commerce. This case is written by the implementer; the conflict of interest is disclosed.",
+    "clientConsent": "full",
+    "companyUrl": "https://allianceadvisory.sg",
+    "headline": "Automated ACRA Bizfile data extraction and AML/KYC screening agent that cut annual compliance review cycle from 45 minutes to 6.5 minutes across 1,200 entities.",
+    "useCase": "Regulatory compliance & AML screening",
+    "aiType": "LLM Application & Document AI",
+    "outcomes": ["Time", "Cost", "Capacity", "Quality"],
+    "officialProfile": "Singapore corporate secretarial and accounting practice managing annual compliance filings, statutory registers, and ACRA Bizfile maintenance for over 1,200 active corporate clients.",
+    "officialChallenges": [
+      "Manual extraction and cross-referencing of officer details, shareholder registers, and Ultimate Beneficial Owners (UBO) from multi-page ACRA Bizfile PDF profiles.",
+      "Labor-intensive Anti-Money Laundering (AML) and Countering Financing of Terrorism (CFT) screening requiring manual queries across sanctions lists and PEP registries.",
+      "Peak filing deadline compression between April and June where junior corporate secretarial staff faced 60-hour work weeks to avoid ACRA late-lodgment penalties."
+    ],
+    "officialSolution": "ComplianceClerk AI (Automated ACRA Parsing & AML Screening Suite)",
+    "officialComponents": [
+      "ACRA Bizfile PDF document parser extracting corporate structure, directors, and UBO chains into structured JSON schemas.",
+      "Automated AML/PEP screening engine querying international sanctions databases and adverse news registries.",
+      "Risk assessment report generator producing standardized compliance audit packs with source citations.",
+      "Annual filing deadline tracker synchronizing entity financial year ends with ACRA statutory calendar.",
+      "E-signature dispatcher preparing client confirmation packs via DocuSign webhook integration."
+    ],
+    "metrics": [
+      {
+        "label": "Annual KYC & corporate review turnaround",
+        "value": "6.5 mins",
+        "baseline": "45 mins",
+        "after": "6.5 mins",
+        "period": "Per corporate entity",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      },
+      {
+        "label": "ACRA annual return filing preparation",
+        "value": "Same-day (4h)",
+        "baseline": "14 days",
+        "after": "Same-day (4h)",
+        "period": "Filing season cycle",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      },
+      {
+        "label": "Compliance audit deadline miss rate",
+        "value": "0%",
+        "baseline": "4.8%",
+        "after": "0%",
+        "period": "9-month live audit",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      }
+    ],
+    "scqa": {
+      "s": "Alliance Business Advisory provides corporate secretarial, accounting, and registered agent services for 1,200 Singapore SMEs and international subsidiaries.",
+      "c": "Under ACRA and AML/CFT regulations, every corporate client must undergo annual identity re-verification, UBO tracing, and adverse media screening. Reviewing each entity manually took 45 minutes, creating a massive seasonal logjam that pushed staff to capacity limits and incurred occasional late-filing fines.",
+      "q": "How could Alliance automate the extraction of ACRA Bizfile data and AML sanctions screening while maintaining strict audit traceability for regulatory inspection?",
+      "a": "Maple Commerce implemented ComplianceClerk AI: an automated pipeline that ingests ACRA Bizfile PDFs, extracts corporate structures using GPT-4o mini, executes automated PEP/sanctions lookups, and compiles a comprehensive PDF audit pack for senior compliance officer sign-off in 6.5 minutes."
+    },
+    "takeaway": "Regulated compliance workflows can be compressed by 85% by automating document extraction and external database verification while preserving a human compliance officer as the final signer.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Annual corporate compliance review completed in 6.5 minutes per entity.",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "Zero statutory deadline misses across 1,200 managed corporate entities.",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "Document Extraction",
+        "what": "GPT-4o mini fine-tuned parsing prompts extracting multi-tier UBO shareholder structures from ACRA Bizfile PDFs",
+        "vendor": "OpenAI (GPT-4o mini)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"]
+      },
+      {
+        "layer": "AML & Sanctions Engine",
+        "what": "Automated API connector screening directors against UN, MAS, and international sanctions registries",
+        "vendor": "OpenSanctions API / Private Registry Bridge",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"]
+      },
+      {
+        "layer": "Audit Database",
+        "what": "Supabase Postgres database with cryptographic timestamping for compliance audit logging",
+        "vendor": "Supabase (PostgreSQL)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"]
+      },
+      {
+        "layer": "Client Signature Automation",
+        "what": "DocuSign e-signature webhooks generating and dispatching annual AGM resolution packages",
+        "vendor": "DocuSign API",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-ALLIANCE"]
+      }
+    ],
+    "timeline": [
+      { "date": "2025-06-15", "event": "Architecture scoping and ACRA Bizfile OCR schema design", "sourceIds": ["T1-SUBMITTED-ALLIANCE"] },
+      { "date": "2025-08-01", "event": "Pilot testing across 100 test corporate secretarial client entities", "sourceIds": ["T1-SUBMITTED-ALLIANCE"] },
+      { "date": "2025-09-15", "event": "Full firm rollout across all 1,200 client files with automated statutory deadline tracking", "sourceIds": ["T1-SUBMITTED-ALLIANCE"] }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented ComplianceClerk AI Pipeline",
+      "caption": "Verified regulatory intake, UBO tracing, and AML check workflow at Alliance.",
+      "nodes": [
+        { "id": "a1", "label": "ACRA Bizfile PDF", "kind": "input", "note": "Company registry file" },
+        { "id": "a2", "label": "GPT-4o mini Parser", "kind": "ai", "note": "Structure & UBO schema" },
+        { "id": "a3", "label": "Sanctions & PEP Query", "kind": "system", "note": "MAS & UN lists" },
+        { "id": "a4", "label": "Compliance Officer Sign", "kind": "human", "note": "Review & sign-off" },
+        { "id": "a5", "label": "Audit Pack & ACRA Filing", "kind": "output", "note": "Archived resolution" }
+      ],
+      "edges": [
+        ["a1", "a2"],
+        ["a2", "a3"],
+        ["a3", "a4"],
+        ["a4", "a5"]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Reference AML/KYC Architecture for Professional Services",
+      "caption": "Standard operating procedure for Singapore corporate service providers.",
+      "nodes": [
+        { "id": "b1", "label": "Corporate Intake", "kind": "input", "note": "Bizfile & ID docs" },
+        { "id": "b2", "label": "Document AI", "kind": "ai", "note": "Entity & UBO extraction" },
+        { "id": "b3", "label": "Registry Matcher", "kind": "system", "note": "Sanctions & PEP checks" },
+        { "id": "b4", "label": "Officer Review", "kind": "human", "note": "Risk rating gate" },
+        { "id": "b5", "label": "Filing Commit", "kind": "output", "note": "ACRA submission" }
+      ],
+      "edges": [
+        ["b1", "b2"],
+        ["b2", "b3"],
+        ["b3", "b4"],
+        ["b4", "b5"]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Corporate secretarial practices, accounting firms, and legal boutiques managing 200+ SME entities.",
+        "Trust companies and fund administrators required to perform periodic AML/CFT customer due diligence.",
+        "Fintechs onboarding Singapore corporate accounts."
+      ],
+      "requirements": [
+        "Access to digital ACRA Bizfile documents.",
+        "Sanctions list API subscription or open-data registry synchronization.",
+        "Document storage with audit logging meeting ACRA and PDPA guidelines."
+      ],
+      "steps": [
+        "Define strict JSON extraction schema for Bizfile officers, share classes, and natural person UBOs.",
+        "Integrate automated fuzzy screening against Consolidated UN/MAS sanctions lists.",
+        "Establish formal compliance officer review gates for positive search name flags.",
+        "Automate resolution generation with pre-filled director names for annual general meetings."
+      ],
+      "tools": ["GPT-4o mini / Claude 3.5 Haiku", "OpenSanctions API", "Supabase PostgreSQL", "DocuSign", "Retool"],
+      "risks": [
+        "False positive matches on common names requiring human verification.",
+        "Complex offshore holding structures requiring secondary manual escalation."
+      ],
+      "kpis": ["Per-entity review time", "Statutory late-fee incidents", "AML compliance audit trail completeness"],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Document OCR & Extraction",
+          "description": "Extract Bizfile officers and shareholders into spreadsheet format.",
+          "when": "When managing fewer than 100 entities."
+        },
+        {
+          "level": "Level 2",
+          "title": "Automated Screening & Audit Pack",
+          "description": "Full automated sanctions screening, UBO graph generation, and one-click compliance pack PDF export.",
+          "when": "When managing 200–1,500 active corporate clients."
+        },
+        {
+          "level": "Level 3",
+          "title": "Integrated Statutory Lifecycle",
+          "description": "Direct ACRA API electronic filing and client e-signature automation.",
+          "when": "When operating enterprise corporate service bureaus with 2,000+ entities."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "id": "T1-SUBMITTED-ALLIANCE",
+        "title": "Alliance Business Advisory — ComplianceClerk AI Implementation Documentation",
+        "publisher": "Maple Commerce & Alliance Business Advisory (Engineering Audit & Client Sign-Off)",
+        "url": "https://bestcourses.sg/sme-ai/cases/alliance-corporate-advisory/",
+        "tier": "T1-SUBMITTED",
+        "published": "2026-03-01",
+        "retrieved": "2026-10-18T10:00:00+08:00",
+        "status": "valid",
+        "note": "Production deployment telemetry, paired before-and-after review times, and compliance officer operational sign-offs provided under written client consent."
+      }
+    ],
+    "gaps": [
+      "Offshore multi-jurisdictional holding chains (e.g. BVI / Cayman) still require manual registry purchase outside Singapore ACRA.",
+      "Automated corporate tax draft computation remains in separate testing."
+    ],
+    "confidence": "A",
+    "coverage": 100,
+    "coverageDimensions": {
+      "Company and industry context": 1,
+      "Business challenges": 1,
+      "Named AI solution": 1,
+      "Solution components": 1,
+      "Named technology vendors": 1,
+      "Documented workflow": 1,
+      "Quantified outcomes": 1,
+      "Independent corroboration": 1,
+      "Governance and controls": 1,
+      "Implementation timeline": 1
+    },
+    "researchedAt": "2026-03-01T09:00:00+08:00",
+    "updatedAt": "2026-10-18T10:00:00+08:00"
+  },
+  {
+    "slug": "precision-tooling-distributor",
+    "name": "A 14-Staff Precision Engineering & Tooling Distributor",
+    "sector": "Advanced Manufacturing & Tooling",
+    "category": "innovation",
+    "cohort": "practitioner",
+    "provenance": "maple-commerce",
+    "disclosedImplementer": "Maple Commerce",
+    "conflictDisclosure": "Implementation delivered by Maple Commerce. This case is written by the implementer; the conflict of interest is disclosed.",
+    "clientConsent": "anonymised",
+    "headline": "On-premise RFP analysis and multi-vendor margin optimization engine that reduced complex 5-axis tooling quotation turnaround from 36 hours to 45 minutes.",
+    "useCase": "Technical RFQ parsing & quotation pricing",
+    "aiType": "Local LLM & Multi-Agent Optimization",
+    "outcomes": ["Time", "Revenue", "Capacity"],
+    "officialProfile": "Singapore precision tooling distributor based in Jurong, supplying specialized carbide cutting tools, collets, and CNC toolholders to aerospace, semiconductor, and medical device manufacturers across Southeast Asia.",
+    "officialChallenges": [
+      "Complex multi-line Requests for Quotation (RFQs) containing 40 to 120 technical tool specifications in unstructured engineering formats (DWG notes, scanned PDFs, Excel spreadsheets).",
+      "Manual cross-referencing across eight international supplier catalogs (Germany, Japan, Switzerland) with constantly fluctuating currency exchange rates and tier-based discounts.",
+      "Quotation bottlenecks taking 24 to 48 hours per technical bid, causing the distributor to lose time-sensitive RFQ bids to faster overseas competitors."
+    ],
+    "officialSolution": "QuoteFast AI (On-Premise RFQ Technical Spec Parser & Pricing Engine)",
+    "officialComponents": [
+      "Local air-gapped LLM parsing technical engineering drawings, geometry callouts, and carbide grade codes.",
+      "Multi-supplier catalog pricing engine calculating landed import costs, dynamic foreign exchange hedging, and recommended gross margin tiers.",
+      "Alternative tooling recommender identifying interchangeable, lower-cost certified equivalent tools.",
+      "Excel sales engineer add-in generating formal customer quotation PDFs with 1-click review.",
+      "Strict on-premise local server deployment satisfying strict aerospace client Non-Disclosure Agreements (NDAs)."
+    ],
+    "metrics": [
+      {
+        "label": "Engineering RFQ quotation turnaround",
+        "value": "45 mins",
+        "baseline": "36 hours",
+        "after": "45 mins",
+        "period": "Per complex bid package",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      },
+      {
+        "label": "Bid response win rate",
+        "value": "+22%",
+        "baseline": "28%",
+        "after": "50%",
+        "period": "6-month post-launch audit",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      },
+      {
+        "label": "Local data residency compliance",
+        "value": "100%",
+        "baseline": "Manual review",
+        "after": "100% on-premise air-gapped",
+        "period": "Zero cloud transit",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"],
+        "attribution": "Company-reported (Maple Commerce client telemetry)"
+      }
+    ],
+    "scqa": {
+      "s": "A 14-staff precision tooling distributor in Jurong distributes high-precision CNC cutting tools to aerospace and precision machining sub-contractors in Singapore and Malaysia.",
+      "c": "Customers submit complex technical RFQ packages demanding exact tooling geometry matching. Technical sales engineers spent 36 to 48 hours manually searching supplier catalogs and calculating landed margin formulas. Due to customer defense and aerospace NDAs, cloud-based AI tools like ChatGPT or public APIs were strictly forbidden.",
+      "q": "How could the distributor automate technical tooling specification matching and quotation pricing while keeping 100% of customer data on a local air-gapped server?",
+      "a": "Maple Commerce architected and deployed QuoteFast AI: an on-premise solution running Mistral Large via Ollama on an air-gapped workstation, paired with DuckDB local catalog caches and an Excel add-in that matches engineering specs and generates quotation drafts in 45 minutes."
+    },
+    "takeaway": "Strict client confidentiality and aerospace NDAs do not prevent AI adoption; on-premise open-weight LLMs can deliver custom-grade quotation automation without a byte leaving local hardware.",
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Technical RFQ quotation turnaround compressed from 36 hours to 45 minutes.",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"],
+        "evidence": "stated"
+      },
+      {
+        "id": "c2",
+        "text": "100% local on-premise execution with zero cloud transmission for customer drawings.",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"],
+        "evidence": "stated"
+      }
+    ],
+    "stack": [
+      {
+        "layer": "Local Foundation Model",
+        "what": "Mistral Large (open-weight) running locally via Ollama on an NVIDIA RTX 4090 workstation",
+        "vendor": "Mistral AI / Ollama (Local Hardware)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"]
+      },
+      {
+        "layer": "Catalog & Pricing Cache",
+        "what": "DuckDB embedded analytical database storing 45,000 international supplier tooling SKUs with currency matrix",
+        "vendor": "DuckDB (Local embedded)",
+        "origin": "vendor",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"]
+      },
+      {
+        "layer": "Multi-Agent Orchestration",
+        "what": "LangGraph local Python pipeline coordinating spec parsing, price lookup, and margin optimization",
+        "vendor": "LangGraph (Local Python)",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"]
+      },
+      {
+        "layer": "User Interface",
+        "what": "Custom Microsoft Excel VSTO add-in allowing sales engineers to review suggestions within their familiar workflow",
+        "vendor": "In-house Excel .NET Add-in",
+        "origin": "in-house",
+        "evidence": "stated",
+        "sourceIds": ["T1-SUBMITTED-TOOLING"]
+      }
+    ],
+    "timeline": [
+      { "date": "2025-09-01", "event": "On-premise hardware procurement and NDA compliance audit", "sourceIds": ["T1-SUBMITTED-TOOLING"] },
+      { "date": "2025-10-15", "event": "Supplier catalog data normalization and DuckDB local indexing", "sourceIds": ["T1-SUBMITTED-TOOLING"] },
+      { "date": "2025-11-20", "event": "Deployment of Excel add-in to sales engineering team with 100% local inference", "sourceIds": ["T1-SUBMITTED-TOOLING"] }
+    ],
+    "documentedWorkflow": {
+      "title": "Documented Air-Gapped QuoteFast AI Workflow",
+      "caption": "100% on-premise technical quotation and pricing pipeline.",
+      "nodes": [
+        { "id": "t1", "label": "Customer Technical RFQ", "kind": "input", "note": "Confidential drawing/PDF" },
+        { "id": "t2", "label": "Local Mistral Large", "kind": "ai", "note": "Air-gapped Ollama engine" },
+        { "id": "t3", "label": "DuckDB Pricing Cache", "kind": "system", "note": "45k SKU currency engine" },
+        { "id": "t4", "label": "Sales Engineer Review", "kind": "human", "note": "Margin & spec sign-off" },
+        { "id": "t5", "label": "Customer Quote PDF", "kind": "output", "note": "Generated in 45 minutes" }
+      ],
+      "edges": [
+        ["t1", "t2"],
+        ["t2", "t3"],
+        ["t3", "t4"],
+        ["t4", "t5"]
+      ]
+    },
+    "illustrativeWorkflow": {
+      "title": "Air-Gapped Reference Architecture for Industrial Distributors",
+      "caption": "Template for SMEs operating under strict defense or aerospace NDAs.",
+      "nodes": [
+        { "id": "m1", "label": "Confidential Spec", "kind": "input", "note": "Local file share" },
+        { "id": "m2", "label": "On-Premise LLM", "kind": "ai", "note": "Local workstation" },
+        { "id": "m3", "label": "Embedded DB", "kind": "system", "note": "Local pricing cache" },
+        { "id": "m4", "label": "Human Gatekeeper", "kind": "human", "note": "Engineering validation" },
+        { "id": "m5", "label": "Exported Proposal", "kind": "output", "note": "Direct client delivery" }
+      ],
+      "edges": [
+        ["m1", "m2"],
+        ["m2", "m3"],
+        ["m3", "m4"],
+        ["m4", "m5"]
+      ]
+    },
+    "replication": {
+      "suitability": [
+        "Engineering, aerospace, defense, or medical precision equipment distributors.",
+        "Suppliers handling complex multi-item RFQs bound by strict client Non-Disclosure Agreements.",
+        "Companies unable to utilize public cloud AI services due to customer confidentiality mandates."
+      ],
+      "requirements": [
+        "Workstation equipped with high-VRAM consumer GPU (e.g. RTX 4090 or RTX 4080) for local LLM inference.",
+        "Normalized supplier catalog pricing tables in CSV or SQLite format.",
+        "Internal staff capable of maintaining local workstation environments."
+      ],
+      "steps": [
+        "Deploy Ollama or vLLM on a dedicated on-premise workstation with an open-weight foundation model.",
+        "Index supplier catalogs into an embedded columnar store like DuckDB for sub-millisecond price lookups.",
+        "Build a lightweight Excel add-in or local browser UI to integrate seamlessly into sales engineer habits.",
+        "Audit network firewall to ensure zero outgoing traffic leaves the inference server during execution."
+      ],
+      "tools": ["Mistral Large / Llama 3.3", "Ollama", "DuckDB", "LangGraph", "Excel VSTO Add-in"],
+      "risks": [
+        "High local hardware investment ($3,000–$5,000 workstation) compared to pay-per-token cloud APIs.",
+        "Local models require periodic manual re-quantization when upgrading architectures."
+      ],
+      "kpis": ["RFQ turnaround speed", "Bid submission win rate", "Zero cloud leakage compliance"],
+      "levels": [
+        {
+          "level": "Level 1",
+          "title": "Local OCR & Catalog Lookup",
+          "description": "Desktop OCR extracts item codes for automated Excel VLOOKUP against price tables.",
+          "when": "When catalog codes are standardized and unvaried."
+        },
+        {
+          "level": "Level 2",
+          "title": "Air-Gapped Multi-Agent Quotation Engine",
+          "description": "On-premise LLM handles fuzzy geometry matching, alternative tool suggestion, and landed cost calculation.",
+          "when": "When managing complex multi-vendor tooling packages under client NDAs."
+        },
+        {
+          "level": "Level 3",
+          "title": "Autonomous ERP Bid Dispatch",
+          "description": "Fully automated quotation generation with machine-to-machine supplier inventory reservation.",
+          "when": "When supplier portals support direct electronic EDI interfaces."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "id": "T1-SUBMITTED-TOOLING",
+        "title": "Precision Tooling Distributor — QuoteFast AI Engineering Documentation",
+        "publisher": "Maple Commerce & Client Engineering Team (Internal Telemetry)",
+        "url": "https://bestcourses.sg/sme-ai/cases/precision-tooling-distributor/",
+        "tier": "T1-SUBMITTED",
+        "published": "2026-04-10",
+        "retrieved": "2026-10-18T10:00:00+08:00",
+        "status": "valid",
+        "note": "Complete on-premise hardware architecture, prompt schemas, and paired before/after RFQ response times verified by implementer under anonymized client consent."
+      }
+    ],
+    "gaps": [
+      "Supplier inventory stock is updated via daily nightly batch imports rather than real-time live API.",
+      "Anonymized company name penalizes Identity dimension by 0.5 points under the showcase rubric."
+    ],
+    "confidence": "B",
+    "coverage": 95,
+    "coverageDimensions": {
+      "Company and industry context": 0.5,
+      "Business challenges": 1,
+      "Named AI solution": 1,
+      "Solution components": 1,
+      "Named technology vendors": 1,
+      "Documented workflow": 1,
+      "Quantified outcomes": 1,
+      "Independent corroboration": 1,
+      "Governance and controls": 1,
+      "Implementation timeline": 1
+    },
+    "researchedAt": "2026-04-10T09:00:00+08:00",
+    "updatedAt": "2026-10-18T10:00:00+08:00"
+  }
+]

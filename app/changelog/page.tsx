@@ -24,6 +24,40 @@ interface ChangelogEntry {
 const CHANGELOG: ChangelogEntry[] = [
   {
     date: '2026-10-20',
+    version: '1.3.0',
+    title: 'Library Expansion: Cohort Architecture, Practitioner Cases & Intake Self-Audit',
+    summary:
+      'Expanded showcase from the sealed 30-winner awards cohort into a multi-cohort library evaluated under the exact same 10-dimension evidence rubric. Published formal inclusion criteria, conflict-of-interest policy, 3 exemplar Maple Commerce practitioner cases, and an interactive 10-dimension intake pipeline.',
+    changes: [
+      {
+        type: 'feature',
+        text: 'Introduced cohort taxonomy: Award Cohort 2026 (sealed 30), Practitioner Cases (Maple Commerce), and Community Cases with dedicated badge styling.',
+        target: '/about#cohorts',
+      },
+      {
+        type: 'feature',
+        text: 'Published formal Methodology additions: 5-point inclusion bar, T1-SUBMITTED primary telemetry tier, and 4-point Conflict of Interest policy for implementer cases.',
+        target: '/about#inclusion',
+      },
+      {
+        type: 'data',
+        text: 'Published 3 exemplar Maple Commerce practitioner cases with full architectural blueprints, model choices, paired before/after baselines, and explicit conflict disclosures.',
+        target: '/#directory',
+      },
+      {
+        type: 'feature',
+        text: 'Launched interactive 10-dimension self-audit and case study submission intake form at /sme-ai/submit/.',
+        target: '/submit',
+      },
+      {
+        type: 'data',
+        text: 'Updated open CSV and JSON datasets with cohort, provenance, and disclosed implementer metadata.',
+        target: '/data',
+      },
+    ],
+  },
+  {
+    date: '2026-10-20',
     version: '1.2.0',
     title: 'Public Open Dataset, Press Assets, and Rigor Enhancements',
     summary:
