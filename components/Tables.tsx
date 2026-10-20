@@ -1,5 +1,5 @@
 import type { Winner } from '@/lib/types';
-import { EvidenceChip } from './Evidence';
+import { EvidenceChip, JARGON_TOOLTIPS } from './Evidence';
 
 export function MetricsTable({ w }: { w: Winner }) {
   const hasSplit = w.metrics.some((m) => m.baseline || m.after);
@@ -89,7 +89,12 @@ export function StackTable({ w }: { w: Winner }) {
               <td><EvidenceChip state={s.evidence} /></td>
               <td className="text-xs text-muted">
                 {s.sourceIds.map((id) => (
-                  <a key={id} href={`#src-${id}`} className="link-underline mr-1.5 whitespace-nowrap">
+                  <a
+                    key={id}
+                    href={`#src-${id}`}
+                    title={id.includes('T0') ? JARGON_TOOLTIPS.statedT0 : `Source citation: ${id}`}
+                    className="link-underline mr-1.5 whitespace-nowrap cursor-help"
+                  >
                     {id}
                   </a>
                 ))}

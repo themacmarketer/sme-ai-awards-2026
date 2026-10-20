@@ -8,6 +8,7 @@ import {
 } from '@/components/InsightsCharts';
 import { winners, meta, facetCounts, outcomeCounts, gradeCounts, SITE } from '@/lib/data';
 import { SectorUseCaseMatrix } from '@/components/Matrix';
+import { ResearchEmailCapture } from '@/components/ResearchEmailCapture';
 
 export const metadata: Metadata = {
   title: 'Insights — patterns across 30 AI implementations',
@@ -317,6 +318,8 @@ export default function InsightsPage() {
             </p>
           </div>
         </section>
+
+        <ResearchEmailCapture />
 
         <div className="mt-10 flex flex-wrap gap-3">
           <Link

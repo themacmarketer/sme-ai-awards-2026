@@ -75,7 +75,7 @@ export function Directory({ winners }: { winners: Winner[] }) {
   return (
     <div>
       <div className="border border-rule bg-white/60 p-4 sm:p-5">
-        <div className="grid gap-3 md:grid-cols-[2fr_1fr_1fr_1fr]">
+        <div className="grid gap-4 md:grid-cols-[2fr_1fr_1fr_1fr]">
           <div>
             <label htmlFor="search" className="eyebrow block">
               Search

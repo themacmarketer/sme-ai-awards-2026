@@ -1,31 +1,48 @@
 import type { EvidenceGrade, EvidenceState } from '@/lib/types';
 
 const GRADE_STYLE: Record<EvidenceGrade, { ring: string; bg: string; text: string }> = {
-  A: { ring: 'border-blue/40', bg: 'bg-blue-soft', text: 'text-emerald-700' },
-  B: { ring: 'border-blue/30', bg: 'bg-blue-soft', text: 'text-blue' },
-  C: { ring: 'border-amber/40', bg: 'bg-amber-soft', text: 'text-amber-700' },
+  A: { ring: 'border-emerald-300', bg: 'bg-emerald-50', text: 'text-emerald-900' },
+  B: { ring: 'border-blue-300', bg: 'bg-blue-50', text: 'text-blue-900' },
+  C: { ring: 'border-amber-400', bg: 'bg-amber-100', text: 'text-amber-950 font-semibold' },
 };
 
-const GRADE_MEANING: Record<EvidenceGrade, string> = {
+const GRADE_STYLE_DARK: Record<EvidenceGrade, { ring: string; bg: string; text: string }> = {
+  A: { ring: 'border-emerald-400/60', bg: 'bg-emerald-950/90', text: 'text-emerald-200 font-medium' },
+  B: { ring: 'border-blue-400/60', bg: 'bg-blue-950/90', text: 'text-blue-200 font-medium' },
+  C: { ring: 'border-amber-400/60', bg: 'bg-amber-950/90', text: 'text-amber-200 font-medium' },
+};
+
+export const GRADE_MEANING: Record<EvidenceGrade, string> = {
   A: 'Independently supported',
   B: 'Canonical source supported',
   C: 'Limited public evidence',
 };
 
+export const JARGON_TOOLTIPS = {
+  A: 'Grade A (Independently supported): Corroborated by independent third-party sources (e.g. mainstream news, government records, or vendor whitepapers) outside the award citation.',
+  B: 'Grade B (Canonical source supported): Established directly by the official IMDA & SBF award citation and company profiles, with no secondary external corroboration.',
+  C: 'Grade C (Limited public evidence): Minimal public documentation or technical architecture is currently verifiable in public records.',
+  T0: 'T0 (Canonical Source): Primary official citation published directly by IMDA and SBF on smesgodigital.gov.sg.',
+  beyondT0: 'Beyond T0: Corroborating third-party evidence from external media, client case studies, or regulatory filings outside the award ceremony.',
+  statedT0: 'Stated (T0-AWARDS): Outcome or architecture factually stated within the official IMDA/SBF award citation record.',
+};
+
 export function GradeBadge({
   grade,
   size = 'sm',
+  onDark = false,
 }: {
   grade: EvidenceGrade;
   size?: 'sm' | 'lg';
+  onDark?: boolean;
 }) {
-  const s = GRADE_STYLE[grade];
+  const s = onDark ? GRADE_STYLE_DARK[grade] : GRADE_STYLE[grade];
   return (
     <span
       className={`inline-flex items-baseline gap-1.5 rounded-md border ${s.ring} ${s.bg} ${s.text} ${
         size === 'lg' ? 'px-2.5 py-1' : 'px-2 py-0.5'
       }`}
-      title={`Evidence ${GRADE_MEANING[grade]}. A grade measures available evidence, not the quality of the implementation.`}
+      title={JARGON_TOOLTIPS[grade]}
     >
       <span className={`text-xs font-bold ${size === 'lg' ? 'text-sm' : ''}`}>
         {grade}
@@ -49,10 +66,17 @@ const EVIDENCE_LABEL: Record<EvidenceState, string> = {
   inferred: 'Inferred',
 };
 
+const EVIDENCE_TOOLTIP: Record<EvidenceState, string> = {
+  stated: JARGON_TOOLTIPS.statedT0,
+  corroborated: 'Corroborated: Validated by two or more independent public sources or third-party reports.',
+  inferred: 'Inferred: Plausible technical mechanism derived from described workflow with a documented basis.',
+};
+
 export function EvidenceChip({ state }: { state: EvidenceState }) {
   return (
     <span
-      className={`inline-block whitespace-nowrap rounded-full border px-2 py-0.5 text-xs font-medium ${EVIDENCE_STYLE[state]}`}
+      className={`inline-block whitespace-nowrap rounded-full border px-2 py-0.5 text-xs font-medium cursor-help ${EVIDENCE_STYLE[state]}`}
+      title={EVIDENCE_TOOLTIP[state]}
     >
       {EVIDENCE_LABEL[state]}
     </span>

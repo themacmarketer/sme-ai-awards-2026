@@ -1,0 +1,80 @@
+# SME AI Impact Showcase — Singapore 2026
+> Independent, evidence-graded case study library and open dataset covering the 30 winners of the inaugural Singapore SME AI Impact Awards 2026, organised by the Infocomm Media Development Authority (IMDA) and Singapore Business Federation (SBF). Researched and maintained by Ivan Wong at BestCourses.sg.
+
+## Overview
+- **Awards Scope**: Inaugural national awards announced at SMEs Go Digital Day on 13 October 2026, selected from 290 nominations across 21 industry sectors.
+- **Winners**: 30 distinct Singapore SMEs: 15 in Innovation Excellence (developed proprietary AI) and 15 in Adoption Excellence (implemented commercial ready-to-use AI tools).
+- **Benchmark Context**: In 2025, national Singapore SME AI adoption surged to 23.4% (up from 14.5% in 2024), with 87.6% reporting productivity benefits and 44% reporting cost reduction (IMDA Singapore Digital Economy Report 2025).
+- **Researcher & Attribution**: Researched and curated by Ivan Wong (Founder, BestCourses.sg; former Google Partners Trainer). This is an independent research project not affiliated with or endorsed by IMDA, SBF, or any winning company.
+
+## Methodology & Evidence Rigor
+Every case study evaluates public claims against an evidentiary hierarchy:
+- **T0 (Canonical Source)**: Official IMDA and SBF award citations published on `https://smesgodigital.gov.sg/web/sme-ai-awards`.
+- **T1 (Direct Primary Sources)**: Corporate newsrooms, government publications, and verified company portals.
+- **T2 (Implementation Partners)**: Disclosed software vendors and solution providers.
+- **T3 (Independent External Corroboration)**: Mainstream press (e.g. The Straits Times, Business Times), trade journals, and third-party audits.
+
+### Evidence Grades
+- **Grade A (Independently Supported)**: Claims corroborated by at least one independent third-party source outside the winning company and citation.
+- **Grade B (Canonical Source Supported)**: Verified and grounded strictly in the official IMDA/SBF award citation and direct corporate records.
+- **Grade C (Limited Public Evidence)**: Thin public record where architectural details remain proprietary or undisclosed.
+
+### Research Coverage Scoring
+Scored 0–100% across 10 evaluation dimensions: Company Profile, Business Challenges, Named AI Solution, Solution Components, Named Vendors, Documented Workflow, Quantified Outcomes, Independent Corroboration, Governance Controls, and Implementation Timeline. Average coverage across the set is 94%.
+
+## Key Dataset Findings
+1. **The Vendor Transparency Gap**: 60% of award-winning SMEs (18 of 30) do not publicly disclose their underlying software vendors or LLM models, focusing communication on business outcomes rather than tooling.
+2. **Back-Office Queue Handling Beats Chatbots**: 63.3% of winners (19 of 30) deployed AI for unstructured document parsing, order processing, and queue automation. Customer-facing conversational bots represented under 7% of winners.
+3. **Off-the-Shelf Adoption Parity**: The 15 Adoption Excellence winners achieved comparable or superior efficiency gains (40% to 85% cycle time reduction) using COTS SaaS tools compared to custom proprietary builds.
+4. **Time is the Universal Metric**: 93.3% of winners (28 of 30) published time saved as their primary operational metric.
+
+## Primary URLs & Data Downloads
+- Canonical Website: https://bestcourses.sg/sme-ai/
+- Open Dataset (CSV & JSON): https://bestcourses.sg/sme-ai/data/
+- CSV Direct Download: https://bestcourses.sg/sme-ai/data/sme-ai-winners-2026.csv
+- JSON Direct Download: https://bestcourses.sg/sme-ai/data/sme-ai-winners-2026.json
+- Insights & Aggregate Charts: https://bestcourses.sg/sme-ai/insights/
+- Interactive Comparison Tool: https://bestcourses.sg/sme-ai/compare/
+- Press & Media Pack: https://bestcourses.sg/sme-ai/press/
+- Research Methodology & Independence: https://bestcourses.sg/sme-ai/about/
+- Changelog & Audit Log: https://bestcourses.sg/sme-ai/changelog/
+- Embeddable Winner Badges: https://bestcourses.sg/sme-ai/badge/
+
+## 30 Winner Case Studies Directory
+### Innovation Excellence Winners (15)
+1. Accountingbpo (Business Services) — https://bestcourses.sg/sme-ai/winners/accountingbpo/
+2. Aegis Building & Engineering (Built Environment) — https://bestcourses.sg/sme-ai/winners/aegis-building/
+3. Blue Aqua International (Agriculture & Aquaculture) — https://bestcourses.sg/sme-ai/winners/blue-aqua-international/
+4. Catalyst (Financial Services) — https://bestcourses.sg/sme-ai/winners/catalyst/
+5. CBM (Facilities Management) — https://bestcourses.sg/sme-ai/winners/cbm/
+6. Cellresearch Corporation (Healthcare & Biotech) — https://bestcourses.sg/sme-ai/winners/cellresearch-corporation/
+7. Foreword Coffee (Food & Beverage) — https://bestcourses.sg/sme-ai/winners/foreword-coffee/
+8. Greenphyto (Agriculture & Aquaculture) — https://bestcourses.sg/sme-ai/winners/greenphyto/
+9. Hand Plus Robotics (Advanced Manufacturing) — https://bestcourses.sg/sme-ai/winners/hand-plus-robotics/
+10. HD Door (Retail & Consumer Products) — https://bestcourses.sg/sme-ai/winners/hd-door/
+11. Hegen (Retail & Consumer Products) — https://bestcourses.sg/sme-ai/winners/hegen/
+12. Hope Technik (Advanced Manufacturing) — https://bestcourses.sg/sme-ai/winners/hope-technik/
+13. Innergy Corporation (Logistics & Supply Chain) — https://bestcourses.sg/sme-ai/winners/innergy-corporation/
+14. Omni-Health (Healthcare & Biotech) — https://bestcourses.sg/sme-ai/winners/omni-health/
+15. Pacific Rim (Logistics & Supply Chain) — https://bestcourses.sg/sme-ai/winners/pacific-rim/
+
+### Adoption Excellence Winners (15)
+16. Agape Connecting People (Business Services) — https://bestcourses.sg/sme-ai/winners/agape-connecting-people/
+17. Bountiful (Agriculture & Aquaculture) — https://bestcourses.sg/sme-ai/winners/bountiful/
+18. Crescendas Group (Real Estate & Hospitality) — https://bestcourses.sg/sme-ai/winners/crescendas-group/
+19. Declarators (Logistics & Customs) — https://bestcourses.sg/sme-ai/winners/declarators/
+20. Elmich (Built Environment) — https://bestcourses.sg/sme-ai/winners/elmich/
+21. First Gourmet (Food & Beverage) — https://bestcourses.sg/sme-ai/winners/first-gourmet/
+22. Fong Yit (Food & Beverage Manufacturing) — https://bestcourses.sg/sme-ai/winners/fong-yit/
+23. Gourmet Food Holdings (Food & Beverage) — https://bestcourses.sg/sme-ai/winners/gourmet-food-holdings/
+24. Great Resources (Waste Management & Environmental) — https://bestcourses.sg/sme-ai/winners/great-resources/
+25. Hysses (Retail & Fragrance Manufacturing) — https://bestcourses.sg/sme-ai/winners/hysses/
+26. Jason Electronics (Marine & Communications) — https://bestcourses.sg/sme-ai/winners/jason-electronics/
+27. Megabuilders (Construction & Civil Engineering) — https://bestcourses.sg/sme-ai/winners/megabuilders/
+28. Shalom International Movers (Logistics & Relocation) — https://bestcourses.sg/sme-ai/winners/shalom-international-movers/
+29. Spicers (Wholesale & Distribution) — https://bestcourses.sg/sme-ai/winners/spicers/
+30. You Tiao Man (Food Manufacturing & Heritage Bakery) — https://bestcourses.sg/sme-ai/winners/you-tiao-man/
+
+## Data Licensing
+Published under Creative Commons Attribution 4.0 International (CC BY 4.0).
+Attribution: "Ivan Wong, BestCourses.sg — Singapore SME AI Impact Awards 2026 Showcase".

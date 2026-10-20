@@ -8,6 +8,8 @@ import { BeforeAfter, SiteShot } from '@/components/Media';
 import { MetricsTable, StackTable } from '@/components/Tables';
 import { SourceList, Citations, SourceCount } from '@/components/Sources';
 import { WorkflowDiagram } from '@/components/WorkflowDiagram';
+import { ShareAffordances } from '@/components/ShareAffordances';
+import { WinnerCard } from '@/components/WinnerCard';
 
 export function generateStaticParams() {
   return winners.map((w) => ({ slug: w.slug }));
@@ -80,6 +82,15 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
   const { prev, next } = neighbours(slug);
   const m = w.metrics[0];
   const scqaWords = wordCount(`${w.scqa.s} ${w.scqa.c} ${w.scqa.q} ${w.scqa.a}`);
+
+  const relatedWinners = winners
+    .filter((other) => other.slug !== w.slug)
+    .sort((a, b) => {
+      const aScore = (a.aiType === w.aiType ? 3 : 0) + (a.sector === w.sector ? 2 : 0) + (a.category === w.category ? 1 : 0);
+      const bScore = (b.aiType === w.aiType ? 3 : 0) + (b.sector === w.sector ? 2 : 0) + (b.category === w.category ? 1 : 0);
+      return bScore - aScore;
+    })
+    .slice(0, 3);
 
   const articleLd = {
     '@context': 'https://schema.org',
@@ -192,6 +203,15 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
               <span>Live site, not an official page of this showcase.</span>
             </p>
           )}
+
+          <ShareAffordances
+            name={w.name}
+            slug={w.slug}
+            headline={w.headline}
+            useCase={w.useCase}
+            researchedAt={w.researchedAt}
+            canonicalUrl={`${SITE.url}/winners/${w.slug}/`}
+          />
         </div>
       </header>
 
@@ -406,6 +426,19 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
                 </div>
               </div>
             </div>
+
+            <div className="mt-8 border-t border-rule pt-6">
+              <p className="text-sm leading-relaxed text-ink/80">
+                <a
+                  href="https://bestcourses.sg/services/training-workshops/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-underline font-medium text-blue hover:text-ink"
+                >
+                  BestCourses.sg runs hands-on workshops that take Singapore SMEs through builds like this.
+                </a>
+              </p>
+            </div>
           </section>
 
           {/* Gaps */}
@@ -419,6 +452,22 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
                 </li>
               ))}
             </ul>
+
+            <div className="mt-6 border border-rule bg-white p-4">
+              <p className="text-sm font-medium text-ink">
+                Are you this company? Submit documentation to upgrade your evidence grade.
+              </p>
+              <p className="mt-1 text-xs leading-relaxed text-muted">
+                If you have published technical documentation, vendor whitepapers, or third-party audits,{' '}
+                <a
+                  href={`mailto:research@bestcourses.sg?subject=Evidence%20Upgrade%20Documentation%20for%20${encodeURIComponent(w.name)}`}
+                  className="link-underline font-medium text-blue"
+                >
+                  submit documentation to our research desk
+                </a>
+                . We update evidence grades upon verification.
+              </p>
+            </div>
           </section>
 
           {/* Sources */}
@@ -496,6 +545,21 @@ export default async function WinnerPage({ params }: { params: Promise<{ slug: s
           </nav>
         </aside>
       </div>
+
+      {/* Related cases */}
+      <section className="border-t border-rule bg-slate-soft/30 py-12">
+        <div className="shell">
+          <div className="mb-6">
+            <p className="eyebrow">Related case studies</p>
+            <h2 className="mt-1 font-sans text-2xl font-semibold">Similar technology and sector implementations</h2>
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedWinners.map((rw) => (
+              <WinnerCard key={rw.slug} w={rw} />
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }

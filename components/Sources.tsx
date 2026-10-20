@@ -1,5 +1,6 @@
 import type { Source, Winner } from '@/lib/types';
 import { formatDate } from '@/lib/data';
+import { JARGON_TOOLTIPS } from '@/components/Evidence';
 
 const TIER_NOTE: Record<Source['tier'], string> = {
   T0: 'Canonical awards source',
@@ -28,8 +29,13 @@ export function SourceList({ sources }: { sources: Source[] }) {
             {s.publisher}
             {s.published ? ` · ${formatDate(s.published)}` : ''} · Retrieved{' '}
             {formatDate(s.retrieved)} ·{' '}
-            <span className="text-xs font-medium uppercase tracking-wide">{s.tier}</span> —{' '}
-            {TIER_NOTE[s.tier]}
+            <abbr
+              title={s.tier === 'T0' ? JARGON_TOOLTIPS.T0 : `Tier ${s.tier}: ${TIER_NOTE[s.tier]}`}
+              className="cursor-help text-xs font-medium uppercase tracking-wide underline decoration-dotted underline-offset-2"
+            >
+              {s.tier}
+            </abbr>{' '}
+            — {TIER_NOTE[s.tier]}
           </p>
           {s.status !== 'valid' && (
             <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-amber-700">
@@ -72,7 +78,13 @@ export function SourceCount({ w }: { w: Winner }) {
   const independent = w.sources.filter((s) => s.tier !== 'T0').length;
   return (
     <span className="text-xs font-semibold uppercase tracking-wider text-muted">
-      {w.sources.length} sources · {independent} beyond T0
+      {w.sources.length} sources ·{' '}
+      <abbr
+        title={JARGON_TOOLTIPS.beyondT0}
+        className="cursor-help underline decoration-dotted underline-offset-2"
+      >
+        {independent} beyond T0
+      </abbr>
     </span>
   );
 }

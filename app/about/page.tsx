@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { meta, winners, totalSources, formatDate, allSources, SITE } from '@/lib/data';
 
 export const metadata: Metadata = {
@@ -55,6 +56,7 @@ export default function AboutPage() {
               ['#coverage', 'Coverage scoring'],
               ['#inference', 'Inference handling'],
               ['#limits', 'Research limits'],
+              ['#researcher', 'About the researcher'],
               ['#corrections', 'Corrections'],
             ].map(([href, label]) => (
               <li key={href}>
@@ -292,6 +294,37 @@ export default function AboutPage() {
                 its case study. Figures are reported as published, and company-reported statistics
                 are labelled as such throughout.
               </p>
+            </div>
+          </section>
+
+          <section id="researcher" className="scroll-mt-20 border-t border-rule pt-8">
+            <h2 className="font-sans text-2xl">About the researcher</h2>
+            <div className="mt-5 flex flex-col gap-5 sm:flex-row sm:items-center">
+              <Image
+                src="/ivan-wong.jpg"
+                alt="Ivan Wong"
+                width={100}
+                height={100}
+                className="h-24 w-24 shrink-0 rounded-full border border-rule object-cover"
+              />
+              <div className="space-y-2 text-sm leading-relaxed text-ink/80">
+                <p className="font-sans text-base font-semibold text-ink">
+                  <a
+                    href="https://bestcourses.sg/about"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-underline font-medium text-ink hover:text-blue"
+                  >
+                    Ivan Wong
+                  </a>
+                </p>
+                <p>
+                  Founder of Maple Commerce and BestCourses.sg, with over 20 years of experience in digital marketing, enterprise operations, and automation workflows.
+                </p>
+                <p>
+                  Former Google Partners Trainer and adjunct trainer/lecturer in marketing analytics and AI adoption across institutions including SIT, SMU, and BCG-RISE.
+                </p>
+              </div>
             </div>
           </section>
 

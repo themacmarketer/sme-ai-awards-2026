@@ -5,11 +5,21 @@ export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const staticRoutes = ['', '/insights', '/compare', '/about', '/research-gaps'].map((p) => ({
+  const staticRoutes = [
+    '',
+    '/insights',
+    '/compare',
+    '/about',
+    '/research-gaps',
+    '/data',
+    '/press',
+    '/changelog',
+    '/badge',
+  ].map((p) => ({
     url: `${SITE.url}${p}/`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
-    priority: p === '' ? 1 : 0.7,
+    priority: p === '' ? 1 : 0.8,
   }));
 
   const winnerRoutes = winners.map((w) => ({

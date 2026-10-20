@@ -121,7 +121,7 @@ export default function HomePage() {
             ).map(([g, d]) => (
               <div key={g} className="flex items-start gap-4 border-t border-white/15 pt-4">
                 <span className="mt-0.5 shrink-0">
-                  <GradeBadge grade={g} />
+                  <GradeBadge grade={g} onDark />
                 </span>
                 <p className="text-sm leading-relaxed text-white/75">{d}</p>
               </div>
