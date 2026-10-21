@@ -39,6 +39,17 @@ export default function AboutPage() {
             This showcase is an independent research project. It is not an official publication of
             IMDA, SBF, or any winning company, and it carries no endorsement from them.
           </p>
+          <p className="mt-4 text-sm leading-relaxed">
+            Official source:{' '}
+            <a
+              href={meta.canonicalSource}
+              className="link-underline font-medium"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SME AI Impact Awards — IMDA &amp; SBF
+            </a>
+          </p>
         </div>
       </header>
 
