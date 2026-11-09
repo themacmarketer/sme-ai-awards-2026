@@ -3,7 +3,6 @@
 import { useEffect } from 'react';
 import Script from 'next/script';
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-4RTLJ04D1T';
 const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN || 'bestcourses.sg';
 
 declare global {
@@ -79,26 +78,7 @@ export function Analytics() {
 
   return (
     <>
-      {/* Google Analytics 4 */}
-      {GA_MEASUREMENT_ID && (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-            strategy="afterInteractive"
-          />
-          <Script id="google-analytics" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${GA_MEASUREMENT_ID}', {
-                page_path: window.location.pathname,
-                send_page_view: true
-              });
-            `}
-          </Script>
-        </>
-      )}
+      {/* GA4 loads from the GTM container (app/layout.tsx); gtag() here is the dataLayer stub. */}
 
       {/* Plausible Analytics */}
       {PLAUSIBLE_DOMAIN && (
